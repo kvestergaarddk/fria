@@ -4,43 +4,13 @@
 
 @layer base {
   html {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Google Sans Flex', 'Google Sans', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
   body {
-    background-color: #f9f6f0;
-    color: #1a2318;
-    line-height: 1.7;
-  }
-
-  h1, h2, h3, h4 {
-    font-family: 'Playfair Display', Georgia, serif;
-    line-height: 1.2;
-    letter-spacing: -0.03em;
-  }
-}
-
-@layer utilities {
-  .grain {
-    position: relative;
-  }
-
-  .grain::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
-    opacity: 0.4;
-    mix-blend-mode: multiply;
-  }
-
-  .shadow-sage {
-    box-shadow: 0 4px 24px rgba(92, 122, 90, 0.10), 0 1px 4px rgba(92, 122, 90, 0.06);
-  }
-
-  .shadow-sage-lg {
-    box-shadow: 0 12px 48px rgba(92, 122, 90, 0.14), 0 4px 12px rgba(92, 122, 90, 0.08);
+    background-color: #F5F2EA;
+    color: #1A2D1F;
+    line-height: 1.6;
   }
 }

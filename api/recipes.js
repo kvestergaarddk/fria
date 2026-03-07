@@ -8,7 +8,7 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'SPOONACULAR_API_KEY er ikke konfigureret' })
   }
 
-  const { id, intolerances, type, number = '12', offset = '0' } = req.query
+  const { id, intolerances, type, number = '12', offset = '0', sort = 'popularity', sortDirection = 'desc' } = req.query
 
   try {
     if (id) {
@@ -30,6 +30,8 @@ export default async function handler(req, res) {
       })
       if (intolerances) params.set('intolerances', intolerances)
       if (type) params.set('type', type)
+      if (sort) params.set('sort', sort)
+      if (sortDirection) params.set('sortDirection', sortDirection)
 
       const url = `https://api.spoonacular.com/recipes/complexSearch?${params}`
       const response = await fetch(url)
