@@ -1,3 +1,6 @@
+// Liste-opskrifter hentes fra statisk JSON (pre-fetchet én gang)
+// Detail-opskrifter hentes stadig fra Spoonacular API (én gang pr. opskrift, cached)
+
 const CACHE_TTL = 30 * 24 * 60 * 60 * 1000 // 30 dage
 
 function cacheGet(key) {
@@ -14,28 +17,15 @@ function cacheSet(key, data) {
   try { localStorage.setItem(key, JSON.stringify({ data, ts: Date.now() })) } catch {}
 }
 
-export async function fetchRecipes({ intolerances, type, number = 12, offset = 0 }) {
-  const params = new URLSearchParams({
-    number: String(number),
-    offset: String(offset),
-    sort: 'popularity',
-    sortDirection: 'desc',
-  })
-  if (intolerances) params.set('intolerances', intolerances)
-  if (type) params.set('type', type)
+let _recipesCache = null
 
-  const cacheKey = `mavro_recipes_${params.toString()}`
-  const cached = cacheGet(cacheKey)
-  if (cached) return cached
-
-  const response = await fetch(`/api/recipes?${params}`)
-  if (!response.ok) {
-    const err = await response.json().catch(() => ({}))
-    throw new Error(err.error || `Serverfejl: ${response.status}`)
-  }
-  const data = await response.json()
-  cacheSet(cacheKey, data)
-  return data
+export async function loadAllRecipes() {
+  if (_recipesCache) return _recipesCache
+  const res = await fetch('/recipes.json')
+  if (!res.ok) throw new Error('Kunne ikke hente opskrifter')
+  const data = await res.json()
+  _recipesCache = data.recipes || []
+  return _recipesCache
 }
 
 export async function fetchRecipeById(id) {

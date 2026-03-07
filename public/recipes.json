@@ -1,0 +1,3242 @@
+{
+  "recipes": [
+    {
+      "id": 715419,
+      "title": "Slow Cooker Spicy Hot Wings",
+      "titleEn": "Slow Cooker Spicy Hot Wings",
+      "image": "https://img.spoonacular.com/recipes/715419-312x231.jpg",
+      "readyInMinutes": 14,
+      "dishTypes": [
+        "lunch",
+        "antipasti",
+        "main course",
+        "starter",
+        "snack",
+        "appetizer",
+        "main dish",
+        "antipasto",
+        "dinner",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 775585,
+      "title": "Crockpot \"Refried\" Beans",
+      "titleEn": "Crockpot \"Refried\" Beans",
+      "image": "https://img.spoonacular.com/recipes/775585-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 715521,
+      "title": "Turkey Avocado BLT Salad",
+      "titleEn": "Turkey Avocado BLT Salad",
+      "image": "https://img.spoonacular.com/recipes/715521-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish",
+        "lunch",
+        "main course",
+        "salad",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 716426,
+      "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
+      "titleEn": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
+      "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg",
+      "readyInMinutes": 30,
+      "dishTypes": [
+        "side dish",
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "chinese",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 715391,
+      "title": "Slow Cooker Chicken Taco Soup",
+      "titleEn": "Slow Cooker Chicken Taco Soup",
+      "image": "https://img.spoonacular.com/recipes/715391-312x231.jpg",
+      "readyInMinutes": 485,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 715415,
+      "title": "Red Lentil Soup with Chicken and Turnips",
+      "titleEn": "Red Lentil Soup with Chicken and Turnips",
+      "image": "https://img.spoonacular.com/recipes/715415-312x231.jpg",
+      "readyInMinutes": 55,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 716431,
+      "title": "Crockpot Applesauce",
+      "titleEn": "Crockpot Applesauce",
+      "image": "https://img.spoonacular.com/recipes/716431-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 715392,
+      "title": "Easy Slow Cooker Chicken Tortilla Soup",
+      "titleEn": "Easy Slow Cooker Chicken Tortilla Soup",
+      "image": "https://img.spoonacular.com/recipes/715392-312x231.jpg",
+      "readyInMinutes": 370,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 715543,
+      "title": "Homemade Guacamole",
+      "titleEn": "Homemade Guacamole",
+      "image": "https://img.spoonacular.com/recipes/715543-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 637187,
+      "title": "Carrot Cake Snack Bites",
+      "titleEn": "Carrot Cake Snack Bites",
+      "image": "https://img.spoonacular.com/recipes/637187-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 715551,
+      "title": "Healthy Salad and Dressing",
+      "titleEn": "Healthy Salad and Dressing",
+      "image": "https://img.spoonacular.com/recipes/715551-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish",
+        "antipasti",
+        "salad",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 716627,
+      "title": "Easy Homemade Rice and Beans",
+      "titleEn": "Easy Homemade Rice and Beans",
+      "image": "https://img.spoonacular.com/recipes/716627-312x231.jpg",
+      "readyInMinutes": 35,
+      "dishTypes": [
+        "side dish",
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716296,
+      "title": "Peri Peri Chicken and Savoury Rice",
+      "titleEn": "Peri Peri Chicken and Savoury Rice",
+      "image": "https://img.spoonacular.com/recipes/716296-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 716217,
+      "title": "Vietnamese Pancakes with Vegetables, Herbs and a Fragrant Dipping Sauce (Bánh Xèo)",
+      "titleEn": "Vietnamese Pancakes with Vegetables, Herbs and a Fragrant Dipping Sauce (Bánh Xèo)",
+      "image": "https://img.spoonacular.com/recipes/716217-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [
+        "vietnamese",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 716311,
+      "title": "Mango Fried Rice",
+      "titleEn": "Mango Fried Rice",
+      "image": "https://img.spoonacular.com/recipes/716311-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish",
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "chinese",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 716413,
+      "title": "Oven Roasted Tomato Sauce",
+      "titleEn": "Oven Roasted Tomato Sauce",
+      "image": "https://img.spoonacular.com/recipes/716413-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "sauce"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716406,
+      "title": "Asparagus and Pea Soup: Real Convenience Food",
+      "titleEn": "Asparagus and Pea Soup: Real Convenience Food",
+      "image": "https://img.spoonacular.com/recipes/716406-312x231.jpg",
+      "readyInMinutes": 20,
+      "dishTypes": [
+        "antipasti",
+        "soup",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 780000,
+      "title": "Chicken Avocado Burger (Whole 30, PALEO, & Simple Fit Forty)",
+      "titleEn": "Chicken Avocado Burger (Whole 30, PALEO, & Simple Fit Forty)",
+      "image": "https://img.spoonacular.com/recipes/780000-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 769754,
+      "title": "Beef Carrot Stew",
+      "titleEn": "Beef Carrot Stew",
+      "image": "https://img.spoonacular.com/recipes/769754-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "soup",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 716195,
+      "title": "Spicy Indian-Style Hummus",
+      "titleEn": "Spicy Indian-Style Hummus",
+      "image": "https://img.spoonacular.com/recipes/716195-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "cuisines": [
+        "middle eastern"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 794350,
+      "title": "Cherry Coconut Milk Smoothie",
+      "titleEn": "Cherry Coconut Milk Smoothie",
+      "image": "https://img.spoonacular.com/recipes/794350-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "beverage",
+        "breakfast",
+        "drink"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 715412,
+      "title": "Kiwi Popsicles – Summer Popsicle Series",
+      "titleEn": "Kiwi Popsicles – Summer Popsicle Series",
+      "image": "https://img.spoonacular.com/recipes/715412-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 641227,
+      "title": "Dandelion pesto",
+      "titleEn": "Dandelion pesto",
+      "image": "https://img.spoonacular.com/recipes/641227-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "condiment",
+        "dip",
+        "sauce",
+        "spread"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716424,
+      "title": "Strawberry Basil Sorbet (no Ice Cream Maker Necessary!)",
+      "titleEn": "Strawberry Basil Sorbet (no Ice Cream Maker Necessary!)",
+      "image": "https://img.spoonacular.com/recipes/716424-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716301,
+      "title": "Honey Ginger Lemon Iced Tea",
+      "titleEn": "Honey Ginger Lemon Iced Tea",
+      "image": "https://img.spoonacular.com/recipes/716301-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "beverage",
+        "drink"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 715769,
+      "title": "Broccolini Quinoa Pilaf",
+      "titleEn": "Broccolini Quinoa Pilaf",
+      "image": "https://img.spoonacular.com/recipes/715769-312x231.jpg",
+      "readyInMinutes": 30,
+      "dishTypes": [
+        "side dish",
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "mediterranean",
+        "italian",
+        "european"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 632250,
+      "title": "Alouette Sundried Tomato and Basil Bisque",
+      "titleEn": "Alouette Sundried Tomato and Basil Bisque",
+      "image": "https://img.spoonacular.com/recipes/632250-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "soup",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 756814,
+      "title": "Powerhouse Almond Matcha Superfood Smoothie",
+      "titleEn": "Powerhouse Almond Matcha Superfood Smoothie",
+      "image": "https://img.spoonacular.com/recipes/756814-312x231.jpg",
+      "readyInMinutes": 10,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "beverage",
+        "breakfast",
+        "drink"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 662535,
+      "title": "Sweet Mustard BBQ Pork Chops",
+      "titleEn": "Sweet Mustard BBQ Pork Chops",
+      "image": "https://img.spoonacular.com/recipes/662535-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 657917,
+      "title": "Raspberry Walnut Coffee Cake",
+      "titleEn": "Raspberry Walnut Coffee Cake",
+      "image": "https://img.spoonacular.com/recipes/657917-312x231.jpg",
+      "readyInMinutes": 35,
+      "dishTypes": [
+        "morning meal",
+        "dessert",
+        "brunch",
+        "breakfast"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 633338,
+      "title": "Bacon Wrapped Filet Mignon",
+      "titleEn": "Bacon Wrapped Filet Mignon",
+      "image": "https://img.spoonacular.com/recipes/633338-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 655235,
+      "title": "Peanut Butter and Jelly Smoothie",
+      "titleEn": "Peanut Butter and Jelly Smoothie",
+      "image": "https://img.spoonacular.com/recipes/655235-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "beverage",
+        "breakfast",
+        "drink"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 716097,
+      "title": "Vegetable Coconut Sambar",
+      "titleEn": "Vegetable Coconut Sambar",
+      "image": "https://img.spoonacular.com/recipes/716097-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 633144,
+      "title": "Avocado Nests",
+      "titleEn": "Avocado Nests",
+      "image": "https://img.spoonacular.com/recipes/633144-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 660736,
+      "title": "Soy Ginger Glazed Halibut with Ginger Peach Relish",
+      "titleEn": "Soy Ginger Glazed Halibut with Ginger Peach Relish",
+      "image": "https://img.spoonacular.com/recipes/660736-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 631748,
+      "title": "Asian Shrimp Stir-Fry",
+      "titleEn": "Asian Shrimp Stir-Fry",
+      "image": "https://img.spoonacular.com/recipes/631748-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 715446,
+      "title": "Slow Cooker Beef Stew",
+      "titleEn": "Slow Cooker Beef Stew",
+      "image": "https://img.spoonacular.com/recipes/715446-312x231.jpg",
+      "readyInMinutes": 490,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 716069,
+      "title": "Creamy Vegan Coleslaw Dressed with Avocado",
+      "titleEn": "Creamy Vegan Coleslaw Dressed with Avocado",
+      "image": "https://img.spoonacular.com/recipes/716069-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716342,
+      "title": "Chicken Suya",
+      "titleEn": "Chicken Suya",
+      "image": "https://img.spoonacular.com/recipes/716342-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 654432,
+      "title": "Pan Seared Lamb Loin With Chimichurri & Roasted Trio Squash Salad With Goat Cheese and Pinenuts",
+      "titleEn": "Pan Seared Lamb Loin With Chimichurri & Roasted Trio Squash Salad With Goat Cheese and Pinenuts",
+      "image": "https://img.spoonacular.com/recipes/654432-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "south american",
+        "latin american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 633344,
+      "title": "Bacon Wrapped Pork Tenderloin",
+      "titleEn": "Bacon Wrapped Pork Tenderloin",
+      "image": "https://img.spoonacular.com/recipes/633344-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 782601,
+      "title": "Red Kidney Bean Jambalaya",
+      "titleEn": "Red Kidney Bean Jambalaya",
+      "image": "https://img.spoonacular.com/recipes/782601-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "cajun",
+        "creole"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716218,
+      "title": "Tomato and Eggplant Caponata",
+      "titleEn": "Tomato and Eggplant Caponata",
+      "image": "https://img.spoonacular.com/recipes/716218-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 662654,
+      "title": "Sweet-N-Smoky Salmon With Ginger Mahogany Rice",
+      "titleEn": "Sweet-N-Smoky Salmon With Ginger Mahogany Rice",
+      "image": "https://img.spoonacular.com/recipes/662654-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 649503,
+      "title": "Lemon and Honey Chicken",
+      "titleEn": "Lemon and Honey Chicken",
+      "image": "https://img.spoonacular.com/recipes/649503-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 650901,
+      "title": "Maple Glazed Bacon Wrapped Pork Tenderloin",
+      "titleEn": "Maple Glazed Bacon Wrapped Pork Tenderloin",
+      "image": "https://img.spoonacular.com/recipes/650901-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "fodmap friendly"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 661188,
+      "title": "Spicy Seasoned Loaded Guacamole",
+      "titleEn": "Spicy Seasoned Loaded Guacamole",
+      "image": "https://img.spoonacular.com/recipes/661188-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 660404,
+      "title": "Smoky Deviled Eggs",
+      "titleEn": "Smoky Deviled Eggs",
+      "image": "https://img.spoonacular.com/recipes/660404-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "whole 30"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 640062,
+      "title": "Corn Avocado Salsa",
+      "titleEn": "Corn Avocado Salsa",
+      "image": "https://img.spoonacular.com/recipes/640062-312x231.jpg",
+      "readyInMinutes": 25,
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 663392,
+      "title": "Three-Cup Chicken",
+      "titleEn": "Three-Cup Chicken",
+      "image": "https://img.spoonacular.com/recipes/663392-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 650855,
+      "title": "Mangoes with Rum and Ice Cream",
+      "titleEn": "Mangoes with Rum and Ice Cream",
+      "image": "https://img.spoonacular.com/recipes/650855-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 792705,
+      "title": "4 Ingredient Raw Peanut Butter Chocolate Cups",
+      "titleEn": "4 Ingredient Raw Peanut Butter Chocolate Cups",
+      "image": "https://img.spoonacular.com/recipes/792705-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "condiment",
+        "dip",
+        "spread"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "fodmap friendly",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716344,
+      "title": "Kenyan Pilau",
+      "titleEn": "Kenyan Pilau",
+      "image": "https://img.spoonacular.com/recipes/716344-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 716198,
+      "title": "Tart Raspberry Sorbet with a Hint of Heat",
+      "titleEn": "Tart Raspberry Sorbet with a Hint of Heat",
+      "image": "https://img.spoonacular.com/recipes/716198-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 631841,
+      "title": "15 Minute Healthy Dark Chocolate Truffles",
+      "titleEn": "15 Minute Healthy Dark Chocolate Truffles",
+      "image": "https://img.spoonacular.com/recipes/631841-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 652750,
+      "title": "Mussels & Clams in White Wine {Cozze e Vongole}",
+      "titleEn": "Mussels & Clams in White Wine {Cozze e Vongole}",
+      "image": "https://img.spoonacular.com/recipes/652750-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 641912,
+      "title": "Easy Chicken with White Wine Sauce",
+      "titleEn": "Easy Chicken with White Wine Sauce",
+      "image": "https://img.spoonacular.com/recipes/641912-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 631880,
+      "title": "5-Minute Blueberry Chia Jam",
+      "titleEn": "5-Minute Blueberry Chia Jam",
+      "image": "https://img.spoonacular.com/recipes/631880-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "condiment",
+        "dip",
+        "spread"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "fodmap friendly",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716004,
+      "title": "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries",
+      "titleEn": "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries",
+      "image": "https://img.spoonacular.com/recipes/716004-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 638808,
+      "title": "Chocolate Almond Bark",
+      "titleEn": "Chocolate Almond Bark",
+      "image": "https://img.spoonacular.com/recipes/638808-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 633651,
+      "title": "Baked Honey Sriracha Chicken Wings",
+      "titleEn": "Baked Honey Sriracha Chicken Wings",
+      "image": "https://img.spoonacular.com/recipes/633651-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "antipasti",
+        "main course",
+        "starter",
+        "snack",
+        "appetizer",
+        "main dish",
+        "antipasto",
+        "dinner",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 660266,
+      "title": "Slow Cooked Corned Beef and Cabbage",
+      "titleEn": "Slow Cooked Corned Beef and Cabbage",
+      "image": "https://img.spoonacular.com/recipes/660266-312x231.jpg",
+      "readyInMinutes": 500,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "european",
+        "irish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 798400,
+      "title": "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant",
+      "titleEn": "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant",
+      "image": "https://img.spoonacular.com/recipes/798400-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "indian",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 639401,
+      "title": "Cider-Braised Pork Shoulder With Caramelized Onion and Apple Confit",
+      "titleEn": "Cider-Braised Pork Shoulder With Caramelized Onion and Apple Confit",
+      "image": "https://img.spoonacular.com/recipes/639401-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 640383,
+      "title": "Cranberry Margarita",
+      "titleEn": "Cranberry Margarita",
+      "image": "https://img.spoonacular.com/recipes/640383-312x231.jpg",
+      "readyInMinutes": 60,
+      "dishTypes": [
+        "beverage",
+        "drink"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 715596,
+      "title": "Learning to live healthier",
+      "titleEn": "Learning to live healthier",
+      "image": "https://img.spoonacular.com/recipes/715596-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 648320,
+      "title": "Jade Buddha Salmon Tartare",
+      "titleEn": "Jade Buddha Salmon Tartare",
+      "image": "https://img.spoonacular.com/recipes/648320-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 633921,
+      "title": "Balsamic & Honey Glazed Salmon with Lemony Asparagus",
+      "titleEn": "Balsamic & Honey Glazed Salmon with Lemony Asparagus",
+      "image": "https://img.spoonacular.com/recipes/633921-312x231.jpg",
+      "readyInMinutes": 60,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 639893,
+      "title": "Coffee-Infused Bbq Baby Back Ribs",
+      "titleEn": "Coffee-Infused Bbq Baby Back Ribs",
+      "image": "https://img.spoonacular.com/recipes/639893-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 652819,
+      "title": "My \"Secret\" Bolognese Sauce",
+      "titleEn": "My \"Secret\" Bolognese Sauce",
+      "image": "https://img.spoonacular.com/recipes/652819-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "sauce"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 798956,
+      "title": "Mango Banana Coconut Smoothie",
+      "titleEn": "Mango Banana Coconut Smoothie",
+      "image": "https://img.spoonacular.com/recipes/798956-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "beverage",
+        "breakfast",
+        "drink"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 716364,
+      "title": "Rice and Peas with Coconut Curry Mackerel",
+      "titleEn": "Rice and Peas with Coconut Curry Mackerel",
+      "image": "https://img.spoonacular.com/recipes/716364-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "indian",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 648176,
+      "title": "Italian Meatloaf with Hard Boiled Eggs",
+      "titleEn": "Italian Meatloaf with Hard Boiled Eggs",
+      "image": "https://img.spoonacular.com/recipes/648176-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "mediterranean",
+        "italian",
+        "european"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 640941,
+      "title": "Crunchy Brussels Sprouts Side Dish",
+      "titleEn": "Crunchy Brussels Sprouts Side Dish",
+      "image": "https://img.spoonacular.com/recipes/640941-312x231.jpg",
+      "readyInMinutes": 30,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 1000566,
+      "title": "Easy Instant Pot Beef Tips and Rice",
+      "titleEn": "Easy Instant Pot Beef Tips and Rice",
+      "image": "https://img.spoonacular.com/recipes/1000566-312x231.jpg",
+      "readyInMinutes": 30,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 795431,
+      "title": "Green Bean Poriyal",
+      "titleEn": "Green Bean Poriyal",
+      "image": "https://img.spoonacular.com/recipes/795431-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 631874,
+      "title": "5 Minute Gluten Free Wonder Buns",
+      "titleEn": "5 Minute Gluten Free Wonder Buns",
+      "image": "https://img.spoonacular.com/recipes/631874-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 636422,
+      "title": "Buffalo Wing Hummus",
+      "titleEn": "Buffalo Wing Hummus",
+      "image": "https://img.spoonacular.com/recipes/636422-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 660306,
+      "title": "Slow Cooker: Pork and Garbanzo Beans",
+      "titleEn": "Slow Cooker: Pork and Garbanzo Beans",
+      "image": "https://img.spoonacular.com/recipes/660306-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 636365,
+      "title": "Brussels Sprouts with Bacon and Shallots",
+      "titleEn": "Brussels Sprouts with Bacon and Shallots",
+      "image": "https://img.spoonacular.com/recipes/636365-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 633132,
+      "title": "Avocado Chicken Salad",
+      "titleEn": "Avocado Chicken Salad",
+      "image": "https://img.spoonacular.com/recipes/633132-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 716279,
+      "title": "Fried Yam and Spicy Mayo",
+      "titleEn": "Fried Yam and Spicy Mayo",
+      "image": "https://img.spoonacular.com/recipes/716279-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "fodmap friendly",
+        "whole 30"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 664147,
+      "title": "Tuscan White Bean Soup with Olive Oil and Rosemary",
+      "titleEn": "Tuscan White Bean Soup with Olive Oil and Rosemary",
+      "image": "https://img.spoonacular.com/recipes/664147-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 642129,
+      "title": "Easy To Make Spring Rolls",
+      "titleEn": "Easy To Make Spring Rolls",
+      "image": "https://img.spoonacular.com/recipes/642129-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "fingerfood",
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "vietnamese",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 637832,
+      "title": "Chia Seed Pudding",
+      "titleEn": "Chia Seed Pudding",
+      "image": "https://img.spoonacular.com/recipes/637832-312x231.png",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 645988,
+      "title": "Guacamole",
+      "titleEn": "Guacamole",
+      "image": "https://img.spoonacular.com/recipes/645988-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 662038,
+      "title": "Stuffed Lemons in the Oven",
+      "titleEn": "Stuffed Lemons in the Oven",
+      "image": "https://img.spoonacular.com/recipes/662038-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "fodmap friendly",
+        "whole 30",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 634511,
+      "title": "BBQ” Style Chicken Thighs",
+      "titleEn": "BBQ” Style Chicken Thighs",
+      "image": "https://img.spoonacular.com/recipes/634511-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 716330,
+      "title": "Chicken and Mango Skewer",
+      "titleEn": "Chicken and Mango Skewer",
+      "image": "https://img.spoonacular.com/recipes/716330-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 645479,
+      "title": "Green Monster Ice Pops",
+      "titleEn": "Green Monster Ice Pops",
+      "image": "https://img.spoonacular.com/recipes/645479-312x231.jpg",
+      "readyInMinutes": 180,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 632085,
+      "title": "Allergy-Free Thin Mints",
+      "titleEn": "Allergy-Free Thin Mints",
+      "image": "https://img.spoonacular.com/recipes/632085-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 982365,
+      "title": "Instant Pot Hawaiian Chicken",
+      "titleEn": "Instant Pot Hawaiian Chicken",
+      "image": "https://img.spoonacular.com/recipes/982365-312x231.jpg",
+      "readyInMinutes": 18,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 641911,
+      "title": "Easy Chicken, Kielbasa and Shrimp Paella",
+      "titleEn": "Easy Chicken, Kielbasa and Shrimp Paella",
+      "image": "https://img.spoonacular.com/recipes/641911-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "spanish",
+        "european"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 639411,
+      "title": "Cilantro Lime Halibut",
+      "titleEn": "Cilantro Lime Halibut",
+      "image": "https://img.spoonacular.com/recipes/639411-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 638257,
+      "title": "Chicken Porridge",
+      "titleEn": "Chicken Porridge",
+      "image": "https://img.spoonacular.com/recipes/638257-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "breakfast"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 639866,
+      "title": "Coffee Cream Martinis",
+      "titleEn": "Coffee Cream Martinis",
+      "image": "https://img.spoonacular.com/recipes/639866-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "beverage",
+        "drink"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 644387,
+      "title": "Garlicky Kale",
+      "titleEn": "Garlicky Kale",
+      "image": "https://img.spoonacular.com/recipes/644387-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 642660,
+      "title": "Fennel and Orange Salad With Toasted Hazelnuts and Cranberries",
+      "titleEn": "Fennel and Orange Salad With Toasted Hazelnuts and Cranberries",
+      "image": "https://img.spoonacular.com/recipes/642660-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish",
+        "antipasti",
+        "salad",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 634854,
+      "title": "Berry Fruit Crumble",
+      "titleEn": "Berry Fruit Crumble",
+      "image": "https://img.spoonacular.com/recipes/634854-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 633415,
+      "title": "Baked Alaska",
+      "titleEn": "Baked Alaska",
+      "image": "https://img.spoonacular.com/recipes/633415-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 794352,
+      "title": "Creamy Potato Salad with Cashew Dressing and Fresh Basil",
+      "titleEn": "Creamy Potato Salad with Cashew Dressing and Fresh Basil",
+      "image": "https://img.spoonacular.com/recipes/794352-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 1100990,
+      "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+      "titleEn": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+      "image": "https://img.spoonacular.com/recipes/1100990-312x231.jpg",
+      "readyInMinutes": 30,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "breakfast"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "fodmap friendly",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 646442,
+      "title": "Healthy Black Forest Baked Oatmeal",
+      "titleEn": "Healthy Black Forest Baked Oatmeal",
+      "image": "https://img.spoonacular.com/recipes/646442-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "breakfast"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 639836,
+      "title": "Coconut-Almond Crusted Tilapia",
+      "titleEn": "Coconut-Almond Crusted Tilapia",
+      "image": "https://img.spoonacular.com/recipes/639836-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "fodmap friendly",
+        "whole 30",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 636292,
+      "title": "Brown Rice Mushroom Pilaf",
+      "titleEn": "Brown Rice Mushroom Pilaf",
+      "image": "https://img.spoonacular.com/recipes/636292-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish",
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 661557,
+      "title": "Steamed Clams In Wine and Chorizo",
+      "titleEn": "Steamed Clams In Wine and Chorizo",
+      "image": "https://img.spoonacular.com/recipes/661557-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 641958,
+      "title": "Easy Eggplant Curry",
+      "titleEn": "Easy Eggplant Curry",
+      "image": "https://img.spoonacular.com/recipes/641958-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "indian",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 662670,
+      "title": "Swiss Chard Wraps",
+      "titleEn": "Swiss Chard Wraps",
+      "image": "https://img.spoonacular.com/recipes/662670-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 638939,
+      "title": "Chocolate Chip Pancakes-gluten free, nut free, vegan",
+      "titleEn": "Chocolate Chip Pancakes-gluten free, nut free, vegan",
+      "image": "https://img.spoonacular.com/recipes/638939-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 716290,
+      "title": "Mango Salsa",
+      "titleEn": "Mango Salsa",
+      "image": "https://img.spoonacular.com/recipes/716290-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "condiment",
+        "starter",
+        "snack",
+        "appetizer",
+        "dip",
+        "antipasto",
+        "hor d'oeuvre",
+        "spread"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 639851,
+      "title": "Cod with Tomato-Olive-Chorizo Sauce and Mashed Potatoes",
+      "titleEn": "Cod with Tomato-Olive-Chorizo Sauce and Mashed Potatoes",
+      "image": "https://img.spoonacular.com/recipes/639851-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 647210,
+      "title": "Honey Dijon Roasted Brussels Sprout",
+      "titleEn": "Honey Dijon Roasted Brussels Sprout",
+      "image": "https://img.spoonacular.com/recipes/647210-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 662276,
+      "title": "Sun Dried Tomato and Herb Baked Eggs",
+      "titleEn": "Sun Dried Tomato and Herb Baked Eggs",
+      "image": "https://img.spoonacular.com/recipes/662276-312x231.jpg",
+      "readyInMinutes": 25,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "morning meal",
+        "snack",
+        "brunch",
+        "appetizer",
+        "antipasto",
+        "breakfast",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "fodmap friendly",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 640311,
+      "title": "Crab Salad in Avocado Boats",
+      "titleEn": "Crab Salad in Avocado Boats",
+      "image": "https://img.spoonacular.com/recipes/640311-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30",
+        "pescatarian",
+        "ketogenic"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 659934,
+      "title": "Shrimp and Lemongrass Soup",
+      "titleEn": "Shrimp and Lemongrass Soup",
+      "image": "https://img.spoonacular.com/recipes/659934-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "soup",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 647830,
+      "title": "Indian Lentil Dahl",
+      "titleEn": "Indian Lentil Dahl",
+      "image": "https://img.spoonacular.com/recipes/647830-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "indian",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 636787,
+      "title": "Caldo Verde - Portuguese Kale Soup",
+      "titleEn": "Caldo Verde - Portuguese Kale Soup",
+      "image": "https://img.spoonacular.com/recipes/636787-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 640634,
+      "title": "Creamy Curry Chicken With Yellow Rice",
+      "titleEn": "Creamy Curry Chicken With Yellow Rice",
+      "image": "https://img.spoonacular.com/recipes/640634-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "indian",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 638315,
+      "title": "Chicken Sausage, White Bean and Cabbage Soup",
+      "titleEn": "Chicken Sausage, White Bean and Cabbage Soup",
+      "image": "https://img.spoonacular.com/recipes/638315-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 637458,
+      "title": "Charlotte Potato Salad",
+      "titleEn": "Charlotte Potato Salad",
+      "image": "https://img.spoonacular.com/recipes/637458-312x231.jpg",
+      "readyInMinutes": 30,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 652427,
+      "title": "Moroccan kofte and sausage stew",
+      "titleEn": "Moroccan kofte and sausage stew",
+      "image": "https://img.spoonacular.com/recipes/652427-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 663824,
+      "title": "Trinidadian Chicken Potato Curry",
+      "titleEn": "Trinidadian Chicken Potato Curry",
+      "image": "https://img.spoonacular.com/recipes/663824-312x231.jpg",
+      "readyInMinutes": 150,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "indian",
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 638488,
+      "title": "Chicken-Tortilla Chip Soup",
+      "titleEn": "Chicken-Tortilla Chip Soup",
+      "image": "https://img.spoonacular.com/recipes/638488-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 643061,
+      "title": "Flank Steak with Herbed Salsa",
+      "titleEn": "Flank Steak with Herbed Salsa",
+      "image": "https://img.spoonacular.com/recipes/643061-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 658509,
+      "title": "Roasted Broccoli with Lemon and Garlic",
+      "titleEn": "Roasted Broccoli with Lemon and Garlic",
+      "image": "https://img.spoonacular.com/recipes/658509-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 634434,
+      "title": "Basil Marinated Grilled Chicken",
+      "titleEn": "Basil Marinated Grilled Chicken",
+      "image": "https://img.spoonacular.com/recipes/634434-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 663559,
+      "title": "Tomato and lentil soup",
+      "titleEn": "Tomato and lentil soup",
+      "image": "https://img.spoonacular.com/recipes/663559-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 660868,
+      "title": "Spanish Meatballs In Tomato Sauce",
+      "titleEn": "Spanish Meatballs In Tomato Sauce",
+      "image": "https://img.spoonacular.com/recipes/660868-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "spanish",
+        "european"
+      ],
+      "diets": [
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 663858,
+      "title": "Tropical Ice Pops",
+      "titleEn": "Tropical Ice Pops",
+      "image": "https://img.spoonacular.com/recipes/663858-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 658152,
+      "title": "Refreshing Strawberry Limeade",
+      "titleEn": "Refreshing Strawberry Limeade",
+      "image": "https://img.spoonacular.com/recipes/658152-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "beverage",
+        "drink"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "fodmap friendly",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 638626,
+      "title": "Chimichurri Skirt Steak with Grilled Asparagus",
+      "titleEn": "Chimichurri Skirt Steak with Grilled Asparagus",
+      "image": "https://img.spoonacular.com/recipes/638626-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "south american",
+        "latin american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30",
+        "ketogenic"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 664680,
+      "title": "Vegetarian Mushroom Shepherd's Pie",
+      "titleEn": "Vegetarian Mushroom Shepherd's Pie",
+      "image": "https://img.spoonacular.com/recipes/664680-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "english",
+        "british",
+        "scottish",
+        "european"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 648432,
+      "title": "Jambalaya Stew",
+      "titleEn": "Jambalaya Stew",
+      "image": "https://img.spoonacular.com/recipes/648432-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "cajun",
+        "creole"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 1046982,
+      "title": "How to Make the Perfect Sweet Potato Sloppy Joes",
+      "titleEn": "How to Make the Perfect Sweet Potato Sloppy Joes",
+      "image": "https://img.spoonacular.com/recipes/1046982-312x231.jpg",
+      "readyInMinutes": 40,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [
+        "american"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 635058,
+      "title": "Black Bean and Peppers Taco Filling",
+      "titleEn": "Black Bean and Peppers Taco Filling",
+      "image": "https://img.spoonacular.com/recipes/635058-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [
+        "mexican"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 638917,
+      "title": "Chocolate Chip Coconut Muffins",
+      "titleEn": "Chocolate Chip Coconut Muffins",
+      "image": "https://img.spoonacular.com/recipes/638917-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "breakfast"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "fodmap friendly"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 646738,
+      "title": "Herbivoracious' White Bean and Kale Soup",
+      "titleEn": "Herbivoracious' White Bean and Kale Soup",
+      "image": "https://img.spoonacular.com/recipes/646738-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 631757,
+      "title": "Savory Slow Roasted Tomatoes with Filet of Anchovy",
+      "titleEn": "Savory Slow Roasted Tomatoes with Filet of Anchovy",
+      "image": "https://img.spoonacular.com/recipes/631757-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "fodmap friendly",
+        "whole 30",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 633221,
+      "title": "Baby Beet Salad",
+      "titleEn": "Baby Beet Salad",
+      "image": "https://img.spoonacular.com/recipes/633221-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 652433,
+      "title": "Moroccan Lemon Shish Kebabs",
+      "titleEn": "Moroccan Lemon Shish Kebabs",
+      "image": "https://img.spoonacular.com/recipes/652433-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "primal",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 639628,
+      "title": "Classic Pot Roast",
+      "titleEn": "Classic Pot Roast",
+      "image": "https://img.spoonacular.com/recipes/639628-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 641057,
+      "title": "Curried Butternut Squash and Apple Soup",
+      "titleEn": "Curried Butternut Squash and Apple Soup",
+      "image": "https://img.spoonacular.com/recipes/641057-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "antipasti",
+        "soup",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 636901,
+      "title": "Cannellini Bean Side Dish With Fennel, Red Onion, and Saffron",
+      "titleEn": "Cannellini Bean Side Dish With Fennel, Red Onion, and Saffron",
+      "image": "https://img.spoonacular.com/recipes/636901-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "side dish"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 651453,
+      "title": "Mediterrean Tuna Salad",
+      "titleEn": "Mediterrean Tuna Salad",
+      "image": "https://img.spoonacular.com/recipes/651453-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "pescatarian"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 647261,
+      "title": "Honey Nut Raspberry Baked Oatmeal",
+      "titleEn": "Honey Nut Raspberry Baked Oatmeal",
+      "image": "https://img.spoonacular.com/recipes/647261-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "morning meal",
+        "brunch",
+        "breakfast"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "other"
+    },
+    {
+      "id": 638343,
+      "title": "Chicken Stew For The Soul",
+      "titleEn": "Chicken Stew For The Soul",
+      "image": "https://img.spoonacular.com/recipes/638343-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "soup",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "whole 30"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 664473,
+      "title": "Vegan Peanut Butter Chocolate Fudge",
+      "titleEn": "Vegan Peanut Butter Chocolate Fudge",
+      "image": "https://img.spoonacular.com/recipes/664473-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 645671,
+      "title": "Grilled Chicken with Sateay Sauce",
+      "titleEn": "Grilled Chicken with Sateay Sauce",
+      "image": "https://img.spoonacular.com/recipes/645671-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 656846,
+      "title": "Pork with Blueberry Sauce",
+      "titleEn": "Pork with Blueberry Sauce",
+      "image": "https://img.spoonacular.com/recipes/656846-312x231.jpg",
+      "readyInMinutes": 45,
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 1098387,
+      "title": "Quinoa Salad with Barberries & Nuts",
+      "titleEn": "Quinoa Salad with Barberries & Nuts",
+      "image": "https://img.spoonacular.com/recipes/1098387-312x231.jpg",
+      "readyInMinutes": 30,
+      "dishTypes": [
+        "side dish",
+        "lunch",
+        "main course",
+        "salad",
+        "main dish",
+        "dinner"
+      ],
+      "cuisines": [],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "protein": "vegetarian"
+    }
+  ],
+  "fetchedAt": "2026-03-07T17:33:23.902Z"
+}
