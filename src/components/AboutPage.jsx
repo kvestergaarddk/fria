@@ -30,7 +30,7 @@ export default function AboutPage() {
         {/* Hero */}
         <div className="rounded-2xl overflow-hidden mb-10" style={{ aspectRatio: '16/7' }}>
           <img
-            src="https://placehold.co/1200x525/cbc5b8/6b6560?text=+"
+            src="/forside-billede.jpg"
             alt="Mad på bordet"
             className="w-full h-full object-cover"
           />
