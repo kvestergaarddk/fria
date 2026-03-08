@@ -32,36 +32,37 @@ export default function HomePage() {
         </Link>
 
         <h1
-          className="mt-8 font-extrabold leading-tight"
+          className="mt-8"
           style={{
-            color: DARK,
-            letterSpacing: '-0.02em',
-            maxWidth: '560px',
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
+            color: GREEN,
+            fontWeight: 800,
+            fontSize: 'clamp(3rem, 7vw, 100px)',
+            lineHeight: 1,
+            maxWidth: '900px',
           }}
         >
           Hvad har du lyst til at lave i aften?
         </h1>
 
-        <p className="mt-3 text-sm" style={{ color: GREEN, maxWidth: '420px' }}>
+        <p className="mt-4" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, maxWidth: '700px' }}>
           Gå på opdagelse i flere hundrede lækre opskrifter,{' '}
           <Link
             to="/glutenfri"
-            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 600 }}
+            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}
           >
             uden gluten
           </Link>
           ,{' '}
           <Link
             to="/laktosefri"
-            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 600 }}
+            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}
           >
             laktose
           </Link>
           {' '}eller{' '}
           <Link
             to="/begge"
-            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 600 }}
+            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}
           >
             begge dele
           </Link>

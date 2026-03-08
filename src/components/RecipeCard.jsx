@@ -22,8 +22,8 @@ export default function RecipeCard({ recipe, translatedTitle }) {
       {/* Billedboks */}
       <div
         style={{
-          height: '287px',
           padding: '20px',
+          aspectRatio: '1 / 1',
           background: '#F2F2F2',
           borderRadius: '30px',
           overflow: 'hidden',
