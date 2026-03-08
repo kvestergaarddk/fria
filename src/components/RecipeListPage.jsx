@@ -133,7 +133,7 @@ export default function RecipeListPage({ category = 'begge' }) {
         </h1>
       </header>
 
-      <main className="flex-1 max-w-[1200px] mx-auto w-full px-4 md:px-8 pt-6 pb-4">
+      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-6 pb-4">
 
         <div className="mb-4">
           <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: GREEN }}>Måltid</p>

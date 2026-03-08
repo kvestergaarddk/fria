@@ -128,7 +128,7 @@ export default function RecipeList() {
         </p>
       </header>
 
-      <div className="px-4 md:px-8 max-w-[1200px] mx-auto w-full">
+      <div className="px-4 md:px-8 max-w-[1220px] mx-auto w-full">
         <div className="rounded-2xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
           <img
             src="/forside-billede.jpg"
@@ -138,7 +138,7 @@ export default function RecipeList() {
         </div>
       </div>
 
-      <main className="flex-1 max-w-[1200px] mx-auto w-full px-4 md:px-8 pt-10 pb-4">
+      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-10 pb-4">
 
         <div className="mb-4">
           <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: '#00662B' }}>Måltid</p>

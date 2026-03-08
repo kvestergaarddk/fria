@@ -44,7 +44,7 @@ export default function HomePage() {
           Hvad har du lyst til at lave i aften?
         </h1>
 
-        <p className="mt-4" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, maxWidth: '700px' }}>
+        <p className="mt-4" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, maxWidth: '700px', lineHeight: '38px' }}>
           Gå på opdagelse i flere hundrede lækre opskrifter,{' '}
           <Link
             to="/glutenfri"
@@ -71,7 +71,7 @@ export default function HomePage() {
       </header>
 
       {/* Hero-billede */}
-      <div className="px-4 md:px-8 max-w-[1200px] mx-auto w-full">
+      <div className="px-4 md:px-8 max-w-[1220px] mx-auto w-full">
         <div className="rounded-2xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
           <img
             src="/forside-billede.jpg"
@@ -82,7 +82,7 @@ export default function HomePage() {
       </div>
 
       {/* Opskriftsektioner */}
-      <main className="flex-1 max-w-[1200px] mx-auto w-full px-4 md:px-8 pt-14 pb-4">
+      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-14 pb-4">
 
         <RecipeSection
           title="Glutenfrie retter på under 30 min."
