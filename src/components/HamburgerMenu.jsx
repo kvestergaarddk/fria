@@ -33,23 +33,29 @@ export default function HamburgerMenu() {
         aria-label="Åbn menu"
         style={{
           position: 'fixed',
-          top: '32px',
+          top: '28px',
           right: '32px',
           zIndex: 60,
-          background: 'none',
+          backgroundColor: GREEN,
+          color: '#fff',
           border: 'none',
           cursor: 'pointer',
-          padding: '4px',
-          color: GREEN,
+          borderRadius: '23px',
+          padding: '8px 16px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px',
+          fontSize: '20px',
+          fontWeight: 400,
         }}
       >
         {open ? (
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M6 6l16 16M6 22L22 6"/>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <path d="M4 4l10 10M4 14L14 4"/>
           </svg>
         ) : (
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M4 8h20M4 14h20M4 20h20"/>
+          <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <path d="M1 2h16M1 7h16M1 12h16"/>
           </svg>
         )}
       </button>
