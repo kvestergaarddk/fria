@@ -3,10 +3,12 @@ import HomePage from './components/HomePage'
 import RecipeListPage from './components/RecipeListPage'
 import RecipeDetail from './components/RecipeDetail'
 import AboutPage from './components/AboutPage'
+import HamburgerMenu from './components/HamburgerMenu'
 
 export default function App() {
   return (
     <BrowserRouter>
+      <HamburgerMenu />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/glutenfri" element={<RecipeListPage category="glutenfri" />} />
