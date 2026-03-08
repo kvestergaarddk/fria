@@ -58,7 +58,7 @@ export default function RecipeCard({ recipe, translatedTitle }) {
               borderRadius: '23px',
             }}
           >
-            <span style={{ color: '#00662B', fontSize: '10px', fontWeight: 400 }}>
+            <span style={{ color: '#315E4A', fontSize: '10px', fontWeight: 400 }}>
               {typeLabel}
             </span>
           </div>
@@ -68,7 +68,7 @@ export default function RecipeCard({ recipe, translatedTitle }) {
       {/* Titel */}
       <h3
         style={{
-          color: '#00662B',
+          color: '#315E4A',
           fontSize: '20px',
           fontWeight: 700,
           lineHeight: 1.3,
@@ -85,12 +85,12 @@ export default function RecipeCard({ recipe, translatedTitle }) {
       {/* Meta */}
       <div style={{ display: 'flex', gap: '10px' }}>
         {recipe.readyInMinutes && (
-          <span style={{ color: '#00662B', fontSize: '14px', fontWeight: 500 }}>
+          <span style={{ color: '#315E4A', fontSize: '14px', fontWeight: 500 }}>
             {recipe.readyInMinutes} min.
           </span>
         )}
         {recipe.servings && (
-          <span style={{ color: '#00662B', fontSize: '14px', fontWeight: 500 }}>
+          <span style={{ color: '#315E4A', fontSize: '14px', fontWeight: 500 }}>
             {recipe.servings} personer
           </span>
         )}
