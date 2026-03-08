@@ -3,13 +3,10 @@ import { useParams, Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
 import { fetchRecipeById } from '../api/recipes'
-import { translateTexts } from '../api/translate'
-import { normalizeUnits } from '../utils/units'
 
 export default function RecipeDetail() {
   const { id } = useParams()
   const [recipe, setRecipe] = useState(null)
-  const [translations, setTranslations] = useState({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
@@ -20,23 +17,7 @@ export default function RecipeDetail() {
         setLoading(true)
         setError(null)
         const data = await fetchRecipeById(id)
-        if (cancelled) return
-        setRecipe(data)
-
-        const title = data.title || ''
-        const ingredients = (data.extendedIngredients || []).map(i => i.original || '')
-        const steps = []
-        ;(data.analyzedInstructions || []).forEach(block => block.steps.forEach(s => steps.push(s.step || '')))
-
-        const allTexts = [title, ...ingredients, ...steps]
-        const translated = await translateTexts(allTexts)
-        if (cancelled) return
-
-        setTranslations({
-          title: translated[0] || title,
-          ingredients: ingredients.map((_, i) => normalizeUnits(translated[1 + i] || ingredients[i])),
-          steps: steps.map((_, i) => normalizeUnits(translated[1 + ingredients.length + i] || steps[i])),
-        })
+        if (!cancelled) setRecipe(data)
       } catch (err) {
         if (!cancelled) setError(err.message)
       } finally {
@@ -82,12 +63,16 @@ export default function RecipeDetail() {
 
   if (!recipe) return null
 
-  const title = translations.title || recipe.title
+  // Understøt både pre-genereret format (ingredients/steps arrays) og live Spoonacular format
+  const title = recipe.title
   const image = recipe.image || `https://placehold.co/1200x500/cbc5b8/6b6560?text=+`
-  const ingredients = translations.ingredients || (recipe.extendedIngredients || []).map(i => i.original)
-  const allSteps = []
-  ;(recipe.analyzedInstructions || []).forEach(block => block.steps.forEach(s => allSteps.push(s.step || '')))
-  const steps = translations.steps || allSteps
+  const ingredients = recipe.ingredients
+    || (recipe.extendedIngredients || []).map(i => i.original)
+  const steps = recipe.steps || (() => {
+    const s = []
+    ;(recipe.analyzedInstructions || []).forEach(b => b.steps.forEach(st => s.push(st.step || '')))
+    return s
+  })()
 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#F5F2EA' }}>

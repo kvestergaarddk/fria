@@ -33,6 +33,15 @@ export async function fetchRecipeById(id) {
   const cached = cacheGet(cacheKey)
   if (cached) return cached
 
+  // Forsøg først statisk pre-genereret fil (ingen API-kald)
+  const staticRes = await fetch(`/recipes/${id}.json`)
+  if (staticRes.ok) {
+    const data = await staticRes.json()
+    cacheSet(cacheKey, data)
+    return data
+  }
+
+  // Fallback: live Spoonacular API
   const response = await fetch(`/api/recipes?id=${id}`)
   if (!response.ok) {
     const err = await response.json().catch(() => ({}))
