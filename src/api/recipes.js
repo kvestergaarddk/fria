@@ -29,7 +29,7 @@ export async function loadAllRecipes() {
 }
 
 export async function fetchRecipeById(id) {
-  const cacheKey = `mavro_recipe_${id}`
+  const cacheKey = `mavro_recipe_v2_${id}`
   const cached = cacheGet(cacheKey)
   if (cached) return cached
 
