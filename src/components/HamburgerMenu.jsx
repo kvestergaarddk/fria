@@ -33,38 +33,30 @@ export default function HamburgerMenu() {
         aria-label="Åbn menu"
         style={{
           position: 'fixed',
-          top: '28px',
+          top: '24px',
           right: '32px',
           zIndex: 60,
           backgroundColor: GREEN,
           color: '#fff',
           border: 'none',
           cursor: 'pointer',
-          borderRadius: '23px',
-          padding: '8px 16px',
+          borderRadius: '50%',
+          width: '48px',
+          height: '48px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '8px',
-          fontSize: '20px',
-          fontWeight: 400,
-          minWidth: '105px',
+          flexShrink: 0,
         }}
       >
         {open ? (
-          <>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-              <path d="M4 4l10 10M4 14L14 4"/>
-            </svg>
-            Luk
-          </>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <path d="M4 4l10 10M4 14L14 4"/>
+          </svg>
         ) : (
-          <>
-            <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-              <path d="M1 2h16M1 7h16M1 12h16"/>
-            </svg>
-            Menu
-          </>
+          <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <path d="M1 2h16M1 7h16M1 12h16"/>
+          </svg>
         )}
       </button>
 

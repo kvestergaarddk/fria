@@ -47,23 +47,26 @@ export default function RecipeCard({ recipe, translatedTitle }) {
             className="group-hover:scale-105"
           />
         )}
-        {typeLabel && (
-          <div
+      </div>
+
+      {/* Måltidstype-tag */}
+      {typeLabel && (
+        <div style={{ display: 'flex' }}>
+          <span
             style={{
-              position: 'relative',
-              zIndex: 1,
-              display: 'inline-flex',
-              padding: '8px',
-              background: '#BDBDBD',
+              display: 'inline-block',
+              padding: '4px 12px',
               borderRadius: '23px',
+              backgroundColor: '#D8C88A',
+              color: '#1B3A28',
+              fontSize: '13px',
+              fontWeight: 600,
             }}
           >
-            <span style={{ color: '#315E4A', fontSize: '10px', fontWeight: 400 }}>
-              {typeLabel}
-            </span>
-          </div>
-        )}
-      </div>
+            {typeLabel}
+          </span>
+        </div>
+      )}
 
       {/* Titel */}
       <h3
