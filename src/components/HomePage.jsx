@@ -26,49 +26,39 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: BG }}>
       {/* Header */}
-      <header className="pt-10 pb-6 flex flex-col items-center text-center">
-        <div className="w-full max-w-[1220px] mx-auto px-0 flex flex-col items-center">
-        <Link to="/" aria-label="Gå til forsiden">
-          <Logo color={GREEN} />
-        </Link>
+      <header className="pt-10 pb-6 text-center">
+        <div className="w-full max-w-[1220px] mx-auto flex flex-col items-center">
+          <Link to="/" aria-label="Gå til forsiden">
+            <Logo color={GREEN} />
+          </Link>
 
-        <h1
-          className="mt-8"
-          style={{
-            color: GREEN,
-            fontWeight: 800,
-            fontSize: 'clamp(3rem, 7vw, 100px)',
-            lineHeight: 1,
-            maxWidth: '1220px',
-          }}
-        >
-          Hvad har du lyst til at lave i aften?
-        </h1>
+          <h1
+            className="mt-8 w-full"
+            style={{
+              color: GREEN,
+              fontWeight: 800,
+              fontSize: 'clamp(3rem, 7vw, 100px)',
+              lineHeight: 1,
+            }}
+          >
+            Hvad har du lyst til at lave i aften?
+          </h1>
 
-        <p className="mt-4" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, maxWidth: '1220px', lineHeight: '38px' }}>
-          Gå på opdagelse i flere hundrede lækre opskrifter,{' '}
-          <Link
-            to="/glutenfri"
-            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}
-          >
-            uden gluten
-          </Link>
-          ,{' '}
-          <Link
-            to="/laktosefri"
-            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}
-          >
-            laktose
-          </Link>
-          {' '}eller{' '}
-          <Link
-            to="/begge"
-            style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}
-          >
-            begge dele
-          </Link>
-          .
-        </p>
+          <p className="mt-4 w-full" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, lineHeight: '38px' }}>
+            Gå på opdagelse i flere hundrede lækre opskrifter,{' '}
+            <Link to="/glutenfri" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
+              uden gluten
+            </Link>
+            ,{' '}
+            <Link to="/laktosefri" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
+              laktose
+            </Link>
+            {' '}eller{' '}
+            <Link to="/begge" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
+              begge dele
+            </Link>
+            .
+          </p>
         </div>
       </header>
 
