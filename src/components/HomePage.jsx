@@ -26,14 +26,14 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: BG }}>
       {/* Header */}
-      <header className="pt-10 pb-6 text-center">
-        <div className="w-full max-w-[1220px] mx-auto flex flex-col items-center">
+      <header className="pt-20 pb-0 text-center">
+        <div className="w-full max-w-[1220px] mx-auto px-4 md:px-8 flex flex-col items-center">
           <Link to="/" aria-label="Gå til forsiden">
             <Logo color={GREEN} />
           </Link>
 
           <h1
-            className="mt-8 w-full"
+            className="mt-20 w-full"
             style={{
               color: GREEN,
               fontWeight: 800,
@@ -44,7 +44,7 @@ export default function HomePage() {
             Hvad har du lyst til at lave i aften?
           </h1>
 
-          <p className="mt-4 w-full" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, lineHeight: '38px' }}>
+          <p className="mt-4 w-full" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, lineHeight: 'clamp(1.4, 3vw, 38px)' }}>
             Gå på opdagelse i flere hundrede lækre opskrifter,<br />
             <Link to="/glutenfri" className="hover:!text-[#EFBA5A] transition-colors duration-200" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
               uden gluten
@@ -63,8 +63,8 @@ export default function HomePage() {
       </header>
 
       {/* Hero-billede */}
-      <div className="w-full px-4 md:px-8">
-        <div className="rounded-2xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
+      <div className="w-full px-4 md:px-8 mt-20 mb-20">
+        <div className="overflow-hidden" style={{ aspectRatio: '16/7', borderRadius: '40px' }}>
           <img
             src="/forside-billede.jpg"
             alt="Mad på bordet"
@@ -74,7 +74,7 @@ export default function HomePage() {
       </div>
 
       {/* Opskriftsektioner */}
-      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-14 pb-4">
+      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pb-4">
 
         <RecipeSection
           title="Glutenfrie retter på under 30 min."
@@ -83,7 +83,7 @@ export default function HomePage() {
           loading={loading}
         />
 
-        <div className="mt-14">
+        <div className="mt-20">
           <RecipeSection
             title="Laktosefri retter på under 30 min."
             linkTo="/laktosefri"
@@ -104,15 +104,14 @@ function RecipeSection({ title, linkTo, recipes, loading }) {
     <section>
       <div className="flex items-baseline justify-between mb-5">
         <h2
-          className="font-bold"
-          style={{ color: DARK, fontSize: 'clamp(0.95rem, 2vw, 1.1rem)' }}
+          style={{ color: DARK, fontSize: '20px', fontWeight: 700, margin: 0 }}
         >
           {title}
         </h2>
         <Link
           to={linkTo}
-          className="text-sm font-semibold whitespace-nowrap ml-4"
-          style={{ color: GREEN, textDecoration: 'underline' }}
+          className="whitespace-nowrap ml-4"
+          style={{ color: GREEN, textDecoration: 'underline', fontSize: '16px', fontWeight: 700 }}
         >
           Vis alle
         </Link>

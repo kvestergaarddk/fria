@@ -1,8 +1,8 @@
 export default function Logo({ className = '', color = '#00662B' }) {
   return (
     <svg
-      width="87"
-      height="44"
+      width="174"
+      height="88"
       viewBox="0 0 174 88"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

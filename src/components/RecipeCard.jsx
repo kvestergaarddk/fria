@@ -71,7 +71,7 @@ export default function RecipeCard({ recipe, translatedTitle }) {
           color: '#315E4A',
           fontSize: '20px',
           fontWeight: 700,
-          lineHeight: 1.3,
+          lineHeight: '25px',
           display: '-webkit-box',
           WebkitLineClamp: 2,
           WebkitBoxOrient: 'vertical',
