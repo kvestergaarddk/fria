@@ -44,19 +44,27 @@ export default function HamburgerMenu() {
           padding: '8px 16px',
           display: 'flex',
           alignItems: 'center',
+          justifyContent: 'center',
           gap: '8px',
           fontSize: '20px',
           fontWeight: 400,
+          minWidth: '105px',
         }}
       >
         {open ? (
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M4 4l10 10M4 14L14 4"/>
-          </svg>
+          <>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <path d="M4 4l10 10M4 14L14 4"/>
+            </svg>
+            Luk
+          </>
         ) : (
-          <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M1 2h16M1 7h16M1 12h16"/>
-          </svg>
+          <>
+            <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <path d="M1 2h16M1 7h16M1 12h16"/>
+            </svg>
+            Menu
+          </>
         )}
       </button>
 
