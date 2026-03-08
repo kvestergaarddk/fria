@@ -26,7 +26,8 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: BG }}>
       {/* Header */}
-      <header className="pt-10 pb-6 flex flex-col items-center text-center px-4">
+      <header className="pt-10 pb-6 flex flex-col items-center text-center">
+        <div className="w-full max-w-[1220px] mx-auto px-0 flex flex-col items-center">
         <Link to="/" aria-label="Gå til forsiden">
           <Logo color={GREEN} />
         </Link>
@@ -38,13 +39,13 @@ export default function HomePage() {
             fontWeight: 800,
             fontSize: 'clamp(3rem, 7vw, 100px)',
             lineHeight: 1,
-            maxWidth: '900px',
+            maxWidth: '1220px',
           }}
         >
           Hvad har du lyst til at lave i aften?
         </h1>
 
-        <p className="mt-4" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, maxWidth: '700px', lineHeight: '38px' }}>
+        <p className="mt-4" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, maxWidth: '1220px', lineHeight: '38px' }}>
           Gå på opdagelse i flere hundrede lækre opskrifter,{' '}
           <Link
             to="/glutenfri"
@@ -68,6 +69,7 @@ export default function HomePage() {
           </Link>
           .
         </p>
+        </div>
       </header>
 
       {/* Hero-billede */}
