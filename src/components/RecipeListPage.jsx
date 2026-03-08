@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
@@ -43,9 +43,9 @@ const CUISINES = [
 const ASIAN_CUISINES = ['chinese', 'japanese', 'korean', 'thai', 'vietnamese', 'asian']
 
 const CATEGORY_LABELS = {
-  glutenfri: 'Glutenfrie opskrifter',
-  laktosefri: 'Laktosefri opskrifter',
-  begge: 'Glutenfri & laktosefri opskrifter',
+  glutenfri: 'Lækre glutenfri opskrifter',
+  laktosefri: 'Lækre laktosefri opskrifter',
+  begge: 'Lækre glutenfri & laktosefri opskrifter',
 }
 
 function FilterChips({ options, active, onChange }) {
@@ -79,6 +79,7 @@ export default function RecipeListPage({ category = 'begge' }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [page, setPage] = useState(1)
+  const [filterOpen, setFilterOpen] = useState(false)
 
   useEffect(() => {
     loadAllRecipes()
@@ -116,38 +117,60 @@ export default function RecipeListPage({ category = 'begge' }) {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: BG }}>
-      <header className="pt-10 pb-6 flex flex-col items-center text-center px-4">
+      <header className="pt-20 pb-0 flex flex-col items-center text-center px-4 md:px-8">
         <Link to="/" aria-label="Gå til forsiden">
           <Logo color={GREEN} />
         </Link>
         <h1
-          className="mt-8 font-extrabold leading-tight"
+          className="mt-20 w-full"
           style={{
-            color: DARK,
-            letterSpacing: '-0.02em',
-            maxWidth: '560px',
-            fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
+            color: GREEN,
+            fontWeight: 800,
+            fontSize: 'clamp(2.5rem, 7vw, 100px)',
+            lineHeight: 1,
+            maxWidth: '1220px',
           }}
         >
           {heading}
         </h1>
       </header>
 
-      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-6 pb-4">
+      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-10 pb-4">
 
-        <div className="mb-4">
-          <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: GREEN }}>Måltid</p>
-          <FilterChips options={MEAL_TYPES} active={mealType} onChange={setMealType} />
-        </div>
+        {/* Filter toggle */}
+        <div className="mb-6">
+          <button
+            onClick={() => setFilterOpen(o => !o)}
+            style={{
+              backgroundColor: GREEN,
+              color: '#fff',
+              fontSize: '20px',
+              fontWeight: 400,
+              borderRadius: '23px',
+              padding: '8px 16px',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            Filter
+          </button>
 
-        <div className="mb-4">
-          <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: GREEN }}>Protein</p>
-          <FilterChips options={PROTEINS} active={protein} onChange={setProtein} />
-        </div>
-
-        <div className="mb-8">
-          <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: GREEN }}>Køkken</p>
-          <FilterChips options={CUISINES} active={cuisine} onChange={setCuisine} />
+          {filterOpen && (
+            <div className="mt-4 flex flex-col gap-4">
+              <div>
+                <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: GREEN }}>Måltid</p>
+                <FilterChips options={MEAL_TYPES} active={mealType} onChange={setMealType} />
+              </div>
+              <div>
+                <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: GREEN }}>Protein</p>
+                <FilterChips options={PROTEINS} active={protein} onChange={setProtein} />
+              </div>
+              <div>
+                <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: GREEN }}>Køkken</p>
+                <FilterChips options={CUISINES} active={cuisine} onChange={setCuisine} />
+              </div>
+            </div>
+          )}
         </div>
 
         {error && (
