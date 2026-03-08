@@ -1,3 +1,7 @@
+import Anthropic from '@anthropic-ai/sdk'
+
+const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS')
@@ -5,9 +9,8 @@ export default async function handler(req, res) {
   if (req.method === 'OPTIONS') return res.status(200).end()
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' })
 
-  const apiKey = process.env.DEEPL_API_KEY
-  if (!apiKey) {
-    return res.status(500).json({ error: 'DEEPL_API_KEY er ikke konfigureret' })
+  if (!process.env.ANTHROPIC_API_KEY) {
+    return res.status(500).json({ error: 'ANTHROPIC_API_KEY er ikke konfigureret' })
   }
 
   const { texts } = req.body
@@ -16,23 +19,45 @@ export default async function handler(req, res) {
   }
 
   try {
-    const params = new URLSearchParams({ target_lang: 'DA', source_lang: 'EN' })
-    texts.forEach((t) => params.append('text', t))
+    const response = await client.messages.create({
+      model: 'claude-opus-4-6',
+      max_tokens: 4096,
+      messages: [{
+        role: 'user',
+        content: `Oversæt følgende madopskrift-tekster fra engelsk til dansk.
 
-    // Forsøg med DeepL Free endpoint — byt til https://api.deepl.com ved Pro-abonnement
-    const response = await fetch('https://api-free.deepl.com/v2/translate', {
-      method: 'POST',
-      headers: {
-        Authorization: `DeepL-Auth-Key ${apiKey}`,
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: params.toString(),
+Vigtigt for måleenheder:
+- cups/cup → dl (1 cup = 2,4 dl, rund af til nærmeste hele tal)
+- tablespoon/tablespoons/tbsp/tbs → spsk
+- teaspoon/teaspoons/tsp → tsk
+- ounce/ounces/oz → g (1 oz = 28 g)
+- pound/pounds/lb/lbs → g (1 lb = 454 g)
+- fluid ounce/fl oz → cl (1 fl oz = 3 cl)
+- inch/inches → cm (1 inch = 2,5 cm)
+- °F → °C (formel: (F-32)×5/9, rund af til nærmeste hele tal)
+- pinch → knivspids
+- dash → skvæt
+- handful → håndfuld
+- clove/cloves (hvidløg) → fed
+- bunch → bundt
+- stick (smør) → 115 g
+- can/cans → dåse/dåser
+
+Returnér KUN et JSON-array med de oversatte strenge i samme rækkefølge. Ingen forklaring, ingen markdown, kun arrayet.
+
+Tekster:
+${JSON.stringify(texts)}`,
+      }],
     })
 
-    if (!response.ok) throw new Error(`DeepL fejl: ${response.status}`)
-    const data = await response.json()
-    return res.json(data)
+    const raw = response.content[0].text.trim()
+    const translations = JSON.parse(raw)
+
+    return res.json({
+      translations: translations.map(text => ({ text })),
+    })
   } catch (error) {
+    console.error('Oversættelsesfejl:', error.message)
     return res.status(500).json({ error: error.message })
   }
 }

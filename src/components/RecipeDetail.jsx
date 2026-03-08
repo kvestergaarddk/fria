@@ -4,6 +4,7 @@ import Logo from './Logo'
 import Footer from './Footer'
 import { fetchRecipeById } from '../api/recipes'
 import { translateTexts } from '../api/translate'
+import { normalizeUnits } from '../utils/units'
 
 export default function RecipeDetail() {
   const { id } = useParams()
@@ -33,8 +34,8 @@ export default function RecipeDetail() {
 
         setTranslations({
           title: translated[0] || title,
-          ingredients: ingredients.map((_, i) => translated[1 + i] || ingredients[i]),
-          steps: steps.map((_, i) => translated[1 + ingredients.length + i] || steps[i]),
+          ingredients: ingredients.map((_, i) => normalizeUnits(translated[1 + i] || ingredients[i])),
+          steps: steps.map((_, i) => normalizeUnits(translated[1 + ingredients.length + i] || steps[i])),
         })
       } catch (err) {
         if (!cancelled) setError(err.message)
