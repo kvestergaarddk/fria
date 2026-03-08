@@ -51,31 +51,6 @@
       "protein": "vegetarian"
     },
     {
-      "id": 715521,
-      "title": "Kalkun avocado blt salat",
-      "titleEn": "Turkey Avocado BLT Salad",
-      "image": "https://img.spoonacular.com/recipes/715521-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken"
-    },
-    {
       "id": 716426,
       "title": "Blomkål, brune ris og grøntsags stegte ris",
       "titleEn": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
@@ -145,32 +120,6 @@
       "protein": "chicken"
     },
     {
-      "id": 716431,
-      "title": "Crockpot æblemos",
-      "titleEn": "Crockpot Applesauce",
-      "image": "https://img.spoonacular.com/recipes/716431-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
       "id": 715392,
       "title": "Nem slow cooker kylling tortilla suppe",
       "titleEn": "Easy Slow Cooker Chicken Tortilla Soup",
@@ -191,37 +140,6 @@
       "protein": "chicken"
     },
     {
-      "id": 715543,
-      "title": "Hjemmelavet guacamole",
-      "titleEn": "Homemade Guacamole",
-      "image": "https://img.spoonacular.com/recipes/715543-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
       "id": 637187,
       "title": "Gulerodskage snack bidder",
       "titleEn": "Carrot Cake Snack Bites",
@@ -239,32 +157,6 @@
         "vegan"
       ],
       "protein": "vegetarian"
-    },
-    {
-      "id": 715551,
-      "title": "Sund salat og dressing",
-      "titleEn": "Healthy Salad and Dressing",
-      "image": "https://img.spoonacular.com/recipes/715551-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal"
-      ],
-      "protein": "other"
     },
     {
       "id": 716627,
@@ -353,27 +245,6 @@
       "protein": "chicken"
     },
     {
-      "id": 716413,
-      "title": "Ovnristede tomatsauce",
-      "titleEn": "Oven Roasted Tomato Sauce",
-      "image": "https://img.spoonacular.com/recipes/716413-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "sauce"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
       "id": 716406,
       "title": "Asparges- og ærtesuppe: ægte hurtigmad",
       "titleEn": "Asparagus and Pea Soup: Real Convenience Food",
@@ -398,31 +269,6 @@
         "vegan"
       ],
       "protein": "vegetarian"
-    },
-    {
-      "id": 780000,
-      "title": "Kylling avocado burger (whole 30, paleo & simple fit forty)",
-      "titleEn": "Chicken Avocado Burger (Whole 30, PALEO, & Simple Fit Forty)",
-      "image": "https://img.spoonacular.com/recipes/780000-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken"
     },
     {
       "id": 769754,
@@ -500,24 +346,6 @@
       "protein": "vegetarian"
     },
     {
-      "id": 715412,
-      "title": "Kiwi ispinde – sommer ispinde serie",
-      "titleEn": "Kiwi Popsicles – Summer Popsicle Series",
-      "image": "https://img.spoonacular.com/recipes/715412-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
       "id": 641227,
       "title": "Mælkebøttepesto",
       "titleEn": "Dandelion pesto",
@@ -537,24 +365,6 @@
         "lacto ovo vegetarian",
         "primal",
         "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716424,
-      "title": "Jordbær basilikum sorbet (ingen ismaskine nødvendig!)",
-      "titleEn": "Strawberry Basil Sorbet (no Ice Cream Maker Necessary!)",
-      "image": "https://img.spoonacular.com/recipes/716424-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
         "vegan"
       ],
       "protein": "vegetarian"
@@ -1430,27 +1240,6 @@
         "vegan"
       ],
       "protein": "vegetarian"
-    },
-    {
-      "id": 715596,
-      "title": "At lære at leve sundere",
-      "titleEn": "Learning to live healthier",
-      "image": "https://img.spoonacular.com/recipes/715596-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal"
-      ],
-      "protein": "fish"
     },
     {
       "id": 648320,
@@ -3475,24 +3264,6 @@
       "protein": "vegetarian"
     },
     {
-      "id": 17908,
-      "title": "Napa-kimchi",
-      "titleEn": "Napa Kimchee",
-      "image": "https://img.spoonacular.com/recipes/17908-312x231.jpg",
-      "readyInMinutes": 54,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
       "id": 645753,
       "title": "Grillet citron-hvidløgskylling",
       "titleEn": "Grilled Lemon Garlic Chicken",
@@ -5285,30 +5056,6 @@
         "lacto ovo vegetarian",
         "primal",
         "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634437,
-      "title": "Basilikum-tagliatelle med salat af ristede røde peberfrugter",
-      "titleEn": "Basil Tagliatelle with Roasted Red Bell Pepper Salad",
-      "image": "https://img.spoonacular.com/recipes/634437-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
         "vegan"
       ],
       "protein": "vegetarian"
