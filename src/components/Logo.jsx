@@ -20,11 +20,13 @@ export default function Logo({ className = '', color = '#00662B' }) {
         .logo-smile {
           animation: logo-smile-bounce 2.4s ease-in-out infinite;
           transform-origin: center;
+          transform-box: fill-box;
         }
         .logo-text {
           animation: logo-text-float 2.4s ease-in-out infinite;
           animation-delay: 0.15s;
           transform-origin: center;
+          transform-box: fill-box;
         }
       `}</style>
       <g className="logo-text">
