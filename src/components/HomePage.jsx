@@ -45,7 +45,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mt-4 w-full" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, lineHeight: '38px' }}>
-            Gå på opdagelse i flere hundrede lækre opskrifter,{' '}
+            Gå på opdagelse i flere hundrede lækre opskrifter,<br />
             <Link to="/glutenfri" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
               uden gluten
             </Link>
