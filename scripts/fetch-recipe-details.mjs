@@ -80,13 +80,14 @@ async function translateBatch(texts) {
   if (!texts.length) return []
   const res = await anthropic.messages.create({
     model: 'claude-haiku-4-5',
-    max_tokens: 4096,
+    max_tokens: 8096,
     messages: [{
       role: 'user',
       content: `Oversæt følgende madopskrift-tekster fra engelsk til dansk. Konvertér måleenheder: cups→dl, tablespoon→spsk, teaspoon→tsk, °F→°C (med beregning), oz→g, lb→g, inch→cm, pinch→knivspids, dash→skvæt, handful→håndfuld, clove→fed, bunch→bundt. Returnér KUN et JSON-array i samme rækkefølge. Ingen forklaring.\n\n${JSON.stringify(texts)}`,
     }],
   })
-  return JSON.parse(res.content[0].text.trim())
+  const raw = res.content[0].text.trim().replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '')
+  return JSON.parse(raw)
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -115,8 +116,8 @@ async function main() {
 
   console.log(`Hentet ${fetched.length} opskrifter fra Spoonacular`)
 
-  // Oversæt og gem i batches af 20 opskrifter ad gangen
-  const TRANS_BATCH = 20
+  // Oversæt og gem i batches af 5 opskrifter ad gangen
+  const TRANS_BATCH = 5
   let saved = 0
 
   for (let i = 0; i < fetched.length; i += TRANS_BATCH) {

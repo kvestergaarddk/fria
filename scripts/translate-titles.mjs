@@ -27,7 +27,8 @@ async function translateBatch(titles) {
     max_tokens: 4096,
     messages: [{ role: 'user', content: `Oversæt følgende madopskrift-titler fra engelsk til dansk. Returnér KUN et JSON-array i samme rækkefølge. Ingen forklaring.\n\n${JSON.stringify(titles)}` }],
   })
-  return JSON.parse(res.content[0].text.trim())
+  const raw = res.content[0].text.trim().replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '')
+  return JSON.parse(raw)
 }
 
 console.log(`Oversætter ${recipes.length} titler...`)
