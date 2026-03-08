@@ -272,7 +272,7 @@ export default function RecipeListPage({ category = 'begge' }) {
 
         {!loading && visible.length > 0 && (
           <>
-            <p className="text-xs mb-4" style={{ color: GREEN }}>
+            <p className="text-xs mb-4 text-right" style={{ color: GREEN }}>
               Viser {visible.length} af {filtered.length} opskrifter
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
