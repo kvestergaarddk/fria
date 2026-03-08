@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
 import { fetchRecipeById } from '../api/recipes'
@@ -77,14 +77,7 @@ export default function RecipeDetail() {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#EEDDB6' }}>
       {/* Header */}
-      <header className="pt-10 pb-4 flex flex-col items-center relative px-4">
-        <Link to="/" className="absolute left-4 md:left-8 top-10 text-sm font-semibold flex items-center gap-1.5 focus-visible:outline-none rounded"
-          style={{ color: '#315E4A' }}>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-            <path d="M13 8H3M7 4L3 8l4 4"/>
-          </svg>
-          Tilbage
-        </Link>
+      <header className="pt-10 pb-4 flex flex-col items-center px-4">
         <Logo />
       </header>
 
