@@ -220,8 +220,8 @@ export default function RecipeListPage({ category = 'begge' }) {
 
       <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-10 pb-4">
 
-        {/* Filter-knap */}
-        <div className="mb-6 flex items-center gap-3">
+        {/* Filter-knap + måltidstype-chips */}
+        <div className="mb-6 flex flex-wrap items-center gap-3">
           <button
             onClick={() => setFilterOpen(true)}
             style={{
@@ -236,6 +236,7 @@ export default function RecipeListPage({ category = 'begge' }) {
               display: 'flex',
               alignItems: 'center',
               gap: '8px',
+              flexShrink: 0,
             }}
           >
             <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
@@ -243,6 +244,29 @@ export default function RecipeListPage({ category = 'begge' }) {
             </svg>
             Filter{activeFilterCount > 0 ? ` (${activeFilterCount})` : ''}
           </button>
+
+          {MEAL_TYPES.filter(opt => opt.key !== '').map(opt => {
+            const isActive = mealType === opt.key
+            return (
+              <button
+                key={opt.key}
+                onClick={() => setMealType(isActive ? '' : opt.key)}
+                className="whitespace-nowrap focus-visible:outline-none active:scale-95"
+                style={{
+                  padding: '8px 16px',
+                  borderRadius: '23px',
+                  fontSize: '16px',
+                  fontWeight: 400,
+                  border: 'none',
+                  cursor: 'pointer',
+                  backgroundColor: isActive ? GREEN : CHIP_BG,
+                  color: isActive ? '#fff' : DARK,
+                }}
+              >
+                {opt.label}
+              </button>
+            )
+          })}
         </div>
 
         {error && (
