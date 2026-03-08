@@ -9,49 +9,91 @@ const mealTypeLabels = {
 export default function RecipeCard({ recipe, translatedTitle }) {
   const navigate = useNavigate()
   const title = translatedTitle || recipe.title
-  const image = recipe.image || `https://placehold.co/400x400/e8e2d8/9a9490?text=+`
+  const image = recipe.image || null
   const firstType = recipe.dishTypes?.[0]
   const typeLabel = firstType ? (mealTypeLabels[firstType] || firstType) : null
 
   return (
     <article
-      className="bg-white rounded-xl overflow-hidden cursor-pointer group"
-      style={{ boxShadow: '0 2px 8px rgba(0,61,26,0.06)' }}
+      className="group cursor-pointer"
+      style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
       onClick={() => navigate(`/opskrift/${recipe.id}`)}
     >
-      <div className="relative overflow-hidden" style={{ aspectRatio: '1/1' }}>
-        <img
-          src={image}
-          alt={title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          loading="lazy"
-        />
-      </div>
-      <div className="p-3">
-        <h3
-          className="font-bold text-sm leading-snug line-clamp-2"
-          style={{ color: '#003D1A' }}
-        >
-          {title}
-        </h3>
-        <div className="flex flex-wrap gap-1.5 mt-2">
-          {typeLabel && (
-            <span
-              className="text-xs px-2 py-0.5 rounded-full font-medium"
-              style={{ backgroundColor: '#EBE7DC', color: '#00662B' }}
-            >
+      {/* Billedboks */}
+      <div
+        style={{
+          height: '287px',
+          padding: '20px',
+          background: '#F2F2F2',
+          borderRadius: '30px',
+          overflow: 'hidden',
+          position: 'relative',
+          flexShrink: 0,
+        }}
+      >
+        {image && (
+          <img
+            src={image}
+            alt={title}
+            loading="lazy"
+            style={{
+              position: 'absolute',
+              inset: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              transition: 'transform 0.5s ease',
+            }}
+            className="group-hover:scale-105"
+          />
+        )}
+        {typeLabel && (
+          <div
+            style={{
+              position: 'relative',
+              zIndex: 1,
+              display: 'inline-flex',
+              padding: '8px',
+              background: '#BDBDBD',
+              borderRadius: '23px',
+            }}
+          >
+            <span style={{ color: '#00662B', fontSize: '10px', fontWeight: 400 }}>
               {typeLabel}
             </span>
-          )}
-          {recipe.readyInMinutes && (
-            <span
-              className="text-xs px-2 py-0.5 rounded-full font-medium"
-              style={{ backgroundColor: '#EBE7DC', color: '#00662B' }}
-            >
-              {recipe.readyInMinutes} min
-            </span>
-          )}
-        </div>
+          </div>
+        )}
+      </div>
+
+      {/* Titel */}
+      <h3
+        style={{
+          color: '#00662B',
+          fontSize: '20px',
+          fontWeight: 700,
+          lineHeight: 1.3,
+          display: '-webkit-box',
+          WebkitLineClamp: 2,
+          WebkitBoxOrient: 'vertical',
+          overflow: 'hidden',
+          margin: 0,
+        }}
+      >
+        {title}
+      </h3>
+
+      {/* Meta */}
+      <div style={{ display: 'flex', gap: '10px' }}>
+        {recipe.readyInMinutes && (
+          <span style={{ color: '#00662B', fontSize: '14px', fontWeight: 500 }}>
+            {recipe.readyInMinutes} min.
+          </span>
+        )}
+        {recipe.servings && (
+          <span style={{ color: '#00662B', fontSize: '14px', fontWeight: 500 }}>
+            {recipe.servings} personer
+          </span>
+        )}
       </div>
     </article>
   )
