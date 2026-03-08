@@ -104,9 +104,9 @@ export default function RecipeDetail() {
         </div>
 
         {/* Ingredienser + fremgangsmåde */}
-        <div className="flex gap-20 mb-10">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-20 mb-10">
           {/* Ingredienser */}
-          <aside style={{ width: '400px', flexShrink: 0 }}>
+          <aside className="md:w-[400px] md:flex-shrink-0">
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
               <h2 style={{ color: '#315E4A', fontSize: '20px', fontWeight: 700, margin: 0 }}>Ingredienser</h2>
               <div style={{ color: '#315E4A', fontSize: '20px', fontWeight: 400, lineHeight: '28px' }}>
@@ -117,8 +117,9 @@ export default function RecipeDetail() {
             </div>
           </aside>
 
-          {/* Divider */}
-          <div style={{ width: '1px', backgroundColor: '#315E4A', flexShrink: 0 }} />
+          {/* Divider — vandret på mobil, lodret på desktop */}
+          <div className="block md:hidden" style={{ height: '1px', backgroundColor: '#315E4A' }} />
+          <div className="hidden md:block" style={{ width: '1px', backgroundColor: '#315E4A', flexShrink: 0 }} />
 
           {/* Fremgangsmåde */}
           <section style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '24px' }}>
