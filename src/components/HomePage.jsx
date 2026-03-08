@@ -71,7 +71,7 @@ export default function HomePage() {
       </header>
 
       {/* Hero-billede */}
-      <div className="px-4 md:px-8 max-w-5xl mx-auto w-full">
+      <div className="px-4 md:px-8 max-w-[1200px] mx-auto w-full">
         <div className="rounded-2xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
           <img
             src="/forside-billede.jpg"
@@ -82,7 +82,7 @@ export default function HomePage() {
       </div>
 
       {/* Opskriftsektioner */}
-      <main className="flex-1 max-w-5xl mx-auto w-full px-4 md:px-8 pt-14 pb-4">
+      <main className="flex-1 max-w-[1200px] mx-auto w-full px-4 md:px-8 pt-14 pb-4">
 
         <RecipeSection
           title="Glutenfrie retter på under 30 min."

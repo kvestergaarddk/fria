@@ -34,7 +34,7 @@ export default function RecipeDetail() {
         <header className="pt-10 pb-4 flex flex-col items-center">
           <Logo />
         </header>
-        <div className="max-w-4xl mx-auto w-full px-4 md:px-8 py-8 animate-pulse">
+        <div className="max-w-[1200px] mx-auto w-full px-4 md:px-8 py-8 animate-pulse">
           <div className="rounded-2xl bg-gray-200 mb-8" style={{ aspectRatio: '16/7' }} />
           <div className="h-8 bg-gray-200 rounded w-2/3 mb-10" />
           <div className="grid md:grid-cols-5 gap-8">
@@ -51,7 +51,7 @@ export default function RecipeDetail() {
     return (
       <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#EEDDB6' }}>
         <header className="pt-10 pb-4 flex flex-col items-center"><Logo /></header>
-        <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="max-w-[1200px] mx-auto px-4 py-8">
           <div className="bg-red-50 border border-red-200 text-red-700 rounded-xl p-6 text-sm">
             <strong>Kunne ikke hente opskriften:</strong> {error}
           </div>
@@ -88,7 +88,7 @@ export default function RecipeDetail() {
         <Logo />
       </header>
 
-      <main className="max-w-4xl mx-auto w-full px-4 md:px-8 pb-8">
+      <main className="max-w-[1200px] mx-auto w-full px-4 md:px-8 pb-8">
         {/* Hero */}
         <div className="rounded-2xl overflow-hidden mb-8" style={{ aspectRatio: '16/7' }}>
           <img src={image} alt={title} className="w-full h-full object-cover" />

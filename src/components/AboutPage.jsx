@@ -16,7 +16,7 @@ export default function AboutPage() {
         <Logo />
       </header>
 
-      <main className="max-w-4xl mx-auto w-full px-4 md:px-8 pb-8">
+      <main className="max-w-[1200px] mx-auto w-full px-4 md:px-8 pb-8">
         <h1
           className="mt-8 font-extrabold leading-tight text-center mb-3"
           style={{ color: '#1B3A28', letterSpacing: '-0.02em', fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}

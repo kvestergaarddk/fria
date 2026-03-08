@@ -4,7 +4,7 @@ import Logo from './Logo'
 export default function Footer() {
   return (
     <footer style={{ backgroundColor: '#1B3A28' }} className="mt-16 py-10 px-6">
-      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <Link to="/">
           <Logo color="#ffffff" className="opacity-90 hover:opacity-100 transition-opacity" />
         </Link>

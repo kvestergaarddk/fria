@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(vercel --version)",
+      "Bash(sudo npm install -g vercel)",
+      "Bash(npx vercel login)",
+      "Bash(npx vercel dev --listen 3000)",
+      "Bash(xargs kill -9)",
+      "Bash(npx vercel env add SPOONACULAR_API_KEY production)",
+      "Bash(npx vercel --prod)",
+      "Bash(npx vercel env rm SPOONACULAR_API_KEY production --yes)",
+      "Bash(npx vercel logs fria-three.vercel.app --limit 20)",
+      "Bash(npx vercel env ls)",
+      "Bash(npx vercel env rm Spoonacular production --yes)",
+      "Bash(npx vercel env rm Spoonacular preview --yes)",
+      "Bash(npx vercel env rm Spoonacular development --yes)",
+      "Bash(git add .gitignore api/recipes.js index.html package.json package-lock.json src/App.jsx src/api/recipes.js src/components/FilterBar.jsx src/components/RecipeCard.jsx src/components/RecipeDetail.jsx src/components/RecipeList.jsx src/index.css tailwind.config.cjs vercel.json vite.config.js src/components/AboutPage.jsx src/components/Footer.jsx src/components/Logo.jsx server.dev.mjs screenshot.mjs \"Brand_assets/Forside.png\" \"Brand_assets/Forside_Billede.jpg\" \"Brand_assets/Logo.svg\" \"Brand_assets/Logo_Mavro.svg\" \"Brand_assets/Om Mavro.png\" \"Brand_assets/Opskrift.png\" public/)",
+      "Bash(git commit:*)",
+      "Bash(git push origin main)",
+      "Bash(node scripts/fetch-recipes.mjs)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(git add api/translate.js package-lock.json package.json public/recipes.json scripts/fetch-recipes.mjs src/components/RecipeDetail.jsx src/utils/)",
+      "Bash(git push)",
+      "Bash(node scripts/translate-titles.mjs)",
+      "Bash(node scripts/fetch-recipe-details.mjs)",
+      "Bash(git add scripts/fetch-recipe-details.mjs scripts/translate-titles.mjs src/api/recipes.js src/components/RecipeDetail.jsx)",
+      "Bash(git add public/recipes/ public/recipes.json scripts/)"
+    ]
+  }
+}
