@@ -63,7 +63,7 @@ export default function HomePage() {
       </header>
 
       {/* Hero-billede */}
-      <div className="px-4 md:px-8 max-w-[1220px] mx-auto w-full">
+      <div className="w-full px-4 md:px-0">
         <div className="rounded-2xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
           <img
             src="/forside-billede.jpg"
