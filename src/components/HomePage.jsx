@@ -46,15 +46,15 @@ export default function HomePage() {
 
           <p className="mt-4 w-full" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, lineHeight: '38px' }}>
             Gå på opdagelse i flere hundrede lækre opskrifter,<br />
-            <Link to="/glutenfri" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
+            <Link to="/glutenfri" className="hover:text-[#EFBA5A] transition-colors duration-200" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
               uden gluten
             </Link>
             ,{' '}
-            <Link to="/laktosefri" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
+            <Link to="/laktosefri" className="hover:text-[#EFBA5A] transition-colors duration-200" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
               laktose
             </Link>
             {' '}eller{' '}
-            <Link to="/begge" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
+            <Link to="/begge" className="hover:text-[#EFBA5A] transition-colors duration-200" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
               begge dele
             </Link>
             .
