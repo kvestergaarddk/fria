@@ -104,38 +104,40 @@ export default function RecipeDetail() {
         </div>
 
         {/* Ingredienser + fremgangsmåde */}
-        <div className="grid md:grid-cols-5 gap-8 mb-10">
-          <aside className="md:col-span-2">
-            <h2 className="font-bold text-base mb-4" style={{ color: '#1B3A28' }}>Ingredienser</h2>
-            <ul className="space-y-2">
-              {ingredients.map((ing, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm" style={{ color: '#1A2D1F', lineHeight: 1.6 }}>
-                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ backgroundColor: '#315E4A' }} />
-                  {ing}
-                </li>
-              ))}
-            </ul>
+        <div className="flex gap-20 mb-10">
+          {/* Ingredienser */}
+          <aside style={{ width: '400px', flexShrink: 0 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+              <h2 style={{ color: '#315E4A', fontSize: '20px', fontWeight: 700, margin: 0 }}>Ingredienser</h2>
+              <div style={{ color: '#315E4A', fontSize: '20px', fontWeight: 400, lineHeight: '28px' }}>
+                {ingredients.map((ing, i) => (
+                  <span key={i}>{ing}<br /></span>
+                ))}
+              </div>
+            </div>
           </aside>
 
-          <section className="md:col-span-3">
-            <h2 className="font-bold text-xl mb-5" style={{ color: '#1B3A28' }}>Sådan gør du</h2>
-            {steps.length === 0 ? (
-              <p className="text-sm italic" style={{ color: '#6B7B69' }}>Ingen fremgangsmåde tilgængelig.</p>
-            ) : (
-              <ol className="space-y-5">
-                {steps.map((step, i) => (
-                  <li key={i} className="flex gap-4">
-                    <span className="flex-shrink-0 font-extrabold text-xl w-7" style={{ color: '#315E4A' }}>
-                      {i + 1}
-                    </span>
-                    <p className="text-sm leading-relaxed pt-1" style={{ color: '#1A2D1F' }}>{step}</p>
-                  </li>
-                ))}
-              </ol>
-            )}
-            <p className="mt-10 text-right font-bold italic" style={{ color: '#315E4A', fontSize: '1.1rem' }}>
-              Nyd din mad
-            </p>
+          {/* Divider */}
+          <div style={{ width: '1px', backgroundColor: '#315E4A', flexShrink: 0 }} />
+
+          {/* Fremgangsmåde */}
+          <section style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '24px' }}>
+            <h2 style={{ color: '#315E4A', fontSize: '30px', fontWeight: 700, margin: 0 }}>Sådan gør du</h2>
+            {steps.map((step, i) => (
+              <div key={i} style={{ display: 'flex', gap: '24px', alignItems: 'flex-start' }}>
+                <span style={{ color: '#315E4A', fontSize: '40px', fontFamily: 'Knewave, cursive', fontWeight: 400, lineHeight: 1, flexShrink: 0 }}>
+                  {i + 1}
+                </span>
+                <p style={{ color: '#315E4A', fontSize: '20px', fontWeight: 400, lineHeight: '28px', paddingTop: '8px', margin: 0 }}>
+                  {step}
+                </p>
+              </div>
+            ))}
+            <div style={{ paddingLeft: '52px' }}>
+              <p style={{ color: '#315E4A', fontSize: '20px', fontFamily: 'Knewave, cursive', fontWeight: 400, lineHeight: '28px', margin: 0 }}>
+                Nyd din mad
+              </p>
+            </div>
           </section>
         </div>
       </main>
