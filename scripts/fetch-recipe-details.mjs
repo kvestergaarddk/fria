@@ -69,10 +69,18 @@ function normalizeUnits(text) {
 
 // ─── Spoonacular bulk-hentning (op til 100 ad gangen) ────────────────────────
 async function fetchBulk(ids) {
-  const url = `https://api.spoonacular.com/recipes/informationBulk?ids=${ids.join(',')}&includeNutrition=false&apiKey=${SPOONACULAR_KEY}`
+  const url = `https://api.spoonacular.com/recipes/informationBulk?ids=${ids.join(',')}&includeNutrition=true&apiKey=${SPOONACULAR_KEY}`
   const res = await fetch(url)
   if (!res.ok) throw new Error(`Spoonacular fejl ${res.status}: ${await res.text()}`)
   return res.json()
+}
+
+// ─── Udtræk én næringsværdi fra nutrition-objektet ───────────────────────────
+function getNutrient(nutrition, name) {
+  if (!nutrition?.nutrients) return null
+  const n = nutrition.nutrients.find(n => n.name === name)
+  if (!n) return null
+  return { amount: Math.round(n.amount * 10) / 10, unit: n.unit, pct: Math.round(n.percentOfDailyNeeds) }
 }
 
 // ─── Claude Haiku oversættelse ────────────────────────────────────────────────
@@ -165,6 +173,7 @@ async function main() {
         normalizeUnits(translated[m.stepsStart + j] || '')
       )
 
+      const nutrition = m.r.nutrition || null
       const slim = {
         id: m.r.id,
         title,
@@ -174,6 +183,17 @@ async function main() {
         servings: m.r.servings || null,
         ingredients,
         steps,
+        nutrition: nutrition ? {
+          calories:      getNutrient(nutrition, 'Calories'),
+          fat:           getNutrient(nutrition, 'Fat'),
+          saturatedFat:  getNutrient(nutrition, 'Saturated Fat'),
+          carbs:         getNutrient(nutrition, 'Carbohydrates'),
+          sugar:         getNutrient(nutrition, 'Sugar'),
+          fiber:         getNutrient(nutrition, 'Fiber'),
+          protein:       getNutrient(nutrition, 'Protein'),
+          sodium:        getNutrient(nutrition, 'Sodium'),
+          cholesterol:   getNutrient(nutrition, 'Cholesterol'),
+        } : null,
       }
 
       writeFileSync(join(outDir, `${m.r.id}.json`), JSON.stringify(slim))
