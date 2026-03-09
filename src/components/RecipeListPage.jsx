@@ -109,6 +109,11 @@ export default function RecipeListPage({ category = 'begge' }) {
 
   const filtered = useMemo(() => {
     return allRecipes.filter(r => {
+      // Filtrer efter diæt-kategori
+      if (category === 'glutenfri' && !r.diets?.includes('gluten free')) return false
+      if (category === 'laktosefri' && !r.diets?.includes('dairy free')) return false
+      if (category === 'begge' && (!r.diets?.includes('gluten free') || !r.diets?.includes('dairy free'))) return false
+
       if (mealType) {
         const types = r.dishTypes || []
         const match = mealType === 'dinner'
@@ -126,7 +131,7 @@ export default function RecipeListPage({ category = 'begge' }) {
       }
       return true
     })
-  }, [allRecipes, mealType, protein, cuisine])
+  }, [allRecipes, category, mealType, protein, cuisine])
 
   const visible = filtered.slice(0, page * PAGE_SIZE)
   const hasMore = visible.length < filtered.length

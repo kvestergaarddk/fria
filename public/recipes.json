@@ -1,1317 +1,37 @@
 {
   "recipes": [
     {
-      "id": 715419,
-      "title": "Slow cooker krydrede hot wings",
-      "titleEn": "Slow Cooker Spicy Hot Wings",
-      "image": "https://img.spoonacular.com/recipes/715419-312x231.jpg",
-      "readyInMinutes": 14,
+      "id": 10001,
+      "title": "Frikadeller med kartoffelmos og persillesovs",
+      "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=400&q=80",
+      "readyInMinutes": 45,
+      "servings": 4,
       "dishTypes": [
-        "lunch",
-        "antipasti",
-        "main course",
-        "starter",
-        "snack",
-        "appetizer",
-        "main dish",
-        "antipasto",
         "dinner",
-        "hor d'oeuvre"
+        "main course"
       ],
       "cuisines": [
-        "american"
+        "danish"
       ],
       "diets": [
         "gluten free",
         "dairy free"
       ],
-      "protein": "chicken"
+      "protein": "meat"
     },
     {
-      "id": 775585,
-      "title": "Crockpot \"refried\" bønner",
-      "titleEn": "Crockpot \"Refried\" Beans",
-      "image": "https://img.spoonacular.com/recipes/775585-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716426,
-      "title": "Blomkål, brune ris og grøntsags stegte ris",
-      "titleEn": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
-      "image": "https://img.spoonacular.com/recipes/716426-312x231.jpg",
+      "id": 10002,
+      "title": "Stegt flæsk med persillesovs og nye kartofler",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
       "readyInMinutes": 30,
+      "servings": 4,
       "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "chinese",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 715391,
-      "title": "Slow cooker kylling taco suppe",
-      "titleEn": "Slow Cooker Chicken Taco Soup",
-      "image": "https://img.spoonacular.com/recipes/715391-312x231.jpg",
-      "readyInMinutes": 485,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 715415,
-      "title": "Rød linsesuppe med kylling og majroer",
-      "titleEn": "Red Lentil Soup with Chicken and Turnips",
-      "image": "https://img.spoonacular.com/recipes/715415-312x231.jpg",
-      "readyInMinutes": 55,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 715392,
-      "title": "Nem slow cooker kylling tortilla suppe",
-      "titleEn": "Easy Slow Cooker Chicken Tortilla Soup",
-      "image": "https://img.spoonacular.com/recipes/715392-312x231.jpg",
-      "readyInMinutes": 370,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 637187,
-      "title": "Gulerodskage snack bidder",
-      "titleEn": "Carrot Cake Snack Bites",
-      "image": "https://img.spoonacular.com/recipes/637187-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716627,
-      "title": "Nem hjemmelavet ris og bønner",
-      "titleEn": "Easy Homemade Rice and Beans",
-      "image": "https://img.spoonacular.com/recipes/716627-312x231.jpg",
-      "readyInMinutes": 35,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716296,
-      "title": "Peri peri kylling og krydret ris",
-      "titleEn": "Peri Peri Chicken and Savoury Rice",
-      "image": "https://img.spoonacular.com/recipes/716296-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 716217,
-      "title": "Vietnamesiske pandekager med grøntsager, urter og en duftende dipsauce (bánh xèo)",
-      "titleEn": "Vietnamese Pancakes with Vegetables, Herbs and a Fragrant Dipping Sauce (Bánh Xèo)",
-      "image": "https://img.spoonacular.com/recipes/716217-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "vietnamese",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 716311,
-      "title": "Mango stegte ris",
-      "titleEn": "Mango Fried Rice",
-      "image": "https://img.spoonacular.com/recipes/716311-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "chinese",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 716406,
-      "title": "Asparges- og ærtesuppe: ægte hurtigmad",
-      "titleEn": "Asparagus and Pea Soup: Real Convenience Food",
-      "image": "https://img.spoonacular.com/recipes/716406-312x231.jpg",
-      "readyInMinutes": 20,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 769754,
-      "title": "Okse-gulerodsstuvning",
-      "titleEn": "Beef Carrot Stew",
-      "image": "https://img.spoonacular.com/recipes/769754-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 716195,
-      "title": "Krydret indisk-inspireret hummus",
-      "titleEn": "Spicy Indian-Style Hummus",
-      "image": "https://img.spoonacular.com/recipes/716195-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "middle eastern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 794350,
-      "title": "Kirsebær kokosmælk smoothie",
-      "titleEn": "Cherry Coconut Milk Smoothie",
-      "image": "https://img.spoonacular.com/recipes/794350-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "beverage",
-        "breakfast",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 641227,
-      "title": "Mælkebøttepesto",
-      "titleEn": "Dandelion pesto",
-      "image": "https://img.spoonacular.com/recipes/641227-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "condiment",
-        "dip",
-        "sauce",
-        "spread"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716301,
-      "title": "Honning ingefær citron iste",
-      "titleEn": "Honey Ginger Lemon Iced Tea",
-      "image": "https://img.spoonacular.com/recipes/716301-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 715769,
-      "title": "Broccolini quinoa pilaf",
-      "titleEn": "Broccolini Quinoa Pilaf",
-      "image": "https://img.spoonacular.com/recipes/715769-312x231.jpg",
-      "readyInMinutes": 30,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 632250,
-      "title": "Alouette soltørret tomat og basilikum bisque",
-      "titleEn": "Alouette Sundried Tomato and Basil Bisque",
-      "image": "https://img.spoonacular.com/recipes/632250-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 756814,
-      "title": "Kraftfuld mandel matcha superfood smoothie",
-      "titleEn": "Powerhouse Almond Matcha Superfood Smoothie",
-      "image": "https://img.spoonacular.com/recipes/756814-312x231.jpg",
-      "readyInMinutes": 10,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "beverage",
-        "breakfast",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 662535,
-      "title": "Sød senneps bbq svinekotelet",
-      "titleEn": "Sweet Mustard BBQ Pork Chops",
-      "image": "https://img.spoonacular.com/recipes/662535-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 657917,
-      "title": "Hindbær valnød kaffekage",
-      "titleEn": "Raspberry Walnut Coffee Cake",
-      "image": "https://img.spoonacular.com/recipes/657917-312x231.jpg",
-      "readyInMinutes": 35,
-      "dishTypes": [
-        "morning meal",
-        "dessert",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 633338,
-      "title": "Baconsvøbt filet mignon",
-      "titleEn": "Bacon Wrapped Filet Mignon",
-      "image": "https://img.spoonacular.com/recipes/633338-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 655235,
-      "title": "Peanutbutter og marmelade smoothie",
-      "titleEn": "Peanut Butter and Jelly Smoothie",
-      "image": "https://img.spoonacular.com/recipes/655235-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "beverage",
-        "breakfast",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 716097,
-      "title": "Grøntsags kokos sambar",
-      "titleEn": "Vegetable Coconut Sambar",
-      "image": "https://img.spoonacular.com/recipes/716097-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 633144,
-      "title": "Avocado reder",
-      "titleEn": "Avocado Nests",
-      "image": "https://img.spoonacular.com/recipes/633144-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 660736,
-      "title": "Soja-ingefær glaseret hellefisk med ingefær ferskner relish",
-      "titleEn": "Soy Ginger Glazed Halibut with Ginger Peach Relish",
-      "image": "https://img.spoonacular.com/recipes/660736-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 631748,
-      "title": "Asiatisk rejestir-fry",
-      "titleEn": "Asian Shrimp Stir-Fry",
-      "image": "https://img.spoonacular.com/recipes/631748-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 715446,
-      "title": "Slow cooker oksegryderet",
-      "titleEn": "Slow Cooker Beef Stew",
-      "image": "https://img.spoonacular.com/recipes/715446-312x231.jpg",
-      "readyInMinutes": 490,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 716069,
-      "title": "Cremet vegansk coleslaw med avocadodressing",
-      "titleEn": "Creamy Vegan Coleslaw Dressed with Avocado",
-      "image": "https://img.spoonacular.com/recipes/716069-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716342,
-      "title": "Kylling suya",
-      "titleEn": "Chicken Suya",
-      "image": "https://img.spoonacular.com/recipes/716342-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 654432,
-      "title": "Panstegt lammefilet med chimichurri og ristet trio squash salat med gedeost og pinjekerner",
-      "titleEn": "Pan Seared Lamb Loin With Chimichurri & Roasted Trio Squash Salad With Goat Cheese and Pinenuts",
-      "image": "https://img.spoonacular.com/recipes/654432-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "south american",
-        "latin american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 633344,
-      "title": "Baconsvøbt svinemørbrad",
-      "titleEn": "Bacon Wrapped Pork Tenderloin",
-      "image": "https://img.spoonacular.com/recipes/633344-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 782601,
-      "title": "Røde kidneybønne jambalaya",
-      "titleEn": "Red Kidney Bean Jambalaya",
-      "image": "https://img.spoonacular.com/recipes/782601-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "cajun",
-        "creole"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716218,
-      "title": "Tomat og aubergine caponata",
-      "titleEn": "Tomato and Eggplant Caponata",
-      "image": "https://img.spoonacular.com/recipes/716218-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 662654,
-      "title": "Sød og røget laks med ingefær mahogni ris",
-      "titleEn": "Sweet-N-Smoky Salmon With Ginger Mahogany Rice",
-      "image": "https://img.spoonacular.com/recipes/662654-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 649503,
-      "title": "Citron og honning kylling",
-      "titleEn": "Lemon and Honey Chicken",
-      "image": "https://img.spoonacular.com/recipes/649503-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 650901,
-      "title": "Ahornsirup glaseret baconsvøbt svinemørbrad",
-      "titleEn": "Maple Glazed Bacon Wrapped Pork Tenderloin",
-      "image": "https://img.spoonacular.com/recipes/650901-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "fodmap friendly"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 661188,
-      "title": "Krydret krydret loaded guacamole",
-      "titleEn": "Spicy Seasoned Loaded Guacamole",
-      "image": "https://img.spoonacular.com/recipes/661188-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 660404,
-      "title": "Røgede djævleæg",
-      "titleEn": "Smoky Deviled Eggs",
-      "image": "https://img.spoonacular.com/recipes/660404-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 640062,
-      "title": "Majs avocado salsa",
-      "titleEn": "Corn Avocado Salsa",
-      "image": "https://img.spoonacular.com/recipes/640062-312x231.jpg",
-      "readyInMinutes": 25,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 663392,
-      "title": "Tre-kopper kylling",
-      "titleEn": "Three-Cup Chicken",
-      "image": "https://img.spoonacular.com/recipes/663392-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 650855,
-      "title": "Mangoer med rom og is",
-      "titleEn": "Mangoes with Rum and Ice Cream",
-      "image": "https://img.spoonacular.com/recipes/650855-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 792705,
-      "title": "4-ingrediens rå peanutbutter chokolade kopper",
-      "titleEn": "4 Ingredient Raw Peanut Butter Chocolate Cups",
-      "image": "https://img.spoonacular.com/recipes/792705-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "condiment",
-        "dip",
-        "spread"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716344,
-      "title": "Kenyansk pilau",
-      "titleEn": "Kenyan Pilau",
-      "image": "https://img.spoonacular.com/recipes/716344-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 716198,
-      "title": "Skarp hindbærsorbet med et strejf af varme",
-      "titleEn": "Tart Raspberry Sorbet with a Hint of Heat",
-      "image": "https://img.spoonacular.com/recipes/716198-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 631841,
-      "title": "15 minutters sunde mørke chokoladetrøfler",
-      "titleEn": "15 Minute Healthy Dark Chocolate Truffles",
-      "image": "https://img.spoonacular.com/recipes/631841-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 652750,
-      "title": "Muslinger og venusmuslinger i hvidvin {cozze e vongole}",
-      "titleEn": "Mussels & Clams in White Wine {Cozze e Vongole}",
-      "image": "https://img.spoonacular.com/recipes/652750-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 641912,
-      "title": "Nem kylling med hvidvinssauce",
-      "titleEn": "Easy Chicken with White Wine Sauce",
-      "image": "https://img.spoonacular.com/recipes/641912-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 631880,
-      "title": "5-minutters blåbær chia marmelade",
-      "titleEn": "5-Minute Blueberry Chia Jam",
-      "image": "https://img.spoonacular.com/recipes/631880-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "condiment",
-        "dip",
-        "spread"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716004,
-      "title": "Quinoa og kikærtesalat med soltørrede tomater og tørrede kirsebær",
-      "titleEn": "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries",
-      "image": "https://img.spoonacular.com/recipes/716004-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 638808,
-      "title": "Chokolade mandelbark",
-      "titleEn": "Chocolate Almond Bark",
-      "image": "https://img.spoonacular.com/recipes/638808-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 633651,
-      "title": "Bagte honning sriracha kyllingevinger",
-      "titleEn": "Baked Honey Sriracha Chicken Wings",
-      "image": "https://img.spoonacular.com/recipes/633651-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "antipasti",
-        "main course",
-        "starter",
-        "snack",
-        "appetizer",
-        "main dish",
-        "antipasto",
         "dinner",
-        "hor d'oeuvre"
+        "main course"
       ],
       "cuisines": [
-        "american"
+        "danish"
       ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 660266,
-      "title": "Langtidstilberedt corned beef og kål",
-      "titleEn": "Slow Cooked Corned Beef and Cabbage",
-      "image": "https://img.spoonacular.com/recipes/660266-312x231.jpg",
-      "readyInMinutes": 500,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "european",
-        "irish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 798400,
-      "title": "Krydret sortøjet bønne karry med bladbede og ristet aubergine",
-      "titleEn": "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant",
-      "image": "https://img.spoonacular.com/recipes/798400-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 639401,
-      "title": "Cider-braiseret svinebov med karamelliseret løg og æble confit",
-      "titleEn": "Cider-Braised Pork Shoulder With Caramelized Onion and Apple Confit",
-      "image": "https://img.spoonacular.com/recipes/639401-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 640383,
-      "title": "Tranebær margarita",
-      "titleEn": "Cranberry Margarita",
-      "image": "https://img.spoonacular.com/recipes/640383-312x231.jpg",
-      "readyInMinutes": 60,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 648320,
-      "title": "Jade buddha laksetartar",
-      "titleEn": "Jade Buddha Salmon Tartare",
-      "image": "https://img.spoonacular.com/recipes/648320-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 633921,
-      "title": "Balsamico og honning glaseret laks med citronagtig asparges",
-      "titleEn": "Balsamic & Honey Glazed Salmon with Lemony Asparagus",
-      "image": "https://img.spoonacular.com/recipes/633921-312x231.jpg",
-      "readyInMinutes": 60,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 639893,
-      "title": "Kaffeinfunderede bbq baby back ribs",
-      "titleEn": "Coffee-Infused Bbq Baby Back Ribs",
-      "image": "https://img.spoonacular.com/recipes/639893-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 652819,
-      "title": "Min \"hemmelige\" bolognesesauce",
-      "titleEn": "My \"Secret\" Bolognese Sauce",
-      "image": "https://img.spoonacular.com/recipes/652819-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "sauce"
-      ],
-      "cuisines": [],
       "diets": [
         "gluten free",
         "dairy free"
@@ -1319,3338 +39,36 @@
       "protein": "meat"
     },
     {
-      "id": 798956,
-      "title": "Mango banan kokos smoothie",
-      "titleEn": "Mango Banana Coconut Smoothie",
-      "image": "https://img.spoonacular.com/recipes/798956-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "beverage",
-        "breakfast",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 716364,
-      "title": "Ris og ærter med kokos karry makrel",
-      "titleEn": "Rice and Peas with Coconut Curry Mackerel",
-      "image": "https://img.spoonacular.com/recipes/716364-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 648176,
-      "title": "Italiensk farsbrød med hårdkogte æg",
-      "titleEn": "Italian Meatloaf with Hard Boiled Eggs",
-      "image": "https://img.spoonacular.com/recipes/648176-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 640941,
-      "title": "Sprøde rosenkåls tilbehør",
-      "titleEn": "Crunchy Brussels Sprouts Side Dish",
-      "image": "https://img.spoonacular.com/recipes/640941-312x231.jpg",
+      "id": 10003,
+      "title": "Hakkebøf med bløde løg og skysovs",
+      "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=400&q=80",
       "readyInMinutes": 30,
+      "servings": 4,
       "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 1000566,
-      "title": "Nem instant pot oksekødsspidser og ris",
-      "titleEn": "Easy Instant Pot Beef Tips and Rice",
-      "image": "https://img.spoonacular.com/recipes/1000566-312x231.jpg",
-      "readyInMinutes": 30,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 795431,
-      "title": "Grønne bønner poriyal",
-      "titleEn": "Green Bean Poriyal",
-      "image": "https://img.spoonacular.com/recipes/795431-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 631874,
-      "title": "5 minutters glutenfri vidunderboller",
-      "titleEn": "5 Minute Gluten Free Wonder Buns",
-      "image": "https://img.spoonacular.com/recipes/631874-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 636422,
-      "title": "Buffalo wing hummus",
-      "titleEn": "Buffalo Wing Hummus",
-      "image": "https://img.spoonacular.com/recipes/636422-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 660306,
-      "title": "Slowcooker: svinekød og kikærter",
-      "titleEn": "Slow Cooker: Pork and Garbanzo Beans",
-      "image": "https://img.spoonacular.com/recipes/660306-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 636365,
-      "title": "Rosenkål med bacon og skalotteløg",
-      "titleEn": "Brussels Sprouts with Bacon and Shallots",
-      "image": "https://img.spoonacular.com/recipes/636365-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 633132,
-      "title": "Avokado kyllingesalat",
-      "titleEn": "Avocado Chicken Salad",
-      "image": "https://img.spoonacular.com/recipes/633132-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 716279,
-      "title": "Stegte yams og krydret mayo",
-      "titleEn": "Fried Yam and Spicy Mayo",
-      "image": "https://img.spoonacular.com/recipes/716279-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "whole 30"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 664147,
-      "title": "Toscansk hvidebønnesuppe med olivenolie og rosmarin",
-      "titleEn": "Tuscan White Bean Soup with Olive Oil and Rosemary",
-      "image": "https://img.spoonacular.com/recipes/664147-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 642129,
-      "title": "Nemme forårsruller",
-      "titleEn": "Easy To Make Spring Rolls",
-      "image": "https://img.spoonacular.com/recipes/642129-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "fingerfood",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "vietnamese",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 637832,
-      "title": "Chiafrø-budding",
-      "titleEn": "Chia Seed Pudding",
-      "image": "https://img.spoonacular.com/recipes/637832-312x231.png",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 645988,
-      "title": "Guacamole",
-      "titleEn": "Guacamole",
-      "image": "https://img.spoonacular.com/recipes/645988-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 662038,
-      "title": "Fyldte citroner i ovnen",
-      "titleEn": "Stuffed Lemons in the Oven",
-      "image": "https://img.spoonacular.com/recipes/662038-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "fodmap friendly",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 634511,
-      "title": "Bbq-style kyllingelår",
-      "titleEn": "BBQ” Style Chicken Thighs",
-      "image": "https://img.spoonacular.com/recipes/634511-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 716330,
-      "title": "Kylling- og mangospyd",
-      "titleEn": "Chicken and Mango Skewer",
-      "image": "https://img.spoonacular.com/recipes/716330-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 645479,
-      "title": "Grønt monster ispinde",
-      "titleEn": "Green Monster Ice Pops",
-      "image": "https://img.spoonacular.com/recipes/645479-312x231.jpg",
-      "readyInMinutes": 180,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 632085,
-      "title": "Allergifri thin mints",
-      "titleEn": "Allergy-Free Thin Mints",
-      "image": "https://img.spoonacular.com/recipes/632085-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 982365,
-      "title": "Instant pot hawaiiansk kylling",
-      "titleEn": "Instant Pot Hawaiian Chicken",
-      "image": "https://img.spoonacular.com/recipes/982365-312x231.jpg",
-      "readyInMinutes": 18,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 641911,
-      "title": "Nem kylling, kielbasa og rejepaella",
-      "titleEn": "Easy Chicken, Kielbasa and Shrimp Paella",
-      "image": "https://img.spoonacular.com/recipes/641911-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "spanish",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 639411,
-      "title": "Koriander-lime hellefisk",
-      "titleEn": "Cilantro Lime Halibut",
-      "image": "https://img.spoonacular.com/recipes/639411-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 638257,
-      "title": "Kyllingegrød",
-      "titleEn": "Chicken Porridge",
-      "image": "https://img.spoonacular.com/recipes/638257-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 639866,
-      "title": "Kaffeflødesmartinis",
-      "titleEn": "Coffee Cream Martinis",
-      "image": "https://img.spoonacular.com/recipes/639866-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 644387,
-      "title": "Hvidløgssauteret grønkål",
-      "titleEn": "Garlicky Kale",
-      "image": "https://img.spoonacular.com/recipes/644387-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 642660,
-      "title": "Fennikel- og appelsinsalat med ristede hasselnødder og tranebær",
-      "titleEn": "Fennel and Orange Salad With Toasted Hazelnuts and Cranberries",
-      "image": "https://img.spoonacular.com/recipes/642660-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634854,
-      "title": "Bærfrugtscrumble",
-      "titleEn": "Berry Fruit Crumble",
-      "image": "https://img.spoonacular.com/recipes/634854-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 633415,
-      "title": "Baked alaska",
-      "titleEn": "Baked Alaska",
-      "image": "https://img.spoonacular.com/recipes/633415-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 794352,
-      "title": "Cremet kartoffelsalat med cashewdressing og frisk basilikum",
-      "titleEn": "Creamy Potato Salad with Cashew Dressing and Fresh Basil",
-      "image": "https://img.spoonacular.com/recipes/794352-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 1100990,
-      "title": "Blåbær-, chokolade- og kakaosuperfood-pandekager - glutenfri/paleo/vegansk",
-      "titleEn": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
-      "image": "https://img.spoonacular.com/recipes/1100990-312x231.jpg",
-      "readyInMinutes": 30,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 646442,
-      "title": "Sund sortskhovs bagt havregrød",
-      "titleEn": "Healthy Black Forest Baked Oatmeal",
-      "image": "https://img.spoonacular.com/recipes/646442-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 639836,
-      "title": "Kokos-mandelkrusteret tilapia",
-      "titleEn": "Coconut-Almond Crusted Tilapia",
-      "image": "https://img.spoonacular.com/recipes/639836-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "fodmap friendly",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 636292,
-      "title": "Brune ris svampe pilaf",
-      "titleEn": "Brown Rice Mushroom Pilaf",
-      "image": "https://img.spoonacular.com/recipes/636292-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 661557,
-      "title": "Dampede muslinger i vin og chorizo",
-      "titleEn": "Steamed Clams In Wine and Chorizo",
-      "image": "https://img.spoonacular.com/recipes/661557-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 641958,
-      "title": "Nem auberginecurry",
-      "titleEn": "Easy Eggplant Curry",
-      "image": "https://img.spoonacular.com/recipes/641958-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 662670,
-      "title": "Bladbedewraps",
-      "titleEn": "Swiss Chard Wraps",
-      "image": "https://img.spoonacular.com/recipes/662670-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 638939,
-      "title": "Chokoladechip-pandekager - glutenfri, nøddefri, vegansk",
-      "titleEn": "Chocolate Chip Pancakes-gluten free, nut free, vegan",
-      "image": "https://img.spoonacular.com/recipes/638939-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 716290,
-      "title": "Mangosalsa",
-      "titleEn": "Mango Salsa",
-      "image": "https://img.spoonacular.com/recipes/716290-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 639851,
-      "title": "Torsk med tomat-oliven-chorizo-sauce og kartoffelmos",
-      "titleEn": "Cod with Tomato-Olive-Chorizo Sauce and Mashed Potatoes",
-      "image": "https://img.spoonacular.com/recipes/639851-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 647210,
-      "title": "Honning-dijon ristede rosenkål",
-      "titleEn": "Honey Dijon Roasted Brussels Sprout",
-      "image": "https://img.spoonacular.com/recipes/647210-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 662276,
-      "title": "Soltørrede tomater og urtebagte æg",
-      "titleEn": "Sun Dried Tomato and Herb Baked Eggs",
-      "image": "https://img.spoonacular.com/recipes/662276-312x231.jpg",
-      "readyInMinutes": 25,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "morning meal",
-        "snack",
-        "brunch",
-        "appetizer",
-        "antipasto",
-        "breakfast",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "fodmap friendly",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 640311,
-      "title": "Krabbesalat i avokadobåde",
-      "titleEn": "Crab Salad in Avocado Boats",
-      "image": "https://img.spoonacular.com/recipes/640311-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "pescatarian",
-        "ketogenic"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 659934,
-      "title": "Reje- og citrongræssuppe",
-      "titleEn": "Shrimp and Lemongrass Soup",
-      "image": "https://img.spoonacular.com/recipes/659934-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 647830,
-      "title": "Indisk linse-dahl",
-      "titleEn": "Indian Lentil Dahl",
-      "image": "https://img.spoonacular.com/recipes/647830-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 636787,
-      "title": "Caldo verde - portugisisk grønkålssuppe",
-      "titleEn": "Caldo Verde - Portuguese Kale Soup",
-      "image": "https://img.spoonacular.com/recipes/636787-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 640634,
-      "title": "Cremet karrykylling med gule ris",
-      "titleEn": "Creamy Curry Chicken With Yellow Rice",
-      "image": "https://img.spoonacular.com/recipes/640634-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 638315,
-      "title": "Kyllingepølse-, hvidebønne- og kålsuppe",
-      "titleEn": "Chicken Sausage, White Bean and Cabbage Soup",
-      "image": "https://img.spoonacular.com/recipes/638315-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 637458,
-      "title": "Charlotte kartoffelsalat",
-      "titleEn": "Charlotte Potato Salad",
-      "image": "https://img.spoonacular.com/recipes/637458-312x231.jpg",
-      "readyInMinutes": 30,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 652427,
-      "title": "Marokkansk köfte- og pølsegryde",
-      "titleEn": "Moroccan kofte and sausage stew",
-      "image": "https://img.spoonacular.com/recipes/652427-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 663824,
-      "title": "Trinidadisk kylling-kartoffelcurry",
-      "titleEn": "Trinidadian Chicken Potato Curry",
-      "image": "https://img.spoonacular.com/recipes/663824-312x231.jpg",
-      "readyInMinutes": 150,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 638488,
-      "title": "Kylling-tortillachipsuppe",
-      "titleEn": "Chicken-Tortilla Chip Soup",
-      "image": "https://img.spoonacular.com/recipes/638488-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 643061,
-      "title": "Flankesteaks med urtesalsa",
-      "titleEn": "Flank Steak with Herbed Salsa",
-      "image": "https://img.spoonacular.com/recipes/643061-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 658509,
-      "title": "Ristede broccoli med citron og hvidløg",
-      "titleEn": "Roasted Broccoli with Lemon and Garlic",
-      "image": "https://img.spoonacular.com/recipes/658509-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634434,
-      "title": "Basilikummarineret grillet kylling",
-      "titleEn": "Basil Marinated Grilled Chicken",
-      "image": "https://img.spoonacular.com/recipes/634434-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 663559,
-      "title": "Tomat- og linsesuppe",
-      "titleEn": "Tomato and lentil soup",
-      "image": "https://img.spoonacular.com/recipes/663559-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 660868,
-      "title": "Spanske kødboller i tomatsauce",
-      "titleEn": "Spanish Meatballs In Tomato Sauce",
-      "image": "https://img.spoonacular.com/recipes/660868-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "spanish",
-        "european"
-      ],
-      "diets": [
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 663858,
-      "title": "Tropiske ispinde",
-      "titleEn": "Tropical Ice Pops",
-      "image": "https://img.spoonacular.com/recipes/663858-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 658152,
-      "title": "Forfriskende jordbær-limeade",
-      "titleEn": "Refreshing Strawberry Limeade",
-      "image": "https://img.spoonacular.com/recipes/658152-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 638626,
-      "title": "Chimichurri skørtesteg med grillede asparges",
-      "titleEn": "Chimichurri Skirt Steak with Grilled Asparagus",
-      "image": "https://img.spoonacular.com/recipes/638626-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "south american",
-        "latin american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 664680,
-      "title": "Vegetarisk svampe-shepherd's pie",
-      "titleEn": "Vegetarian Mushroom Shepherd's Pie",
-      "image": "https://img.spoonacular.com/recipes/664680-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "english",
-        "british",
-        "scottish",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 648432,
-      "title": "Jambalaya-gryde",
-      "titleEn": "Jambalaya Stew",
-      "image": "https://img.spoonacular.com/recipes/648432-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "cajun",
-        "creole"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 1046982,
-      "title": "Sådan laver du de perfekte sloppy joes med søde kartofler",
-      "titleEn": "How to Make the Perfect Sweet Potato Sloppy Joes",
-      "image": "https://img.spoonacular.com/recipes/1046982-312x231.jpg",
-      "readyInMinutes": 40,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 635058,
-      "title": "Sorte bønner og peberfrugtsfyld til tacos",
-      "titleEn": "Black Bean and Peppers Taco Filling",
-      "image": "https://img.spoonacular.com/recipes/635058-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 638917,
-      "title": "Chokoladechip kokosmuffins",
-      "titleEn": "Chocolate Chip Coconut Muffins",
-      "image": "https://img.spoonacular.com/recipes/638917-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 646738,
-      "title": "Herbivoracious' hvidebønne- og grønkålssuppe",
-      "titleEn": "Herbivoracious' White Bean and Kale Soup",
-      "image": "https://img.spoonacular.com/recipes/646738-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 631757,
-      "title": "Langtidsristede krydrede tomater med ansjos",
-      "titleEn": "Savory Slow Roasted Tomatoes with Filet of Anchovy",
-      "image": "https://img.spoonacular.com/recipes/631757-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "fodmap friendly",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 633221,
-      "title": "Baby rødbede salat",
-      "titleEn": "Baby Beet Salad",
-      "image": "https://img.spoonacular.com/recipes/633221-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 652433,
-      "title": "Marokkanske citron-shish kebabs",
-      "titleEn": "Moroccan Lemon Shish Kebabs",
-      "image": "https://img.spoonacular.com/recipes/652433-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 639628,
-      "title": "Klassisk grydesteg",
-      "titleEn": "Classic Pot Roast",
-      "image": "https://img.spoonacular.com/recipes/639628-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 641057,
-      "title": "Karry butternut squash- og æblesuppe",
-      "titleEn": "Curried Butternut Squash and Apple Soup",
-      "image": "https://img.spoonacular.com/recipes/641057-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 636901,
-      "title": "Cannellinibønne-tilbehør med fennikel, rødløg og safran",
-      "titleEn": "Cannellini Bean Side Dish With Fennel, Red Onion, and Saffron",
-      "image": "https://img.spoonacular.com/recipes/636901-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 651453,
-      "title": "Middelhavstunsalat",
-      "titleEn": "Mediterrean Tuna Salad",
-      "image": "https://img.spoonacular.com/recipes/651453-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 647261,
-      "title": "Honning-nød hindbær bagt havregrød",
-      "titleEn": "Honey Nut Raspberry Baked Oatmeal",
-      "image": "https://img.spoonacular.com/recipes/647261-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 638343,
-      "title": "Kyllingegryde for sjælen",
-      "titleEn": "Chicken Stew For The Soul",
-      "image": "https://img.spoonacular.com/recipes/638343-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 664473,
-      "title": "Vegansk peanutbutter chokoladefudge",
-      "titleEn": "Vegan Peanut Butter Chocolate Fudge",
-      "image": "https://img.spoonacular.com/recipes/664473-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 645671,
-      "title": "Grillet kylling med sataysauce",
-      "titleEn": "Grilled Chicken with Sateay Sauce",
-      "image": "https://img.spoonacular.com/recipes/645671-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 656846,
-      "title": "Svinekød med blåbærsauce",
-      "titleEn": "Pork with Blueberry Sauce",
-      "image": "https://img.spoonacular.com/recipes/656846-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 1098387,
-      "title": "Quinoasalat med berberiser og nødder",
-      "titleEn": "Quinoa Salad with Barberries & Nuts",
-      "image": "https://img.spoonacular.com/recipes/1098387-312x231.jpg",
-      "readyInMinutes": 30,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 639672,
-      "title": "Avocadosalat fra kysten med druer og rejer",
-      "titleEn": "Coastal Avocado Salad with Grapes and Shrimp",
-      "image": "https://img.spoonacular.com/recipes/639672-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 651729,
-      "title": "Grillede citron-hvidløgs-artiskokker",
-      "titleEn": "Grilled Lemon Garlic Artichokes",
-      "image": "https://img.spoonacular.com/recipes/651729-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 660231,
-      "title": "Let grøntsags-stegte ris",
-      "titleEn": "Skinny Veggie Fried Rice",
-      "image": "https://img.spoonacular.com/recipes/660231-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "chinese",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 1044252,
-      "title": "Pulled oksesteg i fyldte søde kartofler (whole 30 & paleo)",
-      "titleEn": "Shredded Roast Beef Stuffed Sweet Potatoes (Whole 30 & PALEO)",
-      "image": "https://img.spoonacular.com/recipes/1044252-312x231.jpg",
-      "readyInMinutes": 490,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 644094,
-      "title": "Funghetti trifolati",
-      "titleEn": "Funghetti Trifolati",
-      "image": "https://img.spoonacular.com/recipes/644094-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 658655,
-      "title": "Salat med ristede røde peberfrugter og tomater",
-      "titleEn": "Roasted red peppers and tomatoes salad",
-      "image": "https://img.spoonacular.com/recipes/658655-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 659927,
-      "title": "Reje- og avocadosalat",
-      "titleEn": "Shrimp and Avocado Salad",
-      "image": "https://img.spoonacular.com/recipes/659927-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 640832,
-      "title": "Sprøde rabarberlommer",
-      "titleEn": "Crispy Rhubarb Pockets",
-      "image": "https://img.spoonacular.com/recipes/640832-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 643505,
-      "title": "Frisk salat med grønne bønner og tomater med cremet hvidløgsdressing",
-      "titleEn": "Fresh Green Bean and Tomato Salad with Creamy Garlic Dressing",
-      "image": "https://img.spoonacular.com/recipes/643505-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 658607,
-      "title": "Ovnbagt middelhavs-grøntsagssuppe",
-      "titleEn": "Roasted Mediterranean Vegetable Soup",
-      "image": "https://img.spoonacular.com/recipes/658607-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 645753,
-      "title": "Grillet citron-hvidløgskylling",
-      "titleEn": "Grilled Lemon Garlic Chicken",
-      "image": "https://img.spoonacular.com/recipes/645753-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "fodmap friendly",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 662363,
-      "title": "Lynhurtige krydrede sweet and sour-rejer",
-      "titleEn": "Super Speedy Spicy Sweet and Sour Shrimp",
-      "image": "https://img.spoonacular.com/recipes/662363-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 639512,
-      "title": "Citrus-rukola-salat med stegt kammusling",
-      "titleEn": "Citrus Arugula Salad with Seared Scallops",
-      "image": "https://img.spoonacular.com/recipes/639512-312x231.png",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 632299,
-      "title": "Fantastiske braiserede okseshort ribs",
-      "titleEn": "Amazing Braised Beef Short Ribs",
-      "image": "https://img.spoonacular.com/recipes/632299-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 659135,
-      "title": "Laks med ovnbagte grøntsager",
-      "titleEn": "Salmon with roasted vegetables",
-      "image": "https://img.spoonacular.com/recipes/659135-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 649049,
-      "title": "Koreansk ekstra sprød friteret kylling med sød og krydret glasur",
-      "titleEn": "Korean Extra Crispy Fried Chicken w Sweet Spicy Glaze",
-      "image": "https://img.spoonacular.com/recipes/649049-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "southern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 661066,
-      "title": "Krydret korianderpesto",
-      "titleEn": "Spicy Cilantro Pesto",
-      "image": "https://img.spoonacular.com/recipes/661066-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "condiment",
-        "dip",
-        "sauce",
-        "spread"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634992,
-      "title": "Bings mangosalsa",
-      "titleEn": "Bing's Mango Salsa",
-      "image": "https://img.spoonacular.com/recipes/634992-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 658418,
-      "title": "Stegt kylling med æbler og rosmarin",
-      "titleEn": "Roast Chicken with Apples and Rosemary",
-      "image": "https://img.spoonacular.com/recipes/658418-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 660146,
-      "title": "Enkel squashsalat",
-      "titleEn": "Simple Squash Salad",
-      "image": "https://img.spoonacular.com/recipes/660146-312x231.jpg",
-      "readyInMinutes": 180,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 640844,
-      "title": "Sprøde tigerrejer med honning- og hvidløgssauce",
-      "titleEn": "Crispy Tiger Prawns With Honey and Garlic Sauce",
-      "image": "https://img.spoonacular.com/recipes/640844-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 652834,
-      "title": "Min kylling korma",
-      "titleEn": "My Chicken Korma",
-      "image": "https://img.spoonacular.com/recipes/652834-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 660395,
-      "title": "Røget regnbue-chili",
-      "titleEn": "Smokey Rainbow Chili",
-      "image": "https://img.spoonacular.com/recipes/660395-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 640349,
-      "title": "Spareribs med tranebær og appelsinjuice",
-      "titleEn": "Cranberry and Orange Juice Spareribs",
-      "image": "https://img.spoonacular.com/recipes/640349-312x231.jpg",
-      "readyInMinutes": 210,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "ketogenic"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 638642,
-      "title": "Kinesisk kyllingsalat med chipotle-dressing",
-      "titleEn": "Chinese Chicken Salad With Chipotle Dressing",
-      "image": "https://img.spoonacular.com/recipes/638642-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "chinese",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 652332,
-      "title": "Klostersuppe",
-      "titleEn": "Monastery soup",
-      "image": "https://img.spoonacular.com/recipes/652332-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 651977,
-      "title": "Mini fyldte mexicanske peberfrugter",
-      "titleEn": "Mini Stuffed Mexican Bell Peppers",
-      "image": "https://img.spoonacular.com/recipes/651977-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 986003,
-      "title": "Instant pot kyllingtacos",
-      "titleEn": "Instant Pot Chicken Tacos",
-      "image": "https://img.spoonacular.com/recipes/986003-312x231.jpg",
-      "readyInMinutes": 25,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 665620,
-      "title": "Zabaglione med ristede blommer",
-      "titleEn": "Zabaglione with Roasted Plums",
-      "image": "https://img.spoonacular.com/recipes/665620-312x231.jpg",
-      "readyInMinutes": 20,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 636118,
-      "title": "Saltlagebehandlet kyllingebryst med sauteret løg-dipsauce",
-      "titleEn": "Brined Chicken Breast with Sautéed Onion Dipping Sauce",
-      "image": "https://img.spoonacular.com/recipes/636118-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 639850,
-      "title": "Torsk med tomater, oliven og polenta",
-      "titleEn": "Cod with tomatoes, olives and polenta",
-      "image": "https://img.spoonacular.com/recipes/639850-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 1050445,
-      "title": "Sådan laver du den bedste grydesteg i slow cooker",
-      "titleEn": "How to Make the Best Crock Pot Roast",
-      "image": "https://img.spoonacular.com/recipes/1050445-312x231.jpg",
-      "readyInMinutes": 490,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 659929,
-      "title": "Reje- og agurke-salatblade-wraps med frisk dild",
-      "titleEn": "Shrimp and Cucumber Lettuce Wraps With Fresh Dill",
-      "image": "https://img.spoonacular.com/recipes/659929-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 639891,
-      "title": "Kaffebraiserede short ribs",
-      "titleEn": "Coffee-braised Short Ribs",
-      "image": "https://img.spoonacular.com/recipes/639891-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 664501,
-      "title": "Veganske taco-skåle med koriander-lime blomkålsris",
-      "titleEn": "Vegan Taco bowls with Cilantro Lime Cauliflower Rice",
-      "image": "https://img.spoonacular.com/recipes/664501-312x231.jpg",
-      "readyInMinutes": 180,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 655668,
-      "title": "Pebermynte-brookie-tærter – glutenfri, mælkefri",
-      "titleEn": "Peppermint Brookie Pies - gluten free, dairy free",
-      "image": "https://img.spoonacular.com/recipes/655668-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 663313,
-      "title": "Pearhattan-cocktail",
-      "titleEn": "The Pearhattan Cocktail",
-      "image": "https://img.spoonacular.com/recipes/663313-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 1098357,
-      "title": "Frozen piña colada med tre ingredienser",
-      "titleEn": "Three Ingredient Frozen Pina Colada",
-      "image": "https://img.spoonacular.com/recipes/1098357-312x231.jpg",
-      "readyInMinutes": 5,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634545,
-      "title": "Hawaiianske bønner",
-      "titleEn": "Beans Hawaiian",
-      "image": "https://img.spoonacular.com/recipes/634545-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 633171,
-      "title": "Avocado-mango-salat med grillede rejer",
-      "titleEn": "Avocado-Mango Salad With Grilled Shrimp",
-      "image": "https://img.spoonacular.com/recipes/633171-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 660322,
-      "title": "Smadrede stegte citronkartofler",
-      "titleEn": "Smashed Fried Lemon Potatoes",
-      "image": "https://img.spoonacular.com/recipes/660322-312x231.png",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 665734,
-      "title": "Squash-kylling-omelet",
-      "titleEn": "Zucchini Chicken Omelette",
-      "image": "https://img.spoonacular.com/recipes/665734-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "morning meal",
-        "brunch",
-        "main dish",
-        "breakfast",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 659674,
-      "title": "Stegt svinekotelet med mangosalsa",
-      "titleEn": "Seared Pork Chops with Mango Salsa",
-      "image": "https://img.spoonacular.com/recipes/659674-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 664054,
-      "title": "Kalkunpølse, bladbede og sød kartoffel morgenmads-scramble",
-      "titleEn": "Turkey Sausage, Chard & Sweet Potato Breakfast Scramble",
-      "image": "https://img.spoonacular.com/recipes/664054-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 644570,
-      "title": "Ingefærsmåkager – glutenfri, sojafri, veganske",
-      "titleEn": "Ginger Cookies- gluten free, soy free, vegan",
-      "image": "https://img.spoonacular.com/recipes/644570-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 651823,
-      "title": "Mellemøstlig hakket salat",
-      "titleEn": "Middle Eastern Chopped Salad",
-      "image": "https://img.spoonacular.com/recipes/651823-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "middle eastern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 660402,
-      "title": "Røgede bagte bønner",
-      "titleEn": "Smoky Baked Beans",
-      "image": "https://img.spoonacular.com/recipes/660402-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 636324,
-      "title": "Browniekage – glutenfri, mælkefri",
-      "titleEn": "Brownie Cake gluten free, dairy free",
-      "image": "https://img.spoonacular.com/recipes/636324-312x231.jpeg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 1066893,
-      "title": "Sådan laver du den bedste chili",
-      "titleEn": "How to Make the Best Chili",
-      "image": "https://img.spoonacular.com/recipes/1066893-312x231.jpg",
-      "readyInMinutes": 130,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 636602,
-      "title": "Butternut-squashsuppe (på en halv time!)",
-      "titleEn": "Butternut Squash Soup (In Half An Hour!)",
-      "image": "https://img.spoonacular.com/recipes/636602-312x231.jpg",
-      "readyInMinutes": 30,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 637336,
-      "title": "Cederrøget aspargessuppe",
-      "titleEn": "Cedar Smoked Asparagus Soup",
-      "image": "https://img.spoonacular.com/recipes/637336-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 634431,
-      "title": "Basilikum-lime hvide bønne-hummus",
-      "titleEn": "Basil Lime White Bean Hummus",
-      "image": "https://img.spoonacular.com/recipes/634431-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "middle eastern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 658680,
-      "title": "Salat med ovnbagte søde kartofler",
-      "titleEn": "Roasted Sweet Potato Salad",
-      "image": "https://img.spoonacular.com/recipes/658680-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 641907,
-      "title": "Nemme kyllingevinger",
-      "titleEn": "Easy Chicken Wings",
-      "image": "https://img.spoonacular.com/recipes/641907-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "antipasti",
-        "main course",
-        "starter",
-        "snack",
-        "appetizer",
-        "main dish",
-        "antipasto",
         "dinner",
-        "hor d'oeuvre"
+        "main course"
       ],
       "cuisines": [
-        "american"
+        "danish"
       ],
       "diets": [
         "gluten free",
         "dairy free"
       ],
-      "protein": "chicken"
-    },
-    {
-      "id": 660405,
-      "title": "Røget sortbønnesuppe med sød kartoffel og grønkål",
-      "titleEn": "Smoky Black Bean Soup With Sweet Potato & Kale",
-      "image": "https://img.spoonacular.com/recipes/660405-312x231.jpg",
-      "readyInMinutes": 630,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 640625,
-      "title": "Cremet chokoladepudding med pisket kokoscreme",
-      "titleEn": "Creamy Chocolate Pudding With Coconut Whipped Cream",
-      "image": "https://img.spoonacular.com/recipes/640625-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 662997,
-      "title": "Tequila-lime-rejer",
-      "titleEn": "Tequila Lime Shrimp",
-      "image": "https://img.spoonacular.com/recipes/662997-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 653162,
-      "title": "Ubesværet søndags-slow cooker balsamico-grydesteg",
-      "titleEn": "No Fuss Sunday Slow-Cooker Balsamic Pot Roast",
-      "image": "https://img.spoonacular.com/recipes/653162-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
       "protein": "meat"
     },
     {
-      "id": 633668,
-      "title": "Ovnbagte citron-lime kyllingevinger",
-      "titleEn": "Baked Lemon~Lime Chicken Wings",
-      "image": "https://img.spoonacular.com/recipes/633668-312x231.jpg",
-      "readyInMinutes": 45,
+      "id": 10004,
+      "title": "Flæskesteg med rødkål og brunede kartofler",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
+      "readyInMinutes": 120,
+      "servings": 6,
       "dishTypes": [
-        "lunch",
-        "antipasti",
-        "main course",
-        "starter",
-        "snack",
-        "appetizer",
-        "main dish",
-        "antipasto",
         "dinner",
-        "hor d'oeuvre"
+        "main course"
       ],
       "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 640104,
-      "title": "Majssalsa",
-      "titleEn": "Corn Salsa",
-      "image": "https://img.spoonacular.com/recipes/640104-312x231.jpg",
-      "readyInMinutes": 20,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 651034,
-      "title": "Marineret flat iron-bøf",
-      "titleEn": "Marinated Flat Iron Steak",
-      "image": "https://img.spoonacular.com/recipes/651034-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 631912,
-      "title": "En post-thanksgiving \"sopa de tortilla\"",
-      "titleEn": "A Post Thanksgiving “sopa De Tortilla”",
-      "image": "https://img.spoonacular.com/recipes/631912-312x231.jpg",
-      "readyInMinutes": 150,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "south american",
-        "latin american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 634548,
-      "title": "Bønner med røget svineskank",
-      "titleEn": "Beans With Smoked Pork Hock",
-      "image": "https://img.spoonacular.com/recipes/634548-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 654056,
-      "title": "Økologisk fersken-, agurke- og gylden tomat-gazpacho",
-      "titleEn": "Organic Peach, Cucumber & Golden Tomato Gazpacho",
-      "image": "https://img.spoonacular.com/recipes/654056-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 649062,
-      "title": "Koreansk perillapesto",
-      "titleEn": "Korean Perilla Pesto",
-      "image": "https://img.spoonacular.com/recipes/649062-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "condiment",
-        "dip",
-        "sauce",
-        "spread"
-      ],
-      "cuisines": [
-        "korean",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 658129,
-      "title": "Rød, hvid og blå frugtsalsa",
-      "titleEn": "Red, White, and Blue Fruit Salsa",
-      "image": "https://img.spoonacular.com/recipes/658129-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 632269,
-      "title": "Amaranth- og ovnbagt grøntsagssalat",
-      "titleEn": "Amaranth and Roast Veggie Salad",
-      "image": "https://img.spoonacular.com/recipes/632269-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 633166,
-      "title": "Avocado-, majs-, tomat- og tortillasuppe",
-      "titleEn": "Avocado, Corn, Tomato and Tortilla Soup",
-      "image": "https://img.spoonacular.com/recipes/633166-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 635263,
-      "title": "Cajun-sværtet kylling",
-      "titleEn": "Blackened Cajun Chicken",
-      "image": "https://img.spoonacular.com/recipes/635263-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "cajun",
-        "creole"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 658287,
-      "title": "Risfyldte peberfrugter (zeytinyağlı biber dolması)",
-      "titleEn": "Rice Stuffed Bell Peppers (Zeytinyagli Biber Dolmasi)",
-      "image": "https://img.spoonacular.com/recipes/658287-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634106,
-      "title": "Banan i farin-is",
-      "titleEn": "Banana in brown sugar ice cream",
-      "image": "https://img.spoonacular.com/recipes/634106-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634710,
-      "title": "Okseteriyaki wok",
-      "titleEn": "Beef Teriyaki Stir Fry",
-      "image": "https://img.spoonacular.com/recipes/634710-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "asian",
-        "japanese"
+        "danish"
       ],
       "diets": [
         "gluten free",
@@ -4659,1356 +77,243 @@
       "protein": "meat"
     },
     {
-      "id": 632574,
-      "title": "Æble-kakisauce",
-      "titleEn": "Apple Persimmon Sauce",
-      "image": "https://img.spoonacular.com/recipes/632574-312x231.jpg",
-      "readyInMinutes": 45,
+      "id": 10005,
+      "title": "Boller i karry med ris",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
+      "readyInMinutes": 50,
+      "servings": 4,
       "dishTypes": [
-        "sauce"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 633212,
-      "title": "Baba ghanoush (egyptisk ret)",
-      "titleEn": "Baba Gonoush (Egyptian Dish)",
-      "image": "https://img.spoonacular.com/recipes/633212-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 637162,
-      "title": "Gulerod- og hvidkålssalat med koriander- og spidskommen-tørrub",
-      "titleEn": "Carrot and Cabbage Salad With Coriander+cumin Dry Rub",
-      "image": "https://img.spoonacular.com/recipes/637162-312x231.jpg",
-      "readyInMinutes": 25,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "fodmap friendly",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 659143,
-      "title": "Lakse-, brøndkarse-, fennikel- og babyrødbede-salat med citrondressing med \"kaviar\"",
-      "titleEn": "Salmon, Watercress, Fennel and Baby Beetroot Salad With Lemony \"Caviar\" Dressing",
-      "image": "https://img.spoonacular.com/recipes/659143-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 657686,
-      "title": "Quinoa-tabbouleh-salat",
-      "titleEn": "Quinoa Tabbouleh Salad",
-      "image": "https://img.spoonacular.com/recipes/657686-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "middle eastern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 631843,
-      "title": "17-bønners hvid kyllingechili",
-      "titleEn": "17 Bean White Chicken Chili",
-      "image": "https://img.spoonacular.com/recipes/631843-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 663950,
-      "title": "Tunfyldte hårdkogte æg",
-      "titleEn": "Tuna Stuffed Hard-Boiled Eggs",
-      "image": "https://img.spoonacular.com/recipes/663950-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 632199,
-      "title": "Mandeltærte med fløde og kirsebær",
-      "titleEn": "Almond Torte With Cream & Cherries",
-      "image": "https://img.spoonacular.com/recipes/632199-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 655419,
-      "title": "Pære dauphine-cocktail",
-      "titleEn": "Pear Dauphine’ Cocktail",
-      "image": "https://img.spoonacular.com/recipes/655419-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 654474,
-      "title": "Stegte kammuslinger på panden",
-      "titleEn": "Pan-Seared Scallops",
-      "image": "https://img.spoonacular.com/recipes/654474-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 661117,
-      "title": "Krydret koreansk bbq-svinekød",
-      "titleEn": "Spicy Korean Bbq Pork",
-      "image": "https://img.spoonacular.com/recipes/661117-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "korean",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 645032,
-      "title": "Guldlok-chiafrø-grød",
-      "titleEn": "Goldilocks Chia Seed Porridge",
-      "image": "https://img.spoonacular.com/recipes/645032-312x231.jpg",
-      "readyInMinutes": 15,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 659237,
-      "title": "San francisco cioppino",
-      "titleEn": "San Francisco Cioppino",
-      "image": "https://img.spoonacular.com/recipes/659237-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 661544,
-      "title": "Dampede artiskokker med roasted rød peber-aioli",
-      "titleEn": "Steamed Artichokes With Roasted Red Pepper Aioli",
-      "image": "https://img.spoonacular.com/recipes/661544-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 633126,
-      "title": "Avocado- og appelsinsalat med appelsin-ingefær-dressing",
-      "titleEn": "Avocado and Orange Salad With Orange-Ginger Dressing",
-      "image": "https://img.spoonacular.com/recipes/633126-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 642169,
-      "title": "Edamame-hummus",
-      "titleEn": "Edamame Hummus",
-      "image": "https://img.spoonacular.com/recipes/642169-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "middle eastern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 641122,
-      "title": "Karryblade-kartoffelchips",
-      "titleEn": "Curry Leaves Potato Chips",
-      "image": "https://img.spoonacular.com/recipes/641122-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 664997,
-      "title": "Vand-cado-salat",
-      "titleEn": "Water-Cado Salad",
-      "image": "https://img.spoonacular.com/recipes/664997-312x231.png",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 1099404,
-      "title": "Stegte kartoffelbåde på panden",
-      "titleEn": "Pan Fried Potato Wedges",
-      "image": "https://img.spoonacular.com/recipes/1099404-312x231.jpg",
-      "readyInMinutes": 20,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 650789,
-      "title": "Mango-guacamole",
-      "titleEn": "Mango Guacamole",
-      "image": "https://img.spoonacular.com/recipes/650789-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 634389,
-      "title": "Basisk hummus",
-      "titleEn": "Basic Hummus",
-      "image": "https://img.spoonacular.com/recipes/634389-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [
-        "middle eastern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 635215,
-      "title": "Brombær-honning-cocktail",
-      "titleEn": "Blackberry Honey Cocktail",
-      "image": "https://img.spoonacular.com/recipes/635215-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 647875,
-      "title": "Indisk-inspireret dild- og gurkemeje-kartoffelsalat",
-      "titleEn": "Indian-Style Dill and Turmeric Potato Salad",
-      "image": "https://img.spoonacular.com/recipes/647875-312x231.jpg",
-      "readyInMinutes": 30,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 635795,
-      "title": "Braiserede bønneostemasser",
-      "titleEn": "Braised Bean Curds",
-      "image": "https://img.spoonacular.com/recipes/635795-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 634715,
-      "title": "Oksekød med appelsiner og krydderier",
-      "titleEn": "Beef With Oranges and Spices",
-      "image": "https://img.spoonacular.com/recipes/634715-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 644901,
-      "title": "Glutenfri rabarber-, citron- og mandelkage",
-      "titleEn": "Gluten-Free Rhubarb, Lemon and Almond Cake",
-      "image": "https://img.spoonacular.com/recipes/644901-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 655771,
-      "title": "Persisk rabarbergryde (khoresh rivas)",
-      "titleEn": "Persian Rhubarb Stew (Khoresh Rivas)",
-      "image": "https://img.spoonacular.com/recipes/655771-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 633088,
-      "title": "Autentisk jamaicansk karrykylling",
-      "titleEn": "Authentic Jamaican Curry Chicken",
-      "image": "https://img.spoonacular.com/recipes/633088-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 648910,
-      "title": "Kimchi",
-      "titleEn": "Kimchi",
-      "image": "https://img.spoonacular.com/recipes/648910-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "korean",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 636228,
-      "title": "Broccoli-tartar",
-      "titleEn": "Broccoli Tartar",
-      "image": "https://img.spoonacular.com/recipes/636228-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 665379,
-      "title": "Vinter-kimchi",
-      "titleEn": "Winter Kimchi",
-      "image": "https://img.spoonacular.com/recipes/665379-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "korean",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 638533,
-      "title": "Chile undergrounds texas-kaviar",
-      "titleEn": "Chile Underground's Texas Caviar",
-      "image": "https://img.spoonacular.com/recipes/638533-312x231.jpg",
-      "readyInMinutes": 180,
-      "dishTypes": [
-        "antipasti",
-        "condiment",
-        "starter",
-        "snack",
-        "appetizer",
-        "dip",
-        "antipasto",
-        "hor d'oeuvre",
-        "spread"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 647698,
-      "title": "Jeg kan lide mine ærter med pancetta",
-      "titleEn": "I Like My Peas with Pancetta",
-      "image": "https://img.spoonacular.com/recipes/647698-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 633101,
-      "title": "Efterårs-græskarkage",
-      "titleEn": "Autumn Pumpkin Cake",
-      "image": "https://img.spoonacular.com/recipes/633101-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 644554,
-      "title": "Ingefær-oksekød i wok",
-      "titleEn": "Ginger Beef Stir Fry",
-      "image": "https://img.spoonacular.com/recipes/644554-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 632021,
-      "title": "Ahi tun-ceviche",
-      "titleEn": "Ahi Tuna Ceviche",
-      "image": "https://img.spoonacular.com/recipes/632021-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "south american",
-        "latin american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 660680,
-      "title": "South carolina-stil pulled pork",
-      "titleEn": "South Carolina Style Pulled Pork",
-      "image": "https://img.spoonacular.com/recipes/660680-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 658536,
-      "title": "Ristet blomkåls- og porresuppe",
-      "titleEn": "Roasted Cauliflower and Leek Soup",
-      "image": "https://img.spoonacular.com/recipes/658536-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 646043,
-      "title": "Gujarati tør mungbønne-karry",
-      "titleEn": "Gujarati Dry Mung Bean Curry",
-      "image": "https://img.spoonacular.com/recipes/646043-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "indian",
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 639306,
-      "title": "Simpel pocheret æg-middag",
-      "titleEn": "Simple Poached Egg Dinner",
-      "image": "https://img.spoonacular.com/recipes/639306-312x231.jpg",
-      "readyInMinutes": 20,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 651585,
-      "title": "Mexicanske kyllingesalatblade-wraps",
-      "titleEn": "Mexican Chicken Lettuce Wraps",
-      "image": "https://img.spoonacular.com/recipes/651585-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "antipasti",
-        "main course",
-        "starter",
-        "snack",
-        "appetizer",
-        "main dish",
-        "antipasto",
         "dinner",
-        "hor d'oeuvre"
+        "main course"
       ],
       "cuisines": [
-        "mexican"
+        "danish"
       ],
       "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 637210,
-      "title": "Gulerod-havre-muffins",
-      "titleEn": "Carrot Oat Muffins",
-      "image": "https://img.spoonacular.com/recipes/637210-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 647631,
-      "title": "Hummus-suppe",
-      "titleEn": "Hummus Soup",
-      "image": "https://img.spoonacular.com/recipes/647631-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "middle eastern"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 657000,
-      "title": "Kartoffelsuppe med peberfrugter og oliven",
-      "titleEn": "Potato Soup With Peppers and Olives",
-      "image": "https://img.spoonacular.com/recipes/657000-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 635820,
-      "title": "Braiseret kylling med artiskokhjerter og oliven",
-      "titleEn": "Braised Chicken with Artichoke Hearts & Olives",
-      "image": "https://img.spoonacular.com/recipes/635820-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 647551,
-      "title": "Varme honningkartoffelstænger",
-      "titleEn": "Hot ‘n’ honey potato sticks",
-      "image": "https://img.spoonacular.com/recipes/647551-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 664110,
-      "title": "Gurkemeje-ingefærøl",
-      "titleEn": "Turmeric Ginger Beer",
-      "image": "https://img.spoonacular.com/recipes/664110-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 661240,
-      "title": "Sprittet vandmelon-lemonade",
-      "titleEn": "Spiked Watermelon lemonade",
-      "image": "https://img.spoonacular.com/recipes/661240-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 665352,
-      "title": "Wildwood ovens bourbon-æbleglaseret cedertræsplanke-laks",
-      "titleEn": "Wildwood Ovens Bourbon Apple Glazed Cedar Plank Salmon",
-      "image": "https://img.spoonacular.com/recipes/665352-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 642085,
-      "title": "Nemme ristede grøntsager",
-      "titleEn": "Easy Roasted Vegetables",
-      "image": "https://img.spoonacular.com/recipes/642085-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 639433,
-      "title": "Kanel- og sukkerristede kikærter",
-      "titleEn": "Cinnamon & Sugar Roasted Chickpeas",
-      "image": "https://img.spoonacular.com/recipes/639433-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 658674,
-      "title": "Ristet jordskokke-, æble- og løgsuppe",
-      "titleEn": "Roasted Sunchoke, Apple, and Onion Soup",
-      "image": "https://img.spoonacular.com/recipes/658674-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 663545,
-      "title": "Tomatillo-kalkunechili",
-      "titleEn": "Tomatillo Turkey Chili",
-      "image": "https://img.spoonacular.com/recipes/663545-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "american"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 642610,
-      "title": "Frisk fra gården grøntsagsgryde",
-      "titleEn": "Farm Fresh Vegetable Stew",
-      "image": "https://img.spoonacular.com/recipes/642610-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 660284,
-      "title": "Slow cooker kylling-mole",
-      "titleEn": "Slow Cooker Chicken Mole",
-      "image": "https://img.spoonacular.com/recipes/660284-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 649944,
-      "title": "Linse-mangosalat",
-      "titleEn": "Lentil Mango Salad",
-      "image": "https://img.spoonacular.com/recipes/649944-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 663845,
-      "title": "Tropisk banan-grøn smoothie",
-      "titleEn": "TROPICAL BANANA GREEN SMOOTHIE",
-      "image": "https://img.spoonacular.com/recipes/663845-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "brunch",
-        "beverage",
-        "breakfast",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 982382,
-      "title": "Instant pot kyllingetaco-suppe",
-      "titleEn": "Instant Pot Chicken Taco Soup",
-      "image": "https://img.spoonacular.com/recipes/982382-312x231.jpg",
-      "readyInMinutes": 25,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mexican"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 642346,
-      "title": "Egyptisk blomkålstilbehørssalat",
-      "titleEn": "Egyptain Cauliflower Side Salad",
-      "image": "https://img.spoonacular.com/recipes/642346-312x231.jpg",
-      "readyInMinutes": 25,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 641066,
-      "title": "Karry-kyllingerulader",
-      "titleEn": "Curried Chicken Roll-Ups",
-      "image": "https://img.spoonacular.com/recipes/641066-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 636301,
-      "title": "Brunt sukker- og balsamicoglaseret svinemørbrad",
-      "titleEn": "Brown Sugar and Balsamic Glazed Pork Loin",
-      "image": "https://img.spoonacular.com/recipes/636301-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free"
+        "gluten free"
       ],
       "protein": "meat"
     },
     {
-      "id": 637883,
-      "title": "Kylling adobo og kokos-ingefærris",
-      "titleEn": "Chicken Adobo & Coconut Ginger Rice",
-      "image": "https://img.spoonacular.com/recipes/637883-312x231.jpg",
+      "id": 10006,
+      "title": "Gule ærter med røget pølse",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
       "readyInMinutes": 90,
+      "servings": 6,
       "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
+        "dinner",
+        "main course"
       ],
-      "cuisines": [],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 10007,
+      "title": "Biksemad med røræg",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 10008,
+      "title": "Oksehalesuppe med rodfrugter",
+      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
+      "readyInMinutes": 180,
+      "servings": 6,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 10009,
+      "title": "Kogt torsk med sennepssovs og kartofler",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10010,
+      "title": "Marineret laks med agurkesalat",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10011,
+      "title": "Glutenfri bananbrød med valnødder",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 65,
+      "servings": 8,
+      "dishTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10012,
+      "title": "Mandelkage med citron og vanilje",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 50,
+      "servings": 8,
+      "dishTypes": [
+        "dessert",
+        "snack"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10013,
+      "title": "Glutenfrie chokoladebrownie",
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 12,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10014,
+      "title": "Kokosmakroner med mørk chokolade",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 20,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10015,
+      "title": "Nøddebrød med frø",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 75,
+      "servings": 10,
+      "dishTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10016,
+      "title": "Bœuf Bourguignon",
+      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
+      "readyInMinutes": 180,
+      "servings": 6,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 10017,
+      "title": "Coq au Vin",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
+      "readyInMinutes": 90,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "french"
+      ],
       "diets": [
         "gluten free",
         "dairy free"
@@ -6016,92 +321,350 @@
       "protein": "chicken"
     },
     {
-      "id": 659109,
-      "title": "Lakse-quinoa-risotto",
-      "titleEn": "Salmon Quinoa Risotto",
-      "image": "https://img.spoonacular.com/recipes/659109-312x231.jpg",
-      "readyInMinutes": 45,
+      "id": 10018,
+      "title": "Ratatouille Provençale",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
+      "readyInMinutes": 60,
+      "servings": 4,
       "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
+        "dinner",
+        "main course"
       ],
       "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
+        "french"
       ],
       "diets": [
         "gluten free",
-        "dairy free",
-        "pescatarian"
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10019,
+      "title": "Poulet Rôti aux Herbes de Provence",
+      "image": "https://images.unsplash.com/photo-1501200291289-c5a76c232e5f?w=400&q=80",
+      "readyInMinutes": 80,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 10020,
+      "title": "Crème Brûlée med Vanilje",
+      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=400&q=80",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10021,
+      "title": "Moules Marinières med hvidvin",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
       ],
       "protein": "fish"
     },
     {
-      "id": 637099,
-      "title": "Caribisk sortbønne- og sødekartoffelsuppe",
-      "titleEn": "Caribbean black bean and sweet potato soup",
-      "image": "https://img.spoonacular.com/recipes/637099-312x231.jpg",
-      "readyInMinutes": 45,
+      "id": 10022,
+      "title": "Salade Niçoise",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
       "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "central american",
-        "caribbean"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 662968,
-      "title": "Tempererede krydrede kartofler",
-      "titleEn": "Tempered Spicy Potatoes",
-      "image": "https://img.spoonacular.com/recipes/662968-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 644826,
-      "title": "Glutenfri, mælkefri og sukkerfri kinesisk kyllingesalat",
-      "titleEn": "Gluten Free Dairy Free Sugar Free Chinese Chicken Salad",
-      "image": "https://img.spoonacular.com/recipes/644826-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
         "lunch",
-        "main course",
-        "salad",
-        "main dish",
         "dinner"
       ],
       "cuisines": [
-        "chinese",
+        "french"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10023,
+      "title": "Tarte Tatin med æbler",
+      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=400&q=80",
+      "readyInMinutes": 60,
+      "servings": 6,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10024,
+      "title": "Mousse au Chocolat",
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 6,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10025,
+      "title": "Gratin Dauphinois",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
+      "readyInMinutes": 80,
+      "servings": 6,
+      "dishTypes": [
+        "dinner",
+        "side dish"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10026,
+      "title": "Risotto ai Funghi Porcini",
+      "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10027,
+      "title": "Osso Buco med Gremolata",
+      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
+      "readyInMinutes": 120,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 10028,
+      "title": "Saltimbocca alla Romana",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 10029,
+      "title": "Pollo al Limone",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
+      "readyInMinutes": 35,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 10030,
+      "title": "Caponata Siciliana",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "dishTypes": [
+        "dinner",
+        "side dish"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10031,
+      "title": "Panna Cotta med Bær-coulis",
+      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 6,
+      "dishTypes": [
+        "dessert"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10032,
+      "title": "Minestrone med Sæsongrøntsager",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 6,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10033,
+      "title": "Frittata med Spinat og Soltørrede Tomater",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "breakfast",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10034,
+      "title": "Zuppa di Pesce",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10035,
+      "title": "Acqua Pazza – Fisk i Vand med Tomat",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10036,
+      "title": "Hurtig Kyllingewok med Grøntsager",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
         "asian"
       ],
       "diets": [
@@ -6111,19 +674,93 @@
       "protein": "chicken"
     },
     {
-      "id": 664080,
-      "title": "Kalkun-spinat-burgere med sød soja-ingefærsauce",
-      "titleEn": "Turkey-Spinach Burgers With Sweet Soy-Ginger Sauce",
-      "image": "https://img.spoonacular.com/recipes/664080-312x231.jpg",
-      "readyInMinutes": 45,
+      "id": 10037,
+      "title": "Laks med Avocado-Salsa",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 4,
       "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
+        "dinner",
+        "main course"
       ],
       "cuisines": [
-        "american"
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10038,
+      "title": "Røræg med Røget Laks og Frisk Dild",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
+      "readyInMinutes": 10,
+      "servings": 2,
+      "dishTypes": [
+        "breakfast",
+        "lunch"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10039,
+      "title": "Tomatssuppe med Frisk Basilikum",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10040,
+      "title": "Grillet Rejer med Hvidløg og Persille",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10041,
+      "title": "Blomkåls-\"Ris\" med Kylling og Gurkemeje",
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "danish"
       ],
       "diets": [
         "gluten free",
@@ -6132,211 +769,174 @@
       "protein": "chicken"
     },
     {
-      "id": 649328,
-      "title": "Lavendelte med citron-franske macarons",
-      "titleEn": "Lavender Tea With Lemon French Macarons",
-      "image": "https://img.spoonacular.com/recipes/649328-312x231.jpg",
-      "readyInMinutes": 45,
+      "id": 10042,
+      "title": "Hurtig Æg-gryderet med Tomater og Kikærter",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
       "dishTypes": [
-        "beverage",
-        "drink"
+        "dinner",
+        "breakfast"
       ],
       "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
+        "danish"
       ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 663314,
-      "title": "Den perfekte smørbønnegryde",
-      "titleEn": "The Perfect Butter Beans Stew",
-      "image": "https://img.spoonacular.com/recipes/663314-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "soup",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 662218,
-      "title": "Sommer-frugt-sangria",
-      "titleEn": "Summer Fruit Sangria",
-      "image": "https://img.spoonacular.com/recipes/662218-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 633226,
-      "title": "Baby pak choi i wok",
-      "titleEn": "Baby Bok Choy Stir Fry",
-      "image": "https://img.spoonacular.com/recipes/633226-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 648641,
-      "title": "Julia childs ratatouille",
-      "titleEn": "Julia Child's Ratatouille",
-      "image": "https://img.spoonacular.com/recipes/648641-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 650487,
-      "title": "Herlligt citronsyret linsesuppe",
-      "titleEn": "Lusciously Lemony Lentil Soup",
-      "image": "https://img.spoonacular.com/recipes/650487-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "ketogenic"
-      ],
-      "protein": "other"
-    },
-    {
-      "id": 639177,
-      "title": "Chokoladepudding - rave-diæt",
-      "titleEn": "Chocolate Pudding - Rave Diet",
-      "image": "https://img.spoonacular.com/recipes/639177-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 638772,
-      "title": "Chiquetaille: torskefiskesalat",
-      "titleEn": "Chiquetaille: Cod Fish Salad",
-      "image": "https://img.spoonacular.com/recipes/638772-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "salad",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 660884,
-      "title": "Spareribs",
-      "titleEn": "Spare Ribs",
-      "image": "https://img.spoonacular.com/recipes/660884-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [],
       "diets": [
         "gluten free",
         "dairy free"
       ],
-      "protein": "other"
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10043,
+      "title": "Kyllingesuppe med Ingefær og Citrongræs",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisines": [
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 10044,
+      "title": "Stegt Torsk med Kapers og Citronsmør",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10045,
+      "title": "Avocado-Rejesalat med Mango",
+      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "dishTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "cuisines": [
+        "danish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "fish"
+    },
+    {
+      "id": 10046,
+      "title": "Marokkansk Lammestovning med Kikærter",
+      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
+      "readyInMinutes": 90,
+      "servings": 6,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "mediterranean"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "meat"
+    },
+    {
+      "id": 10047,
+      "title": "Kylling Tikka Masala",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "indian"
+      ],
+      "diets": [
+        "gluten free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 10048,
+      "title": "Thai Rød Curry med Kylling og Grøntsager",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": [
+        "dinner",
+        "main course"
+      ],
+      "cuisines": [
+        "asian"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "chicken"
+    },
+    {
+      "id": 10049,
+      "title": "Spansk Gazpacho",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "dishTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "cuisines": [
+        "spanish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 10050,
+      "title": "Spansk Tortilla",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 6,
+      "dishTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "cuisines": [
+        "spanish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free"
+      ],
+      "protein": "vegetarian"
     }
-  ],
-  "fetchedAt": "2026-03-08T07:08:53.685Z"
+  ]
 }

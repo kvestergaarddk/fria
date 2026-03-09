@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Google Sans Flex"', '"Google Sans"', '"Nunito"', 'system-ui', 'sans-serif'],
+        sans: ['"Rethink Sans"', 'system-ui', 'sans-serif'],
       },
       colors: {
         mavro: {
