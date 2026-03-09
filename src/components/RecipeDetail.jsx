@@ -83,8 +83,8 @@ export default function RecipeDetail() {
 
       <main className="max-w-[1220px] mx-auto w-full px-4 md:px-8 pb-8">
         {/* Hero */}
-        <div className="rounded-2xl overflow-hidden mb-8" style={{ aspectRatio: '16/7' }}>
-          <img src={image} alt={title} className="w-full h-full object-cover" />
+        <div className="rounded-2xl overflow-hidden mb-8" style={{ aspectRatio: '16/7', backgroundColor: '#EEDDB6' }}>
+          <img src={image} alt={title} className="w-full h-full object-cover" style={{ mixBlendMode: 'multiply' }} />
         </div>
 
         {/* Titel + meta */}

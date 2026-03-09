@@ -24,7 +24,7 @@ export default function RecipeCard({ recipe, translatedTitle }) {
         style={{
           padding: '20px',
           aspectRatio: '1 / 1',
-          background: '#F2F2F2',
+          background: '#EEDDB6',
           borderRadius: '30px',
           overflow: 'hidden',
           position: 'relative',
@@ -42,6 +42,7 @@ export default function RecipeCard({ recipe, translatedTitle }) {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
+              mixBlendMode: 'multiply',
               transition: 'transform 0.5s ease',
             }}
             className="group-hover:scale-105"

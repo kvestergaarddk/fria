@@ -3,7 +3,7 @@
     {
       "id": 10001,
       "title": "Frikadeller med kartoffelmos og persillesovs",
-      "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=400&q=80",
+      "image": "/illustrations/frikadeller_2.jpg",
       "readyInMinutes": 45,
       "servings": 4,
       "dishTypes": [
