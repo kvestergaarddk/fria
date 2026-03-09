@@ -1,2191 +1,851 @@
 {
   "recipes": [
     {
-      "id": 10001,
-      "title": "Frikadeller med kartoffelmos og persillesovs",
-      "image": "/illustrations/frikadeller_2.jpg",
-      "readyInMinutes": 45,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 10002,
-      "title": "Stegt flæsk med persillesovs og nye kartofler",
-      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
+      "id": 20001,
+      "title": "Pasta med kødsovs",
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=400&q=80",
       "readyInMinutes": 30,
       "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["italian"],
+      "diets": ["dairy free"],
       "protein": "meat"
     },
     {
-      "id": 10003,
-      "title": "Hakkebøf med bløde løg og skysovs",
-      "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=400&q=80",
-      "readyInMinutes": 30,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 10004,
-      "title": "Flæskesteg med rødkål og brunede kartofler",
-      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
-      "readyInMinutes": 120,
-      "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 10005,
-      "title": "Boller i karry med ris",
-      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
-      "readyInMinutes": 50,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 10006,
-      "title": "Gule ærter med røget pølse",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
-      "readyInMinutes": 90,
-      "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 10007,
-      "title": "Biksemad med røræg",
-      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
+      "id": 20002,
+      "title": "Spaghetti carbonara",
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=400&q=80",
       "readyInMinutes": 25,
       "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["italian"],
+      "diets": ["dairy free"],
       "protein": "meat"
     },
     {
-      "id": 10008,
-      "title": "Oksehalesuppe med rodfrugter",
-      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
-      "readyInMinutes": 180,
-      "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "id": 20003,
+      "title": "Tacos med hakket oksekød",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["mexican"],
+      "diets": ["gluten free", "dairy free"],
       "protein": "meat"
     },
     {
-      "id": 10009,
-      "title": "Kogt torsk med sennepssovs og kartofler",
+      "id": 20004,
+      "title": "Æggekage med bacon og purløg",
+      "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20005,
+      "title": "Pandekager med fyld (salte)",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": ["dinner", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20006,
+      "title": "Fiskefrikadeller med remoulade",
       "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
       "readyInMinutes": 30,
       "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
       "protein": "fish"
     },
     {
-      "id": 10010,
-      "title": "Marineret laks med agurkesalat",
-      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400&q=80",
-      "readyInMinutes": 20,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10011,
-      "title": "Glutenfri bananbrød med valnødder",
-      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
-      "readyInMinutes": 65,
-      "servings": 8,
-      "dishTypes": [
-        "breakfast",
-        "snack"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10012,
-      "title": "Mandelkage med citron og vanilje",
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
-      "readyInMinutes": 50,
-      "servings": 8,
-      "dishTypes": [
-        "dessert",
-        "snack"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10013,
-      "title": "Glutenfrie chokoladebrownie",
-      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400&q=80",
-      "readyInMinutes": 40,
-      "servings": 12,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10014,
-      "title": "Kokosmakroner med mørk chokolade",
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "id": 20007,
+      "title": "Kyllingenuggets i ovn",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&q=80",
       "readyInMinutes": 30,
-      "servings": 20,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10015,
-      "title": "Nøddebrød med frø",
-      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
-      "readyInMinutes": 75,
-      "servings": 10,
-      "dishTypes": [
-        "breakfast",
-        "snack"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10016,
-      "title": "Bœuf Bourguignon",
-      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
-      "readyInMinutes": 180,
-      "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 10017,
-      "title": "Coq au Vin",
-      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
-      "readyInMinutes": 90,
       "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["american"],
+      "diets": ["gluten free", "dairy free"],
       "protein": "chicken"
     },
     {
-      "id": 10018,
-      "title": "Ratatouille Provençale",
-      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
-      "readyInMinutes": 60,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10019,
-      "title": "Poulet Rôti aux Herbes de Provence",
-      "image": "https://images.unsplash.com/photo-1501200291289-c5a76c232e5f?w=400&q=80",
-      "readyInMinutes": 80,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 10020,
-      "title": "Crème Brûlée med Vanilje",
-      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=400&q=80",
-      "readyInMinutes": 45,
-      "servings": 6,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10021,
-      "title": "Moules Marinières med hvidvin",
-      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&q=80",
-      "readyInMinutes": 25,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10022,
-      "title": "Salade Niçoise",
+      "id": 20008,
+      "title": "Pastasalat med tun",
       "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
       "readyInMinutes": 20,
       "servings": 4,
-      "dishTypes": [
-        "lunch",
-        "dinner"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["lunch", "salad"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
       "protein": "fish"
     },
     {
-      "id": 10023,
-      "title": "Tarte Tatin med æbler",
-      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=400&q=80",
-      "readyInMinutes": 60,
-      "servings": 6,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10024,
-      "title": "Mousse au Chocolat",
-      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400&q=80",
-      "readyInMinutes": 30,
-      "servings": 6,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10025,
-      "title": "Gratin Dauphinois",
-      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
-      "readyInMinutes": 80,
-      "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "side dish"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10026,
-      "title": "Risotto ai Funghi Porcini",
-      "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&q=80",
-      "readyInMinutes": 40,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10027,
-      "title": "Osso Buco med Gremolata",
-      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
-      "readyInMinutes": 120,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "meat"
-    },
-    {
-      "id": 10028,
-      "title": "Saltimbocca alla Romana",
-      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&q=80",
+      "id": 20009,
+      "title": "Tortillawrap med kylling",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80",
       "readyInMinutes": 20,
       "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["lunch", "dinner"],
+      "cuisines": ["mexican"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "chicken"
+    },
+    {
+      "id": 20010,
+      "title": "Omelet med skinke og ost",
+      "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 2,
+      "dishTypes": ["breakfast", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20011,
+      "title": "Lasagne",
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=400&q=80",
+      "readyInMinutes": 75,
+      "servings": 6,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["italian"],
+      "diets": ["dairy free"],
       "protein": "meat"
     },
     {
-      "id": 10029,
-      "title": "Pollo al Limone",
-      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
+      "id": 20012,
+      "title": "Hjemmelavet pizza",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=80",
+      "readyInMinutes": 60,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["italian"],
+      "diets": ["gluten free"],
+      "protein": "meat"
+    },
+    {
+      "id": 20013,
+      "title": "Ovnkylling med rodfrugter",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&q=80",
+      "readyInMinutes": 90,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "chicken"
+    },
+    {
+      "id": 20014,
+      "title": "Forloren hare med kartoffelmos",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
+      "readyInMinutes": 75,
+      "servings": 6,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
+    },
+    {
+      "id": 20015,
+      "title": "Pulled pork i ovn",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
+      "readyInMinutes": 240,
+      "servings": 8,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["american"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
+    },
+    {
+      "id": 20016,
+      "title": "Hjemmelavet burger med pommes frites",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["american"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
+    },
+    {
+      "id": 20017,
+      "title": "Stegt laks med dild og citron",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "fish"
+    },
+    {
+      "id": 20018,
+      "title": "Kylling i ovn med citron og rosmarin",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&q=80",
+      "readyInMinutes": 55,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "chicken"
+    },
+    {
+      "id": 20019,
+      "title": "Svinekoteletter med æble og timian",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
       "readyInMinutes": 35,
       "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
     },
     {
-      "id": 10030,
-      "title": "Caponata Siciliana",
-      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
-      "readyInMinutes": 45,
-      "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "side dish"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10031,
-      "title": "Panna Cotta med Bær-coulis",
-      "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=400&q=80",
-      "readyInMinutes": 20,
-      "servings": 6,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10032,
-      "title": "Minestrone med Sæsongrøntsager",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "id": 20020,
+      "title": "Medisterpølse med stuvet grønkål",
+      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
       "readyInMinutes": 40,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
+    },
+    {
+      "id": 20021,
+      "title": "Farsbrød med æg i",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80",
+      "readyInMinutes": 70,
       "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
     },
     {
-      "id": 10033,
-      "title": "Frittata med Spinat og Soltørrede Tomater",
-      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
-      "readyInMinutes": 25,
+      "id": 20022,
+      "title": "Bøf stroganoff",
+      "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
+      "readyInMinutes": 35,
       "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "breakfast",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free"
-      ],
-      "protein": "vegetarian"
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
     },
     {
-      "id": 10034,
-      "title": "Zuppa di Pesce",
-      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
-      "readyInMinutes": 45,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10035,
-      "title": "Acqua Pazza – Fisk i Vand med Tomat",
-      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
-      "readyInMinutes": 25,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10036,
-      "title": "Hurtig Kyllingewok med Grøntsager",
-      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
-      "readyInMinutes": 20,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 10037,
-      "title": "Laks med Avocado-Salsa",
-      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400&q=80",
-      "readyInMinutes": 15,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10038,
-      "title": "Røræg med Røget Laks og Frisk Dild",
-      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
-      "readyInMinutes": 10,
-      "servings": 2,
-      "dishTypes": [
-        "breakfast",
-        "lunch"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10039,
-      "title": "Tomatssuppe med Frisk Basilikum",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
-      "readyInMinutes": 25,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "lunch"
-      ],
-      "cuisines": [
-        "italian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10040,
-      "title": "Grillet Rejer med Hvidløg og Persille",
-      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&q=80",
-      "readyInMinutes": 15,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "french"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10041,
-      "title": "Blomkåls-\"Ris\" med Kylling og Gurkemeje",
-      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c3?w=400&q=80",
-      "readyInMinutes": 25,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 10042,
-      "title": "Hurtig Æg-gryderet med Tomater og Kikærter",
-      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
-      "readyInMinutes": 20,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "breakfast"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10043,
-      "title": "Kyllingesuppe med Ingefær og Citrongræs",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
-      "readyInMinutes": 30,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "lunch"
-      ],
-      "cuisines": [
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 10044,
-      "title": "Stegt Torsk med Kapers og Citronsmør",
-      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
-      "readyInMinutes": 20,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10045,
-      "title": "Avocado-Rejesalat med Mango",
-      "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&q=80",
-      "readyInMinutes": 15,
-      "servings": 4,
-      "dishTypes": [
-        "lunch",
-        "dinner"
-      ],
-      "cuisines": [
-        "danish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "fish"
-    },
-    {
-      "id": 10046,
-      "title": "Marokkansk Lammestovning med Kikærter",
+      "id": 20023,
+      "title": "Oksekødsstuvning med rodfrugter",
       "image": "https://images.unsplash.com/photo-1534939561116-0fcd5f8a2b89?w=400&q=80",
       "readyInMinutes": 90,
       "servings": 6,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "mediterranean"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
       "protein": "meat"
     },
     {
-      "id": 10047,
-      "title": "Kylling Tikka Masala",
-      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
-      "readyInMinutes": 45,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "indian"
-      ],
-      "diets": [
-        "gluten free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 10048,
-      "title": "Thai Rød Curry med Kylling og Grøntsager",
-      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80",
-      "readyInMinutes": 30,
-      "servings": 4,
-      "dishTypes": [
-        "dinner",
-        "main course"
-      ],
-      "cuisines": [
-        "asian"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken"
-    },
-    {
-      "id": 10049,
-      "title": "Spansk Gazpacho",
-      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&q=80",
-      "readyInMinutes": 15,
-      "servings": 4,
-      "dishTypes": [
-        "lunch",
-        "dinner"
-      ],
-      "cuisines": [
-        "spanish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "vegetarian"
-    },
-    {
-      "id": 10050,
-      "title": "Spansk Tortilla",
-      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80",
-      "readyInMinutes": 30,
+      "id": 20024,
+      "title": "Pulled chicken i ovn",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&q=80",
+      "readyInMinutes": 90,
       "servings": 6,
-      "dishTypes": [
-        "lunch",
-        "dinner"
-      ],
-      "cuisines": [
-        "spanish"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["american"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "chicken"
+    },
+    {
+      "id": 20025,
+      "title": "Hvidløgsrejer med pasta",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["italian"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "fish"
+    },
+    {
+      "id": 20026,
+      "title": "Tomatsuppe med brød",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": ["soup", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
       "protein": "vegetarian"
     },
     {
-      "id": 649328,
-      "title": "Lavendelte med citron franske macarons",
-      "titleEn": "Lavender Tea With Lemon French Macarons",
-      "image": "https://img.spoonacular.com/recipes/649328-312x231.jpg",
+      "id": 20027,
+      "title": "Kyllingesuppe med nudler",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 4,
+      "dishTypes": ["soup", "dinner"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "chicken"
+    },
+    {
+      "id": 20028,
+      "title": "Linsesuppe med pølse",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
       "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 61,
-        "protein": 2,
-        "fat": 2,
-        "carbs": 10,
-        "fiber": 0
-      }
+      "servings": 4,
+      "dishTypes": ["soup", "dinner"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
     },
     {
-      "id": 648641,
-      "title": "Julia Childs ratatouille",
-      "titleEn": "Julia Child's Ratatouille",
-      "image": "https://img.spoonacular.com/recipes/648641-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 199,
-        "protein": 2,
-        "fat": 17,
-        "carbs": 12,
-        "fiber": 4
-      }
-    },
-    {
-      "id": 644854,
-      "title": "Glutenfri quinoa- og majsmelcrêpes",
-      "titleEn": "Gluten Free Quinoa and Corn Flour Crepes",
-      "image": "https://img.spoonacular.com/recipes/644854-312x231.jpg",
-      "readyInMinutes": 60,
-      "dishTypes": [
-        "morning meal",
-        "dessert",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 423,
-        "protein": 4,
-        "fat": 17,
-        "carbs": 66,
-        "fiber": 3
-      }
-    },
-    {
-      "id": 664689,
-      "title": "Vegetarisk ratatouille",
-      "titleEn": "Vegetarian Ratatouille",
-      "image": "https://img.spoonacular.com/recipes/664689-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 96,
-        "protein": 3,
-        "fat": 5,
-        "carbs": 12,
-        "fiber": 4
-      }
-    },
-    {
-      "id": 636392,
-      "title": "Boghvedecrêpes",
-      "titleEn": "Buckwheat Crepes",
-      "image": "https://img.spoonacular.com/recipes/636392-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "morning meal",
-        "dessert",
-        "brunch",
-        "breakfast"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 374,
-        "protein": 13,
-        "fat": 14,
-        "carbs": 55,
-        "fiber": 6
-      }
-    },
-    {
-      "id": 1956374,
-      "title": "French 75",
-      "titleEn": "French 75",
-      "image": "https://img.spoonacular.com/recipes/1956374-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 265,
-        "protein": 1,
-        "fat": 0,
-        "carbs": 30,
-        "fiber": 3
-      }
-    },
-    {
-      "id": 653098,
-      "title": "Niçoise-salat",
-      "titleEn": "Niçoise Salad",
-      "image": "https://img.spoonacular.com/recipes/653098-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "salad",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "french",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish",
-      "nutrition": {
-        "calories": 300,
-        "protein": 8,
-        "fat": 18,
-        "carbs": 28,
-        "fiber": 5
-      }
-    },
-    {
-      "id": 715769,
-      "title": "Broccolini quinoa pilaf",
-      "titleEn": "Broccolini Quinoa Pilaf",
-      "image": "https://img.spoonacular.com/recipes/715769-312x231.jpg",
+      "id": 20029,
+      "title": "Broccolisuppe med cheddar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
       "readyInMinutes": 30,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 625,
-        "protein": 20,
-        "fat": 31,
-        "carbs": 72,
-        "fiber": 10
-      }
+      "servings": 4,
+      "dishTypes": ["soup", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "vegetarian"
     },
     {
-      "id": 648176,
-      "title": "Italiensk farsbrød med hårdkogte æg",
-      "titleEn": "Italian Meatloaf with Hard Boiled Eggs",
-      "image": "https://img.spoonacular.com/recipes/648176-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "dairy free"
-      ],
-      "protein": "meat",
-      "nutrition": {
-        "calories": 780,
-        "protein": 45,
-        "fat": 54,
-        "carbs": 20,
-        "fiber": 2
-      }
-    },
-    {
-      "id": 659109,
-      "title": "Lakse-quinoa-risotto",
-      "titleEn": "Salmon Quinoa Risotto",
-      "image": "https://img.spoonacular.com/recipes/659109-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish",
-      "nutrition": {
-        "calories": 405,
-        "protein": 22,
-        "fat": 18,
-        "carbs": 39,
-        "fiber": 6
-      }
-    },
-    {
-      "id": 661757,
-      "title": "Jordbær-basilikum italiensk is",
-      "titleEn": "Strawberry Basil Italian Ice",
-      "image": "https://img.spoonacular.com/recipes/661757-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 249,
-        "protein": 1,
-        "fat": 0,
-        "carbs": 67,
-        "fiber": 1
-      }
-    },
-    {
-      "id": 644830,
-      "title": "Glutenfri focaccia",
-      "titleEn": "Gluten free focaccia",
-      "image": "https://img.spoonacular.com/recipes/644830-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 341,
-        "protein": 6,
-        "fat": 11,
-        "carbs": 55,
-        "fiber": 5
-      }
-    },
-    {
-      "id": 648238,
-      "title": "Italiensk pølse- og grøntsagssuppe",
-      "titleEn": "Italian Sausage and Vegetable Soup",
-      "image": "https://img.spoonacular.com/recipes/648238-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "chicken",
-      "nutrition": {
-        "calories": 471,
-        "protein": 23,
-        "fat": 28,
-        "carbs": 33,
-        "fiber": 7
-      }
-    },
-    {
-      "id": 1095746,
-      "title": "Citron- og edamamerisotto med pekannødder",
-      "titleEn": "Lemon and Edamame Risotto with Pecans",
-      "image": "https://img.spoonacular.com/recipes/1095746-312x231.jpg",
-      "readyInMinutes": 50,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 366,
-        "protein": 8,
-        "fat": 14,
-        "carbs": 53,
-        "fiber": 5
-      }
-    },
-    {
-      "id": 1095809,
-      "title": "Cremet italiensk dressing",
-      "titleEn": "Creamy Italian Dressing",
-      "image": "https://img.spoonacular.com/recipes/1095809-312x231.jpg",
-      "readyInMinutes": 5,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 34,
-        "protein": 0,
-        "fat": 3,
-        "carbs": 1,
-        "fiber": null
-      }
-    },
-    {
-      "id": 1095817,
-      "title": "Superfood-blanding",
-      "titleEn": "Super Food Trail Mix",
-      "image": "https://img.spoonacular.com/recipes/1095817-312x231.jpg",
-      "readyInMinutes": 5,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 231,
-        "protein": 6,
-        "fat": 16,
-        "carbs": 17,
-        "fiber": 4
-      }
-    },
-    {
-      "id": 658512,
-      "title": "Ristede broccoli",
-      "titleEn": "Roasted Broccoli",
-      "image": "https://img.spoonacular.com/recipes/658512-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 140,
-        "protein": 1,
-        "fat": 14,
-        "carbs": 3,
-        "fiber": 1
-      }
-    },
-    {
-      "id": 1096165,
-      "title": "Salvie gimlet",
-      "titleEn": "Sage Gimlet",
-      "image": "https://img.spoonacular.com/recipes/1096165-312x231.jpg",
-      "readyInMinutes": 5,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "fodmap friendly"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 245,
-        "protein": 0,
-        "fat": 0,
-        "carbs": 21,
-        "fiber": null
-      }
-    },
-    {
-      "id": 636364,
-      "title": "Rosenkål med lardons, kirsebær og valnødder",
-      "titleEn": "Brussels Sprouts Lardons With Cherries and Walnuts",
-      "image": "https://img.spoonacular.com/recipes/636364-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "meat",
-      "nutrition": {
-        "calories": 205,
-        "protein": 4,
-        "fat": 16,
-        "carbs": 13,
-        "fiber": 2
-      }
-    },
-    {
-      "id": 648247,
-      "title": "Italiensk fiskegryde",
-      "titleEn": "Italian Seafood Stew",
-      "image": "https://img.spoonacular.com/recipes/648247-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "soup",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "pescatarian"
-      ],
-      "protein": "fish",
-      "nutrition": {
-        "calories": 611,
-        "protein": 69,
-        "fat": 12,
-        "carbs": 68,
-        "fiber": 15
-      }
-    },
-    {
-      "id": 648118,
-      "title": "Sauteret italiensk aubergine-tilbehør",
-      "titleEn": "Sauteed Italian Eggplant Side Dish",
-      "image": "https://img.spoonacular.com/recipes/648118-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 181,
-        "protein": 2,
-        "fat": 15,
-        "carbs": 13,
-        "fiber": 7
-      }
-    },
-    {
-      "id": 639825,
-      "title": "Kokosnød-thai-risotto med stegt kammusling",
-      "titleEn": "Coconut Thai Risotto With Seared Scallops",
-      "image": "https://img.spoonacular.com/recipes/639825-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "pescatarian"
-      ],
-      "protein": "fish",
-      "nutrition": {
-        "calories": 318,
-        "protein": 9,
-        "fat": 16,
-        "carbs": 36,
-        "fiber": 3
-      }
-    },
-    {
-      "id": 1095751,
-      "title": "Frisk tomatrisotto med grillede grønne grøntsager",
-      "titleEn": "Fresh Tomato Risotto with Grilled Green Vegetables",
-      "image": "https://img.spoonacular.com/recipes/1095751-312x231.jpg",
-      "readyInMinutes": 60,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 296,
-        "protein": 9,
-        "fat": 1,
-        "carbs": 61,
-        "fiber": 8
-      }
-    },
-    {
-      "id": 650581,
-      "title": "Matcha-macarons",
-      "titleEn": "Macha Macarons",
-      "image": "https://img.spoonacular.com/recipes/650581-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "dessert"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 126,
-        "protein": 3,
-        "fat": 4,
-        "carbs": 22,
-        "fiber": 1
-      }
-    },
-    {
-      "id": 1182871,
-      "title": "Rejer scampi med squashpasta",
-      "titleEn": "Shrimp Scampi Zoodles",
-      "image": "https://img.spoonacular.com/recipes/1182871-312x231.jpg",
-      "readyInMinutes": 15,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "pescatarian",
-        "ketogenic"
-      ],
-      "protein": "fish",
-      "nutrition": {
-        "calories": 223,
-        "protein": 17,
-        "fat": 15,
-        "carbs": 8,
-        "fiber": 2
-      }
-    },
-    {
-      "id": 644885,
-      "title": "Glutenfri vegansk gnocchi",
-      "titleEn": "Gluten Free Vegan Gnocchi",
-      "image": "https://img.spoonacular.com/recipes/644885-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 133,
-        "protein": 4,
-        "fat": 0,
-        "carbs": 29,
-        "fiber": 3
-      }
-    },
-    {
-      "id": 648300,
-      "title": "Italiensk-inspireret farsbrød",
-      "titleEn": "Italian-Style Meatloaf",
-      "image": "https://img.spoonacular.com/recipes/648300-312x231.jpg",
-      "readyInMinutes": 75,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30"
-      ],
-      "protein": "meat",
-      "nutrition": {
-        "calories": 187,
-        "protein": 26,
-        "fat": 6,
-        "carbs": 7,
-        "fiber": 2
-      }
-    },
-    {
-      "id": 637811,
-      "title": "Kastanjerisotto",
-      "titleEn": "Chestnut Risotto",
-      "image": "https://img.spoonacular.com/recipes/637811-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "chicken",
-      "nutrition": {
-        "calories": 583,
-        "protein": 12,
-        "fat": 22,
-        "carbs": 84,
-        "fiber": 2
-      }
-    },
-    {
-      "id": 639794,
-      "title": "Kokosmælksrisotto (arboriorismælkegrød)",
-      "titleEn": "Coconut milk risotto (Arborio rice pudding)",
-      "image": "https://img.spoonacular.com/recipes/639794-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish",
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 496,
-        "protein": 7,
-        "fat": 25,
-        "carbs": 64,
-        "fiber": 3
-      }
-    },
-    {
-      "id": 648097,
-      "title": "Italiensk kylling med peberfrugt",
-      "titleEn": "Italian Chicken With Pepper",
-      "image": "https://img.spoonacular.com/recipes/648097-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "primal",
-        "whole 30",
-        "ketogenic"
-      ],
-      "protein": "chicken",
-      "nutrition": {
-        "calories": 468,
-        "protein": 36,
-        "fat": 33,
-        "carbs": 6,
-        "fiber": 2
-      }
-    },
-    {
-      "id": 1096038,
-      "title": "Sriracha-honning rosenkål",
-      "titleEn": "Sriracha Honey Brussel Sprouts",
-      "image": "https://img.spoonacular.com/recipes/1096038-312x231.jpg",
+      "id": 20030,
+      "title": "Squashsuppe med ingefær",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
       "readyInMinutes": 30,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 99,
-        "protein": 4,
-        "fat": 4,
-        "carbs": 15,
-        "fiber": 5
-      }
+      "servings": 4,
+      "dishTypes": ["soup", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
     },
     {
-      "id": 1956700,
-      "title": "Negroni",
-      "titleEn": "Negroni",
-      "image": "https://img.spoonacular.com/recipes/1956700-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 232,
-        "protein": 0,
-        "fat": 0,
-        "carbs": 12,
-        "fiber": null
-      }
+      "id": 20031,
+      "title": "Blomkålssuppe med karry",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": ["soup", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
     },
     {
-      "id": 1956326,
-      "title": "Dry Martini",
-      "titleEn": "Dry Martini",
-      "image": "https://img.spoonacular.com/recipes/1956326-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 145,
-        "protein": 0,
-        "fat": 1,
-        "carbs": 2,
-        "fiber": null
-      }
+      "id": 20032,
+      "title": "Gulerodssuppe med appelsin",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": ["soup", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
     },
     {
-      "id": 1955994,
-      "title": "Americano",
-      "titleEn": "Americano",
-      "image": "https://img.spoonacular.com/recipes/1955994-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "fodmap friendly",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 178,
-        "protein": 0,
-        "fat": 0,
-        "carbs": 15,
-        "fiber": 1
-      }
-    },
-    {
-      "id": 657249,
-      "title": "Græskar-banan-protein-havrebarer",
-      "titleEn": "Pumpkin Banana Protein Oat Bars",
-      "image": "https://img.spoonacular.com/recipes/657249-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "antipasti",
-        "starter",
-        "snack",
-        "appetizer",
-        "antipasto",
-        "hor d'oeuvre"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "lacto ovo vegetarian",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 164,
-        "protein": 9,
-        "fat": 7,
-        "carbs": 19,
-        "fiber": 4
-      }
-    },
-    {
-      "id": 658515,
-      "title": "Ristede rosenkål med hvidløg",
-      "titleEn": "Roasted Brussels Sprouts With Garlic",
-      "image": "https://img.spoonacular.com/recipes/658515-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "side dish"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 233,
-        "protein": 6,
-        "fat": 18,
-        "carbs": 16,
-        "fiber": 7
-      }
-    },
-    {
-      "id": 1956200,
-      "title": "Brooklyn",
-      "titleEn": "Brooklyn",
-      "image": "https://img.spoonacular.com/recipes/1956200-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [
-        "beverage",
-        "drink"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 273,
-        "protein": 0,
-        "fat": 0,
-        "carbs": 10,
-        "fiber": null
-      }
-    },
-    {
-      "id": 651255,
-      "title": "Matcha panna cotta notta",
-      "titleEn": "Matcha Panna Cotta Notta",
-      "image": "https://img.spoonacular.com/recipes/651255-312x231.jpg",
-      "readyInMinutes": 45,
-      "dishTypes": [],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free"
-      ],
-      "protein": "other",
-      "nutrition": {
-        "calories": 188,
-        "protein": 6,
-        "fat": 15,
-        "carbs": 6,
-        "fiber": 0
-      }
-    },
-    {
-      "id": 648257,
-      "title": "Italienske dampede artiskokker",
-      "titleEn": "Italian Steamed Artichokes",
-      "image": "https://img.spoonacular.com/recipes/648257-312x231.jpg",
+      "id": 20033,
+      "title": "Græskarsuppe",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80",
       "readyInMinutes": 35,
-      "dishTypes": [
-        "lunch",
-        "main course",
-        "main dish",
-        "dinner"
-      ],
-      "cuisines": [
-        "mediterranean",
-        "italian",
-        "european"
-      ],
-      "diets": [
-        "gluten free",
-        "dairy free",
-        "paleolithic",
-        "lacto ovo vegetarian",
-        "primal",
-        "whole 30",
-        "vegan"
-      ],
-      "protein": "vegetarian",
-      "nutrition": {
-        "calories": 223,
-        "protein": 15,
-        "fat": 1,
-        "carbs": 50,
-        "fiber": 25
-      }
+      "servings": 4,
+      "dishTypes": ["soup", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20034,
+      "title": "Fried rice med grøntsager og æg",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["asian"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20035,
+      "title": "Quesadillas med ost og bønner",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": ["lunch", "dinner"],
+      "cuisines": ["mexican"],
+      "diets": ["gluten free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20036,
+      "title": "Nudler med kokossovs og kylling",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["asian"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "chicken"
+    },
+    {
+      "id": 20037,
+      "title": "Tomatpasta med basilikum",
+      "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": ["dinner", "main course"],
+      "cuisines": ["italian"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20038,
+      "title": "Bagt kartoffel med fyld",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+      "readyInMinutes": 60,
+      "servings": 4,
+      "dishTypes": ["dinner", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "meat"
+    },
+    {
+      "id": 20039,
+      "title": "Dippeæg med grøntsagsstave",
+      "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 2,
+      "dishTypes": ["snack", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20040,
+      "title": "Hotdog med karamelliserede løg",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 4,
+      "dishTypes": ["dinner", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "meat"
+    },
+    {
+      "id": 20041,
+      "title": "Koldskål med kammerjunkere",
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "dishTypes": ["dessert", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20042,
+      "title": "Bløde morgenboller",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 60,
+      "servings": 8,
+      "dishTypes": ["breakfast", "bread"],
+      "cuisines": ["danish"],
+      "diets": ["dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20043,
+      "title": "Hjemmelavet rugbrød",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 180,
+      "servings": 12,
+      "dishTypes": ["breakfast", "bread"],
+      "cuisines": ["danish"],
+      "diets": ["dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20044,
+      "title": "Gulerodskage med cream cheese frosting",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 60,
+      "servings": 10,
+      "dishTypes": ["dessert", "cake"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20045,
+      "title": "Chokoladekage",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 50,
+      "servings": 10,
+      "dishTypes": ["dessert", "cake"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20046,
+      "title": "Klassiske pandekager",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": ["breakfast", "dessert"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20047,
+      "title": "Kanelsnurrer",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 90,
+      "servings": 12,
+      "dishTypes": ["breakfast", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20048,
+      "title": "Hindbærsnitter",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80",
+      "readyInMinutes": 50,
+      "servings": 12,
+      "dishTypes": ["dessert", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20049,
+      "title": "Vaniljekranse",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80",
+      "readyInMinutes": 45,
+      "servings": 30,
+      "dishTypes": ["dessert", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20050,
+      "title": "Kanelboller",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 90,
+      "servings": 12,
+      "dishTypes": ["breakfast", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20051,
+      "title": "Chokolademuffins",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 12,
+      "dishTypes": ["dessert", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20052,
+      "title": "Blåbærmuffins",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80",
+      "readyInMinutes": 35,
+      "servings": 12,
+      "dishTypes": ["dessert", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20053,
+      "title": "Bananpandekager",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 2,
+      "dishTypes": ["breakfast", "dessert"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20054,
+      "title": "Havregrødsboller",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 60,
+      "servings": 10,
+      "dishTypes": ["breakfast", "bread"],
+      "cuisines": ["danish"],
+      "diets": ["dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20055,
+      "title": "Æblekage",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 55,
+      "servings": 8,
+      "dishTypes": ["dessert", "cake"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20056,
+      "title": "Drømmekage",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 50,
+      "servings": 12,
+      "dishTypes": ["dessert", "cake"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20057,
+      "title": "Franskbrød",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 90,
+      "servings": 10,
+      "dishTypes": ["breakfast", "bread"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20058,
+      "title": "Focaccia med rosmarin",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80",
+      "readyInMinutes": 75,
+      "servings": 8,
+      "dishTypes": ["bread", "snack"],
+      "cuisines": ["italian"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20059,
+      "title": "Havregrøds-cookies med rosiner",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80",
+      "readyInMinutes": 25,
+      "servings": 20,
+      "dishTypes": ["dessert", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20060,
+      "title": "Citronkage",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 55,
+      "servings": 10,
+      "dishTypes": ["dessert", "cake"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20061,
+      "title": "Romkugler",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 20,
+      "dishTypes": ["dessert", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20062,
+      "title": "Hjemmelavet granola",
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 8,
+      "dishTypes": ["breakfast", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20063,
+      "title": "Overnight oats med bær",
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=400&q=80",
+      "readyInMinutes": 10,
+      "servings": 2,
+      "dishTypes": ["breakfast"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20064,
+      "title": "Avocado-toast med æg",
+      "image": "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 2,
+      "dishTypes": ["breakfast", "lunch"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20065,
+      "title": "Nachos med salsa og guacamole",
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": ["snack", "appetizer"],
+      "cuisines": ["mexican"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20066,
+      "title": "Hummus med grøntsagsstave",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "dishTypes": ["snack", "appetizer"],
+      "cuisines": ["middle eastern"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20067,
+      "title": "Popcornkylling",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&q=80",
+      "readyInMinutes": 30,
+      "servings": 4,
+      "dishTypes": ["snack", "dinner"],
+      "cuisines": ["american"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "chicken"
+    },
+    {
+      "id": 20068,
+      "title": "Ovnpommes frites",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 4,
+      "dishTypes": ["side dish", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20069,
+      "title": "Hjemmelavet coleslaw",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 6,
+      "dishTypes": ["side dish", "salad"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20070,
+      "title": "Tzatziki med grøntsager",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+      "readyInMinutes": 15,
+      "servings": 4,
+      "dishTypes": ["side dish", "appetizer"],
+      "cuisines": ["greek"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20071,
+      "title": "Æbleskiver",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 4,
+      "dishTypes": ["dessert", "breakfast"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20072,
+      "title": "Rødgrød med fløde",
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=400&q=80",
+      "readyInMinutes": 20,
+      "servings": 4,
+      "dishTypes": ["dessert"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20073,
+      "title": "Risalamande",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 6,
+      "dishTypes": ["dessert"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20074,
+      "title": "Æbleskiver med syltetøj",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80",
+      "readyInMinutes": 40,
+      "servings": 4,
+      "dishTypes": ["dessert", "breakfast"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "eggs"
+    },
+    {
+      "id": 20075,
+      "title": "Kæmpe smoothiebowl",
+      "image": "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=400&q=80",
+      "readyInMinutes": 10,
+      "servings": 2,
+      "dishTypes": ["breakfast", "snack"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20076,
+      "title": "Hjemmelavet is (bananbaseret)",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80",
+      "readyInMinutes": 10,
+      "servings": 4,
+      "dishTypes": ["dessert"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free", "vegan"],
+      "protein": "vegetarian"
+    },
+    {
+      "id": 20077,
+      "title": "Skovbærpaj",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+      "readyInMinutes": 55,
+      "servings": 8,
+      "dishTypes": ["dessert"],
+      "cuisines": ["danish"],
+      "diets": ["gluten free", "dairy free"],
+      "protein": "vegetarian"
     }
-  ],
-  "fetchedAt": "2026-03-09T11:18:51.947Z"
+  ]
 }
