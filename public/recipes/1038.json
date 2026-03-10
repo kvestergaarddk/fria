@@ -1,0 +1,49 @@
+{
+  "id": 1038,
+  "title": "Laktosefri chokoladekage med hindbær",
+  "image": "https://source.unsplash.com/featured/800x600/?chocolate%20cake%20raspberry%20dark%20rich",
+  "readyInMinutes": 65,
+  "servings": 12,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "250 g hvedemel",
+    "200 g rørsukker",
+    "50 g kakaopulver (udsødet)",
+    "2 tsk bagepulver",
+    "1 tsk natron",
+    "1 knivspids salt",
+    "200 ml havredrik eller sojadrik (usødet)",
+    "120 ml neutral planteolie (f.eks. rapsolie)",
+    "2 æg",
+    "150 ml kogende vand",
+    "1 tsk vaniljeekstrakt",
+    "200 g friske eller frosne hindbær",
+    "Glasur: 100 g mørk chokolade (mindst 70 %, uden mælk)",
+    "Glasur: 80 ml kokosfløde (den tykke del fra en dåse kokosmælk, kølet natten over)",
+    "Pynt: 100 g friske hindbær og evt. lidt flormelis"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 175 °C (varmluft). Smør en springform (24-26 cm) med planteolie og beklæd bunden med bagepapir.",
+    "Trin 2: Bland mel, rørsukker, kakaopulver, bagepulver, natron og salt grundigt i en stor skål. I en separat skål piskes æg, plantemælk, planteolie og vaniljeekstrakt sammen.",
+    "Trin 3: Hæld de våde ingredienser i de tørre og rør, til dejen er ensartet og glat. Tilsæt det kogende vand og rør hurtigt ind — dejen bliver meget tynd, men det er helt rigtigt. Vend forsigtigt 200 g hindbær i dejen.",
+    "Trin 4: Hæld dejen i den forberedte form og bag i 40-45 minutter, eller til en bagepind stukket i midten kommer ren ud. Lad kagen køle i formen i 10 minutter, og vend den derefter ud på en rist til fuld afkøling.",
+    "Trin 5: Lav glasuren: Smelt den mørke chokolade forsigtigt i et vandbad eller i mikroovnen i 30-sekunders intervaller. Rør den kolde, tykke kokosfløde ind i den smeltede chokolade, til du har en glat, skinnende glasur. Lad den køle til den er tyktflydende men stadig hældbar (ca. 10 minutter).",
+    "Trin 6: Hæld chokoladeglasuren over den afkølede kage og lad den dryppe ned ad siderne. Pynt med friske hindbær og et let drys flormelis. Sæt kagen i køleskabet i 15 minutter, så glasuren sætter sig, inden servering."
+  ],
+  "nutrition": {
+    "calories": 305,
+    "protein": 5,
+    "carbs": 42,
+    "fat": 14
+  }
+}

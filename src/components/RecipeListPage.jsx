@@ -14,9 +14,8 @@ const PAGE_SIZE = 12
 
 const MEAL_TYPES = [
   { key: '', label: 'Alle' },
-  { key: 'breakfast', label: 'Morgenmad' },
-  { key: 'lunch', label: 'Frokost' },
   { key: 'dinner', label: 'Aftensmad' },
+  { key: 'bakery', label: 'Bagværk' },
   { key: 'dessert', label: 'Dessert' },
 ]
 
@@ -118,6 +117,8 @@ export default function RecipeListPage({ category = 'begge' }) {
         const types = r.dishTypes || []
         const match = mealType === 'dinner'
           ? types.some(t => t === 'dinner' || t === 'main course' || t === 'main dish')
+          : mealType === 'bakery'
+          ? types.some(t => t === 'bakery' || t === 'bread')
           : types.includes(mealType)
         if (!match) return false
       }

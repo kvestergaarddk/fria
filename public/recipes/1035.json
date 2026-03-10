@@ -1,0 +1,41 @@
+{
+  "id": 1035,
+  "title": "Laktosefrit surdejsbrød",
+  "image": "https://source.unsplash.com/featured/800x600/?sourdough%20bread%20artisan%20loaf%20rustic",
+  "readyInMinutes": 1440,
+  "servings": 12,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "500 g hvedemel (Manitoba eller tipo 0)",
+    "100 g fuldkornshvedemel",
+    "200 g aktiv surdej (fodret aftenen inden)",
+    "380 ml vand, lunken",
+    "10 g fint salt",
+    "1 spsk olivenolie",
+    "Lidt ekstra mel til formning"
+  ],
+  "steps": [
+    "Trin 1: Bland surdej og det lunkne vand i en stor skål, rør rundt til surdejen er opløst. Tilsæt begge meltyper og bland med en dejskraber, til du har en ensartet, klæbrig dej. Lad den hvile tildækket i 30 minutter (autolyse).",
+    "Trin 2: Tilsæt salt og olivenolie. Fold dejen over sig selv i skålen 4-5 gange. Lad dejen hæve ved stuetemperatur i 4-5 timer, og fold den forsigtigt sammen med 30 minutters mellemrum de første 2 timer (i alt 4 foldninger).",
+    "Trin 3: Vend dejen ud på en let meldrysset bordplade og form den forsigtigt til en rund brødform. Læg den med sammensyningen nedad i en velmeldrysset hæve-kurv (banneton) eller en skål foret med et meldrysset viskestykke. Stil den tildækket i køleskabet i 12-18 timer til langsom, kold hævning.",
+    "Trin 4: Forvarm ovnen til 250 °C med en støbejernsgryde med låg indeni i mindst 30 minutter. Tag dejen forsigtigt ud af kurven og vend den over på et stykke bagepapir. Snit toppen med en skarp kniv eller rageblad i det mønster, du ønsker.",
+    "Trin 5: Løft brødet ind i den varme gryde ved hjælp af bagepapiret, og sæt låget på. Bag med låg i 25 minutter ved 250 °C. Fjern derefter låget, sænk temperaturen til 220 °C, og bag yderligere 20-25 minutter, til brødet er dybt gyldenbrunt og lyder hult, når du banker på bunden.",
+    "Trin 6: Tag brødet ud og lad det køle helt af på en rist i mindst 1 time før udskæring. Det giver den bedste krumme og skorpe."
+  ],
+  "nutrition": {
+    "calories": 165,
+    "protein": 5,
+    "carbs": 32,
+    "fat": 2
+  }
+}

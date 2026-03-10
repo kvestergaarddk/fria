@@ -1,0 +1,49 @@
+{
+  "id": 1018,
+  "title": "Bagte søde kartofler med sort bønnesalsa",
+  "image": "https://source.unsplash.com/featured/800x600/?baked%20sweet%20potato%20black%20bean%20salsa",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mexican"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "vegetarian",
+  "ingredients": [
+    "4 store søde kartofler (ca. 300 g stk.)",
+    "1 dåse sorte bønner (400 g), skyllet og drænet",
+    "200 g cherry-tomater, skåret i kvarte",
+    "1 rød peberfrugt, skåret i små tern",
+    "½ rødløg, finthakket",
+    "1 avocado, skåret i tern",
+    "1 lime, saften heraf",
+    "1 bundt frisk koriander, grofthakket",
+    "1 fed hvidløg, finthakket",
+    "1 tsk spidskommen",
+    "½ tsk røget paprika",
+    "½ tsk chiliflager (kan udelades for børn)",
+    "2 spsk olivenolie",
+    "1 tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "1 dl laktosefri creme fraiche eller plantebaseret alternativ"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C (varmluft). Vask de søde kartofler grundigt og prik dem med en gaffel flere gange. Gnid dem med 1 spsk olivenolie og drys med lidt salt. Læg dem på en bageplade med bagepapir og bag i ovnen i 40-45 minutter, til de er helt bløde indeni.",
+    "Trin 2: Mens kartoflerne bager, laves sort bønnesalsa. Bland de sorte bønner, cherry-tomater, rød peberfrugt, rødløg, hvidløg, spidskommen, røget paprika og eventuelle chiliflager i en skål. Tilsæt 1 spsk olivenolie og halvdelen af limesaften. Smag til med salt og peber og vend forsigtigt.",
+    "Trin 3: Skær avocadoen i tern og vend den forsigtigt i salsaen sammen med halvdelen af den friske koriander. Tilsæt resterende limesaft.",
+    "Trin 4: Når de søde kartofler er færdige, skær dem op på langs og åbn dem forsigtigt med en gaffel, så det bløde indre moses let. Fordel den sorte bønnesalsa generøst oven på de bagte kartofler.",
+    "Trin 5: Top hver kartoffel med en klat laktosefri creme fraiche og drys med den resterende friske koriander. Server med det samme."
+  ],
+  "nutrition": {
+    "calories": 450,
+    "protein": 14,
+    "carbs": 65,
+    "fat": 15
+  }
+}

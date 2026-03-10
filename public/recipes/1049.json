@@ -1,0 +1,44 @@
+{
+  "id": 1049,
+  "title": "Ristede mandler med karamel og flagesalt",
+  "image": "https://source.unsplash.com/featured/800x600/?caramelized%20almonds%20sea%20salt%20candy%20sweet",
+  "readyInMinutes": 25,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "400 g hele mandler (med eller uden skal)",
+    "200 g sukker",
+    "2 spsk vand",
+    "50 g smør",
+    "1 tsk vaniljeekstrakt",
+    "1 tsk flagesalt (f.eks. Maldon)",
+    "½ tsk kanel (valgfrit)",
+    "En knivspids havsalt"
+  ],
+  "steps": [
+    "Forvarm ovnen til 160°C. Fordel mandlerne på en bageplade med bagepapir og rist dem i ovnen i 10-12 minutter, til de er let gyldne og duftende. Tag dem ud og sæt til side.",
+    "Hæld sukker og vand i en tykbundet gryde. Varm op på medium varme uden at røre – svaj blot let til gryden for at fordele varmen jævnt.",
+    "Lad sukkeret karamellisere, til det har en flot, gyldenbrun farve (ca. 5-7 minutter). Hold godt øje, da det hurtigt kan brænde på.",
+    "Tag gryden af varmen. Tilsæt smør forsigtigt (det bobler op), og rør hurtigt med en træske, til smørret er smeltet helt ind i karamellen.",
+    "Tilsæt vaniljeekstrakt, havsalt og eventuelt kanel. Rør godt rundt.",
+    "Hæld de ristede mandler i karamellen og rør hurtigt, så alle mandler er dækket med et lag karamel.",
+    "Fordel de karamelliserede mandler ud på en bageplade med bagepapir. Brug to gafler til at adskille mandlerne, så de ikke klumper for meget.",
+    "Drys straks flagesalt over mandlerne, mens karamellen stadig er varm og klæbrig.",
+    "Lad mandlerne køle helt af (ca. 15 minutter), til karamellen er hård og sprød. Opbevar i en lufttæt beholder i op til 2 uger."
+  ],
+  "nutrition": {
+    "calories": 340,
+    "protein": 8,
+    "carbs": 30,
+    "fat": 22
+  }
+}

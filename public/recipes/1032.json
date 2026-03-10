@@ -1,0 +1,45 @@
+{
+  "id": 1032,
+  "title": "Havregrynsboller (glutenfri)",
+  "image": "https://source.unsplash.com/featured/800x600/?oat%20rolls%20bread%20buns%20bakery",
+  "readyInMinutes": 50,
+  "servings": 10,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "300 g glutenfrie havregryn",
+    "100 g rismel",
+    "50 g kartoffelstivelse",
+    "1 pose tørgær (ca. 7 g)",
+    "1 tsk salt",
+    "1 spsk honning",
+    "3 dl lunkent vand (ca. 37°C)",
+    "1 dl naturyoghurt",
+    "2 spsk olivenolie",
+    "50 g solsikkekerner",
+    "25 g sesamfrø"
+  ],
+  "steps": [
+    "Trin 1: Bland glutenfrie havregryn, rismel, kartoffelstivelse, tørgær og salt i en stor skål.",
+    "Trin 2: Opløs honningen i det lunkne vand og tilsæt yoghurt og olivenolie. Hæld væsken i de tørre ingredienser og rør godt sammen til en tyk, klæbrig dej. Tilsæt solsikkekerner og sesamfrø og bland dem i.",
+    "Trin 3: Dæk skålen med et viskestykke og lad dejen hæve i ca. 20 minutter på et lunt sted. Forvarm ovnen til 200°C.",
+    "Trin 4: Form dejen til 10 boller med våde hænder (dejen er klæbrig) og placer dem på en bageplade med bagepapir. Drys eventuelt lidt ekstra havregryn eller frø på toppen.",
+    "Trin 5: Bag bollerne i ovnen i 20-25 minutter, til de er gyldne og lyder hule, når man banker på bunden.",
+    "Trin 6: Lad bollerne køle af på en rist. Server med smør, ost eller syltetøj."
+  ],
+  "nutrition": {
+    "calories": 210,
+    "protein": 6,
+    "carbs": 32,
+    "fat": 7
+  }
+}

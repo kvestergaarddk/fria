@@ -1,0 +1,39 @@
+{
+  "id": 1051,
+  "title": "Sorbetis med mango og lime",
+  "image": "https://source.unsplash.com/featured/800x600/?mango%20lime%20sorbet%20ice%20cream%20tropical",
+  "readyInMinutes": 240,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "tropical"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "4 store modne mangoer (ca. 800 g frugtkød)",
+    "150 g sukker",
+    "200 ml vand",
+    "Saft af 3 lime",
+    "Revet skal af 2 lime (økologiske)",
+    "1 spsk lys rom (valgfrit, kan udelades for børn)",
+    "Friske mynteblade til pynt"
+  ],
+  "steps": [
+    "Trin 1: Kog sukker og vand op i en lille gryde under omrøring, til sukkeret er helt opløst. Tag gryden af varmen og lad sukkerlage køle helt af.",
+    "Trin 2: Skræl mangoerne og skær frugtkødet fra stenen. Blend mangokødet i en foodprocessor eller blender til en helt glat puré.",
+    "Trin 3: Bland mangopuréen med den afkølede sukkerlage, limesaft og revet limeskal. Smag til – tilsæt eventuelt lidt mere lime eller sukker efter ønske. Tilsæt evt. rom til de voksnes portion.",
+    "Trin 4: Hæld blandingen i en ismaskine og kør efter maskinens anvisning (ca. 25-30 minutter). Alternativt: Hæld blandingen i en frostfast beholder og frys den i fryseren. Rør kraftigt med en gaffel eller blend igen hver 45. minut i 3-4 omgange for at undgå iskrystaller.",
+    "Trin 5: Lad sorbeten stå i fryseren i mindst 2 timer, til den er fast. Tag den ud af fryseren 10 minutter før servering, så den blødgør en smule. Server i skåle med friske mynteblade og et strejf af revet limeskal."
+  ],
+  "nutrition": {
+    "calories": 165,
+    "protein": 1,
+    "carbs": 42,
+    "fat": 0
+  }
+}

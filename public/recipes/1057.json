@@ -1,0 +1,44 @@
+{
+  "id": 1057,
+  "title": "Frisk frugtsalat med mynte og lime",
+  "image": "https://source.unsplash.com/featured/800x600/?fresh%20fruit%20salad%20mint%20lime%20colorful%20bowl",
+  "readyInMinutes": 20,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "tropical"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "2 store manguer, skrællet og skåret i tern",
+    "300 g friske jordbær, rensede og kvarterede",
+    "2 kiwier, skrællet og skåret i halve skiver",
+    "200 g blåbær",
+    "2 bananer, skåret i skiver",
+    "1 lille ananas (ca. 400 g frugtdel), skrællet og skåret i tern",
+    "Saft af 2 friske limefrugter",
+    "Revet skal af 1 limefrugt (kun den grønne del)",
+    "2 spsk flydende honning",
+    "10-12 friske mynteblade, finthakkede",
+    "Ekstra hele mynteblade til pynt"
+  ],
+  "steps": [
+    "Trin 1: Forbered al frugten: Skræl og skær mango, kiwi og ananas i mundret tern. Rens og kvartér jordbærrene. Skær bananerne i skiver. Skyl blåbærrene.",
+    "Trin 2: Kom al den forberedte frugt i en stor serveringsskål og vend forsigtigt rundt, så det blandes jævnt.",
+    "Trin 3: Pisk limesaft, revet limeskal og honning sammen i en lille skål, indtil honningen er helt opløst. Tilsæt de finthakkede mynteblade til dressingen.",
+    "Trin 4: Hæld dressingen over frugtsalaten og vend det hele forsigtigt med to skeer, så al frugten bliver dækket.",
+    "Trin 5: Sæt frugtsalaten i køleskabet i 10-15 minutter, så smagen trækker. Server i individuelle skåle, pyntet med friske hele mynteblade."
+  ],
+  "nutrition": {
+    "calories": 130,
+    "protein": 2,
+    "carbs": 32,
+    "fat": 1
+  }
+}

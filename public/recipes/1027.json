@@ -1,0 +1,48 @@
+{
+  "id": 1027,
+  "title": "Dampet havtaske med grøntsager og ingefær",
+  "image": "https://source.unsplash.com/featured/800x600/?monkfish%20steamed%20ginger%20vegetables",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "asian"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "600 g havtaskefilet, renset og skåret i 4 portionsstykker",
+    "1 stk. frisk ingefær (ca. 5 cm), skrællet og skåret i tynde strimler",
+    "2 gulerødder, skåret i tynde skrå skiver",
+    "1 bundt pak choi (ca. 300 g), halveret på langs",
+    "150 g sukkererter, toppe og tråde fjernet",
+    "2 forårsløg, skåret i fine ringe",
+    "2 spsk tamari (glutenfri sojasauce)",
+    "1 spsk sesamolie",
+    "1 spsk risvin (mirin)",
+    "1 lime, saften og skrællen revet",
+    "1 lille rød chili, udkermet og fintskåret (valgfri)",
+    "½ tsk salt",
+    "Frisk koriander til pynt",
+    "400 g jasminris (til servering)"
+  ],
+  "steps": [
+    "Trin 1: Kog jasminris efter anvisningen på pakken. Hold det varmt under et låg, mens retten tilberedes.",
+    "Trin 2: Klargør damperen: Bring vand i kog i bunden af en stor gryde med dampindsats eller bambusdamper. Riv 4 store stykker bagepapir af og læg ét stykke i hver dampkurv eller form.",
+    "Trin 3: Fordel gulerødder og pak choi på bagepapiret. Læg et stykke havtaske ovenpå hver portion og top med ingefærstrimler, sukkererter og chili. Bland tamari, sesamolie, risvin og limesaft i en lille skål, og fordel dressingen jævnt over fisken og grøntsagerne. Drys med limerivning.",
+    "Trin 4: Damp med låg på ved høj varme i 10-12 minutter, indtil havtasken er gennemstegt og fast i kødet, og grøntsagerne er møre men stadig har bid.",
+    "Trin 5: Anret den dampede fisk med grøntsager på tallerkener med jasminris. Drys med forårsløg og frisk koriander og server med det samme."
+  ],
+  "nutrition": {
+    "calories": 460,
+    "protein": 34,
+    "carbs": 55,
+    "fat": 8
+  }
+}

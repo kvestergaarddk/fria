@@ -1,0 +1,49 @@
+{
+  "id": 1028,
+  "title": "Blomkål-bøf med krydret tomat og koriander",
+  "image": "https://source.unsplash.com/featured/800x600/?cauliflower%20steak%20spiced%20tomato%20herb",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "indian"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "vegetarian",
+  "ingredients": [
+    "1 stort blomkålshoved (ca. 800 g), skåret i 4 tykke skiver (ca. 2,5 cm) fra midten",
+    "3 spsk olivenolie",
+    "1 tsk spidskommen",
+    "1 tsk garam masala",
+    "1 tsk røget paprika",
+    "½ tsk gurkemeje",
+    "½ tsk chiliflager",
+    "1 tsk salt",
+    "1 dåse hakkede tomater (400 g)",
+    "3 fed hvidløg, finthakkede",
+    "1 stk. frisk ingefær (ca. 3 cm), revet",
+    "1 løg, finthakket",
+    "1 bundt frisk koriander, groft hakket",
+    "1 lime, skåret i både",
+    "400 g kogte kikærter (1 dåse, drænede og skyllede)"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 220 °C (varmluft). Pensl blomkålsskiverne med 2 spsk olivenolie på begge sider og krydr med røget paprika, gurkemeje, ½ tsk salt og chiliflager. Læg dem på en bageplade med bagepapir.",
+    "Trin 2: Bag blomkålsskiverne i ovnen i 20-25 minutter, vend dem halvvejs, indtil de er gyldne og møre med lidt karamelliserede kanter.",
+    "Trin 3: Mens blomkålen bager, varmes 1 spsk olivenolie i en gryde ved medium varme. Svits løg, hvidløg og ingefær i 3-4 minutter. Tilsæt spidskommen og garam masala og rør i 1 minut, til krydderierne dufter. Hæld de hakkede tomater i, tilsæt kikærter og den resterende ½ tsk salt, og lad saucen simre i 12-15 minutter, til den er tyknet.",
+    "Trin 4: Fordel den krydrede tomatsauce med kikærter i bunden af fire dybe tallerkener. Læg en blomkålsbøf ovenpå hver portion.",
+    "Trin 5: Drys rigeligt med frisk koriander, server med en limebåd ved siden af og nyd retten med det samme."
+  ],
+  "nutrition": {
+    "calories": 310,
+    "protein": 14,
+    "carbs": 35,
+    "fat": 13
+  }
+}

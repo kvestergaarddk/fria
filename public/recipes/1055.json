@@ -1,0 +1,42 @@
+{
+  "id": 1055,
+  "title": "Rødgrød med fløde-alternativ",
+  "image": "https://source.unsplash.com/featured/800x600/?red%20berry%20pudding%20danish%20dessert%20summer",
+  "readyInMinutes": 30,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "300 g friske jordbær, rensede og halverede",
+    "300 g friske hindbær",
+    "200 g friske solbær eller blåbær",
+    "150 g sukker",
+    "4 dl vand",
+    "3 spsk kartoffelmel",
+    "1 spsk friskpresset citronsaft",
+    "4 dl kold kokosmælk (fra dåse, godt rystet) til servering"
+  ],
+  "steps": [
+    "Trin 1: Skyl alle bærrene grundigt. Kom jordbær, hindbær og solbær i en stor gryde sammen med vand og sukker. Bring det op at koge ved middel varme.",
+    "Trin 2: Lad bærrene simre i 8-10 minutter, indtil de er bløde og har afgivet deres saft. Rør forsigtigt af og til.",
+    "Trin 3: Rør kartoffelmelet ud i 3 spsk koldt vand i en lille skål, så der ikke er klumper. Tilsæt citronsaften til gryden og hæld derefter kartoffelmelsblandingen i under konstant omrøring.",
+    "Trin 4: Kog rødgrøden op igen, og lad den simre i 1-2 minutter under omrøring, indtil den tykner til den ønskede konsistens.",
+    "Trin 5: Tag gryden af varmen og hæld rødgrøden over i en stor skål eller i portionsskåle. Drys eventuelt lidt sukker over overfladen for at undgå skind.",
+    "Trin 6: Lad rødgrøden køle ned til stuetemperatur og sæt den derefter i køleskabet i mindst 1 time. Server kold med kold kokosmælk som fløde-alternativ."
+  ],
+  "nutrition": {
+    "calories": 155,
+    "protein": 1,
+    "carbs": 33,
+    "fat": 3
+  }
+}

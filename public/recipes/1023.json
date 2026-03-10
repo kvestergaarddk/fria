@@ -1,0 +1,51 @@
+{
+  "id": 1023,
+  "title": "Grillet tun med avocadosalsa og ris",
+  "image": "https://source.unsplash.com/featured/800x600/?grilled%20tuna%20avocado%20salsa%20rice",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mexican"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "4 tunsteaks (à ca. 180 g, sashimi-kvalitet anbefales)",
+    "2 spsk olivenolie til grillning",
+    "1 tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "1 tsk spidskommen",
+    "½ tsk chilifager",
+    "300 g jasminris",
+    "2 modne avocadoer, skåret i små tern",
+    "200 g cherrytomater, kvarterede",
+    "½ rødløg, finthakket",
+    "1 rød chili, uden kerner, finthakket",
+    "1 fed hvidløg, fintrevet",
+    "Saft af 2 lime",
+    "2 spsk frisk koriander, grofthakket",
+    "1 spsk olivenolie til salsa",
+    "Salt og peber til salsa",
+    "Limebåde til servering"
+  ],
+  "steps": [
+    "Trin 1: Kog jasminris efter anvisningen på pakken (typisk 12-15 minutter i let saltet vand). Lad risen hvile med låg på i 5 minutter efter kogning og pjask med en gaffel.",
+    "Trin 2: Lav avocadosalsaen mens risen koger. Bland avocadotern, cherrytomater, rødløg, chili, hvidløg, limesaft, olivenolie og koriander forsigtigt i en skål. Smag til med salt og peber. Sæt salsaen i køleskabet.",
+    "Trin 3: Pensl tunsteakene med olivenolie og krydr med salt, peber, spidskommen og chilifager på begge sider. Forvarm en grillpande eller grill til høj varme.",
+    "Trin 4: Grill tunsteakene i 1½-2 minutter på hver side for medium rare (rosa i midten) eller 3 minutter på hver side for gennemstegt. Lad dem hvile i 2 minutter.",
+    "Trin 5: Anret jasminris på tallerkner med en tunsteak ved siden af. Top med et generøst drys avocadosalsa og server med limebåde ved siden af."
+  ],
+  "nutrition": {
+    "calories": 560,
+    "protein": 48,
+    "carbs": 46,
+    "fat": 20
+  }
+}

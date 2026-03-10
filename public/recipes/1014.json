@@ -1,0 +1,51 @@
+{
+  "id": 1014,
+  "title": "Teriyakikylling med nudler og sesamfrø",
+  "image": "https://source.unsplash.com/featured/800x600/?teriyaki%20chicken%20noodles%20sesame%20asian",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "asian"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "chicken",
+  "ingredients": [
+    "600 g kyllingelår uden ben og skind, skåret i mundstore stykker",
+    "300 g æggenudler eller udon-nudler",
+    "2 spsk neutral olie (solsikke- eller rapsolie)",
+    "1 broccoli, delt i små buketter",
+    "1 rød peberfrugt, skåret i strimler",
+    "2 gulerødder, skåret i tynde skrå skiver",
+    "3 forårsløg, skåret i ringe",
+    "2 spsk sesamfrø, let ristede",
+    "For teriyakisaucen:",
+    "4 spsk sojasauce (japansk, f.eks. Kikkoman)",
+    "3 spsk honning",
+    "1 spsk riseddike",
+    "1 spsk sesamolie",
+    "2 fed hvidløg, fintrevet",
+    "1 tsk frisk ingefær, fintrevet",
+    "1 spsk majsstivelse udrørt i 2 spsk koldt vand"
+  ],
+  "steps": [
+    "Trin 1: Lav teriyakisaucen ved at røre sojasauce, honning, riseddike, sesamolie, revet hvidløg og ingefær sammen i en skål. Sæt til side. Udrør majsstivelse i koldt vand i en separat lille skål.",
+    "Trin 2: Kog nudlerne efter pakkens anvisning. Si dem af, skyl dem kort med koldt vand, så de ikke klistrer, og sæt dem til side.",
+    "Trin 3: Varm 1 spsk olie i en stor wok eller pande ved høj varme. Steg kyllingestykkerne i 5-6 minutter, til de er gyldne og gennemstegte. Tag kyllingen op og sæt den til side.",
+    "Trin 4: Tilsæt den resterende olie i wokken. Steg broccoli, peberfrugt og gulerødder i 3-4 minutter ved høj varme, til de er møre men stadig har bid.",
+    "Trin 5: Læg kyllingen tilbage i wokken. Hæld teriyakisaucen over og lad det boble. Tilsæt majsstivelseblandingen og rør rundt i 1-2 minutter, til saucen tykner og glazer kyllingen og grøntsagerne.",
+    "Trin 6: Tilsæt de kogte nudler og vend det hele grundigt, så nudlerne coates i saucen. Varm igennem i 1 minut.",
+    "Trin 7: Anret i dybe tallerkener eller skåle. Top med forårsløg i ringe og ristede sesamfrø. Server straks."
+  ],
+  "nutrition": {
+    "calories": 560,
+    "protein": 40,
+    "carbs": 58,
+    "fat": 16
+  }
+}

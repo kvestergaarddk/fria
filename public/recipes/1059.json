@@ -1,0 +1,41 @@
+{
+  "id": 1059,
+  "title": "Kokoscreme med hindbær og ristede kokosflager",
+  "image": "https://source.unsplash.com/featured/800x600/?coconut%20cream%20raspberry%20toasted%20flakes%20dessert",
+  "readyInMinutes": 25,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "nordic"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "3 dåser kokosmælk (à 400 ml, fuld fedt), kølet i køleskab natten over",
+    "3 spsk flormelis",
+    "1 tsk ren vaniljepulver (eller frøerne fra 1 vaniljestang)",
+    "400 g friske hindbær",
+    "50 g kokosflager (tørristede)",
+    "2 spsk flydende honning til pynt",
+    "Friske mynteblade til pynt"
+  ],
+  "steps": [
+    "Trin 1: Åbn de kølede dåser kokosmælk forsigtigt uden at ryste dem. Skum den faste hvide kokoscreme af toppen med en ske og kom den i en stor skål. Gem kokosvandet til smoothies eller andet brug.",
+    "Trin 2: Tilsæt flormelis og vaniljepulver til kokoscremen. Pisk med en elpisker i 2-3 minutter, indtil cremen er luftig og blød – næsten som pisket flødeskum.",
+    "Trin 3: Rist kokosflagerne på en tør pande ved middel varme i 2-3 minutter under konstant omrøring, indtil de er gyldne og duftende. Hold godt øje, da de let brænder på. Hæld dem straks over på en tallerken, så de køler.",
+    "Trin 4: Sortér hindbærrene og fjern eventuelle dårlige bær. Tag ca. en tredjedel af hindbærrene og mos dem let med en gaffel i en lille skål for at lave en hurtig coulis.",
+    "Trin 5: Fordel den piskede kokoscreme i 8 portionsglas eller skåle. Fordel de hele hindbær ovenpå, og skee den moste hindbær-coulis over.",
+    "Trin 6: Top med ristede kokosflager, et lille drys honning og friske mynteblade. Server straks, eller sæt i køleskabet i op til 2 timer inden servering."
+  ],
+  "nutrition": {
+    "calories": 245,
+    "protein": 3,
+    "carbs": 14,
+    "fat": 21
+  }
+}

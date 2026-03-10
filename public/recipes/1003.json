@@ -1,0 +1,52 @@
+{
+  "id": 1003,
+  "title": "Laksebøf med sprødstegte kartofler og dild",
+  "image": "https://source.unsplash.com/featured/800x600/?salmon%20steak%20crispy%20potatoes%20dill",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "nordic"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "500 g frisk laksfilet uden skind, hakket fint med kniv",
+    "1 æg",
+    "2 spsk kartoffelstivelse",
+    "2 spsk finthakket frisk dild",
+    "1 spsk dijonsennep",
+    "½ tsk salt",
+    "¼ tsk friskkværnet peber",
+    "1 spsk citronsaft",
+    "2 spsk olivenolie til stegning",
+    "800 g kartofler, skrællet og skåret i 1 cm tykke skiver",
+    "3 spsk smør til kartofler",
+    "1 tsk groft salt til kartofler",
+    "½ tsk paprikapulver",
+    "1 dl crème fraîche 18%",
+    "2 spsk finthakket frisk dild til dressing",
+    "1 spsk citronsaft til dressing",
+    "½ tsk salt til dressing",
+    "Citronbåde til servering"
+  ],
+  "steps": [
+    "Trin 1: Hak laksefileten fint med en skarp kniv – den skal ikke blendes, men have en grov konsistens. Bland den hakkede laks med æg, kartoffelstivelse, dild, dijonsennep, citronsaft, salt og peber. Form farsen til 4 bøffer og sæt dem i køleskabet i 10 minutter.",
+    "Trin 2: Kog kartoffelskiverne i saltet vand i 8-10 minutter, til de lige netop er møre men stadig holder form. Hæld dem af og lad dem dryppe af.",
+    "Trin 3: Smelt smør på en stor pande ved medium-høj varme. Steg kartoffelskiverne i 4-5 minutter på hver side, til de er gyldne og sprøde. Drys med groft salt og paprikapulver. Hold dem varme i ovnen ved 80°C.",
+    "Trin 4: Varm olivenolie i en pande ved medium varme. Steg laksebøfferne ca. 3-4 minutter på hver side, til de er gyldne udenpå og lige koagulerede indeni. Undgå at vende dem for tidligt.",
+    "Trin 5: Rør crème fraîche sammen med dild, citronsaft og salt til en hurtig dilddressing.",
+    "Trin 6: Anret laksebøfferne med sprødstegte kartofler, en klat dilddressing og citronbåde. Pynt med frisk dild."
+  ],
+  "nutrition": {
+    "calories": 540,
+    "protein": 34,
+    "carbs": 38,
+    "fat": 28
+  }
+}

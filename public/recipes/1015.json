@@ -1,0 +1,44 @@
+{
+  "id": 1015,
+  "title": "Dampet torsk med kartofler og kapers",
+  "image": "https://source.unsplash.com/featured/800x600/?steamed%20cod%20fish%20potatoes%20capers%20nordic",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "600 g torskefilet, skåret i 4 stykker",
+    "600 g nye kartofler, skrællede og halved",
+    "2 spsk kapers, afdruppede",
+    "2 spsk olivenolie",
+    "1 citron, skåret i skiver",
+    "1 bundt frisk dild, grofthakket",
+    "1 bundt frisk persille, grofthakket",
+    "2 spsk laktosefrit smør",
+    "1 tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "2 dl vand",
+    "1 skalotteløg, finthakket"
+  ],
+  "steps": [
+    "Trin 1: Kog de skrællede kartofler i en gryde med saltet vand i ca. 15-18 minutter, til de er møre. Dræn og hold dem varme.",
+    "Trin 2: Krydr torskefiletterne med salt og peber på begge sider. Læg citronsikver i bunden af en bred gryde, tilsæt 2 dl vand og bring det i kog. Placer torsken oven på citronskiverne, læg låg på og damp fisken ved lav varme i 8-10 minutter, til den er hvid og let flager.",
+    "Trin 3: Smelt det laktosefrie smør i en lille pande ved middel varme. Tilsæt det hakkede skalotteløg og steg i 2 minutter. Tilsæt kaperserne og steg i yderligere 1 minut. Tilsæt olivenolie og halvdelen af dillen og persilllen og rør godt sammen.",
+    "Trin 4: Anret de kogte kartofler og den dampede torsk på tallerkener. Fordel kapers-urte-smørret over fisken og kartoflerne. Drys med den resterende dild og persille og server med en citronskive."
+  ],
+  "nutrition": {
+    "calories": 380,
+    "protein": 35,
+    "carbs": 32,
+    "fat": 12
+  }
+}

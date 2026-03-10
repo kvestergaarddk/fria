@@ -1,0 +1,47 @@
+{
+  "id": 1024,
+  "title": "Lammekoteletter med rosmarin og bagte rodfrugter",
+  "image": "https://source.unsplash.com/featured/800x600/?lamb%20chops%20rosemary%20roasted%20root%20vegetables",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "nordic"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "8 lammekoteletter (ca. 800 g i alt)",
+    "3 spsk olivenolie (fordelt)",
+    "4 kviste frisk rosmarin (2 til marinade, 2 til rodfrugter)",
+    "4 kviste frisk timian",
+    "4 fed hvidløg (2 finthakkede til marinade, 2 hele knuste til rodfrugter)",
+    "Saft af ½ citron",
+    "Salt og friskkværnet peber",
+    "4 mellemstore kartofler (ca. 500 g), skrællet og skåret i kvarte",
+    "3 gulerødder, skrællet og skåret i grove stykker",
+    "2 pastinakker, skrællet og skåret i grove stykker",
+    "1 stor rødbede (ca. 200 g), skrællet og skåret i både",
+    "1 løg, skåret i både",
+    "1 spsk balsamicoeddike",
+    "Flagesalt til finish"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C (konventionel). Marinér lammekotelletterne: Bland 1½ spsk olivenolie, finthakkede rosmarinblade fra 2 kviste, finthakket hvidløg, citronsaft, salt og peber i en skål. Gnid marinaden ind i kotelletterne og lad dem trække i mindst 15 minutter ved stuetemperatur.",
+    "Trin 2: Fordel kartofler, gulerødder, pastinakker, rødbede og løg på en stor bageplade beklædt med bagepapir. Drys med 1½ spsk olivenolie, de resterende rosmarinkviste, timiankviste, knuste hvidløg, balsamicoeddike, salt og peber. Vend rodfrugternes grundigt, så de er dækket af olie. Bag i ovnen i 35-40 minutter, til de er gyldne og møre. Vend dem én gang halvvejs.",
+    "Trin 3: Når rodfrugternes har ca. 10 minutter tilbage, varmes en grillpande eller tung stegepande op til høj varme. Steg lammekotelletterne i 3-4 minutter på hver side for medium (lyserøde i midten) eller 2-3 minutter per side for medium rare. Lad kotelletterne hvile under staniol i 5 minutter.",
+    "Trin 4: Anret de bagte rodfrugter på et fad eller fordel på tallerkner. Læg lammekotelletterne ovenpå, drys med flagesalt og pynt eventuelt med friske rosmarinblade. Server straks."
+  ],
+  "nutrition": {
+    "calories": 580,
+    "protein": 38,
+    "carbs": 42,
+    "fat": 28
+  }
+}

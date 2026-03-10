@@ -1,0 +1,47 @@
+{
+  "id": 1050,
+  "title": "Frugttærte med vaniljecreme (laktosefri)",
+  "image": "https://source.unsplash.com/featured/800x600/?fruit%20tart%20vanilla%20cream%20pastry%20colorful",
+  "readyInMinutes": 75,
+  "servings": 10,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "250 g hvedemel",
+    "100 g kokosolie, smeltet",
+    "75 g flormelis",
+    "1 æg",
+    "1 knivspids salt",
+    "500 ml laktosefri havremælk (usødet)",
+    "4 æggeblommer",
+    "80 g sukker",
+    "3 spsk majsstivelse",
+    "1 vaniljestang, kløvet og udskrabet",
+    "300 g friske jordbær, skåret i halve",
+    "150 g friske blåbær",
+    "150 g friske hindbær",
+    "2 spsk abrikos marmelade",
+    "1 spsk vand"
+  ],
+  "steps": [
+    "Trin 1: Bland hvedemel, flormelis og salt i en skål. Tilsæt smeltet kokosolie og ægget, og ælt hurtigt til en glat dej. Pak den ind i film og sæt den i køleskabet i 30 minutter.",
+    "Trin 2: Rul dejen ud og beklæd en tærteform (ca. 26 cm). Prik bunden med en gaffel, læg bagepapir med bønner ovenpå, og blindbag ved 180°C i 15 minutter. Fjern bønnerne og bag yderligere 8-10 minutter, til bunden er gylden. Lad den køle helt af.",
+    "Trin 3: Lav vaniljecremen: Pisk æggeblommer, sukker og majsstivelse sammen i en gryde. Tilsæt havremælken og vaniljekornene lidt ad gangen under konstant omrøring. Varm op på mellemvarme under omrøring, til cremen tykner og lige koger op. Hæld cremen i en skål, dæk med film direkte på overfladen og lad den køle af i køleskabet i mindst 20 minutter.",
+    "Trin 4: Fordel den afkølede vaniljecreme jævnt i tærtebunden. Pynt med friske jordbær, blåbær og hindbær i et flot mønster.",
+    "Trin 5: Varm abrikos marmelade med 1 spsk vand i en lille gryde, og pensl forsigtigt frugten med glasuren for at give den en flot glans. Sæt tærten i køleskabet i mindst 15 minutter før servering."
+  ],
+  "nutrition": {
+    "calories": 265,
+    "protein": 5,
+    "carbs": 38,
+    "fat": 11
+  }
+}

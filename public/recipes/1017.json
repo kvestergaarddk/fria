@@ -1,0 +1,52 @@
+{
+  "id": 1017,
+  "title": "Wok med oksekød og blandede grøntsager",
+  "image": "https://source.unsplash.com/featured/800x600/?beef%20stir%20fry%20vegetables%20wok%20asian",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "asian"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "500 g oksekød (inderlår eller mørbrad), skåret i tynde strimler",
+    "1 rød peberfrugt, skåret i strimler",
+    "1 gul peberfrugt, skåret i strimler",
+    "200 g broccoli, delt i små buketter",
+    "2 gulerødder, skrællet og skåret i tynde skiver på skrå",
+    "150 g sukkererter, halveret",
+    "3 fed hvidløg, finthakket",
+    "1 stk. frisk ingefær (ca. 3 cm), fintrevet",
+    "3 spsk sojasauce (laktosefri)",
+    "1 spsk østerssauce",
+    "1 spsk sesamolie",
+    "2 spsk neutral olie (f.eks. rapsolie)",
+    "1 spsk majsstivelse, opløst i 2 spsk koldt vand",
+    "1 tsk sukker",
+    "½ tsk friskkværnet sort peber",
+    "1 spsk sesamfrø til pynt",
+    "2 forårsløg, skåret i tynde ringe",
+    "300 g jasminris"
+  ],
+  "steps": [
+    "Trin 1: Kog jasminris efter anvisningen på pakken. Hold varmt under låg.",
+    "Trin 2: Bland sojasauce, østerssauce, sesamolie, sukker og den opløste majsstivelse i en lille skål og sæt til side. Skær alt kød og alle grøntsager, så alt er klar til hurtig stegning.",
+    "Trin 3: Varm en wok eller stor pande op ved høj varme med 1 spsk neutral olie. Steg oksekødstrimlerne i ca. 2-3 minutter, til de er brunet men stadig saftige. Tag kødet op og læg det til side på en tallerken.",
+    "Trin 4: Tilsæt den resterende spsk olie til wokken. Steg hvidløg og ingefær i 30 sekunder. Tilsæt gulerødder og broccoli og steg i 2 minutter. Tilsæt peberfrugter og sukkererter og steg i yderligere 2 minutter, så grøntsagerne stadig er sprøde.",
+    "Trin 5: Læg oksekødet tilbage i wokken. Hæld saucen over og vend det hele godt sammen. Lad det simre i 1 minut, til saucen tykner let.",
+    "Trin 6: Anret wokken på tallerkener med jasminris. Drys med sesamfrø og skåret forårsløg og server med det samme."
+  ],
+  "nutrition": {
+    "calories": 520,
+    "protein": 36,
+    "carbs": 50,
+    "fat": 16
+  }
+}

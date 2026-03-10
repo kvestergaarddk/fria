@@ -1,0 +1,46 @@
+{
+  "id": 1026,
+  "title": "Svampesteg med polenta og friske krydderurter",
+  "image": "https://source.unsplash.com/featured/800x600/?mushroom%20stew%20polenta%20herbs%20vegetarian",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mediterranean"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "vegetarian",
+  "ingredients": [
+    "500 g blandede svampe (portobello, champignon og østershatte), rensede og snittet i tykke skiver",
+    "3 spsk olivenolie",
+    "4 fed hvidløg, finthakkede",
+    "2 kviste frisk rosmarin, nålene plukket og hakket",
+    "1 bundt frisk timian, bladene plukket",
+    "200 g polenta (majsgryn)",
+    "800 ml vand",
+    "200 ml grøntsagsbouillon (glutenfri)",
+    "2 spsk næringsgær (valgfri, for umami-smag)",
+    "1 spsk balsamicoeddike",
+    "1 tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "Frisk persille til pynt"
+  ],
+  "steps": [
+    "Trin 1: Bring vand og grøntsagsbouillon i kog i en tykbundet gryde. Drys polentaen i under konstant omrøring, skru ned til lav varme og rør jævnligt i ca. 20 minutter, indtil polentaen er tyk og cremet. Tilsæt næringsgær, salt og en spiskeske olivenolie og rør godt.",
+    "Trin 2: Mens polentaen koger, varmes 2 spsk olivenolie op i en stor pande ved høj varme. Læg svampeskiverne i panden i ét lag (steg evt. i to omgange) og lad dem stege urørt i 3-4 minutter, til de er gyldne i bunden.",
+    "Trin 3: Vend svampene, tilsæt hvidløg, rosmarin og timian og steg yderligere 3-4 minutter. Sluk varmen, tilsæt balsamicoeddike og peber, og vend det hele grundigt sammen.",
+    "Trin 4: Fordel den cremede polenta på fire dybe tallerkener, læg de stegte svampe ovenpå, og drys med frisk persille. Server straks."
+  ],
+  "nutrition": {
+    "calories": 350,
+    "protein": 10,
+    "carbs": 45,
+    "fat": 14
+  }
+}

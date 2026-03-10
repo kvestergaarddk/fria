@@ -1,0 +1,52 @@
+{
+  "id": 1012,
+  "title": "Kyllingebryst med pesto og ovnbagte tomater",
+  "image": "https://source.unsplash.com/featured/800x600/?chicken%20breast%20pesto%20tomatoes%20baked",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mediterranean"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "chicken",
+  "ingredients": [
+    "4 kyllingebrystfileter (ca. 600 g i alt)",
+    "Salt og friskkværnet peber",
+    "2 spsk olivenolie",
+    "300 g ris (basmati eller jasmin)",
+    "For pestoen:",
+    "50 g frisk basilikum (blade og tynde stængler)",
+    "30 g pinjekerner, let ristede",
+    "2 fed hvidløg",
+    "1 dl ekstra jomfru olivenolie",
+    "2 spsk gærflager (erstatter parmesan, laktosefri)",
+    "Saft af ½ citron",
+    "Salt og peber efter smag",
+    "For de ovnbagte tomater:",
+    "400 g modne tomater, halverede",
+    "2 spsk olivenolie",
+    "1 tsk tørret oregano",
+    "2 fed hvidløg, finthakket",
+    "1 tsk balsamicoeddike",
+    "Salt og peber"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C varmluft. Læg de halverede tomater med snitfladen opad på en bageplade beklædt med bagepapir. Fordel olivenolie, hvidløg, oregano og balsamicoeddike over tomaterne. Krydr med salt og peber. Bag i ovnen i 25-30 minutter, til tomaterne er bløde og let karamelliserede.",
+    "Trin 2: Lav pestoen ved at blende basilikum, pinjekerner, hvidløg, gærflager og citronsaft i en foodprocessor. Tilsæt olivenolie i en tynd stråle, mens du blender, til du har en jævn pesto. Smag til med salt og peber.",
+    "Trin 3: Bank kyllingebryster let flade med en kødhammer, så de har ensartet tykkelse. Krydr med salt og peber. Varm 2 spsk olivenolie i en stor ovnfast pande og steg kyllingen i 3-4 minutter på hver side, til den er gylden. Fordel et generøst lag pesto over hvert kyllingebryst og sæt panden i ovnen de sidste 10-12 minutter ved 200°C, til kyllingen er gennemstegt (75°C kernetemperatur).",
+    "Trin 4: Kog ris efter pakkens anvisning i let saltet vand. Si af og lad det hvile med låg på i 5 minutter.",
+    "Trin 5: Anret risen på tallerkener med kyllingebryster med pesto ovenpå og de ovnbagte tomater ved siden af. Pynt eventuelt med frisk basilikum og et drys pinjekerner."
+  ],
+  "nutrition": {
+    "calories": 580,
+    "protein": 42,
+    "carbs": 45,
+    "fat": 26
+  }
+}

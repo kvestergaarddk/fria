@@ -1,0 +1,47 @@
+{
+  "id": 1034,
+  "title": "Glutenfri pizzabund med blomkål",
+  "image": "https://source.unsplash.com/featured/800x600/?cauliflower%20pizza%20crust%20homemade",
+  "readyInMinutes": 55,
+  "servings": 8,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "italian"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "1 stort blomkålshoved (ca. 600 g buketter)",
+    "100 g mandelmel",
+    "50 g rismel",
+    "2 æg",
+    "75 g revet mozzarella",
+    "1 tsk tørret oregano",
+    "1/2 tsk hvidløgspulver",
+    "1/2 tsk salt",
+    "1/4 tsk sort peber",
+    "150 ml tomatpassata til topping",
+    "150 g revet mozzarella til topping",
+    "Valgfrit: frisk basilikum, cherry-tomater, oliven"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 220°C. Del blomkålen i buketter og blend eller riv dem fint, så det ligner couscous. Damp blomkålen i en gryde med låg eller mikroovn i 4-5 minutter, til den er blød.",
+    "Trin 2: Hæld den dampede blomkål i et rent viskestykke og vrid så meget væske ud som muligt — dette er afgørende for en sprød bund.",
+    "Trin 3: Bland den tørrede blomkål med mandelmel, rismel, æg, 75 g revet mozzarella, oregano, hvidløgspulver, salt og peber i en skål. Rør til en ensartet dej.",
+    "Trin 4: Fordel dejen på en bageplade med bagepapir og form den til en rund eller oval pizzabund (ca. 1/2 cm tyk). Tryk den godt fast.",
+    "Trin 5: Bag bunden i ovnen i 18-20 minutter, til den er fast og begynder at blive gylden i kanterne.",
+    "Trin 6: Tag pizzabunden ud og fordel tomatpassata jævnt over. Drys med 150 g revet mozzarella og valgfri toppings som cherry-tomater og oliven.",
+    "Trin 7: Sæt pizzaen tilbage i ovnen i 8-10 minutter, til osten er smeltet og let gylden. Pynt med frisk basilikum, skær i 8 stykker og server."
+  ],
+  "nutrition": {
+    "calories": 175,
+    "protein": 10,
+    "carbs": 12,
+    "fat": 10
+  }
+}

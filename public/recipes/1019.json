@@ -1,0 +1,49 @@
+{
+  "id": 1019,
+  "title": "Grillet laks med ingefær og ærteris",
+  "image": "https://source.unsplash.com/featured/800x600/?grilled%20salmon%20ginger%20pea%20rice",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "asian"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "4 laksefileter med skind (ca. 150 g stk.)",
+    "1 stk. frisk ingefær (ca. 4 cm), fintrevet",
+    "2 fed hvidløg, finthakket",
+    "3 spsk sojasauce (laktosefri)",
+    "1 spsk sesamolie",
+    "1 spsk honning",
+    "1 lime, saften heraf",
+    "300 g jasminris",
+    "200 g frosne ærter",
+    "3 forårsløg, skåret i tynde ringe",
+    "1 spsk neutral olie (f.eks. rapsolie)",
+    "1 spsk sesamfrø",
+    "½ tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "1 spsk riseddike",
+    "1 tsk chiliflager (valgfrit)"
+  ],
+  "steps": [
+    "Trin 1: Bland revet ingefær, hvidløg, sojasauce, sesamolie, honning og halvdelen af limesaften i en skål. Læg laksefileterne i marinaden, vend dem, så de er dækket, og lad dem marinere i 15 minutter ved stuetemperatur.",
+    "Trin 2: Kog jasminrisen efter anvisningen på pakken. Når risen har 3 minutter tilbage, tilsæt de frosne ærter direkte i risgrøden og kog videre. Dræn og lad det stå med låg på.",
+    "Trin 3: Varm en grillpande eller almindelig pande op ved høj varme med 1 spsk neutral olie. Tag laksen op af marinaden (gem marinaden) og steg fileterne med skindsiden nedad i 3-4 minutter. Vend forsigtigt og steg yderligere 2-3 minutter på den anden side, til laksen er gennemstegt men stadig saftig. Hæld den resterende marinade i en lille kasserolle, bring den i kog og lad den simre i 2 minutter til en glasur.",
+    "Trin 4: Vend forsigtigt forårsløg, riseddike og resterende limesaft i ris-ærte-blandingen med en gaffel. Smag til med salt og peber.",
+    "Trin 5: Fordel ærteris på tallerkenerne og læg en laksefilet ovenpå. Pensl laksen med den varme ingefær-glasur, drys med sesamfrø og eventuelle chiliflager og server straks."
+  ],
+  "nutrition": {
+    "calories": 510,
+    "protein": 38,
+    "carbs": 48,
+    "fat": 18
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1002,
+  "title": "Kylling i karry med basmatiris",
+  "image": "https://source.unsplash.com/featured/800x600/?chicken%20curry%20rice%20indian%20food",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "chicken",
+  "ingredients": [
+    "600 g kyllingebryst, skåret i mundstørrelsestern",
+    "2 spsk olivenolie",
+    "1 stort løg, hakket",
+    "2 fed hvidløg, finthakket",
+    "1 spsk friskrevet ingefær",
+    "2 spsk karrypulver",
+    "1 tsk gurkemeje",
+    "½ tsk spidskommen",
+    "1 dåse kokosmælk (400 ml)",
+    "1 dåse hakkede tomater (400 g)",
+    "1 spsk kartoffelstivelse rørt ud i 2 spsk koldt vand",
+    "1 tsk salt",
+    "½ tsk peber",
+    "1 rødt peberfrugt, skåret i tern",
+    "300 g basmatiris",
+    "5 dl vand til ris",
+    "1 tsk salt til ris",
+    "Frisk koriander til pynt"
+  ],
+  "steps": [
+    "Trin 1: Skyl basmatiris i koldt vand 2-3 gange. Kog risen i saltet vand i en kasserolle med låg i ca. 12 minutter. Sluk for varmen og lad risen stå med låg på i 5 minutter, så den damper færdig.",
+    "Trin 2: Varm olivenolie i en stor, dyb pande eller gryde ved medium-høj varme. Brun kyllingestykkerne i ca. 3-4 minutter, til de har fået farve på alle sider. Tag kyllingen op og sæt den til side.",
+    "Trin 3: Skru ned for varmen til medium. Tilsæt hakket løg og steg i 3 minutter, til det er blødt. Tilsæt hvidløg, ingefær, karrypulver, gurkemeje og spidskommen. Rør rundt i 1 minut, så krydderierne dufter.",
+    "Trin 4: Hæld kokosmælk og hakkede tomater i gryden og rør godt sammen. Tilsæt kyllingen og tern af rød peberfrugt. Lad retten simre ved lav varme i 15-18 minutter, til kyllingen er gennemstegt og sovsen er tyknet.",
+    "Trin 5: Rør kartoffelstivelseblandingen i og lad det simre 2 minutter mere for en ekstra jævn sovs. Smag til med salt og peber.",
+    "Trin 6: Server kylling i karry over basmatiris og pynt med frisk koriander."
+  ],
+  "nutrition": {
+    "calories": 590,
+    "protein": 40,
+    "carbs": 52,
+    "fat": 22
+  }
+}

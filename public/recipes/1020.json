@@ -1,0 +1,49 @@
+{
+  "id": 1020,
+  "title": "Braiseret kylling med oliven og citron",
+  "image": "https://source.unsplash.com/featured/800x600/?braised%20chicken%20olives%20lemon%20mediterranean",
+  "readyInMinutes": 75,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mediterranean"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "chicken",
+  "ingredients": [
+    "8 kyllingeoverlår med ben og skind (ca. 1,2 kg)",
+    "2 spsk olivenolie",
+    "1 stor løg, skåret i halvringe",
+    "4 fed hvidløg, finthakkede",
+    "150 g grønne oliven, udstenet",
+    "2 citroner (1 skåret i tynde skiver, 1 til saft)",
+    "200 ml kyllingefond (glutenfri)",
+    "100 ml hvidvin (tør)",
+    "2 tsk tørret oregano",
+    "1 tsk tørret timian",
+    "2 laurbærblade",
+    "1 tsk røget paprika",
+    "Salt og friskkværnet peber",
+    "Frisk persille til pynt"
+  ],
+  "steps": [
+    "Trin 1: Krydr kyllingeoverlårene med salt, peber og røget paprika. Varm olivenolie op i en stor, tykbundet gryde eller stegeso over medium-høj varme. Brun kyllingen godt på begge sider i ca. 4-5 minutter per side. Tag kyllingen op og sæt til side.",
+    "Trin 2: Skru ned til medium varme. Svits løg i samme gryde i ca. 4 minutter, til de er bløde og let gyldne. Tilsæt hvidløg og svits videre i 1 minut. Hæld hvidvin i gryden og skrab eventuelle bruningsrester fri fra bunden med en træske.",
+    "Trin 3: Tilsæt kyllingefond, citronskiver, citronsaft, oregano, timian og laurbærblade. Rør godt rundt og læg kyllingeoverlårene tilbage i gryden med skindsiden opad. Fordel olivenerne jævnt omkring kyllingen.",
+    "Trin 4: Læg låg på gryden og sæt den i en forvarmet ovn på 180°C (konventionel) i 35 minutter.",
+    "Trin 5: Fjern låget og bras videre i yderligere 10-15 minutter, så skindet bliver sprødt og saucen reducerer en smule.",
+    "Trin 6: Tag gryden ud af ovnen, fjern laurbærbladene og smag saucen til med salt og peber. Drys med frisk hakket persille og server direkte fra gryden med kogte ris eller dampede kartofler."
+  ],
+  "nutrition": {
+    "calories": 520,
+    "protein": 42,
+    "carbs": 8,
+    "fat": 34
+  }
+}

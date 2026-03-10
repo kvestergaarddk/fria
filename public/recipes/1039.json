@@ -1,0 +1,47 @@
+{
+  "id": 1039,
+  "title": "Krydrede boller med sesamfrø (laktosefri)",
+  "image": "https://source.unsplash.com/featured/800x600/?sesame%20seed%20rolls%20bread%20buns%20danish",
+  "readyInMinutes": 90,
+  "servings": 12,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "500 g hvedemel",
+    "50 g fuldkornshvedemel",
+    "25 g frisk gær eller 7 g tørgær",
+    "300 ml havredrik (lunken, ca. 37 °C)",
+    "50 ml rapsolie eller mild olivenolie",
+    "40 g rørsukker",
+    "8 g fint salt",
+    "1 tsk stødt kardemomme",
+    "½ tsk stødt kanel",
+    "½ tsk stødt ingefær",
+    "1 knivspids stødt nelliker",
+    "4 spsk sesamfrø (ca. 30 g)",
+    "Pensling: 2 spsk havredrik blandet med 1 tsk ahornsirup"
+  ],
+  "steps": [
+    "Trin 1: Lun havredrikken til ca. 37 °C. Smuld den friske gær (eller drys tørgæren) i en stor røreskål, og tilsæt den lunkne havredrik og sukker. Rør rundt og lad det stå i 5 minutter, til gæren begynder at aktivere og boble.",
+    "Trin 2: Tilsæt olien, begge meltyper, salt, kardemomme, kanel, ingefær, nelliker og 2 spsk af sesamfrøene. Ælt dejen i en køkkenmaskine i ca. 8 minutter på lav-medium hastighed, eller ælt i hånden i ca. 12 minutter, til dejen er smidig, elastisk og slipper skålens sider. Den skal føles blød men ikke klæbrig.",
+    "Trin 3: Form dejen til en kugle, læg den tilbage i en let olieret skål og tildæk med film eller et fugtigt viskestykke. Lad den hæve ved stuetemperatur i ca. 45 minutter, til den er fordoblet i størrelse.",
+    "Trin 4: Slå dejen let ned og vend den ud på en let meldrysset bordplade. Del dejen i 12 lige store stykker (ca. 75-80 g pr. styk). Tril hvert stykke til en rund bolle med håndfladerne og placer dem på en bageplade beklædt med bagepapir med ca. 3 cm mellemrum. Tildæk med et viskestykke og lad bollerne efterhæve i 25-30 minutter.",
+    "Trin 5: Forvarm ovnen til 200 °C (over-/undervarme) eller 180 °C (varmluft). Pensl bollerne forsigtigt med blandingen af havredrik og ahornsirup, og drys de resterende 2 spsk sesamfrø jævnt over toppen.",
+    "Trin 6: Bag bollerne i midten af ovnen i 15-18 minutter, til de er gyldne og lyder hule, når du banker på bunden. Lad dem køle på en rist i mindst 10 minutter. Server lunkne med dit yndlingssmørepålæg — de er fantastiske med laktosefri plantesmør og marmelade."
+  ],
+  "nutrition": {
+    "calories": 215,
+    "protein": 6,
+    "carbs": 36,
+    "fat": 6
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 1021,
+  "title": "Pulled pork med coleslaw og søde kartofler",
+  "image": "https://source.unsplash.com/featured/800x600/?pulled%20pork%20coleslaw%20sweet%20potato%20bbq",
+  "readyInMinutes": 300,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "american"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "1 kg svinenakke (uden ben)",
+    "2 spsk olivenolie",
+    "1 spsk røget paprika",
+    "1 tsk spidskommen",
+    "1 tsk hvidløgspulver",
+    "1 tsk løgpulver",
+    "1 tsk chipotle chili i pulverform (eller almindelig chili efter smag)",
+    "2 tsk salt",
+    "1 tsk friskkværnet sort peber",
+    "2 spsk æblecidereddike",
+    "200 ml glutenfri BBQ-sauce (kontrollér etiket for gluten og laktose)",
+    "100 ml vand",
+    "4 mellemstore søde kartofler (ca. 800 g)",
+    "1 spsk olivenolie til kartofler",
+    "200 g spidskål, fintrevet",
+    "2 gulerødder, grovrevet",
+    "3 spsk laktosefri mayonnaise",
+    "1 spsk æblecidereddike til coleslaw",
+    "1 tsk honning",
+    "Salt og peber til coleslaw"
+  ],
+  "steps": [
+    "Trin 1: Bland røget paprika, spidskommen, hvidløgspulver, løgpulver, chipotle chili, salt og peber i en skål. Gnid krydderiblandingen grundigt ind i svinenakken fra alle sider. Varm olivenolie op i en stegeso eller tykbundet gryde og brun kødet godt på alle sider, ca. 3 minutter per side.",
+    "Trin 2: Hæld æblecidereddike, halvdelen af BBQ-saucen og vand over kødet. Læg låg på og sæt gryden i en forvarmet ovn på 140°C (konventionel). Lad det braisere i 4-4½ timer, til kødet er så mørt, at det let kan trækkes fra hinanden med to gafler. Vend kødet én gang halvvejs.",
+    "Trin 3: Ca. 45 minutter før kødet er færdigt, vask de søde kartofler og prik dem med en gaffel. Pensl med lidt olivenolie og drys med salt. Bag dem i ovnen ved siden af kødet i ca. 40-45 minutter, til de er helt bløde.",
+    "Trin 4: Mens kødet og kartoflerne bager, laves coleslawen. Bland fintrevet spidskål og gulerødder i en skål. Rør laktosefri mayonnaise, æblecidereddike og honning sammen i en lille skål og smag til med salt og peber. Vend dressingen med kålen og sæt i køleskabet.",
+    "Trin 5: Tag kødet op af gryden og træk det fra hinanden med to gafler på et skærebræt. Bland den resterende BBQ-sauce samt et par spiseskefulde braiseringsvæske i det trukne kød.",
+    "Trin 6: Skær de bagte søde kartofler op på langs og fordel pulled pork ovenpå. Server med coleslaw ved siden af."
+  ],
+  "nutrition": {
+    "calories": 650,
+    "protein": 45,
+    "carbs": 52,
+    "fat": 28
+  }
+}

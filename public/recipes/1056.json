@@ -1,0 +1,42 @@
+{
+  "id": 1056,
+  "title": "Bagt pære med honning og mandler",
+  "image": "https://source.unsplash.com/featured/800x600/?baked%20pear%20honey%20almonds%20dessert%20autumn",
+  "readyInMinutes": 40,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "nordic"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "4 store modne pærer (f.eks. Conference), halverede og udkernede",
+    "3 spsk flydende honning",
+    "60 g hele mandler, groft hakkede",
+    "1 spsk kokosolie, smeltet",
+    "1 tsk kanel",
+    "½ tsk vanilje (ren vaniljepulver eller frøene fra ½ vaniljestang)",
+    "1 knivspids kardemomme",
+    "2 spsk kokosflødecreme (fast del fra en dåse kokosmælk, kølet natten over) til servering"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 190 °C varmluft. Beklæd en bradepande med bagepapir.",
+    "Trin 2: Halvér pærerne på langs og fjern kærnehuset med en teske. Læg pærehalvdelene med den hule side opad på bradepanden.",
+    "Trin 3: Bland honning, smeltet kokosolie, kanel, vanilje og kardemomme i en lille skål. Fordel honningblandingen jævnt over pærehalvdelene, så det samler sig i hulrummet.",
+    "Trin 4: Drys de hakkede mandler over pærerne, så de sidder godt fast i honningblandingen.",
+    "Trin 5: Bag pærerne i ovnen i 20-25 minutter, indtil de er møre og let gyldne, og mandlerne er ristede.",
+    "Trin 6: Tag pærerne ud af ovnen og lad dem køle i 5 minutter. Server lune med en klat kold kokosflødecreme ved siden af."
+  ],
+  "nutrition": {
+    "calories": 135,
+    "protein": 2,
+    "carbs": 22,
+    "fat": 6
+  }
+}

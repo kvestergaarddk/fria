@@ -1,0 +1,49 @@
+{
+  "id": 1005,
+  "title": "Ristede grøntsager med quinoa og tahindressing",
+  "image": "https://source.unsplash.com/featured/800x600/?roasted%20vegetables%20quinoa%20bowl%20healthy",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mediterranean"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "vegetarian",
+  "ingredients": [
+    "200 g quinoa",
+    "1 stort søde kartoffel, skåret i tern (ca. 400 g)",
+    "2 rødbeder, skåret i tern (ca. 300 g)",
+    "1 stort squash, skåret i halve måner (ca. 300 g)",
+    "1 rød peberfrugt, skåret i strimler",
+    "1 gul peberfrugt, skåret i strimler",
+    "200 g cherrytomater",
+    "3 spsk olivenolie",
+    "1 tsk spidskommen",
+    "1 tsk paprika",
+    "Salt og friskkværnet peber efter smag",
+    "3 spsk tahini",
+    "2 spsk friskpresset citronsaft",
+    "1 fed hvidløg, fintrevet",
+    "2-3 spsk vand",
+    "1 spsk honning eller ahornsirup",
+    "Frisk persille til pynt"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C varmluft. Skyl quinoa grundigt i en sigte under koldt vand. Kog quinoaen i 400 ml let saltet vand i ca. 15 minutter, til vandet er absorberet. Lad den stå tildækket i 5 minutter, og pjusk den derefter med en gaffel.",
+    "Trin 2: Fordel søde kartofler, rødbeder, squash, peberfrugter og cherrytomater på en stor bageplade beklædt med bagepapir. Bland olivenolie, spidskommen, paprika, salt og peber sammen og vend grøntsagerne heri, så de er jævnt dækket. Rist i ovnen i 25-30 minutter, til grøntsagerne er møre og let karamelliserede. Vend dem halvvejs.",
+    "Trin 3: Lav tahindressingen ved at røre tahini, citronsaft, revet hvidløg, honning og vand sammen i en skål, til konsistensen er jævn og flydende. Tilsæt eventuelt lidt mere vand, hvis dressingen er for tyk. Smag til med salt.",
+    "Trin 4: Fordel den kogte quinoa i dybe tallerkener. Læg de ristede grøntsager ovenpå, og fordel tahindressingen generøst over retten. Drys med frisk hakket persille og server straks."
+  ],
+  "nutrition": {
+    "calories": 450,
+    "protein": 14,
+    "carbs": 58,
+    "fat": 19
+  }
+}

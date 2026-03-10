@@ -1,0 +1,44 @@
+{
+  "id": 1029,
+  "title": "Oksecarpaccio med rucola og kapers",
+  "image": "https://source.unsplash.com/featured/800x600/?beef%20carpaccio%20arugula%20capers%20italian",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "italian"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "400 g oksemørbrad af høj kvalitet (helst fra slagter, skåret til carpaccio)",
+    "100 g frisk rucola",
+    "3 spsk ekstra jomfru olivenolie",
+    "2 spsk kapers, drænede",
+    "1 citron, saften og fint revet skal",
+    "1 spsk grov Dijon-sennep (kontrollér glutenfri)",
+    "½ tsk flagesalt",
+    "¼ tsk friskkværnet sort peber",
+    "50 g pinjekerner, let ristede",
+    "1 lille rødløg, skåret i papirtynde ringe"
+  ],
+  "steps": [
+    "Trin 1: Pak oksemørbraden stramt i plastfolie og læg den i fryseren i ca. 20 minutter, så den bliver fast men ikke frosset — det gør det langt nemmere at skære tynde skiver.",
+    "Trin 2: Bland olivenolie, citronsaft, citronskræl og Dijon-sennep i en lille skål til en glat dressing. Smag til med salt og peber.",
+    "Trin 3: Tag mørbraden ud af fryseren og skær den med en meget skarp kniv i papirtynde skiver. Læg skiverne ud på fire kølige tallerkener, så de dækker bunden i et enkelt lag. Bank dem evt. lidt fladere med bagepapir.",
+    "Trin 4: Fordel rucola, rødløgsringe og kapers ovenpå det rå kød. Drys med ristede pinjekerner og dryp dressingen jævnt hen over.",
+    "Trin 5: Afslut med et drys flagesalt og friskkværnet peber. Server straks, eventuelt med glutenfrit brød ved siden af."
+  ],
+  "nutrition": {
+    "calories": 340,
+    "protein": 30,
+    "carbs": 5,
+    "fat": 23
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": 1047,
+  "title": "Panna cotta med jordbærsauce (glutenfri)",
+  "image": "https://source.unsplash.com/featured/800x600/?panna%20cotta%20strawberry%20sauce%20dessert",
+  "readyInMinutes": 30,
+  "servings": 6,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "italian"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "5 dl piskefløde",
+    "2 dl sødmælk",
+    "80 g sukker",
+    "1 vaniljestang (kløvet og udskrabet) eller 2 tsk vaniljeekstrakt",
+    "4 blade husblas (eller 8 g)",
+    "400 g friske jordbær",
+    "50 g flormelis",
+    "1 spsk citronsaft",
+    "Friske mynteblade til pynt"
+  ],
+  "steps": [
+    "Udbløde husblassene i koldt vand i mindst 5 minutter.",
+    "Hæld fløde, mælk og sukker i en gryde. Tilsæt vaniljekornene (og stangen). Varm op til lige under kogepunktet under omrøring, til sukkeret er opløst.",
+    "Tag gryden af varmen. Fjern vaniljestangen. Vrid husblassene og rør dem i den varme flødemasse, til de er helt opløst.",
+    "Fordel blandingen i 6 forme eller glas. Lad dem køle af til stuetemperatur.",
+    "Sæt i køleskabet i mindst 4 timer eller natten over, til de er helt faste.",
+    "Lav jordbærsaucen: Blend jordbær, flormelis og citronsaft glat. Si saucen for at fjerne kerner, hvis ønsket.",
+    "Vend panna cottaerne ud på tallerkener (dyp formene kort i varmt vand for at løsne) eller server i glassene.",
+    "Hæld jordbærsaucen over og pynt med friske mynteblade."
+  ],
+  "nutrition": {
+    "calories": 380,
+    "protein": 4,
+    "carbs": 28,
+    "fat": 29
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 1008,
+  "title": "Kyllingelår med citron og rosmarin",
+  "image": "https://source.unsplash.com/featured/800x600/?chicken%20thigh%20lemon%20rosemary%20roasted",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mediterranean"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "chicken",
+  "ingredients": [
+    "8 kyllingelår (ca. 1 kg)",
+    "3 spsk olivenolie",
+    "2 citroner (1 i skiver, 1 til saft og skal)",
+    "4 kviste frisk rosmarin",
+    "6 fed hvidløg, let knuste med skræl",
+    "500 g små kartofler, halverede",
+    "200 g cherrytomater",
+    "1 stort løg, skåret i både",
+    "1 tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "1 tsk tørret oregano",
+    "1 spsk honning",
+    "100 ml kyllingebouillon (glutenfri)",
+    "Frisk persille til pynt"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C varmluft. Bland olivenolie, saften og den revne skal af 1 citron, honning, oregano, salt og peber i en stor skål. Vend kyllingelårene grundigt i marinaden.",
+    "Trin 2: Fordel de halverede kartofler, løgbåde og knuste hvidløgsfed i en stor ovnfast fad eller bradepande. Hæld kyllingebouillon over. Læg kyllingelårene ovenpå grøntsagerne med skindsiden opad. Fordel citronskiverne og rosmarinkvistene mellem og ovenpå kyllingen.",
+    "Trin 3: Sæt fadet i ovnen og bag i 35 minutter. Tag fadet ud, tilsæt cherrytomaterne mellem kyllingelårene, og sæt fadet tilbage i ovnen i yderligere 10-15 minutter, til kyllingeskindet er gyldent og sprødt, og saften løber klar, når man stikker i det tykkeste sted.",
+    "Trin 4: Lad retten hvile i 5 minutter. Drys med frisk hakket persille og server direkte fra fadet. Retten er dejlig med en simpel grøn salat ved siden af."
+  ],
+  "nutrition": {
+    "calories": 520,
+    "protein": 38,
+    "carbs": 32,
+    "fat": 24
+  }
+}

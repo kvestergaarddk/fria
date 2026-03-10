@@ -1,0 +1,44 @@
+{
+  "id": 1046,
+  "title": "Citronfromage (glutenfri)",
+  "image": "https://source.unsplash.com/featured/800x600/?lemon%20mousse%20dessert%20danish%20light%20creamy",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "4 æg (delt i blommer og hvider)",
+    "150 g sukker",
+    "Saft og fintrevet skal af 3 økologiske citroner",
+    "6 blade husblas (eller 12 g)",
+    "3 dl piskefløde",
+    "1 tsk vaniljeekstrakt",
+    "Friske bær til pynt",
+    "Frisk mynte til pynt"
+  ],
+  "steps": [
+    "Udbløde husblassene i en skål med koldt vand i mindst 5 minutter.",
+    "Pisk æggeblommerne med 100 g af sukkeret, citronsaft, citronskal og vaniljeekstrakt i en tykbundet gryde.",
+    "Varm blandingen op på svag varme under konstant piskning, til den tykner let (ca. 5 minutter). Må ikke koge.",
+    "Tag gryden af varmen. Vrid husblassene og rør dem i den varme citronmasse, til de er helt opløst.",
+    "Lad massen køle af til stuetemperatur, rør af og til.",
+    "Pisk fløden til blødt skum og fold den forsigtigt i citronmassen.",
+    "Pisk æggehviderne stive med de resterende 50 g sukker og fold dem forsigtigt i blandingen i to omgange.",
+    "Hæld fromagen i en smuk skål eller fordel i individuelle glas. Sæt i køleskabet i mindst 3 timer.",
+    "Pynt med friske bær og mynte lige inden servering."
+  ],
+  "nutrition": {
+    "calories": 310,
+    "protein": 6,
+    "carbs": 32,
+    "fat": 18
+  }
+}

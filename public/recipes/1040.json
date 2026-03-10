@@ -1,0 +1,43 @@
+{
+  "id": 1040,
+  "title": "Bananpandekager (glutenfri og laktosefri)",
+  "image": "https://source.unsplash.com/featured/800x600/?banana%20pancakes%20stack%20breakfast%20maple%20syrup",
+  "readyInMinutes": 25,
+  "servings": 10,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "3 modne bananer (ca. 350 g)",
+    "4 æg",
+    "3 spsk kartoffelmel",
+    "1 tsk vaniljepulver",
+    "1 tsk kanel",
+    "1 knivspids salt",
+    "2 spsk kokosolie til stegning",
+    "Frisk frugt til servering (f.eks. blåbær og jordbær)",
+    "Ahornsirup til servering"
+  ],
+  "steps": [
+    "Trin 1: Mos bananerne fint med en gaffel i en stor skål, indtil de er næsten helt glatte.",
+    "Trin 2: Pisk æggene sammen med kartoffelmel, vaniljepulver, kanel og salt, og rør det grundigt sammen med bananmosen til en jævn dej.",
+    "Trin 3: Opvarm en pande på medium varme og smelt en lille klat kokosolie. Hæld ca. 2 spsk dej pr. pandekage på panden og steg dem i 2-3 minutter på hver side, indtil de er gyldne og satte.",
+    "Trin 4: Hold de færdige pandekager varme i ovnen ved 80°C, mens du steger resten af dejen færdig.",
+    "Trin 5: Anret pandekagerne på tallerkener og top med friske bær og et stænk ahornsirup. Server straks."
+  ],
+  "nutrition": {
+    "calories": 95,
+    "protein": 3,
+    "carbs": 12,
+    "fat": 4
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1037,
+  "title": "Laktosefri æblekage med kanelstreusel",
+  "image": "https://source.unsplash.com/featured/800x600/?apple%20cake%20cinnamon%20streusel%20danish%20bakery",
+  "readyInMinutes": 75,
+  "servings": 10,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "4 mellemstore æbler (f.eks. Elstar eller Cox Orange), skrællet og skåret i tynde skiver",
+    "300 g hvedemel",
+    "200 g rørsukker",
+    "150 ml neutral planteolie (f.eks. rapsolie eller solsikkeolie)",
+    "200 ml havredrik (usødet) eller anden plantemælk",
+    "3 æg",
+    "2 tsk bagepulver",
+    "1 tsk vaniljeekstrakt",
+    "1 knivspids salt",
+    "Kanelstreusel: 80 g hvedemel",
+    "Kanelstreusel: 60 g rørsukker",
+    "Kanelstreusel: 50 g kokosolie, fast men blød (stuetemperatur)",
+    "Kanelstreusel: 2 tsk kanel"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 175 °C (varmluft). Smør en springform (ca. 24-26 cm) med lidt planteolie og drys med mel, så kagen ikke sætter sig fast.",
+    "Trin 2: Lav kanelstreusel: Bland 80 g mel, 60 g rørsukker og 2 tsk kanel i en lille skål. Tilsæt den bløde kokosolie og knus det sammen med fingrene til en grov, smuldret masse. Sæt den til side.",
+    "Trin 3: Pisk æggene og 200 g rørsukker luftigt i en stor skål i ca. 3 minutter med en elpisker. Tilsæt planteolie, havredrik og vaniljeekstrakt, og rør sammen. Bland mel, bagepulver og salt i en separat skål, og vend det forsigtigt i den våde blanding med en dejskraber, til dejen er ensartet.",
+    "Trin 4: Hæld halvdelen af dejen i den forberedte springform. Fordel halvdelen af æbleskiverne jævnt over. Hæld resten af dejen ovenpå og top med de resterende æbleskiver.",
+    "Trin 5: Drys kanelstreusel jævnt over toppen af kagen. Bag midt i ovnen i 45-50 minutter, eller til en bagepind stukket i midten kommer ren ud. Hvis streuslen bliver for mørk mod slutningen, dæk løst med et stykke stanniol de sidste 10 minutter.",
+    "Trin 6: Lad kagen køle i formen i 15 minutter, før du løsner springformen. Server kagen lunken eller afkølet — eventuelt med et drys flormelis og laktosefri flødeskum."
+  ],
+  "nutrition": {
+    "calories": 345,
+    "protein": 5,
+    "carbs": 48,
+    "fat": 16
+  }
+}

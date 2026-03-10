@@ -1,0 +1,48 @@
+{
+  "id": 1043,
+  "title": "Gulerodsboller med ingefær og appelsin",
+  "image": "https://source.unsplash.com/featured/800x600/?carrot%20muffins%20ginger%20orange%20gluten%20free",
+  "readyInMinutes": 55,
+  "servings": 10,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "300 g rismel",
+    "100 g kartoffelmel",
+    "1 pose tørgær (ca. 7 g, glutenfri)",
+    "1 tsk salt",
+    "2 spsk sukker",
+    "1 tsk xanthan gum",
+    "200 g fintrevet gulerod (ca. 2 store gulerødder)",
+    "1 spsk friskrevet ingefær",
+    "Revet skal fra 1 økologisk appelsin",
+    "2 spsk friskpresset appelsinsaft",
+    "3 spsk olivenolie",
+    "2,5 dl lunkent vand (ca. 37°C)",
+    "1 æg"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C varmluft. Beklæd en bageplade med bagepapir. Bland rismel, kartoffelmel, tørgær, salt, sukker og xanthan gum i en stor skål.",
+    "Trin 2: Riv gulerødderne fint og tilsæt dem sammen med revet ingefær, appelsinskal og appelsinsaft til de tørre ingredienser.",
+    "Trin 3: Pisk ægget let og bland det med det lunkne vand og olivenolie. Hæld væsken i skålen og rør dejen godt sammen med en træske eller dejskraber i ca. 3 minutter, til en ensartet, blød dej.",
+    "Trin 4: Lad dejen hæve tildækket med viskestykke i ca. 20 minutter på et lunt sted.",
+    "Trin 5: Form dejen til ca. 10 boller med fugtige hænder og placer dem på bagepladen med god afstand.",
+    "Trin 6: Bag bollerne i ovnen i 20-25 minutter, indtil de er gyldne og lyder hule, når du banker på bunden. Lad dem afkøle på en rist."
+  ],
+  "nutrition": {
+    "calories": 175,
+    "protein": 3,
+    "carbs": 32,
+    "fat": 5
+  }
+}

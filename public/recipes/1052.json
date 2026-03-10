@@ -1,0 +1,40 @@
+{
+  "id": 1052,
+  "title": "Laktosefri chokolademousse",
+  "image": "https://source.unsplash.com/featured/800x600/?chocolate%20mousse%20dark%20creamy%20dessert",
+  "readyInMinutes": 180,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "french"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "200 g mørk chokolade (min. 70% kakao, laktosefri)",
+    "400 ml kold kokosfløde (kun den faste del fra en dåse kokosmælk, kølet natten over)",
+    "4 store æg, delt i blommer og hvider",
+    "60 g sukker",
+    "1 tsk vaniljeekstrakt",
+    "1 knivspids salt",
+    "Revet mørk chokolade til pynt",
+    "Friske hindbær til pynt"
+  ],
+  "steps": [
+    "Trin 1: Smelt den mørke chokolade over vandbad (skål over en gryde med svagt simrende vand). Rør jævnligt, og tag skålen af, når chokoladen er helt smeltet. Lad den køle ned til den er lun – ikke varm.",
+    "Trin 2: Rør æggeblommerne og vaniljeekstrakten ind i den lune, smeltede chokolade, én ad gangen, til massen er blank og ensartet.",
+    "Trin 3: Pisk æggehviderne med en knivspids salt til de er stive. Tilsæt sukkeret lidt ad gangen under fortsat piskning, til massen er blank og fast. I en separat skål piskes den kolde, faste kokosfløde til den er luftig og let stiv.",
+    "Trin 4: Vend forsigtigt først halvdelen af de piskede æggehvider i chokolademassen med en spatel for at lette den. Tilsæt derefter resten af æggehviderne og den piskede kokosfløde, og vend det hele forsigtigt sammen, til moussen er ensartet og luftig.",
+    "Trin 5: Fordel moussen i 8 portionsglas eller små skåle. Sæt dem i køleskabet i mindst 2 timer (gerne natten over). Server med revet mørk chokolade og friske hindbær."
+  ],
+  "nutrition": {
+    "calories": 285,
+    "protein": 5,
+    "carbs": 22,
+    "fat": 20
+  }
+}

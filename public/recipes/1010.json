@@ -1,0 +1,52 @@
+{
+  "id": 1010,
+  "title": "Pasta bolognese med frisk pastadej",
+  "image": "https://source.unsplash.com/featured/800x600/?pasta%20bolognese%20meat%20sauce%20italian",
+  "readyInMinutes": 75,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "italian"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "400 g tipo 00 mel (eller hvedemel)",
+    "4 æg",
+    "1 spsk olivenolie",
+    "1 knivspids salt",
+    "500 g hakket oksekød",
+    "1 stort løg, finthakket",
+    "2 gulerødder, fintrevet",
+    "2 stilke bladselleri, finthakket",
+    "3 fed hvidløg, finthakket",
+    "2 dåser flåede tomater (à 400 g)",
+    "2 spsk tomatpuré",
+    "1 dl rødvin (kan udelades)",
+    "2 spsk olivenolie",
+    "1 tsk tørret oregano",
+    "1 tsk tørret basilikum",
+    "1 lauerbærblad",
+    "Salt og friskkværnet peber efter smag",
+    "Frisk basilikum til pynt"
+  ],
+  "steps": [
+    "Trin 1: Lav pastadejen ved at blande mel og salt på en ren bordplade. Lav en fordybning i midten, tilsæt æg og olivenolie, og arbejd dejen sammen med hænderne i ca. 10 minutter, til den er glat og elastisk. Pak den ind i film og lad den hvile i 30 minutter i køleskabet.",
+    "Trin 2: Imens dejen hviler, varmes 2 spsk olivenolie i en stor gryde. Steg det hakkede oksekød ved høj varme, til det er brunet. Tilsæt løg, gulerødder, bladselleri og hvidløg og steg videre i 5 minutter, til grøntsagerne er bløde.",
+    "Trin 3: Tilsæt tomatpuré og rør rundt i 1 minut. Hæld rødvin i (hvis du bruger det) og lad det koge ind i 2 minutter. Tilsæt de flåede tomater, oregano, basilikum og laurbærblad. Bring saucen i kog, skru ned til lav varme og lad den simre i 25-30 minutter. Smag til med salt og peber.",
+    "Trin 4: Rul pastadejen ud med en kagerulle eller pastamaskine til den er ca. 2 mm tyk. Skær den i brede bånd (tagliatelle-bredde). Drys lidt mel over, så den ikke klæber sammen.",
+    "Trin 5: Kog en stor gryde vand op med salt. Kog den friske pasta i 2-3 minutter, til den flyder op og er al dente. Si den af og gem lidt af kogevandet.",
+    "Trin 6: Fjern laurbærbladet fra saucen. Vend den kogte pasta i bolognesesaucen og tilsæt lidt kogevand, hvis saucen er for tyk. Server straks med frisk basilikum på toppen."
+  ],
+  "nutrition": {
+    "calories": 620,
+    "protein": 38,
+    "carbs": 62,
+    "fat": 22
+  }
+}

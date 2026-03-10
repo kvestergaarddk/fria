@@ -1,0 +1,46 @@
+{
+  "id": 1001,
+  "title": "Stegt flæsk med persillesovs og bagte kartofler",
+  "image": "https://source.unsplash.com/featured/800x600/?crispy%20pork%20danish%20food%20dinner",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "600 g skiveskåret svinebryst (flæsk) uden svær, ca. 5 mm tykke skiver",
+    "1 kg kartofler, vasket og halveret",
+    "2 spsk olivenolie",
+    "1 tsk groft salt",
+    "½ tsk peber",
+    "Et par kviste frisk rosmarin",
+    "30 g smør til persillesovs",
+    "2½ spsk kartoffelstivelse",
+    "5 dl mælk",
+    "1 stort bundt frisk persille, finthakket",
+    "½ tsk salt til persillesovs",
+    "¼ tsk hvid peber",
+    "Et drys muskatnød"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C. Læg de halverede kartofler på en bageplade, vend dem med olivenolie, groft salt, peber og rosmarinkviste. Bag dem i ovnen i 35-40 minutter, til de er gyldne og sprøde.",
+    "Trin 2: Mens kartoflerne bager, lægges flæskeskiverne på en kold pande i ét lag. Tænd for medium-høj varme og steg dem langsomt ca. 4-5 minutter på hver side, til de er gyldne og sprøde. Steg eventuelt i to omgange for at undgå overbelastning af panden. Lad dem dryppe af på køkkenrulle.",
+    "Trin 3: Smelt smør i en kasserolle. Rør kartoffelstivelsen ud i lidt af den kolde mælk og hæld det i kasserollen sammen med resten af mælken. Bring op at simre under konstant omrøring i 3-4 minutter, til sovsen er jævn og cremet.",
+    "Trin 4: Tilsæt den finthakkede persille til sovsen og smag til med salt, hvid peber og muskatnød.",
+    "Trin 5: Anret det stegte flæsk på en tallerken med de bagte kartofler og en generøs portion persillesovs. Server straks."
+  ],
+  "nutrition": {
+    "calories": 710,
+    "protein": 30,
+    "carbs": 44,
+    "fat": 44
+  }
+}

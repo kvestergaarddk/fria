@@ -1,0 +1,41 @@
+{
+  "id": 1054,
+  "title": "Kokosdessert med passionsfrugt",
+  "image": "https://source.unsplash.com/featured/800x600/?coconut%20passion%20fruit%20dessert%20tropical%20bowl",
+  "readyInMinutes": 240,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "tropical"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "2 dåser kokosmælk (à 400 ml, fuld fedt)",
+    "80 g sukker",
+    "3 blade husblas (eller 2 tsk agarpulver for vegansk version)",
+    "1 tsk vaniljeekstrakt",
+    "6 modne passionsfrugter",
+    "2 spsk honning eller agavesirup",
+    "Saft af 1 lime",
+    "30 g ristede kokosflager til pynt",
+    "Friske mynteblade til pynt"
+  ],
+  "steps": [
+    "Trin 1: Læg husblassbladene i en skål med koldt vand i ca. 5 minutter, til de er bløde. (Hvis du bruger agar, skal det blandes direkte i kokosmælken senere.)",
+    "Trin 2: Hæld kokosmælken og sukkeret i en gryde og varm op under omrøring på mellemvarme, til sukkeret er helt opløst – blandingen skal være varm, men ikke koge. Klem vandet ud af de opblødte husblassblade og rør dem ind i den varme kokosmælk, til de er helt opløst. Tilsæt vaniljeekstrakt.",
+    "Trin 3: Fordel kokosmassen i 8 dessertglas eller ramekiner. Lad dem køle lidt ned ved stuetemperatur og sæt dem derefter i køleskabet i mindst 3 timer (gerne natten over), til de er faste som panna cotta.",
+    "Trin 4: Halver passionsfrugtene og skrab frugtkødet og kernerne ud i en skål. Bland med honning (eller agavesirup) og limesaft. Rør godt sammen.",
+    "Trin 5: Når kokosdesserten er sat, toppes hvert glas med et par skefulde passionsfrugtsauce, drysses med ristede kokosflager og pyntes med friske mynteblade. Server straks."
+  ],
+  "nutrition": {
+    "calories": 275,
+    "protein": 3,
+    "carbs": 24,
+    "fat": 20
+  }
+}

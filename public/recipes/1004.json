@@ -1,0 +1,53 @@
+{
+  "id": 1004,
+  "title": "Bøf med rødvinssovs og hasselbackkartofler",
+  "image": "https://source.unsplash.com/featured/800x600/?beef%20steak%20red%20wine%20sauce%20potato",
+  "readyInMinutes": 65,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "4 stk. oksebøffer á 200 g (f.eks. entrecôte eller tyksteg)",
+    "Salt og friskkværnet peber",
+    "2 spsk olivenolie til stegning",
+    "1 spsk smør til stegning",
+    "8 mellemstore kartofler, skrællet",
+    "3 spsk smeltet smør til kartofler",
+    "1 tsk groft salt til kartofler",
+    "½ tsk hvidløgspulver",
+    "2 kviste frisk timian",
+    "1 skalotteløg, finthakket",
+    "1 fed hvidløg, finthakket",
+    "2 dl rødvin",
+    "3 dl oksebouillon (glutenfri)",
+    "1 spsk kartoffelstivelse rørt ud i 2 spsk koldt vand",
+    "1 spsk smør til sovs",
+    "1 tsk dijonsennep",
+    "½ tsk salt til sovs",
+    "¼ tsk peber til sovs",
+    "Friske krydderurter til pynt (timian eller persille)"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 220°C. Skær tætte, tynde snit ned igennem hver kartoffel — stop ca. 2-3 mm fra bunden, så kartoflerne hænger sammen. Læg en træske eller spisepinde langs kartoflen som støtte under snitningen. Placer kartoflerne på en smurt bageplade.",
+    "Trin 2: Pensl hasselbackkartoflerne med smeltet smør og drys med groft salt og hvidløgspulver. Læg timiankvist ovenpå. Bag dem i ovnen i 45-50 minutter, til de er gyldne og sprøde i kanterne og møre indeni. Pensl med lidt ekstra smør halvvejs.",
+    "Trin 3: Ca. 15 minutter før kartoflerne er færdige, tages bøfferne ud af køleskabet og duppes tørre med køkkenrulle. Krydr dem generøst med salt og peber på begge sider. Varm olivenolie og smør i en tung pande ved høj varme, til det ryger let. Steg bøfferne ca. 3 minutter på hver side for medium (tilpas efter tykkelse og ønsket steggrad). Lad bøfferne hvile under alufolie i 5 minutter.",
+    "Trin 4: I den samme pande skrues der ned for medium varme. Tilsæt skalotteløg og hvidløg og steg i 1-2 minutter. Hæld rødvin i panden og skrab de brune skrabninger løs fra bunden med en træske. Lad vinen reducere til halvdelen i ca. 3 minutter.",
+    "Trin 5: Tilsæt oksebouillon og lad sovsen simre i 5 minutter. Rør kartoffelstivelseblandingen i og lad sovsen tykne i 1-2 minutter. Tag panden af varmen og rør smør og dijonsennep i. Smag til med salt og peber.",
+    "Trin 6: Anret bøfferne med hasselbackkartofler og rødvinssovs. Pynt med friske krydderurter og server straks."
+  ],
+  "nutrition": {
+    "calories": 680,
+    "protein": 48,
+    "carbs": 40,
+    "fat": 32
+  }
+}

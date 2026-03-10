@@ -1,0 +1,43 @@
+{
+  "id": 1025,
+  "title": "Røræg med røget laks og purløg",
+  "image": "https://source.unsplash.com/featured/800x600/?scrambled%20eggs%20smoked%20salmon%20chives",
+  "readyInMinutes": 20,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "nordic"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "8 store æg",
+    "200 g røget laks, revet i stykker",
+    "2 spsk olivenolie",
+    "1 bundt frisk purløg, finthakket",
+    "2 spsk havremlk (laktosefri)",
+    "½ tsk salt",
+    "¼ tsk friskkværnet sort peber",
+    "4 skiver glutenfrit brød (til servering)",
+    "1 avocado, skåret i skiver",
+    "1 citron, skåret i både"
+  ],
+  "steps": [
+    "Trin 1: Pisk æggene sammen med havremælk, salt og peber i en skål, til massen er ensartet og let skummende.",
+    "Trin 2: Varm olivenolie op i en bred, non-stick pande ved medium-lav varme. Hæld æggemassen i panden og rør langsomt med en gummispartel, så der dannes bløde, cremede folder. Tag panden af varmen, mens æggene stadig er en smule bløde — de størkner færdigt af restvarmen.",
+    "Trin 3: Fordel røræggene på fire tallerkener. Læg den røgede laks ovenpå i pæne stykker, og drys rigeligt med finthakket purløg.",
+    "Trin 4: Toast de glutenfrie brødskiver let og server ved siden af sammen med avocadoskiver og en citronbåd til at presse over laksen."
+  ],
+  "nutrition": {
+    "calories": 410,
+    "protein": 28,
+    "carbs": 18,
+    "fat": 26
+  }
+}

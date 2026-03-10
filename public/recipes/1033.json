@@ -1,0 +1,44 @@
+{
+  "id": 1033,
+  "title": "Mandelkager med hindbærsyltetøj",
+  "image": "https://source.unsplash.com/featured/800x600/?almond%20cookies%20jam%20danish%20pastry",
+  "readyInMinutes": 35,
+  "servings": 12,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "200 g mandelmel",
+    "50 g kartoffelstivelse",
+    "100 g blødt smør",
+    "80 g flormelis",
+    "1 æg",
+    "1 tsk vaniljesukker",
+    "1/4 tsk salt",
+    "1/2 tsk bagepulver",
+    "Ca. 4 spsk hindbærsyltetøj",
+    "25 g flager af mandler til pynt"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 175°C og beklæd en bageplade med bagepapir.",
+    "Trin 2: Pisk blødt smør og flormelis sammen i en skål, til massen er lys og luftig. Tilsæt ægget og vaniljesukkeret og rør godt.",
+    "Trin 3: Bland mandelmel, kartoffelstivelse, bagepulver og salt i en separat skål. Tilsæt de tørre ingredienser til smørblandingen og rør til en ensartet dej.",
+    "Trin 4: Form dejen til 12 kugler og placer dem på bagepladen med god afstand. Tryk en fordybning i midten af hver kugle med tommelfingeren eller bagsiden af en teske.",
+    "Trin 5: Fyld hver fordybning med ca. 1 tsk hindbærsyltetøj og drys mandelflager over kagerne.",
+    "Trin 6: Bag i ovnen i 14-18 minutter, til kagerne er let gyldne i kanterne. Lad dem køle af på bagepladen i 5 minutter og flyt dem derefter til en rist."
+  ],
+  "nutrition": {
+    "calories": 200,
+    "protein": 4,
+    "carbs": 18,
+    "fat": 13
+  }
+}

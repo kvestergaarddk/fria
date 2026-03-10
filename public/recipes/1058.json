@@ -1,0 +1,46 @@
+{
+  "id": 1058,
+  "title": "Risalamande (glutenfri og laktosefri)",
+  "image": "https://source.unsplash.com/featured/800x600/?rice%20pudding%20almond%20cherry%20danish%20christmas",
+  "readyInMinutes": 75,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "200 g grødris (glutenfri, tjek pakning)",
+    "8 dl laktosefri kokosmælk (fra dåse, fuld fedt)",
+    "4 dl vand",
+    "100 g sukker",
+    "1 vaniljestang, flækket og udskrabet (eller 2 tsk ren vaniljepulver)",
+    "100 g hele mandler, skoldede og groft hakkede",
+    "1 hel mandel (til mandlegaven)",
+    "3 dl kokoscreme (fast del fra kølede dåsekokosmælk, pisket let med håndmixer)",
+    "Kirsebærsauce: 400 g kirsebær (friske eller frosne, optøede)",
+    "Kirsebærsauce: 80 g sukker",
+    "Kirsebærsauce: 1 dl vand",
+    "Kirsebærsauce: 1 spsk kartoffelmel, udrørt i 2 spsk koldt vand"
+  ],
+  "steps": [
+    "Trin 1: Kom grødris og vand i en tykbundet gryde og bring det i kog. Tilsæt kokosmælken og vaniljefrøene (samt den tomme stang). Rør godt og lad risene simre under låg ved svag varme i 35-40 minutter. Rør ofte for at undgå at det brænder på.",
+    "Trin 2: Når risen er helt blød og grøden cremet, tilsættes sukker. Rør godt og lad grøden afkøle helt til stuetemperatur. Fjern vaniljestangen.",
+    "Trin 3: Mens risengrøden køler, laves kirsebærsaucen: Kom kirsebær, sukker og vand i en lille gryde. Kog op og simrer i 8-10 minutter. Tilsæt det udrørte kartoffelmel under omrøring og kog i yderligere 1-2 minutter til saucen tykner. Lad den køle af.",
+    "Trin 4: Pisk den kolde faste kokoscreme let med en håndmixer, indtil den er luftig. Vend den forsigtigt i den afkølede risengrød sammen med de hakkede mandler og den hele mandel.",
+    "Trin 5: Smag til og tilsæt evt. lidt mere sukker efter behov. Sæt risalamanden i køleskabet i mindst 30 minutter.",
+    "Trin 6: Server risalamanden kold i skåle med den lune eller kolde kirsebærsauce hældt over. Den, der finder den hele mandel, vinder traditionen tro mandelgaven!"
+  ],
+  "nutrition": {
+    "calories": 340,
+    "protein": 5,
+    "carbs": 48,
+    "fat": 16
+  }
+}

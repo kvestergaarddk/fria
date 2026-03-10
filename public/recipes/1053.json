@@ -1,0 +1,39 @@
+{
+  "id": 1053,
+  "title": "Æblekompot med kanel og vanilje",
+  "image": "https://source.unsplash.com/featured/800x600/?apple%20compote%20cinnamon%20vanilla%20warm%20dessert",
+  "readyInMinutes": 35,
+  "servings": 8,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "1 kg æbler (f.eks. Belle de Boskoop eller Cox Orange), skrællet og skåret i tern",
+    "100 g sukker",
+    "100 ml vand",
+    "1 vaniljestang, kløvet og udskrabet",
+    "2 tsk kanel",
+    "Saft af ½ citron",
+    "1 spsk majsstivelse, opløst i 2 spsk koldt vand (valgfrit, til tykkere konsistens)",
+    "Laktosefri havrecreme eller kokosyoghurt til servering"
+  ],
+  "steps": [
+    "Trin 1: Kom de skrællede og udkernede æbletern i en stor gryde sammen med sukker, vand, vaniljekorn (og stangen), kanel og citronsaft. Rør godt rundt.",
+    "Trin 2: Bring blandingen i kog under låg, skru derefter ned til svag varme og lad det simre i 15-20 minutter under omrøring af og til, til æblerne er møre og begynder at falde fra hinanden.",
+    "Trin 3: Fjern vaniljestangen. Hvis du ønsker en glattere kompot, kan du mose den let med en gaffel eller stavblender. For en tykkere konsistens tilsættes den opløste majsstivelse, og der koges op under omrøring i 1-2 minutter.",
+    "Trin 4: Smag til med ekstra sukker eller kanel efter behag. Kompotten kan serveres varm eller kold – hæld den i en skål og lad den køle af, eller server den direkte med en klat laktosefri havrecreme eller kokosyoghurt."
+  ],
+  "nutrition": {
+    "calories": 120,
+    "protein": 0,
+    "carbs": 30,
+    "fat": 0
+  }
+}

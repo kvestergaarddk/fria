@@ -1,0 +1,52 @@
+{
+  "id": 1013,
+  "title": "Hakket oksekød i tacos med friske grøntsager",
+  "image": "https://source.unsplash.com/featured/800x600/?tacos%20ground%20beef%20fresh%20vegetables%20mexican",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mexican"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "500 g hakket oksekød",
+    "1 spsk olivenolie",
+    "1 løg, finthakket",
+    "2 fed hvidløg, finthakket",
+    "1 spsk spidskommen (stødt)",
+    "1 tsk røget paprika",
+    "1 tsk chili i pulver (mild eller stærk efter smag)",
+    "½ tsk koriander (stødt)",
+    "1 dåse hakkede tomater (400 g)",
+    "1 spsk tomatpuré",
+    "Salt og peber efter smag",
+    "8 små hvede- eller majstortillaer",
+    "1 lille iceberg- eller romaine-salat, strimlet",
+    "2 tomater, skåret i små tern",
+    "1 avocado, skåret i skiver",
+    "½ agurk, skåret i halve skiver",
+    "Saft af 1 lime",
+    "Frisk koriander til pynt",
+    "Salsa eller varm sauce (valgfrit)"
+  ],
+  "steps": [
+    "Trin 1: Varm olivenolie i en stor pande ved middel-høj varme. Steg løg og hvidløg i 2-3 minutter, til de er bløde. Tilsæt det hakkede oksekød og brun det godt, mens du brækker det op med en ske.",
+    "Trin 2: Tilsæt spidskommen, røget paprika, chilipulver og stødt koriander. Rør rundt i 1 minut, så krydderierne frigiver deres aroma. Tilsæt tomatpuré og de hakkede tomater. Lad saucen simre i 12-15 minutter ved lav varme, til den er tyknet. Smag til med salt, peber og et drys limesaft.",
+    "Trin 3: Forbered grøntsagerne: Strimle salaten, skær tomater i tern, skær avocado i skiver og agurk i halve skiver. Pres limesaft over avocadoen, så den ikke brunes. Hak frisk koriander groft.",
+    "Trin 4: Varm tortillaerne i en tør pande i ca. 30 sekunder på hver side, eller pak dem ind i alufolie og varm dem i ovnen ved 180°C i 5 minutter.",
+    "Trin 5: Server ved at lade familien selv fylde deres tacos: Fordel kødsaucen i de varme tortillaer og top med salat, tomater, avocado, agurk, frisk koriander og eventuelt salsa. Pres lidt ekstra lime over."
+  ],
+  "nutrition": {
+    "calories": 550,
+    "protein": 35,
+    "carbs": 42,
+    "fat": 25
+  }
+}

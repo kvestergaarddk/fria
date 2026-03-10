@@ -1,0 +1,50 @@
+{
+  "id": 1016,
+  "title": "Linsesuppe med gurkemeje og koriander",
+  "image": "https://source.unsplash.com/featured/800x600/?lentil%20soup%20turmeric%20coriander%20bowl",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "indian"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "vegetarian",
+  "ingredients": [
+    "300 g røde linser, skyllet og drænet",
+    "1 stort løg, finthakket",
+    "3 fed hvidløg, finthakket",
+    "1 stk. frisk ingefær (ca. 3 cm), fintrevet",
+    "2 gulerødder, skrællet og skåret i små tern",
+    "1 dåse hakkede tomater (400 g)",
+    "1 liter grøntsagsbouillon",
+    "2 spsk olivenolie",
+    "2 tsk gurkemeje",
+    "1 tsk spidskommen",
+    "1 tsk koriander, malet",
+    "½ tsk chiliflager (valgfrit, kan udelades for børn)",
+    "1 tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "1 bundt frisk koriander, grofthakket",
+    "1 citron, saften heraf",
+    "2 dl kokosmælk"
+  ],
+  "steps": [
+    "Trin 1: Varm olivenolie op i en stor, tykbundet gryde ved middel varme. Tilsæt det hakkede løg og steg i 4-5 minutter, til det er blødt og gyldenbrunt.",
+    "Trin 2: Tilsæt hvidløg, revet ingefær, gurkemeje, spidskommen, malet koriander og eventuelle chiliflager. Rør rundt i ca. 1 minut, til krydderierne dufter.",
+    "Trin 3: Tilsæt gulerødder, røde linser, hakkede tomater og grøntsagsbouillon. Bring suppen i kog, skru ned til lav varme og lad den simre under låg i 25-30 minutter, til linserne og gulerødderne er helt møre. Rør af og til.",
+    "Trin 4: Tilsæt kokosmælk og blend suppen let med en stavblender – lad den enten være helt glat eller delvist chunky efter smag. Smag til med salt, peber og citronsaft.",
+    "Trin 5: Fordel suppen i skåle og top med frisk hakket koriander. Server med et godt brød ved siden af."
+  ],
+  "nutrition": {
+    "calories": 420,
+    "protein": 20,
+    "carbs": 52,
+    "fat": 14
+  }
+}

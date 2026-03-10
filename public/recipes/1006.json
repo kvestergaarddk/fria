@@ -1,0 +1,47 @@
+{
+  "id": 1006,
+  "title": "Rejer i hvidvinsovs med ris",
+  "image": "https://source.unsplash.com/featured/800x600/?shrimp%20white%20wine%20sauce%20rice%20seafood",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "mediterranean"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "500 g pillede rejer (friske eller optøede)",
+    "300 g jasminris",
+    "2 spsk olivenolie",
+    "1 spsk smør",
+    "3 fed hvidløg, finthakkede",
+    "1 stort skalotteløg, finthakket",
+    "200 ml tør hvidvin",
+    "200 ml fløde (38%)",
+    "1 spsk kartoffelstivelse, opløst i 2 spsk koldt vand",
+    "Saft og revet skal af 1 citron",
+    "1 tsk chiliflager (valgfrit)",
+    "Salt og friskkværnet peber efter smag",
+    "200 g friske spinatblade",
+    "Frisk dild til pynt"
+  ],
+  "steps": [
+    "Trin 1: Kog risene efter anvisning på pakken i let saltet vand. Lad dem dryppe af og hold dem varme under et låg.",
+    "Trin 2: Varm olivenolie og smør op i en stor pande ved medium-høj varme. Svits skalotteløg og hvidløg i 2 minutter, til de er bløde og duftende. Tilsæt chiliflager, hvis du bruger dem.",
+    "Trin 3: Skru op for varmen og tilsæt hvidvinen. Lad den koge ind til halvdelen i ca. 3 minutter. Tilsæt fløden og lad sovsen småboble i 3-4 minutter. Rør kartoffelstivelsen i, og lad sovsen tykne let. Smag til med citronsaft, citronskal, salt og peber.",
+    "Trin 4: Tilsæt rejerne og lad dem varme igennem i sovsen i 2-3 minutter (undgå at koge dem for længe, da de bliver seje). Vend de friske spinatblade i, til de falder sammen.",
+    "Trin 5: Anret risene på tallerkener med rejer og hvidvinsovs ovenpå. Pynt med frisk dild og et drys revet citronskal. Server straks."
+  ],
+  "nutrition": {
+    "calories": 540,
+    "protein": 32,
+    "carbs": 52,
+    "fat": 18
+  }
+}

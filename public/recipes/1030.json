@@ -1,0 +1,46 @@
+{
+  "id": 1030,
+  "title": "Glutenfri bananbrød med valnødder",
+  "image": "https://source.unsplash.com/featured/800x600/?banana%20bread%20walnuts%20loaf%20sliced",
+  "readyInMinutes": 65,
+  "servings": 10,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "american"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "3 modne bananer, moste",
+    "200 g mandelmel",
+    "100 g rismel",
+    "50 g kartoffelstivelse",
+    "2 æg",
+    "80 g smør, smeltet",
+    "100 g rørsukker",
+    "1 tsk bagepulver",
+    "1 tsk vaniljesukker",
+    "1/2 tsk kanel",
+    "1/4 tsk salt",
+    "75 g valnødder, groft hakkede"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 175°C og beklæd en brødform (ca. 25 cm) med bagepapir.",
+    "Trin 2: Mos bananerne med en gaffel i en stor skål. Tilsæt smeltet smør, æg, rørsukker og vaniljesukker, og rør godt sammen.",
+    "Trin 3: Bland mandelmel, rismel, kartoffelstivelse, bagepulver, kanel og salt i en separat skål. Hæld de tørre ingredienser i den våde blanding og rør forsigtigt sammen, til dejen er ensartet.",
+    "Trin 4: Vend de hakkede valnødder i dejen og hæld den i den forberedte brødform. Fordel eventuelt et par ekstra valnødder på toppen.",
+    "Trin 5: Bag i ovnen i 45-50 minutter, eller til en stikpind stukket i midten kommer rent ud. Dæk eventuelt med sølvpapir de sidste 10 minutter, hvis toppen bliver for mørk.",
+    "Trin 6: Lad bananbrødet køle af i formen i 10 minutter, og vend det derefter ud på en rist til fuldstændig afkøling. Skær i skiver og server."
+  ],
+  "nutrition": {
+    "calories": 285,
+    "protein": 6,
+    "carbs": 32,
+    "fat": 16
+  }
+}

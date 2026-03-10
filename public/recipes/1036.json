@@ -1,0 +1,42 @@
+{
+  "id": 1036,
+  "title": "Olivenolie-focaccia med rosmarin",
+  "image": "https://source.unsplash.com/featured/800x600/?focaccia%20olive%20oil%20rosemary%20italian%20bread",
+  "readyInMinutes": 150,
+  "servings": 10,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "italian"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "500 g hvedemel (tipo 00 eller almindeligt hvedemel)",
+    "325 ml lunken vand (ca. 37 °C)",
+    "7 g tørgær (1 pose)",
+    "10 g fint salt",
+    "80 ml ekstra jomfru olivenolie (fordelt: 50 ml i dejen + 30 ml til pensling)",
+    "3 spsk frisk rosmarin, groft hakket",
+    "1 tsk flagesalt (Maldon eller lignende) til topping",
+    "10-12 cherrytomater, halveret (valgfrit)"
+  ],
+  "steps": [
+    "Trin 1: Opløs tørgæren i det lunkne vand, og lad det stå i 5 minutter, til det begynder at boble. Bland mel og fint salt i en stor skål. Hæld gærvandet og 50 ml olivenolie i, og rør med en dejskraber eller træske, til det samler sig til en blød, let klæbrig dej.",
+    "Trin 2: Ælt dejen i skålen ved at folde den over sig selv i ca. 5 minutter — den behøver ikke at være helt glat. Tildæk skålen med film og lad dejen hæve ved stuetemperatur i ca. 1 time, til den er fordoblet i størrelse.",
+    "Trin 3: Smør en dyb bageplade (ca. 25 x 35 cm) generøst med 15 ml olivenolie. Vend dejen ud på pladen og stræk den forsigtigt ud mod kanterne med fingerspidserne. Hvis den trækker sig tilbage, lad den hvile 10 minutter og prøv igen. Hæld resten af oliveolien (15 ml) over toppen. Lad den efterhæve i 30 minutter under et viskestykke.",
+    "Trin 4: Forvarm ovnen til 220 °C (varmluft) eller 240 °C (over-/undervarme). Dyp fingerspidserne i olivenolie og tryk dybe fordybninger i hele dejen. Fordel de hakkede rosmarinkviste og evt. cherrytomater jævnt ud. Drys med flagesalt.",
+    "Trin 5: Bag focacciaen i midten af ovnen i 20-25 minutter, til den er dybt gylden på toppen og let brunet i kanterne. Tag den ud af ovnen og lad den køle i 5 minutter på pladen, før du løfter den over på en rist.",
+    "Trin 6: Skær focacciaen i ca. 10 stykker og server lunken eller ved stuetemperatur. Den er perfekt som tilbehør til suppe, til tapas eller bare med lidt ekstra olivenolie til dyp."
+  ],
+  "nutrition": {
+    "calories": 230,
+    "protein": 5,
+    "carbs": 38,
+    "fat": 8
+  }
+}

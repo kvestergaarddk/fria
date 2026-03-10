@@ -1,0 +1,45 @@
+{
+  "id": 1011,
+  "title": "Spaghetti med rejer og chili",
+  "image": "https://source.unsplash.com/featured/800x600/?spaghetti%20shrimp%20chili%20garlic%20pasta",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "italian"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "protein": "fish",
+  "ingredients": [
+    "400 g spaghetti",
+    "400 g store rejer, pillede og rensede",
+    "3 spsk olivenolie",
+    "4 fed hvidløg, skåret i tynde skiver",
+    "1-2 friske røde chilier, finthakkede (fjern kerner for mildere smag)",
+    "1 dl tør hvidvin",
+    "250 g cherrytomater, halverede",
+    "Saft af 1 citron",
+    "1 tsk citronzest",
+    "Salt og friskkværnet peber efter smag",
+    "1 håndfuld frisk persille, grofthakket",
+    "1 knivspids chilifager til pynt (valgfrit)"
+  ],
+  "steps": [
+    "Trin 1: Kog spaghettien i en stor gryde rigeligt saltet vand efter pakkens anvisning, til den er al dente. Gem 1 dl af kogevandet og si pastaen af.",
+    "Trin 2: Imens pastaen koger, varmes olivenolie i en stor pande ved middel varme. Tilsæt hvidløgsskiverne og den hakkede chili og steg i 1-2 minutter, til hvidløget er gyldenbrunt og dufter — pas på det ikke brænder.",
+    "Trin 3: Skru op til høj varme og tilsæt rejerne. Steg dem i ca. 2 minutter på hver side, til de er lyserøde og gennemstegte. Tilsæt hvidvin og lad det boble i 1 minut. Tilsæt cherrytomaterne og steg i yderligere 2 minutter, til de begynder at bløde op.",
+    "Trin 4: Tilsæt den kogte spaghetti direkte i panden sammen med citronsaft, citronzest og lidt af det gemte kogevand. Vend godt rundt, så pastaen coates af saucen. Smag til med salt og peber.",
+    "Trin 5: Anret på tallerkener og drys med frisk persille og eventuelt chilifager. Server straks."
+  ],
+  "nutrition": {
+    "calories": 510,
+    "protein": 32,
+    "carbs": 65,
+    "fat": 12
+  }
+}

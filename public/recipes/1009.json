@@ -1,0 +1,52 @@
+{
+  "id": 1009,
+  "title": "Grøntsagscurry med kokosmælk og ris",
+  "image": "https://source.unsplash.com/featured/800x600/?vegetable%20curry%20coconut%20milk%20rice%20vegan",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "indian"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "vegetarian",
+  "ingredients": [
+    "300 g jasminris",
+    "1 dåse kokosmælk (400 ml)",
+    "1 stor søde kartoffel, skåret i tern (ca. 350 g)",
+    "200 g blomkål, delt i buketter",
+    "1 rød peberfrugt, skåret i strimler",
+    "150 g friske grønne bønner, halverede",
+    "200 g babyspinat",
+    "1 dåse hakkede tomater (400 g)",
+    "1 stort løg, finthakket",
+    "3 fed hvidløg, finthakkede",
+    "1 spsk friskrevet ingefær",
+    "2 spsk glutenfri currypasta (rød eller gul — tjek etiket for glutenfri)",
+    "1 tsk gurkemeje",
+    "1 tsk garam masala",
+    "1 tsk spidskommen",
+    "2 spsk kokosolie eller neutral olie",
+    "Saft af 1 lime",
+    "Salt efter smag",
+    "Frisk koriander til pynt"
+  ],
+  "steps": [
+    "Trin 1: Kog jasminris efter anvisning på pakken i let saltet vand. Hold risene varme under et låg.",
+    "Trin 2: Varm kokosolie op i en stor, dyb pande eller gryde ved medium varme. Svits løg i 3-4 minutter, til det er blødt. Tilsæt hvidløg og ingefær og steg i yderligere 1 minut, til det dufter. Tilsæt currypasta, gurkemeje, garam masala og spidskommen, og rør rundt i 30 sekunder, så krydderierne frigiver deres aroma.",
+    "Trin 3: Tilsæt søde kartofler og blomkål, og rør grøntsagerne godt sammen med krydderipastaen. Hæld kokosmælk og hakkede tomater i, og rør rundt. Bring currien i kog, sæt derefter ned til et jævnt simmer, og lad den koge med låg i 15-18 minutter, til søde kartofler og blomkål er møre.",
+    "Trin 4: Tilsæt peberfrugtstrimler og grønne bønner, og lad dem simre med i 5 minutter, til de er møre men stadig har lidt bid. Vend babyspinaten i, og lad den falde sammen i varmen i 1 minut.",
+    "Trin 5: Smag currien til med limesaft og salt. Servér currien i dybe skåle over jasminris, og pynt med frisk koriander. Retten kan eventuelt toppes med et skud ekstra kokosmælk."
+  ],
+  "nutrition": {
+    "calories": 510,
+    "protein": 12,
+    "carbs": 65,
+    "fat": 22
+  }
+}

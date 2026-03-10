@@ -1,0 +1,51 @@
+{
+  "id": 1000,
+  "title": "Frikadeller med kartoffelmos og persillesovs",
+  "image": "https://source.unsplash.com/featured/800x600/?meatballs%20mashed%20potatoes%20danish%20food",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "500 g hakket svinekød",
+    "1 æg",
+    "3 spsk kartoffelstivelse",
+    "1 dl mælk",
+    "1 lille løg, finthakket",
+    "1 tsk salt",
+    "½ tsk friskkværnet peber",
+    "3 spsk smør til stegning",
+    "1 kg kartofler, skrællet og skåret i tern",
+    "50 g smør til kartoffelmos",
+    "1 dl varm mælk til kartoffelmos",
+    "Salt og peber til smag",
+    "25 g smør til persillesovs",
+    "2 spsk kartoffelstivelse til persillesovs",
+    "4 dl mælk til persillesovs",
+    "1 stort bundt frisk persille, finthakket",
+    "½ tsk salt til persillesovs",
+    "Et drys muskatnød"
+  ],
+  "steps": [
+    "Trin 1: Bland hakket svinekød, æg, kartoffelstivelse, mælk, finthakket løg, salt og peber i en skål. Rør grundigt sammen og lad farsen hvile i køleskabet i 15 minutter.",
+    "Trin 2: Kog kartoflerne i saltet vand i ca. 15-20 minutter, til de er møre. Hæld vandet fra, og mos dem med smør og varm mælk. Smag til med salt, peber og et drys muskatnød. Hold kartoffelmoset varmt under låg.",
+    "Trin 3: Form farsen til ovale frikadeller med en spiseske og fugtige hænder. Smelt smør på en stor pande ved medium varme og steg frikadellerne ca. 5-6 minutter på hver side, til de er gyldne og gennemstegte. Læg dem på et fad med køkkenrulle og hold dem varme.",
+    "Trin 4: Smelt smør til persillesovsen i en kasserolle ved medium varme. Rør kartoffelstivelsen ud i lidt kold mælk og tilsæt det sammen med resten af mælken. Rør konstant, og lad sovsen simre i 3-4 minutter, til den er jævn og cremet.",
+    "Trin 5: Tilsæt den finthakkede persille til sovsen og smag til med salt og peber. Server frikadellerne med kartoffelmos og persillesovs. Pynt eventuelt med lidt ekstra frisk persille."
+  ],
+  "nutrition": {
+    "calories": 620,
+    "protein": 32,
+    "carbs": 48,
+    "fat": 34
+  }
+}

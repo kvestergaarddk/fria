@@ -1,0 +1,46 @@
+{
+  "id": 1045,
+  "title": "Chokoladefondant med vaniljeis (glutenfri)",
+  "image": "https://source.unsplash.com/featured/800x600/?chocolate%20lava%20cake%20vanilla%20ice%20cream%20dessert",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "french"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "200 g mørk chokolade (70%)",
+    "150 g smør",
+    "3 store æg",
+    "3 æggeblommer",
+    "80 g sukker",
+    "2 spsk majsstivelse",
+    "1 tsk vaniljeekstrakt",
+    "En knivspids salt",
+    "Vaniljeis til servering",
+    "Smør og kakaopulver til formene"
+  ],
+  "steps": [
+    "Forvarm ovnen til 220°C. Smør 4 små ovnfaste forme og drys med kakaopulver.",
+    "Smelt chokolade og smør sammen over vandbad eller i mikroovn i intervaller. Rør glat og lad det køle lidt af.",
+    "Pisk æg, æggeblommer og sukker luftigt i ca. 3 minutter, til massen er lys og tyk.",
+    "Fold forsigtigt den smeltede chokolademasse i æggemassen.",
+    "Tilsæt majsstivelse, vaniljeekstrakt og salt, og fold det ind, til dejen er ensartet.",
+    "Fordel dejen i de forberedte forme – fyld dem ca. 3/4 op.",
+    "Bag i ovnen i 10-12 minutter. Kanten skal være fast, men midten stadig blød og let gyngende.",
+    "Tag formene ud, lad dem hvile i 1 minut, og vend dem derefter ud på tallerkener.",
+    "Server straks med en kugle vaniljeis ved siden af."
+  ],
+  "nutrition": {
+    "calories": 520,
+    "protein": 9,
+    "carbs": 42,
+    "fat": 36
+  }
+}

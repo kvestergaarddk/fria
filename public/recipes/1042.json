@@ -1,0 +1,42 @@
+{
+  "id": 1042,
+  "title": "Dadelboller med chiafrø",
+  "image": "https://source.unsplash.com/featured/800x600/?date%20rolls%20chia%20seeds%20healthy%20bread",
+  "readyInMinutes": 20,
+  "servings": 12,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "nordic"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "250 g udstenet dadler (medjool eller andre bløde dadler)",
+    "100 g mandler",
+    "3 spsk chiafrø",
+    "2 spsk kakaopulver (usodet)",
+    "2 spsk kokosolie, smeltet",
+    "1 tsk vaniljepulver",
+    "1 knivspids salt",
+    "3 spsk kokosmel til rulning"
+  ],
+  "steps": [
+    "Trin 1: Kom mandlerne i en foodprocessor og kør dem, til de er groft hakkede.",
+    "Trin 2: Tilsæt dadler, chiafrø, kakaopulver, smeltet kokosolie, vaniljepulver og salt. Blend alt sammen, indtil massen er ensartet og klæber sammen, når du trykker den mellem fingrene.",
+    "Trin 3: Fugt dine hænder let og form massen til ca. 12 lige store kugler.",
+    "Trin 4: Hæld kokosmelet på en tallerken og rul hver bold heri, så de er jævnt dækket.",
+    "Trin 5: Sæt bollerne i køleskabet i mindst 30 minutter, så de sætter sig. Opbevar dem i en lufttæt beholder i køleskabet i op til en uge."
+  ],
+  "nutrition": {
+    "calories": 135,
+    "protein": 3,
+    "carbs": 17,
+    "fat": 7
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1048,
+  "title": "Glutenfri brownie med valnødder",
+  "image": "https://source.unsplash.com/featured/800x600/?brownie%20walnuts%20chocolate%20square%20fudgy",
+  "readyInMinutes": 45,
+  "servings": 12,
+  "dishTypes": [
+    "dessert"
+  ],
+  "cuisines": [
+    "american"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "200 g mørk chokolade (70%)",
+    "175 g smør",
+    "250 g sukker",
+    "3 store æg",
+    "1 tsk vaniljeekstrakt",
+    "80 g mandelmel",
+    "30 g majsstivelse",
+    "30 g kakaopulver (ren, usødet)",
+    "½ tsk salt",
+    "150 g valnødder, groft hakkede",
+    "Flagesalt til drys"
+  ],
+  "steps": [
+    "Forvarm ovnen til 175°C. Beklæd en firkantet bageform (ca. 23x23 cm) med bagepapir og smør let kanterne.",
+    "Smelt chokolade og smør sammen over vandbad eller i mikroovn. Rør glat og lad det køle lidt af.",
+    "Pisk æg, sukker og vaniljeekstrakt sammen i en stor skål i ca. 3 minutter, til blandingen er let og luftig.",
+    "Rør den smeltede chokolademasse i æggeblandingen.",
+    "Bland mandelmel, majsstivelse, kakaopulver og salt i en separat skål. Fold de tørre ingredienser i den våde masse, til dejen er ensartet.",
+    "Fold de hakkede valnødder i dejen. Gem eventuelt lidt til toppen.",
+    "Hæld dejen i den forberedte bageform og fordel jævnt. Drys eventuelt resterende valnødder og lidt flagesalt på toppen.",
+    "Bag i 22-25 minutter. En tandstik stukket i midten skal komme ud med fugtige krummer – ikke helt ren (det giver den fudgy tekstur).",
+    "Lad brownien køle helt af i formen, før du skærer den i 12 stykker."
+  ],
+  "nutrition": {
+    "calories": 370,
+    "protein": 6,
+    "carbs": 34,
+    "fat": 25
+  }
+}

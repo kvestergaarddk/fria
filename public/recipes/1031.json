@@ -1,0 +1,45 @@
+{
+  "id": 1031,
+  "title": "Glutenfrie blåbærmuffins med mandelmel",
+  "image": "https://source.unsplash.com/featured/800x600/?blueberry%20muffins%20almond%20flour%20bakery",
+  "readyInMinutes": 40,
+  "servings": 12,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "american"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "250 g mandelmel",
+    "75 g kartoffelstivelse",
+    "150 g sukker",
+    "1 1/2 tsk bagepulver",
+    "1/4 tsk salt",
+    "3 æg",
+    "80 ml neutral olie (f.eks. rapsolie)",
+    "100 ml mælk",
+    "1 tsk vaniljeekstrakt",
+    "150 g friske blåbær",
+    "1 spsk rismel til vending af bær"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 180°C og sæt muffinsforme i en muffinsbakke (12 stk.).",
+    "Trin 2: Bland mandelmel, kartoffelstivelse, sukker, bagepulver og salt i en stor skål.",
+    "Trin 3: Pisk æg, olie, mælk og vaniljeekstrakt sammen i en anden skål. Hæld de våde ingredienser i de tørre og rør forsigtigt, til dejen lige er samlet — undgå at overrøre.",
+    "Trin 4: Vend blåbærrene i 1 spsk rismel (dette forhindrer dem i at synke) og fold dem forsigtigt i dejen.",
+    "Trin 5: Fordel dejen ligeligt i de 12 muffinsforme, så de er ca. 3/4 fyldte.",
+    "Trin 6: Bag i ovnen i 20-25 minutter, til muffinsene er gyldne og en stikpind kommer rent ud. Lad dem køle i formen i 5 minutter, og flyt dem derefter til en rist."
+  ],
+  "nutrition": {
+    "calories": 230,
+    "protein": 5,
+    "carbs": 25,
+    "fat": 13
+  }
+}

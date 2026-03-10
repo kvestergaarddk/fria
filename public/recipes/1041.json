@@ -1,0 +1,41 @@
+{
+  "id": 1041,
+  "title": "Kokosmakroner",
+  "image": "https://source.unsplash.com/featured/800x600/?coconut%20macaroons%20cookies%20danish%20bakery",
+  "readyInMinutes": 35,
+  "servings": 12,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "200 g kokosmel (tørret, revet kokos)",
+    "3 æggehvider",
+    "100 g sukker",
+    "1 tsk vaniljepulver",
+    "1 knivspids salt",
+    "50 g mørk chokolade (mindst 70 %, laktosefri) til pynt"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 175°C varmluft. Beklæd en bageplade med bagepapir.",
+    "Trin 2: Pisk æggehviderne med salt til blødt skum i en ren, affedtet skål med et håndmixer eller piskeris.",
+    "Trin 3: Tilsæt sukker lidt ad gangen under fortsat piskning, indtil massen er blank og stiv. Vend forsigtigt kokosmel og vaniljepulver i æggehvidemassen med en spatel, så massen bevarer sin luftighed.",
+    "Trin 4: Form ca. 12 små toppe med to skeer eller fugtige hænder, og placer dem på bagepladen med lidt afstand.",
+    "Trin 5: Bag makronerne i ovnen i 15-18 minutter, indtil de er let gyldne på toppen. Lad dem køle helt af på en rist.",
+    "Trin 6: Smelt den mørke chokolade over vandbad og dyp bunden af hver makron i chokoladen. Lad chokoladen størkne på bagepapir, og server."
+  ],
+  "nutrition": {
+    "calories": 130,
+    "protein": 2,
+    "carbs": 13,
+    "fat": 8
+  }
+}

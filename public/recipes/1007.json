@@ -1,0 +1,51 @@
+{
+  "id": 1007,
+  "title": "Oksehalestuvet med rodfrugter og ris",
+  "image": "https://source.unsplash.com/featured/800x600/?beef%20stew%20root%20vegetables%20slow%20cooked",
+  "readyInMinutes": 210,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "protein": "meat",
+  "ingredients": [
+    "1 kg oksehale, skåret i stykker (bed slagteren om at skære den)",
+    "2 spsk olivenolie",
+    "2 store løg, groft skåret",
+    "3 gulerødder, skåret i grove stykker (ca. 300 g)",
+    "2 pastinak, skåret i grove stykker (ca. 250 g)",
+    "½ knoldselleri, skåret i tern (ca. 200 g)",
+    "3 fed hvidløg, let knuste",
+    "2 spsk tomatpuré",
+    "300 ml rødvin",
+    "500 ml oksebouillon (glutenfri)",
+    "2 laurbærblade",
+    "3 kviste frisk timian",
+    "1 tsk salt",
+    "½ tsk friskkværnet sort peber",
+    "1 spsk kartoffelstivelse, opløst i 2 spsk koldt vand (valgfrit, til jævning)",
+    "300 g basmatiris",
+    "Frisk persille, grofthakket, til pynt"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 150°C varmluft. Dup oksehalestykkerne tørre med køkkenrulle og krydr med salt og peber. Varm olivenolie op i en tung, ovnfast gryde (f.eks. støbejern) ved høj varme. Brun oksehalen godt på alle sider i hold, så gryden ikke bliver for fuld. Tag kødet op og sæt til side.",
+    "Trin 2: Sæt varmen ned til medium. Tilsæt løg, gulerødder, pastinak og knoldselleri og svits i 5-6 minutter, til de har fået lidt farve. Tilsæt hvidløg og tomatpuré og rør rundt i 1 minut. Hæld rødvinen i og skrab bunden af gryden ren for smagfulde rester. Lad vinen koge ind i 3 minutter.",
+    "Trin 3: Læg oksehalen tilbage i gryden. Tilsæt oksebouillon, laurbærblade og timiankviste. Væsken skal næsten dække kødet. Læg låg på gryden og sæt den i ovnen. Lad den simre i ca. 2½-3 timer, til kødet er fuldstændig mørt og næsten falder af knoglen. Vend kødet en enkelt gang halvvejs.",
+    "Trin 4: Tag gryden ud af ovnen. Fjern laurbærblade og timiankviste. Hvis sovsen er for tynd, tag kødet og grøntsagerne op og jævn sovsen med kartoffelstivelsen opløst i vand, mens den koger let på komfuret.",
+    "Trin 5: Kog basmatiris efter anvisningen på pakken i let saltet vand. Smag stuvningen til med salt og peber.",
+    "Trin 6: Server oksehalestuvet i dybe tallerkener med ris ved siden af. Drys med frisk persille og nyd denne mørksmagende, varme ret sammen med familien."
+  ],
+  "nutrition": {
+    "calories": 620,
+    "protein": 42,
+    "carbs": 48,
+    "fat": 24
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1044,
+  "title": "Rismelboller med solsikkekerner",
+  "image": "https://source.unsplash.com/featured/800x600/?rice%20flour%20rolls%20sunflower%20seeds%20bread",
+  "readyInMinutes": 55,
+  "servings": 10,
+  "dishTypes": [
+    "bakery",
+    "bread"
+  ],
+  "cuisines": [
+    "danish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": null,
+  "ingredients": [
+    "350 g rismel",
+    "100 g kartoffelmel",
+    "1 pose tørgær (ca. 7 g, glutenfri)",
+    "1½ tsk salt",
+    "1 spsk sukker",
+    "1½ tsk xanthan gum",
+    "75 g solsikkekerner",
+    "2 æg",
+    "3 spsk olivenolie",
+    "3 dl lunkent vand (ca. 37°C)",
+    "1 spsk æblecidereddike"
+  ],
+  "steps": [
+    "Trin 1: Forvarm ovnen til 200°C varmluft. Beklæd en bageplade med bagepapir.",
+    "Trin 2: Bland rismel, kartoffelmel, tørgær, salt, sukker, xanthan gum og 50 g af solsikkekernerne i en stor skål.",
+    "Trin 3: Pisk æggene let i en separat skål og rør dem sammen med lunkent vand, olivenolie og æblecidereddike.",
+    "Trin 4: Hæld væsken i de tørre ingredienser og rør kraftigt med en dejskraber eller træske i ca. 3-4 minutter, til dejen er ensartet og let klæbrig. Dejen vil være blødere end hvededej – det er helt normalt.",
+    "Trin 5: Lad dejen hæve tildækket i 20 minutter på et lunt sted.",
+    "Trin 6: Form 10 boller med fugtige hænder og placer dem på bagepladen. Tryk forsigtigt de resterende 25 g solsikkekerner ned i toppen af bollerne.",
+    "Trin 7: Bag bollerne i 22-25 minutter, til de er gyldne og lyder hule, når du banker på undersiden. Lad dem køle af på en rist inden servering."
+  ],
+  "nutrition": {
+    "calories": 210,
+    "protein": 5,
+    "carbs": 34,
+    "fat": 7
+  }
+}

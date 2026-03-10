@@ -1,0 +1,50 @@
+{
+  "id": 1022,
+  "title": "Kyllingesuppe med risnudler og ingefær",
+  "image": "https://source.unsplash.com/featured/800x600/?chicken%20noodle%20soup%20ginger%20asian%20broth",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "dishTypes": [
+    "dinner",
+    "main course"
+  ],
+  "cuisines": [
+    "asian"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "protein": "chicken",
+  "ingredients": [
+    "500 g kyllingebryst, skåret i tynde strimler",
+    "200 g risnudler (tørrede, brede eller tynde efter smag)",
+    "1,2 liter kyllingefond (glutenfri)",
+    "1 spsk olivenolie eller sesamolie",
+    "1 stort stykke frisk ingefær (ca. 5 cm), skrællet og fintrevet",
+    "3 fed hvidløg, finthakkede",
+    "2 gulerødder, skåret i tynde skiver",
+    "1 pak choy (ca. 200 g), groft hakket",
+    "100 g friske shiitake-svampe, skivede (kan udelades)",
+    "3 spsk tamari (glutenfri sojasauce)",
+    "1 spsk fiskesauce",
+    "1 spsk limesaft",
+    "1 tsk sesamolie til finish",
+    "2 forårsløg, skåret i tynde ringe",
+    "Frisk koriander til pynt",
+    "1 rød chili, skåret i tynde ringe (valgfrit)"
+  ],
+  "steps": [
+    "Trin 1: Kog risnudlerne efter anvisningen på pakken (typisk 3-5 minutter i kogende vand). Hæld vandet fra og skyl nudlerne under koldt vand, så de ikke klistrer sammen. Sæt til side.",
+    "Trin 2: Varm olivenolie eller sesamolie op i en stor gryde over medium varme. Tilsæt revet ingefær og hvidløg og steg i ca. 1 minut, til det dufter. Tilsæt kyllingestrimler og steg i 3-4 minutter, til de er hvide på ydersiden.",
+    "Trin 3: Hæld kyllingefond i gryden og bring op til kogepunktet. Tilsæt gulerødder og kog i 5 minutter. Tilsæt shiitake-svampe og pak choy og kog videre i 3-4 minutter, til grøntsagerne er møre men stadig har bid.",
+    "Trin 4: Smag suppen til med tamari, fiskesauce og limesaft. Juster efter smag – tilsæt eventuelt lidt mere tamari for mere dybde eller limesaft for friskhed.",
+    "Trin 5: Fordel de kogte risnudler i fire dybe suppeskåle. Øs den varme suppe med kylling og grøntsager over nudlerne. Dryp med lidt sesamolie og pynt med forårsløg, frisk koriander og chiliringe. Server straks."
+  ],
+  "nutrition": {
+    "calories": 420,
+    "protein": 36,
+    "carbs": 48,
+    "fat": 8
+  }
+}
