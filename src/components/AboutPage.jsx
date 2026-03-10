@@ -94,18 +94,10 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: BG }}>
 
-      <header className="pt-10 pb-4 flex flex-col items-center relative px-4">
-        <Link
-          to="/"
-          className="absolute left-4 md:left-8 top-10 text-sm font-semibold flex items-center gap-1.5 focus-visible:outline-none rounded"
-          style={{ color: GREEN }}
-        >
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-            <path d="M13 8H3M7 4L3 8l4 4"/>
-          </svg>
-          Tilbage
+      <header className="pt-10 pb-4 flex flex-col items-center px-4">
+        <Link to="/" aria-label="Gå til forsiden">
+          <Logo color={GREEN} />
         </Link>
-        <Logo color={GREEN} />
       </header>
 
       <main className="flex-1 max-w-[760px] mx-auto w-full px-4 md:px-8 pb-20">
