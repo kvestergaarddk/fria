@@ -46,16 +46,16 @@ export default function HomePage() {
 
           <p className="mt-4 w-full" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, lineHeight: 'clamp(1.4, 3vw, 38px)' }}>
             Gå på opdagelse i flere hundrede lækre opskrifter,{' '}
-            <Link to="/glutenfri" className="hover:!text-[#EFBA5A] transition-colors duration-200" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
-              uden gluten
+            <Link to="/glutenfri" className="group relative inline-block hover:text-[#EFBA5A]" style={{ color: GREEN, textDecoration: 'none', fontWeight: 700, transition: 'color 0.2s ease' }}>
+              <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-[#EFBA5A] after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">uden gluten</span>
             </Link>
             ,{' '}
-            <Link to="/laktosefri" className="hover:!text-[#EFBA5A] transition-colors duration-200" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
-              laktose
+            <Link to="/laktosefri" className="group relative inline-block hover:text-[#EFBA5A]" style={{ color: GREEN, textDecoration: 'none', fontWeight: 700, transition: 'color 0.2s ease' }}>
+              <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-[#EFBA5A] after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">laktose</span>
             </Link>
             {' '}eller{' '}
-            <Link to="/begge" className="hover:!text-[#EFBA5A] transition-colors duration-200" style={{ color: GREEN, textDecoration: 'underline', fontWeight: 700 }}>
-              begge dele
+            <Link to="/begge" className="group relative inline-block hover:text-[#EFBA5A]" style={{ color: GREEN, textDecoration: 'none', fontWeight: 700, transition: 'color 0.2s ease' }}>
+              <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-[#EFBA5A] after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">begge dele</span>
             </Link>
             .
           </p>
