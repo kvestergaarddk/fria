@@ -82,7 +82,7 @@ function FaqItem({ q, a }) {
           transition: 'max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease',
         }}
       >
-        <p style={{ color: GREEN, fontSize: '16px', lineHeight: 1.75, paddingBottom: '4px' }}>
+        <p style={{ color: GREEN, fontSize: '20px', lineHeight: '28px', paddingBottom: '4px' }}>
           {a}
         </p>
       </div>
@@ -118,22 +118,22 @@ export default function AboutPage() {
         </h1>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-          <p style={{ color: DARK, fontSize: '18px', lineHeight: 1.75 }}>
+          <p style={{ color: DARK, fontSize: '20px', lineHeight: '28px' }}>
             Mavro opstod ud af en meget konkret familiesituation. Pludselig stod vi med én i familien,
             der ikke kan tåle gluten — det skaber inflammation i hans led og giver smerter. Og en anden,
             der har fået konstateret laktoseintolerans. Hverdagsmaden, som vi altid bare havde lavet,
             skulle tænkes helt om.
           </p>
-          <p style={{ color: DARK, fontSize: '18px', lineHeight: 1.75 }}>
+          <p style={{ color: DARK, fontSize: '20px', lineHeight: '28px' }}>
             Det lyder måske ikke af så meget — men det er det. Hvad må man spise? Hvad indeholder hvad?
             Hvad sker der egentlig i kroppen, når den reagerer? Og ikke mindst: hvordan laver man stadig
             mad, der smager af noget, når man ikke kan bruge halvdelen af det, man plejer?
           </p>
-          <p style={{ color: DARK, fontSize: '18px', lineHeight: 1.75 }}>
+          <p style={{ color: DARK, fontSize: '20px', lineHeight: '28px' }}>
             I en travl hverdag savnede jeg ét sted, jeg kunne gå hen — et sted der samler opskrifter,
             viden og svar, uden at man skal rode rundt på tværs af hundrede hjemmesider. Det er Mavro.
           </p>
-          <p style={{ color: DARK, fontSize: '18px', lineHeight: 1.75, fontWeight: 700 }}>
+          <p style={{ color: DARK, fontSize: '20px', lineHeight: '28px', fontWeight: 700 }}>
             God mad. For alle. Uden kompromiser.
           </p>
         </div>
