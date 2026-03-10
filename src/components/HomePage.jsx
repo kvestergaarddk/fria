@@ -41,7 +41,7 @@ export default function HomePage() {
               lineHeight: 1,
             }}
           >
-            Hvad har du lyst til at lave i aften?
+            Lav retter alle kan spise — lækker, glutenfri og laktosefri.
           </h1>
 
           <p className="mt-4 w-full" style={{ color: GREEN, fontSize: 'clamp(1.1rem, 2.5vw, 30px)', fontWeight: 700, lineHeight: 'clamp(1.4, 3vw, 38px)' }}>
