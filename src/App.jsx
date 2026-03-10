@@ -1,13 +1,21 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import HomePage from './components/HomePage'
 import RecipeListPage from './components/RecipeListPage'
 import RecipeDetail from './components/RecipeDetail'
 import AboutPage from './components/AboutPage'
 import HamburgerMenu from './components/HamburgerMenu'
 
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  return null
+}
+
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <HamburgerMenu />
       <Routes>
         <Route path="/" element={<HomePage />} />
