@@ -96,20 +96,20 @@ export default function HamburgerMenu() {
               <li key={to}>
                 <Link
                   to={to}
+                  className={`group ${isActive ? 'text-[#EFBA5A]' : 'text-[#EEDDB6] hover:text-[#EFBA5A]'}`}
                   style={{
-                    color: isActive ? '#EFBA5A' : BG,
                     fontSize: '28px',
                     fontWeight: 700,
                     textDecoration: 'none',
                     lineHeight: 1.3,
-                    display: 'block',
+                    display: 'inline-block',
                     padding: '8px 0',
-                    opacity: isActive ? 1 : 0.9,
+                    transition: 'color 0.2s ease',
                   }}
-                  onMouseEnter={e => { if (!isActive) e.currentTarget.style.color = '#EFBA5A' }}
-                  onMouseLeave={e => { if (!isActive) e.currentTarget.style.color = BG }}
                 >
-                  {label}
+                  <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-[#EFBA5A] after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">
+                    {label}
+                  </span>
                 </Link>
               </li>
             )
