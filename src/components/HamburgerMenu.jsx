@@ -6,6 +6,8 @@ const BG = '#EEDDB6'
 
 const NAV_LINKS = [
   { to: '/', label: 'Forside' },
+  { to: '/konverter', label: 'Konverter opskrift' },
+  { to: '/kogebog', label: 'Min kogebog' },
   { to: '/glutenfri', label: 'Glutenfri opskrifter' },
   { to: '/laktosefri', label: 'Laktosefri opskrifter' },
   { to: '/begge', label: 'Glutenfri & laktosefri' },

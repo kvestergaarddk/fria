@@ -73,6 +73,55 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* Konverter-banner */}
+      <div className="w-full px-4 md:px-8 mb-20">
+        <div
+          style={{
+            maxWidth: '1220px',
+            margin: '0 auto',
+            borderRadius: '32px',
+            backgroundColor: '#315E4A',
+            padding: 'clamp(32px, 5vw, 56px) clamp(28px, 5vw, 56px)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '24px',
+            flexWrap: 'wrap',
+          }}
+        >
+          <div style={{ flex: 1, minWidth: '220px' }}>
+            <p style={{ color: 'rgba(238,221,182,0.6)', fontSize: '13px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', margin: '0 0 10px 0' }}>
+              Ny funktion
+            </p>
+            <h2 style={{ color: '#EEDDB6', fontSize: 'clamp(22px, 3.5vw, 36px)', fontWeight: 800, lineHeight: 1.15, letterSpacing: '-0.02em', margin: '0 0 10px 0' }}>
+              Konverter din yndlingsopskrift
+            </h2>
+            <p style={{ color: 'rgba(238,221,182,0.75)', fontSize: '16px', lineHeight: 1.6, margin: 0 }}>
+              Indsæt et link, en tekst eller et billede — og få opskriften tilpasset med præcise erstatninger.
+            </p>
+          </div>
+          <Link
+            to="/konverter"
+            style={{
+              display: 'inline-block',
+              padding: '14px 28px',
+              borderRadius: '100px',
+              backgroundColor: '#EFBA5A',
+              color: '#1B3A28',
+              fontSize: '15px',
+              fontWeight: 800,
+              textDecoration: 'none',
+              flexShrink: 0,
+              transition: 'background-color 0.2s ease, transform 0.15s ease',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.backgroundColor = '#f5ca7a'; e.currentTarget.style.transform = 'translateY(-1px)' }}
+            onMouseLeave={e => { e.currentTarget.style.backgroundColor = '#EFBA5A'; e.currentTarget.style.transform = 'translateY(0)' }}
+          >
+            Prøv konverteren
+          </Link>
+        </div>
+      </div>
+
       {/* Opskriftsektioner */}
       <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pb-4">
 

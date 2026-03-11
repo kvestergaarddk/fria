@@ -5,6 +5,8 @@ import RecipeListPage from './components/RecipeListPage'
 import RecipeDetail from './components/RecipeDetail'
 import AboutPage from './components/AboutPage'
 import HamburgerMenu from './components/HamburgerMenu'
+import ConverterPage from './components/ConverterPage'
+import CookbookPage from './components/CookbookPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -24,6 +26,8 @@ export default function App() {
         <Route path="/begge" element={<RecipeListPage category="begge" />} />
         <Route path="/opskrift/:id" element={<RecipeDetail />} />
         <Route path="/om-mavro" element={<AboutPage />} />
+        <Route path="/konverter" element={<ConverterPage />} />
+        <Route path="/kogebog" element={<CookbookPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
