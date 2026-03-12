@@ -9,30 +9,9 @@ const DARK = '#1B3A28'
 const CREAM = '#BFCEA3'
 
 const INPUT_TABS = [
-  {
-    id: 'url', label: 'Link', icon: (
-      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M7 10a3.75 3.75 0 005.303 0l2.121-2.121a3.75 3.75 0 00-5.303-5.304l-1.06 1.06"/>
-        <path d="M10 7a3.75 3.75 0 00-5.303 0L2.576 9.121a3.75 3.75 0 005.303 5.304l1.06-1.06"/>
-      </svg>
-    ),
-  },
-  {
-    id: 'text', label: 'Tekst', icon: (
-      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
-        <path d="M2 4h13M2 8.5h8M2 13h10"/>
-      </svg>
-    ),
-  },
-  {
-    id: 'billede', label: 'Billede', icon: (
-      <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="1.5" y="2.5" width="14" height="12" rx="2"/>
-        <circle cx="5.5" cy="6.5" r="1.5"/>
-        <path d="M1.5 12l4-4 3.5 3.5 2-2 4.5 4.5"/>
-      </svg>
-    ),
-  },
+  { id: 'url', label: 'Link' },
+  { id: 'text', label: 'Tekst' },
+  { id: 'billede', label: 'Billede' },
 ]
 
 const INTOLERANCE_OPTIONS = [
@@ -212,84 +191,86 @@ export default function ConverterPage() {
     return <ConverterResult result={result} intolerance={intolerance} onReset={handleReset} />
   }
 
+  const activeIdx = INPUT_TABS.findIndex(t => t.id === activeTab)
+
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: CREAM }}>
 
-      {/* Header — identisk med RecipeDetail */}
-      <header className="pt-10 pb-4 flex flex-col items-center px-4">
+      <header className="pt-20 pb-0 flex flex-col items-center text-center px-4 md:px-8">
         <Link to="/" aria-label="Gå til forsiden"><Logo color={GREEN} /></Link>
+        <h1
+          className="mt-20 w-full"
+          style={{
+            color: GREEN,
+            fontWeight: 800,
+            fontSize: 'clamp(2.5rem, 7vw, 100px)',
+            lineHeight: 1,
+            maxWidth: '1220px',
+          }}
+        >
+          Konverter en opskrift
+        </h1>
       </header>
 
-      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8">
+      <main className="flex-1 max-w-[1220px] mx-auto w-full px-4 md:px-8 pt-10">
 
         {loading ? (
           <LoadingScreen />
         ) : (
           <>
-            {/* Overskrift */}
-            <div style={{ marginBottom: '48px', paddingTop: '24px' }}>
-              <h1
-                style={{
-                  color: DARK,
-                  fontSize: 'clamp(2rem, 5vw, 3.5rem)',
-                  fontWeight: 800,
-                  lineHeight: 1.05,
-                  letterSpacing: '-0.03em',
-                  margin: '0 0 16px 0',
-                }}
-              >
-                Konverter en opskrift
-              </h1>
-              <p style={{ color: GREEN, fontSize: '20px', fontWeight: 400, lineHeight: '28px', margin: 0, maxWidth: '600px' }}>
-                Indsæt et link, skriv en opskrift eller upload et billede — og få den konverteret med præcise ingredienserstatninger.
-              </p>
-            </div>
+            <p style={{ color: GREEN, fontSize: '20px', fontWeight: 400, lineHeight: '28px', margin: '0 0 48px 0', maxWidth: '600px' }}>
+              Indsæt et link, skriv en opskrift eller upload et billede — og få den konverteret med præcise ingredienserstatninger.
+            </p>
 
-            {/* Formkort */}
-            <div
-              style={{
-                backgroundColor: '#fff',
-                borderRadius: '32px',
-                padding: 'clamp(24px, 4vw, 48px)',
-                boxShadow: '0 4px 32px rgba(27,58,40,0.07), 0 1px 4px rgba(27,58,40,0.04)',
-                marginBottom: '64px',
-              }}
-            >
-              {/* Tabs */}
+            {/* Formular */}
+            <div style={{ marginBottom: '64px' }}>
+
+              {/* Animated pill tabs */}
               <div
                 style={{
+                  position: 'relative',
                   display: 'flex',
-                  gap: '4px',
-                  backgroundColor: 'rgba(49,94,74,0.06)',
-                  borderRadius: '14px',
-                  padding: '4px',
-                  marginBottom: '32px',
+                  backgroundColor: '#A5B98C',
+                  borderRadius: '100px',
+                  padding: '5px',
+                  marginBottom: '40px',
+                  maxWidth: '400px',
                 }}
               >
+                {/* Sliding pill */}
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '5px',
+                    bottom: '5px',
+                    width: `calc((100% - 10px) / ${INPUT_TABS.length})`,
+                    borderRadius: '100px',
+                    backgroundColor: GREEN,
+                    transform: `translateX(calc(${activeIdx} * 100%))`,
+                    transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                    pointerEvents: 'none',
+                  }}
+                />
                 {INPUT_TABS.map(tab => (
                   <button
                     key={tab.id}
                     onClick={() => { setActiveTab(tab.id); setError(null) }}
                     style={{
                       flex: 1,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      gap: '7px',
-                      padding: '11px 12px',
-                      borderRadius: '10px',
+                      position: 'relative',
+                      zIndex: 1,
+                      padding: '12px 16px',
+                      borderRadius: '100px',
                       border: 'none',
                       cursor: 'pointer',
-                      fontSize: '15px',
+                      fontSize: '17px',
                       fontWeight: 600,
                       fontFamily: 'inherit',
-                      backgroundColor: activeTab === tab.id ? '#fff' : 'transparent',
-                      color: activeTab === tab.id ? DARK : 'rgba(49,94,74,0.45)',
-                      boxShadow: activeTab === tab.id ? '0 1px 6px rgba(0,0,0,0.1)' : 'none',
-                      transition: 'background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease',
+                      backgroundColor: 'transparent',
+                      color: activeTab === tab.id ? CREAM : GREEN,
+                      transition: 'color 0.2s ease',
                     }}
                   >
-                    {tab.icon}
                     {tab.label}
                   </button>
                 ))}
@@ -467,36 +448,6 @@ export default function ConverterPage() {
               >
                 Konverter opskrift
               </button>
-            </div>
-
-            {/* Info-sektion */}
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-                gap: '24px',
-                marginBottom: '80px',
-              }}
-            >
-              {[
-                { emoji: '🔗', title: 'Indsæt link', text: 'Kopier et link fra din yndlingsopskriftsside og indsæt det direkte.' },
-                { emoji: '✍️', title: 'Skriv eller paste', text: 'Skriv en opskrift direkte eller kopier den fra et dokument.' },
-                { emoji: '📷', title: 'Tag et billede', text: 'Fotografer en side fra en kogebog eller et håndskrevet opskriftskort.' },
-              ].map((item, i) => (
-                <div
-                  key={i}
-                  style={{
-                    padding: '28px',
-                    borderRadius: '24px',
-                    backgroundColor: 'rgba(49,94,74,0.05)',
-                    border: '1px solid rgba(49,94,74,0.08)',
-                  }}
-                >
-                  <div style={{ fontSize: '28px', marginBottom: '12px' }}>{item.emoji}</div>
-                  <h3 style={{ color: DARK, fontSize: '18px', fontWeight: 700, margin: '0 0 8px' }}>{item.title}</h3>
-                  <p style={{ color: GREEN, fontSize: '16px', lineHeight: '24px', margin: 0, opacity: 0.8 }}>{item.text}</p>
-                </div>
-              ))}
             </div>
           </>
         )}
