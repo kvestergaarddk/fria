@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-const GREEN = '#315E4A'
-const BG = '#EEDDB6'
+const GREEN = '#204636'
+const BG = '#BFCEA3'
 
 const NAV_LINKS = [
   { to: '/', label: 'Forside' },
@@ -98,7 +98,7 @@ export default function HamburgerMenu() {
               <li key={to}>
                 <Link
                   to={to}
-                  className={`group ${isActive ? 'text-[#EFBA5A]' : 'text-[#EEDDB6] hover:text-[#EFBA5A]'}`}
+                  className={`group ${isActive ? 'text-[#EFBA5A]' : 'text-[#BFCEA3] hover:text-[#EFBA5A]'}`}
                   style={{
                     fontSize: '28px',
                     fontWeight: 700,
@@ -119,7 +119,7 @@ export default function HamburgerMenu() {
         </ul>
 
         {/* Kontakt nederst */}
-        <div style={{ marginTop: 'auto', paddingTop: '40px', borderTop: `1px solid rgba(238,221,182,0.2)` }}>
+        <div style={{ marginTop: 'auto', paddingTop: '40px', borderTop: `1px solid rgba(191,206,163,0.2)` }}>
           <a
             href="mailto:hej@mavro.dk"
             style={{ color: BG, fontSize: '16px', fontWeight: 400, textDecoration: 'none', opacity: 0.7 }}

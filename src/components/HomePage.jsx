@@ -5,8 +5,8 @@ import Footer from './Footer'
 import RecipeCard from './RecipeCard'
 import { loadAllRecipes } from '../api/recipes'
 
-const BG = '#EEDDB6'
-const GREEN = '#315E4A'
+const BG = '#BFCEA3'
+const GREEN = '#204636'
 const DARK = '#1B3A28'
 
 export default function HomePage() {
@@ -80,7 +80,7 @@ export default function HomePage() {
             maxWidth: '1220px',
             margin: '0 auto',
             borderRadius: '32px',
-            backgroundColor: '#315E4A',
+            backgroundColor: '#204636',
             padding: 'clamp(32px, 5vw, 56px) clamp(28px, 5vw, 56px)',
             display: 'flex',
             alignItems: 'center',
@@ -90,13 +90,13 @@ export default function HomePage() {
           }}
         >
           <div style={{ flex: 1, minWidth: '220px' }}>
-            <p style={{ color: 'rgba(238,221,182,0.6)', fontSize: '13px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', margin: '0 0 10px 0' }}>
+            <p style={{ color: 'rgba(191,206,163,0.6)', fontSize: '13px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', margin: '0 0 10px 0' }}>
               Ny funktion
             </p>
-            <h2 style={{ color: '#EEDDB6', fontSize: 'clamp(22px, 3.5vw, 36px)', fontWeight: 800, lineHeight: 1.15, letterSpacing: '-0.02em', margin: '0 0 10px 0' }}>
+            <h2 style={{ color: '#BFCEA3', fontSize: 'clamp(22px, 3.5vw, 36px)', fontWeight: 800, lineHeight: 1.15, letterSpacing: '-0.02em', margin: '0 0 10px 0' }}>
               Konverter din yndlingsopskrift
             </h2>
-            <p style={{ color: 'rgba(238,221,182,0.75)', fontSize: '16px', lineHeight: 1.6, margin: 0 }}>
+            <p style={{ color: 'rgba(191,206,163,0.75)', fontSize: '16px', lineHeight: 1.6, margin: 0 }}>
               Indsæt et link, en tekst eller et billede — og få opskriften tilpasset med præcise erstatninger.
             </p>
           </div>
@@ -170,9 +170,9 @@ function RecipeSection({ title, linkTo, recipes, loading }) {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
           {Array.from({ length: 8 }).map((_, i) => (
             <div key={i} className="animate-pulse">
-              <div style={{ height: 200, borderRadius: 30, backgroundColor: '#DFD09A' }} />
-              <div className="mt-3 h-4 rounded" style={{ backgroundColor: '#DFD09A', width: '70%' }} />
-              <div className="mt-2 h-3 rounded" style={{ backgroundColor: '#DFD09A', width: '40%' }} />
+              <div style={{ height: 200, borderRadius: 30, backgroundColor: '#A5B98C' }} />
+              <div className="mt-3 h-4 rounded" style={{ backgroundColor: '#A5B98C', width: '70%' }} />
+              <div className="mt-2 h-3 rounded" style={{ backgroundColor: '#A5B98C', width: '40%' }} />
             </div>
           ))}
         </div>

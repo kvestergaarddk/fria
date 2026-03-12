@@ -4,9 +4,9 @@ import Logo from './Logo'
 import Footer from './Footer'
 import ConverterResult from './ConverterResult'
 
-const GREEN = '#315E4A'
+const GREEN = '#204636'
 const DARK = '#1B3A28'
-const CREAM = '#EEDDB6'
+const CREAM = '#BFCEA3'
 
 const INPUT_TABS = [
   {

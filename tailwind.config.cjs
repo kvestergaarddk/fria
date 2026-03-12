@@ -11,11 +11,11 @@ module.exports = {
       },
       colors: {
         mavro: {
-          green: '#00662B',
-          dark: '#003D1A',
-          cream: '#F5F2EA',
-          'cream-dark': '#EBE7DC',
-          text: '#1A2D1F',
+          green: '#204636',
+          dark: '#1B3A28',
+          bg: '#BFCEA3',
+          chip: '#A5B98C',
+          text: '#1B3A28',
         },
       },
     },

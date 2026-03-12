@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ConverterResult from './ConverterResult'
 
-const GREEN = '#315E4A'
+const GREEN = '#204636'
 const DARK_GREEN = '#1B3A28'
-const CREAM = '#EEDDB6'
+const CREAM = '#BFCEA3'
 
 const INTOLERANCE_LABEL = {
   gluten: 'Glutenfri',

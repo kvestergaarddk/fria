@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 
-const CREAM = '#EEDDB6'
+const CREAM = '#BFCEA3'
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: '#315E4A' }} className="mt-20 px-4 md:px-8 pt-[120px] pb-10">
+    <footer style={{ backgroundColor: '#204636' }} className="mt-20 px-4 md:px-8 pt-[120px] pb-10">
       <div className="max-w-[1220px] mx-auto flex flex-col gap-[120px]">
         {/* Logo + nav */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">

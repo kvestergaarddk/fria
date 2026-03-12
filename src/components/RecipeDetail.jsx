@@ -30,7 +30,7 @@ export default function RecipeDetail() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#EEDDB6' }}>
+      <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#BFCEA3' }}>
         <header className="pt-10 pb-4 flex flex-col items-center">
           <Logo />
         </header>
@@ -49,7 +49,7 @@ export default function RecipeDetail() {
 
   if (error) {
     return (
-      <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#EEDDB6' }}>
+      <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#BFCEA3' }}>
         <header className="pt-10 pb-4 flex flex-col items-center"><Logo /></header>
         <div className="max-w-[1220px] mx-auto px-4 py-8">
           <div className="bg-red-50 border border-red-200 text-red-700 rounded-xl p-6 text-sm">
@@ -75,7 +75,7 @@ export default function RecipeDetail() {
   })()
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#EEDDB6' }}>
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#BFCEA3' }}>
       {/* Header */}
       <header className="pt-10 pb-4 flex flex-col items-center px-4">
         <Logo />
@@ -83,7 +83,7 @@ export default function RecipeDetail() {
 
       <main className="max-w-[1220px] mx-auto w-full px-4 md:px-8 pb-8">
         {/* Hero */}
-        <div className="rounded-2xl overflow-hidden mb-8" style={{ aspectRatio: '16/7', backgroundColor: '#EEDDB6' }}>
+        <div className="rounded-2xl overflow-hidden mb-8" style={{ aspectRatio: '16/7', backgroundColor: '#BFCEA3' }}>
           <img src={image} alt={title} className="w-full h-full object-cover" style={{ mixBlendMode: 'multiply' }} />
         </div>
 
@@ -91,7 +91,7 @@ export default function RecipeDetail() {
         <h1 className="font-extrabold mb-2" style={{ color: '#1B3A28', fontSize: 'clamp(1.5rem, 3vw, 2.25rem)', letterSpacing: '-0.02em' }}>
           {title}
         </h1>
-        <div className="flex gap-4 mb-8 text-sm" style={{ color: '#315E4A' }}>
+        <div className="flex gap-4 mb-8 text-sm" style={{ color: '#204636' }}>
           {recipe.readyInMinutes && <span>{recipe.readyInMinutes} min</span>}
           {recipe.servings && <span>{recipe.servings} personer</span>}
         </div>
@@ -101,8 +101,8 @@ export default function RecipeDetail() {
           {/* Ingredienser */}
           <aside className="md:w-[400px] md:flex-shrink-0">
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-              <h2 style={{ color: '#315E4A', fontSize: '20px', fontWeight: 700, margin: 0 }}>Ingredienser</h2>
-              <div style={{ color: '#315E4A', fontSize: '20px', fontWeight: 400, lineHeight: '28px' }}>
+              <h2 style={{ color: '#204636', fontSize: '20px', fontWeight: 700, margin: 0 }}>Ingredienser</h2>
+              <div style={{ color: '#204636', fontSize: '20px', fontWeight: 400, lineHeight: '28px' }}>
                 {ingredients.map((ing, i) => (
                   <span key={i}>{ing}<br /></span>
                 ))}
@@ -111,24 +111,24 @@ export default function RecipeDetail() {
           </aside>
 
           {/* Divider — vandret på mobil, lodret på desktop */}
-          <div className="block md:hidden" style={{ height: '1px', backgroundColor: '#315E4A' }} />
-          <div className="hidden md:block" style={{ width: '1px', backgroundColor: '#315E4A', flexShrink: 0 }} />
+          <div className="block md:hidden" style={{ height: '1px', backgroundColor: '#204636' }} />
+          <div className="hidden md:block" style={{ width: '1px', backgroundColor: '#204636', flexShrink: 0 }} />
 
           {/* Fremgangsmåde */}
           <section style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '24px' }}>
-            <h2 style={{ color: '#315E4A', fontSize: '30px', fontWeight: 700, margin: 0 }}>Sådan gør du</h2>
+            <h2 style={{ color: '#204636', fontSize: '30px', fontWeight: 700, margin: 0 }}>Sådan gør du</h2>
             {steps.map((step, i) => (
               <div key={i} style={{ display: 'flex', gap: '24px', alignItems: 'flex-start' }}>
-                <span style={{ color: '#315E4A', fontSize: '40px', fontFamily: 'Knewave, cursive', fontWeight: 400, lineHeight: 1, flexShrink: 0 }}>
+                <span style={{ color: '#204636', fontSize: '40px', fontFamily: 'Knewave, cursive', fontWeight: 400, lineHeight: 1, flexShrink: 0 }}>
                   {i + 1}
                 </span>
-                <p style={{ color: '#315E4A', fontSize: '20px', fontWeight: 400, lineHeight: '28px', paddingTop: '8px', margin: 0 }}>
+                <p style={{ color: '#204636', fontSize: '20px', fontWeight: 400, lineHeight: '28px', paddingTop: '8px', margin: 0 }}>
                   {step}
                 </p>
               </div>
             ))}
             <div style={{ paddingLeft: '52px' }}>
-              <p style={{ color: '#315E4A', fontSize: '20px', fontFamily: 'Knewave, cursive', fontWeight: 400, lineHeight: '28px', margin: 0 }}>
+              <p style={{ color: '#204636', fontSize: '20px', fontFamily: 'Knewave, cursive', fontWeight: 400, lineHeight: '28px', margin: 0 }}>
                 Nyd din mad
               </p>
             </div>

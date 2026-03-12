@@ -5,10 +5,10 @@ import Footer from './Footer'
 import RecipeCard from './RecipeCard'
 import { loadAllRecipes } from '../api/recipes'
 
-const BG = '#EEDDB6'
-const GREEN = '#315E4A'
+const BG = '#BFCEA3'
+const GREEN = '#204636'
 const DARK = '#1B3A28'
-const CHIP_BG = '#D8C88A'
+const CHIP_BG = '#A5B98C'
 
 const PAGE_SIZE = 12
 
@@ -285,9 +285,9 @@ export default function RecipeListPage({ category = 'begge' }) {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {Array.from({ length: 8 }).map((_, i) => (
               <div key={i} className="animate-pulse">
-                <div style={{ height: 200, borderRadius: 30, backgroundColor: '#DFD09A' }} />
-                <div className="mt-3 h-4 rounded" style={{ backgroundColor: '#DFD09A', width: '70%' }} />
-                <div className="mt-2 h-3 rounded" style={{ backgroundColor: '#DFD09A', width: '40%' }} />
+                <div style={{ height: 200, borderRadius: 30, backgroundColor: '#A5B98C' }} />
+                <div className="mt-3 h-4 rounded" style={{ backgroundColor: '#A5B98C', width: '70%' }} />
+                <div className="mt-2 h-3 rounded" style={{ backgroundColor: '#A5B98C', width: '40%' }} />
               </div>
             ))}
           </div>

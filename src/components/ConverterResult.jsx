@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
 
-const GREEN = '#315E4A'
+const GREEN = '#204636'
 const DARK = '#1B3A28'
-const CREAM = '#EEDDB6'
+const CREAM = '#BFCEA3'
 const GOLD = '#EFBA5A'
 
 const INTOLERANCE_LABEL = {

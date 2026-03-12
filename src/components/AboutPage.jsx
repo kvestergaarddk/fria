@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
 
-const BG     = '#EEDDB6'
-const GREEN  = '#315E4A'
+const BG     = '#BFCEA3'
+const GREEN  = '#204636'
 const DARK   = '#1B3A28'
-const CHIP   = '#D8C88A'
+const CHIP   = '#A5B98C'
 
 const FAQ = [
   {
