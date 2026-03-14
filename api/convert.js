@@ -32,7 +32,11 @@ const JSON_SCHEMA = `
   "conversionNotes": "Generelle noter om konverteringen — fx særlige ting at være opmærksom på"
 }`
 
+const BLOCKED_URL_PATTERNS = /^(https?:\/\/)?(localhost|127\.|10\.|172\.(1[6-9]|2\d|3[01])\.|192\.168\.|169\.254\.|::1|0\.0\.0\.0)/i
+
 async function fetchAndCleanUrl(url) {
+  if (!/^https?:\/\//i.test(url)) throw new Error('Kun http/https URLs er tilladt')
+  if (BLOCKED_URL_PATTERNS.test(url)) throw new Error('URL er ikke tilladt')
   const response = await fetch(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (compatible; Mavro-bot/1.0)',
@@ -53,7 +57,11 @@ async function fetchAndCleanUrl(url) {
 }
 
 export default async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*')
+  const origin = req.headers.origin
+  if (origin === 'https://mavro.dk' || origin === 'https://www.mavro.dk') {
+    res.setHeader('Access-Control-Allow-Origin', origin)
+  }
+  res.setHeader('Vary', 'Origin')
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS')
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
   if (req.method === 'OPTIONS') return res.status(200).end()
