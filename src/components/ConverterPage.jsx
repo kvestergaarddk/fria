@@ -148,6 +148,7 @@ export default function ConverterPage() {
   async function handleConvert() {
     setError(null)
     setLoading(true)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
     try {
       const res = await fetch('/api/convert', {
         method: 'POST',

@@ -152,6 +152,7 @@ export default function HomePage() {
   async function handleConvert() {
     setError(null)
     setLoading(true)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
     try {
       const content = activeTab === 'url' ? urlInput.trim() : activeTab === 'text' ? textInput.trim() : imageData
       const res = await fetch('/api/convert', {
