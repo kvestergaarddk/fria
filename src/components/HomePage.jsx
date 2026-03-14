@@ -285,7 +285,13 @@ export default function HomePage() {
                   { id: 'text', label: 'Indsæt tekst', Icon: FileTextIcon },
                 ].map(({ id, label, Icon }) => (
                   <button key={id} style={tabStyle(activeTab === id)} onClick={() => { setActiveTab(id); setError(null) }}>
-                    <Icon active={activeTab === id} />
+                    <div style={{
+                      width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0,
+                      backgroundColor: activeTab === id ? '#fff' : 'rgba(26,225,122,0.15)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    }}>
+                      <Icon active={activeTab === id} />
+                    </div>
                     {label}
                   </button>
                 ))}
