@@ -239,7 +239,7 @@ export default function HomePage() {
             </div>
 
             {/* Form */}
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '28px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '24px' }}>
 
               {/* Intolerance toggles */}
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '14px', width: '100%', maxWidth: '720px' }}>
