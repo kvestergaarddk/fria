@@ -218,9 +218,12 @@ export default function HomePage() {
           .mavro-header { padding: 20px 16px; }
           .mavro-main { padding: 32px 16px 80px; }
           .mavro-info { padding: 60px 16px; }
-          .mavro-toggle-btn { font-size: 16px; padding: 10px 16px; gap: 8px; }
+          .mavro-toggle-row { flex-direction: column; width: 100%; }
+          .mavro-toggle-btn { width: 100%; font-size: 18px; padding: 14px 24px; gap: 12px; justify-content: flex-start; }
           .mavro-tab-btn { font-size: 14px; padding: 10px 12px; gap: 8px; }
           .mavro-tab-btn .mavro-tab-icon { width: 26px; height: 26px; }
+          .mavro-tab-label { display: none; }
+          .mavro-tab-btn--active .mavro-tab-label { display: inline; }
           .url-input { font-size: 22px !important; }
         }
       `}</style>
@@ -263,7 +266,7 @@ export default function HomePage() {
               {/* Intolerance toggles */}
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '14px', width: '100%', maxWidth: '720px' }}>
                 <p style={{ color: TEXT_DIM, fontSize: '16px', fontWeight: 600, margin: 0 }}>Min opskrift skal være</p>
-                <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
+                <div className="mavro-toggle-row" style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
                   <button
                     onClick={() => setGlutenfri(g => !g)}
                     className="mavro-toggle-btn"
@@ -304,7 +307,7 @@ export default function HomePage() {
                   { id: 'billede', label: 'Upload billede', Icon: CameraIconSvg },
                   { id: 'text', label: 'Indsæt tekst', Icon: FileTextIcon },
                 ].map(({ id, label, Icon }) => (
-                  <button key={id} className="mavro-tab-btn" style={tabStyle(activeTab === id)} onClick={() => { setActiveTab(id); setError(null) }}>
+                  <button key={id} className={`mavro-tab-btn${activeTab === id ? ' mavro-tab-btn--active' : ''}`} style={tabStyle(activeTab === id)} onClick={() => { setActiveTab(id); setError(null) }}>
                     <div className="mavro-tab-icon" style={{
                       width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0,
                       backgroundColor: activeTab === id ? '#fff' : 'rgba(26,225,122,0.15)',
@@ -312,7 +315,7 @@ export default function HomePage() {
                     }}>
                       <Icon active={activeTab === id} />
                     </div>
-                    {label}
+                    <span className="mavro-tab-label">{label}</span>
                   </button>
                 ))}
               </div>
