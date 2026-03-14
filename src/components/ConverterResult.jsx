@@ -114,7 +114,8 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
         <Link to="/" aria-label="Gå til forsiden"><Logo height={79} /></Link>
       </header>
 
-      <main style={{ maxWidth: '680px', margin: '0 auto', width: '100%', padding: '32px 24px 80px' }}>
+      {/* Title section — 1200px */}
+      <div style={{ maxWidth: '1200px', margin: '0 auto', width: '100%', padding: '32px 24px 0' }}>
 
         {/* Intolerance badges + meta */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px', flexWrap: 'wrap' }}>
@@ -164,7 +165,9 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
         }}>
           {result.title}
         </h1>
+      </div>
 
+      <main style={{ maxWidth: '680px', margin: '0 auto', width: '100%', padding: '0 24px 80px' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
 
           {/* Erstatninger */}
