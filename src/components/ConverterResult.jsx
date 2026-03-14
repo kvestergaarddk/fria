@@ -121,10 +121,9 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px', flexWrap: 'wrap' }}>
           {intolerances.map(key => (
             <span key={key} style={{
-              display: 'inline-flex', alignItems: 'center', gap: '10px',
-              padding: '8px 16px', borderRadius: '8px',
-              backgroundColor: ACCENT,
-              boxShadow: '0 0 19.7px 0 rgba(0, 0, 0, 0.25)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px',
+              padding: '8px 16px', borderRadius: '32px',
+              backgroundColor: 'rgba(26, 225, 122, 0.30)',
               color: '#000', fontSize: '16px', fontWeight: 600,
             }}>
               {key === 'gluten' ? (
