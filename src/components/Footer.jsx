@@ -22,7 +22,7 @@ export default function Footer({ light = false }) {
           Mad til glade maver
         </p>
         <nav style={{ display: 'flex', justifyContent: 'center', gap: '32px', marginBottom: '40px' }}>
-          {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }].map(({ to, label }) => (
+          {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }, { to: '/privatlivspolitik', label: 'Privatlivspolitik' }].map(({ to, label }) => (
             <Link
               key={to}
               to={to}
@@ -51,7 +51,7 @@ export default function Footer({ light = false }) {
         Mad til glade maver
       </p>
       <nav style={{ display: 'flex', justifyContent: 'center', gap: '32px', marginBottom: '40px' }}>
-        {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }].map(({ to, label }) => (
+        {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }, { to: '/privatlivspolitik', label: 'Privatlivspolitik' }].map(({ to, label }) => (
           <Link
             key={to}
             to={to}

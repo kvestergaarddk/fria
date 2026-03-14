@@ -8,6 +8,7 @@ import FaqPage from './components/FaqPage'
 import ContactPage from './components/ContactPage'
 import HamburgerMenu from './components/HamburgerMenu'
 import CookbookPage from './components/CookbookPage'
+import PrivacyPage from './components/PrivacyPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/om-mavro" element={<AboutPage />} />
         <Route path="/kontakt" element={<ContactPage />} />
+        <Route path="/privatlivspolitik" element={<PrivacyPage />} />
         {/* Bevar disse ruter i kode men ikke i nav */}
         <Route path="/glutenfri" element={<RecipeListPage category="glutenfri" />} />
         <Route path="/laktosefri" element={<RecipeListPage category="laktosefri" />} />
