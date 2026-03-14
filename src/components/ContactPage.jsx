@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
+import SEO from './SEO'
 
 const BG = '#004F26'
 const ACCENT = '#1AE17A'
@@ -12,6 +13,7 @@ const INACTIVE_BORDER = 'rgba(26, 225, 122, 0.20)'
 export default function ContactPage() {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
+      <SEO title="Kontakt" description="Kontakt Mavro — vi er klar til at hjælpe med spørgsmål om glutenfri og laktosefri madlavning." path="/kontakt" />
       <style>{`.mavro-header-sub { padding: 32px 80px; } @media (max-width: 768px) { .mavro-header-sub { padding: 20px 16px; } }`}</style>
 
       <header className="mavro-header-sub" style={{ display: 'flex', alignItems: 'center' }}>

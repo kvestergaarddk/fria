@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
+import SEO from './SEO'
 
 const BG = '#004F26'
 const ACCENT = '#1AE17A'
@@ -75,6 +76,7 @@ function FaqItem({ q, a }) {
 export default function FaqPage() {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
+      <SEO title="FAQ" description="Få svar på de mest stillede spørgsmål om Mavro og konvertering af opskrifter til glutenfri og laktosefri." path="/faq" />
       <style>{`.mavro-header-sub { padding: 32px 80px; } @media (max-width: 768px) { .mavro-header-sub { padding: 20px 16px; } }`}</style>
 
       <header className="mavro-header-sub" style={{ display: 'flex', alignItems: 'center' }}>

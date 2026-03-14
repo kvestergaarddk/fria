@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import SEO from './SEO'
 import Logo from './Logo'
 import Footer from './Footer'
 import ConverterResult from './ConverterResult'
@@ -213,7 +214,11 @@ export default function HomePage() {
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
-
+      <SEO
+        title="Gør enhver opskrift glutenfri eller laktosefri"
+        description="Mavro konverterer dine yndlingsopskrifter til glutenfri og/eller laktosefri versioner med AI. Indsæt en URL eller tekst og få en tilpasset opskrift på sekunder."
+        path="/"
+      />
       <style>{`
         .mavro-header { padding: 32px 80px; }
         .mavro-main { padding: 48px 40px 120px; }

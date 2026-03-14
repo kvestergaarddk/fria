@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { HelmetProvider } from 'react-helmet-async'
 import HomePage from './components/HomePage'
 import RecipeListPage from './components/RecipeListPage'
 import RecipeDetail from './components/RecipeDetail'
@@ -18,6 +19,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
+    <HelmetProvider>
     <BrowserRouter>
       <ScrollToTop />
       <HamburgerMenu />
@@ -39,5 +41,6 @@ export default function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
+    </HelmetProvider>
   )
 }

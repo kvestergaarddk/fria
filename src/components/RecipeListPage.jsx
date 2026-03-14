@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
+import SEO from './SEO'
 import Logo from './Logo'
 import Footer from './Footer'
 import RecipeCard from './RecipeCard'
@@ -142,7 +143,11 @@ export default function RecipeListPage({ category = 'begge' }) {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: BG }}>
-
+      <SEO
+        title={category === 'glutenfri' ? 'Glutenfri opskrifter' : category === 'laktosefri' ? 'Laktosefri opskrifter' : 'Glutenfri & laktosefri opskrifter'}
+        description={category === 'glutenfri' ? 'Find lækre glutenfri opskrifter uden hvede, rug og byg. Tilpasset til glutenintolerans og cøliaki.' : category === 'laktosefri' ? 'Find lækre laktosefri opskrifter uden mælk, fløde og ost. Tilpasset til laktoseintolerans.' : 'Find opskrifter der er fri for både gluten og laktose. Perfekt til dig med flere intoleranser.'}
+        path={`/${category}`}
+      />
       {/* Filter drawer overlay */}
       {filterOpen && (
         <div

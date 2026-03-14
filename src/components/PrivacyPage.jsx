@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
+import SEO from './SEO'
 
 const BG = '#004F26'
 const ACCENT = '#1AE17A'
@@ -10,6 +11,7 @@ const TEXT_DIM = 'rgba(239, 238, 233, 0.70)'
 export default function PrivacyPage() {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
+      <SEO title="Privatlivspolitik" description="Læs Mavros privatlivspolitik — vi indsamler ingen persondata og bruger ingen tracking-cookies." path="/privatlivspolitik" />
       <style>{`.mavro-header-sub { padding: 32px 80px; } @media (max-width: 768px) { .mavro-header-sub { padding: 20px 16px; } }`}</style>
 
       <header className="mavro-header-sub" style={{ display: 'flex', alignItems: 'center' }}>

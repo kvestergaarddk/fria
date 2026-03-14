@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
+import SEO from './SEO'
 
 const BG = '#004F26'
 const TEXT = '#EFEEE9'
@@ -10,6 +11,7 @@ const DIVIDER = 'rgba(239, 238, 233, 0.12)'
 export default function AboutPage() {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
+      <SEO title="Om Mavro" description="Mød holdet bag Mavro — tjenesten der konverterer opskrifter til glutenfri og laktosefri versioner." path="/om-mavro" />
       <style>{`.mavro-header-sub { padding: 32px 80px; } @media (max-width: 768px) { .mavro-header-sub { padding: 20px 16px; } }`}</style>
 
       <header className="mavro-header-sub" style={{ display: 'flex', alignItems: 'center' }}>

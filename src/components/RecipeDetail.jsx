@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import SEO from './SEO'
 import Logo from './Logo'
 import Footer from './Footer'
 import { fetchRecipeById } from '../api/recipes'
@@ -76,6 +77,12 @@ export default function RecipeDetail() {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#BFCEA3' }}>
+      <SEO
+        title={title}
+        description={`Se opskrift på ${title} — tilpasset til glutenfri og/eller laktosefri madlavning.`}
+        path={`/opskrift/${recipe.id}`}
+        image={image}
+      />
       {/* Header */}
       <header className="pt-10 pb-4 flex flex-col items-center px-4">
         <Logo />
