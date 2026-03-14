@@ -167,27 +167,27 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
         </h1>
       </div>
 
-      <main style={{ maxWidth: '680px', margin: '0 auto', width: '100%', padding: '0 24px 80px' }}>
+      <main style={{ maxWidth: '720px', margin: '0 auto', width: '100%', padding: '0 24px 80px' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
 
           {/* Erstatninger */}
           {result.substitutions?.length > 0 && (
             <Card>
-              <h2 style={{ color: TEXT, fontSize: '18px', fontWeight: 700, margin: '0 0 16px 0' }}>Erstatninger</h2>
+              <h2 style={{ color: '#000', fontFamily: '"Rethink Sans"', fontSize: '30px', fontStyle: 'normal', fontWeight: 700, lineHeight: '38px', margin: '0 0 16px 0' }}>Erstatninger</h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 {result.substitutions.map((sub, i) => (
                   <div key={i}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
-                      <span style={{ color: TEXT_DIM, fontSize: '16px', textDecoration: 'line-through' }}>{sub.original}</span>
-                      <svg width="14" height="9" viewBox="0 0 14 9" fill="none" style={{ flexShrink: 0, opacity: 0.35 }}>
-                        <path d="M1 4.5h12M8.5 1l4 3.5-4 3.5" stroke={TEXT} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      <span style={{ color: '#000', fontSize: '20px', textDecoration: 'line-through' }}>{sub.original}</span>
+                      <svg width="14" height="9" viewBox="0 0 14 9" fill="none" style={{ flexShrink: 0 }}>
+                        <path d="M1 4.5h12M8.5 1l4 3.5-4 3.5" stroke="#000" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
-                      <span style={{ color: DARK, fontSize: '16px', fontWeight: 700 }}>
+                      <span style={{ color: '#000', fontSize: '20px', fontWeight: 700 }}>
                         {sub.replacement}
-                        {sub.ratio && sub.ratio !== '1:1' && <span style={{ fontSize: '13px', fontWeight: 400, color: TEXT_DIM, marginLeft: '5px' }}>({sub.ratio})</span>}
+                        {sub.ratio && sub.ratio !== '1:1' && <span style={{ fontSize: '13px', fontWeight: 400, color: '#000', marginLeft: '5px' }}>({sub.ratio})</span>}
                       </span>
                     </div>
-                    {sub.note && <p style={{ color: TEXT_DIM, fontSize: '13px', lineHeight: 1.5, margin: '4px 0 0 0' }}>{sub.note}</p>}
+                    {sub.note && <p style={{ color: '#000', fontFamily: '"Rethink Sans"', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal', margin: '4px 0 0 0' }}>{sub.note}</p>}
                   </div>
                 ))}
               </div>
