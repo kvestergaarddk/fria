@@ -53,34 +53,36 @@ function LoadingScreen() {
   )
 }
 
-function WheatIcon({ active }) {
+function GlutenIcon({ active }) {
   const c = active ? '#000' : TEXT_MUTED
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke={c} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="14" cy="14" r="11"/>
-      <path d="M14 20v-9"/>
-      <path d="M11 14l3-3 3 3"/>
-      <path d="M10.5 17l3.5-1.5 3.5 1.5"/>
+    <svg width="24" height="24" viewBox="0 0 48 48" fill="none">
+      <path d="M32.4713 10.3724L27.9232 13.3333C27.7511 12.2527 27.3973 11.2093 26.8756 10.2636L24 5.05615L21.1245 10.2636C20.6027 11.2079 20.249 12.2513 20.0769 13.3333L15.5288 10.3724V16.33C15.5288 17.0155 15.6348 17.6845 15.8344 18.3191L15.5288 18.1209V24.0786C15.5288 24.7641 15.6348 25.4331 15.8344 26.0677L15.5288 25.8695V31.8271C15.5288 34.0681 16.6507 36.1371 18.5283 37.3594L23.2498 40.4333V47.1783H24.7503V40.4333L29.4718 37.3594C31.3508 36.1371 32.4713 34.0681 32.4713 31.8271V25.8695L32.1657 26.0677C32.3653 25.4331 32.4713 24.7641 32.4713 24.0786V18.1209L32.1657 18.3191C32.3653 17.6845 32.4713 17.0155 32.4713 16.33V10.3724ZM24.7503 23.1453V19.9531C24.7503 18.2214 25.6175 16.6232 27.0684 15.6775L30.9722 13.1364V16.3286C30.9722 18.0603 30.105 19.6585 28.6541 20.6042L24.7503 23.1453ZM22.4363 10.989L23.9987 8.15888L25.561 10.989C26.1075 11.9774 26.4338 13.0965 26.5177 14.2459L26.2479 14.4208C25.2788 15.0512 24.5135 15.9074 23.9973 16.8958C23.4811 15.9074 22.7157 15.0512 21.7466 14.4208L21.4768 14.2459C21.5608 13.0952 21.8871 11.9774 22.4335 10.989H22.4363ZM17.0279 13.1378L20.9317 15.6789C22.384 16.6232 23.2498 18.2214 23.2498 19.9545V23.1467L19.346 20.6056C17.8937 19.6613 17.0279 18.0631 17.0279 16.33V13.1378ZM17.0279 24.0786V20.8864L20.9317 23.4275C22.384 24.3718 23.2498 25.9699 23.2498 27.703V30.8952L21.7508 29.9192C21.7508 29.9192 21.7508 29.9192 21.7494 29.9192L19.346 28.3541C17.8951 27.4098 17.0279 25.8116 17.0279 24.08V24.0786ZM17.0279 31.8271V28.6349L18.5269 29.6109L20.9317 31.176C22.3826 32.1203 23.2485 33.7185 23.2485 35.4502V38.6424L19.3446 36.1013C17.8923 35.157 17.0265 33.5588 17.0265 31.8258L17.0279 31.8271ZM30.9722 31.8271C30.9722 33.5588 30.105 35.157 28.6541 36.1027L24.7503 38.6438V35.4516C24.7503 33.7199 25.6161 32.1217 27.067 31.1774L29.4718 29.6123L30.9722 28.6363V31.8285V31.8271ZM26.2507 29.9179L24.7503 30.8938V27.7016C24.7503 25.9699 25.6175 24.3718 27.0684 23.4261L30.9722 20.885V24.0772C30.9722 25.8089 30.105 27.4071 28.6541 28.3527L27.2129 29.2902L26.2493 29.9165L26.2507 29.9179Z" fill={c}/>
+      <path d="M33.3716 15.6885L41.2895 7.77201L40.2281 6.71069L33.3716 13.5672V15.6885Z" fill={c}/>
+      <path d="M14.6421 32.2964L6.71045 40.228L7.77176 41.2893L14.9752 34.0859C14.7949 33.5119 14.6806 32.9117 14.6435 32.2964H14.6421Z" fill={c}/>
+      <path d="M24 48C10.7659 48 0 37.2341 0 24C0 10.7659 10.7659 0 24 0C37.2341 0 48 10.7659 48 24C48 37.2341 37.2341 48 24 48ZM24 1.50043C11.5932 1.50043 1.50043 11.5932 1.50043 24C1.50043 36.4068 11.5932 46.4996 24 46.4996C36.4068 46.4996 46.4996 36.4068 46.4996 24C46.4996 11.5932 36.4068 1.50043 24 1.50043Z" fill={c}/>
     </svg>
   )
 }
 
-function MilkIcon({ active }) {
+function LaktoseIcon({ active }) {
   const c = active ? '#000' : TEXT_MUTED
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke={c} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M14 5C14 5 8.5 11 8.5 17a5.5 5.5 0 0011 0C19.5 11 14 5 14 5z"/>
-      <path d="M11.2 19.5a2.8 2.8 0 005.6 0"/>
+    <svg width="24" height="24" viewBox="0 0 48 48" fill="none">
+      <path d="M12.4534 34.4851L6.71045 40.228L7.77176 41.288L13.0508 36.0089C12.8195 35.5175 12.6186 35.0096 12.4534 34.4851Z" fill={c}/>
+      <path d="M23.9999 42.0712C17.8261 42.0712 12.8018 37.0482 12.8018 30.8731C12.8018 21.4176 22.9538 6.86206 23.386 6.24675L23.9999 5.37402L24.6139 6.24675C25.0461 6.86206 35.1981 21.4176 35.1981 30.8731C35.1981 37.0469 30.1751 42.0712 23.9999 42.0712ZM23.9999 8.01698C21.7796 11.3592 14.3022 23.1878 14.3022 30.8745C14.3022 36.2223 18.6521 40.5722 23.9999 40.5722C29.3478 40.5722 33.6977 36.2223 33.6977 30.8745C33.6977 23.1878 26.2203 11.3606 23.9999 8.01698Z" fill={c}/>
+      <path d="M29.8255 31.5627C29.5103 34.2401 27.3863 36.3709 24.7117 36.6958C24.3703 36.7371 24.0853 37 24.0413 37.3414C23.9766 37.8397 24.3964 38.2444 24.8768 38.188C28.2521 37.786 30.935 35.0921 31.3191 31.71C31.3686 31.2695 31.0148 30.8882 30.5716 30.8882C30.1862 30.8882 29.8709 31.1814 29.8255 31.5641V31.5627Z" fill={c}/>
+      <path d="M31.9951 17.0663L41.2895 7.77185L40.2282 6.71191L31.2876 15.6525C31.5257 16.1164 31.7625 16.5872 31.9951 17.0663Z" fill={c}/>
+      <path d="M24 48C10.7659 48 0 37.2341 0 24C0 10.7659 10.7659 0 24 0C37.2341 0 48 10.7659 48 24C48 37.2341 37.2341 48 24 48ZM24 1.50043C11.5932 1.50043 1.50043 11.5932 1.50043 24C1.50043 36.4068 11.5932 46.4996 24 46.4996C36.4068 46.4996 46.4996 36.4054 46.4996 24C46.4996 11.5946 36.4068 1.50043 24 1.50043Z" fill={c}/>
     </svg>
   )
 }
 
-function LinkIconSvg({ active }) {
+function ArrowRightIcon({ active }) {
   const c = active ? '#000' : TEXT_MUTED
   return (
-    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke={c} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M7 10a3.5 3.5 0 005 0l2-2a3.5 3.5 0 00-5-5L8 4"/>
-      <path d="M10 7a3.5 3.5 0 00-5 0L3 9a3.5 3.5 0 005 5l1-1"/>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <path d="M3.3335 7.99992H12.6668M12.6668 7.99992L8.00016 3.33325M12.6668 7.99992L8.00016 12.6666" stroke={c} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 }
@@ -96,12 +98,11 @@ function CameraIconSvg({ active }) {
   )
 }
 
-function DocIconSvg({ active }) {
+function FileTextIcon({ active }) {
   const c = active ? '#000' : TEXT_MUTED
   return (
-    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke={c} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="2" width="11" height="13" rx="1.5"/>
-      <path d="M5.5 6h6M5.5 9h6M5.5 12h4"/>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <path d="M9.33317 1.33325H3.99984C3.64622 1.33325 3.30708 1.47373 3.05703 1.72378C2.80698 1.97382 2.6665 2.31296 2.6665 2.66659V13.3333C2.6665 13.6869 2.80698 14.026 3.05703 14.2761C3.30708 14.5261 3.64622 14.6666 3.99984 14.6666H11.9998C12.3535 14.6666 12.6926 14.5261 12.9426 14.2761C13.1927 14.026 13.3332 13.6869 13.3332 13.3333V5.33325M9.33317 1.33325L13.3332 5.33325M9.33317 1.33325L9.33317 5.33325H13.3332M10.6665 8.66658H5.33317M10.6665 11.3333H5.33317M6.6665 5.99992H5.33317" stroke={c} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 }
@@ -168,10 +169,11 @@ export default function HomePage() {
     display: 'flex',
     alignItems: 'center',
     gap: '12px',
-    padding: '14px 28px',
-    borderRadius: '10px',
+    padding: '12px 24px',
+    borderRadius: '8px',
     border: `1.5px solid ${active ? 'transparent' : INACTIVE_BORDER}`,
     backgroundColor: active ? ACCENT : INACTIVE_BG,
+    boxShadow: active ? '0 0 19.7px 0 rgba(87, 57, 6, 0.50)' : 'none',
     color: active ? '#000' : TEXT,
     fontSize: '20px',
     fontWeight: 600,
@@ -185,11 +187,12 @@ export default function HomePage() {
   const tabStyle = (active) => ({
     display: 'flex',
     alignItems: 'center',
-    gap: '10px',
-    padding: '14px 20px',
-    borderRadius: '10px',
+    gap: '12px',
+    padding: '12px 24px',
+    borderRadius: '8px',
     border: `1.5px solid ${active ? 'transparent' : INACTIVE_BORDER}`,
     backgroundColor: active ? ACCENT : INACTIVE_BG,
+    boxShadow: active ? '0 0 19.7px 0 rgba(87, 57, 6, 0.50)' : 'none',
     color: active ? '#000' : TEXT,
     fontSize: '18px',
     fontWeight: 600,
@@ -205,7 +208,7 @@ export default function HomePage() {
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
 
       {/* Header */}
-      <header style={{ padding: '28px 40px 0' }}>
+      <header style={{ display: 'flex', padding: '32px 80px', justifyContent: 'space-between', alignItems: 'center' }}>
         <Logo height={52} />
       </header>
 
@@ -249,7 +252,7 @@ export default function HomePage() {
                     onMouseEnter={e => { if (!glutenfri) e.currentTarget.style.opacity = '0.75' }}
                     onMouseLeave={e => { e.currentTarget.style.opacity = '1' }}
                   >
-                    <WheatIcon active={glutenfri} />
+                    <GlutenIcon active={glutenfri} />
                     Glutenfri
                     {glutenfri && (
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#000" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
@@ -263,7 +266,7 @@ export default function HomePage() {
                     onMouseEnter={e => { if (!laktosefri) e.currentTarget.style.opacity = '0.75' }}
                     onMouseLeave={e => { e.currentTarget.style.opacity = '1' }}
                   >
-                    <MilkIcon active={laktosefri} />
+                    <LaktoseIcon active={laktosefri} />
                     Laktosefri
                     {laktosefri && (
                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#000" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
@@ -277,19 +280,12 @@ export default function HomePage() {
               {/* Input tabs */}
               <div style={{ width: '100%', maxWidth: '720px', display: 'flex', gap: '10px' }}>
                 {[
-                  { id: 'url', label: 'Indsæt link', Icon: LinkIconSvg },
+                  { id: 'url', label: 'Indsæt link', Icon: ArrowRightIcon },
                   { id: 'billede', label: 'Upload billede', Icon: CameraIconSvg },
-                  { id: 'text', label: 'Indsæt tekst', Icon: DocIconSvg },
+                  { id: 'text', label: 'Indsæt tekst', Icon: FileTextIcon },
                 ].map(({ id, label, Icon }) => (
                   <button key={id} style={tabStyle(activeTab === id)} onClick={() => { setActiveTab(id); setError(null) }}>
-                    <div style={{
-                      display: 'flex', alignItems: 'center', justifyContent: 'center',
-                      width: '30px', height: '30px', borderRadius: '50%',
-                      backgroundColor: activeTab === id ? '#fff' : 'rgba(26,225,122,0.15)',
-                      flexShrink: 0,
-                    }}>
-                      <Icon active={activeTab === id} />
-                    </div>
+                    <Icon active={activeTab === id} />
                     {label}
                   </button>
                 ))}

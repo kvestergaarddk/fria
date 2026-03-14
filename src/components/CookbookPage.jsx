@@ -44,29 +44,7 @@ export default function CookbookPage() {
   }
 
   if (activeEntry) {
-    return (
-      <div style={{ minHeight: '100vh', backgroundColor: BG, paddingTop: '80px', paddingBottom: '80px' }}>
-        <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 24px' }}>
-          <button
-            onClick={() => setActiveEntry(null)}
-            style={{
-              display: 'flex', alignItems: 'center', gap: '8px',
-              backgroundColor: 'transparent', border: 'none', color: TEXT_DIM,
-              fontSize: '15px', fontWeight: 600, cursor: 'pointer', padding: '0',
-              marginBottom: '32px', transition: 'color 0.15s ease',
-            }}
-            onMouseEnter={e => { e.currentTarget.style.color = TEXT }}
-            onMouseLeave={e => { e.currentTarget.style.color = TEXT_DIM }}
-          >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M10 3L5 8l5 5"/>
-            </svg>
-            Tilbage til gemte opskrifter
-          </button>
-          <ConverterResult result={activeEntry.recipe} intolerance={activeEntry.intolerance} onReset={() => setActiveEntry(null)} />
-        </div>
-      </div>
-    )
+    return <ConverterResult result={activeEntry.recipe} intolerance={activeEntry.intolerance} onReset={() => setActiveEntry(null)} backLabel="Tilbage til gemte opskrifter" onBack={() => setActiveEntry(null)} />
   }
 
   return (

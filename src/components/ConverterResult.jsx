@@ -76,7 +76,7 @@ function saveToLocalStorage(result, intolerance) {
   ]))
 }
 
-export default function ConverterResult({ result, intolerance, onReset }) {
+export default function ConverterResult({ result, intolerance, onReset, onBack, backLabel }) {
   const [saved, setSaved] = useState(false)
 
   function handleSave() {
@@ -95,8 +95,26 @@ export default function ConverterResult({ result, intolerance, onReset }) {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: PAGE_BG }}>
-      <header className="pt-8 pb-4 flex flex-col items-start px-6 md:px-10">
+      <header style={{ display: 'flex', padding: '32px 80px', justifyContent: 'space-between', alignItems: 'center' }}>
         <Link to="/" aria-label="Gå til forsiden"><Logo height={44} /></Link>
+        {onBack && (
+          <button
+            onClick={onBack}
+            style={{
+              display: 'flex', alignItems: 'center', gap: '8px',
+              backgroundColor: 'transparent', border: 'none',
+              color: TEXT_DIM, fontSize: '15px', fontWeight: 600,
+              cursor: 'pointer', padding: '0', transition: 'color 0.15s ease',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.color = TEXT }}
+            onMouseLeave={e => { e.currentTarget.style.color = TEXT_DIM }}
+          >
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M10 3L5 8l5 5"/>
+            </svg>
+            {backLabel || 'Tilbage'}
+          </button>
+        )}
       </header>
 
       <main style={{ maxWidth: '680px', margin: '0 auto', width: '100%', padding: '32px 24px 80px' }}>
