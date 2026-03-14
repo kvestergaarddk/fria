@@ -1,44 +1,62 @@
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 
-const CREAM = '#BFCEA3'
+const BG_DARK = '#004F26'
+const TEXT = '#EFEEE9'
 
-export default function Footer() {
+export default function Footer({ light = false }) {
+  if (light) {
+    return (
+      <footer style={{ backgroundColor: BG_DARK, padding: '64px 24px 32px', textAlign: 'center' }}>
+        <Link to="/" aria-label="Gå til forsiden" style={{ display: 'inline-block', marginBottom: '16px' }}>
+          <Logo height={44} />
+        </Link>
+        <p style={{ color: TEXT, fontSize: '22px', fontWeight: 400, margin: '0 0 40px 0', opacity: 0.9 }}>
+          Mad til glade maver
+        </p>
+        <nav style={{ display: 'flex', justifyContent: 'center', gap: '32px', marginBottom: '40px' }}>
+          {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }].map(({ to, label }) => (
+            <Link
+              key={to}
+              to={to}
+              style={{ color: TEXT, fontSize: '16px', fontWeight: 400, textDecoration: 'none', opacity: 0.7, transition: 'opacity 0.2s ease' }}
+              onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
+              onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
+        <p style={{ color: TEXT, fontSize: '12px', fontWeight: 400, margin: 0, opacity: 0.35 }}>
+          Copyright Mavro 2025
+        </p>
+      </footer>
+    )
+  }
+
   return (
-    <footer style={{ backgroundColor: '#204636' }} className="mt-20 px-4 md:px-8 pt-[120px] pb-10">
-      <div className="max-w-[1220px] mx-auto flex flex-col gap-[120px]">
-        {/* Logo + nav */}
+    <footer style={{ backgroundColor: BG_DARK, borderTop: '1px solid rgba(239, 238, 233, 0.10)' }} className="mt-20 px-6 md:px-20 pt-20 pb-10">
+      <div className="max-w-[1200px] mx-auto flex flex-col gap-20">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
           <Link to="/" aria-label="Gå til forsiden">
-            <Logo color={CREAM} />
+            <Logo height={40} />
           </Link>
           <nav className="flex items-center gap-8">
-            <a
-              href="/faq"
-              style={{ color: CREAM, fontSize: '20px', fontWeight: 400 }}
-              className="hover:opacity-70 transition-opacity duration-200"
-            >
-              FAQ
-            </a>
-            <Link
-              to="/om-mavro"
-              style={{ color: CREAM, fontSize: '20px', fontWeight: 400 }}
-              className="hover:opacity-70 transition-opacity duration-200"
-            >
-              Om Mavro
-            </Link>
-            <a
-              href="mailto:hej@mavro.dk"
-              style={{ color: CREAM, fontSize: '20px', fontWeight: 400 }}
-              className="hover:opacity-70 transition-opacity duration-200"
-            >
-              Kontakt
-            </a>
+            {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }].map(({ to, label }) => (
+              <Link
+                key={to}
+                to={to}
+                style={{ color: TEXT, fontSize: '18px', fontWeight: 400, opacity: 0.7, textDecoration: 'none' }}
+                onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
+                onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
+              >
+                {label}
+              </Link>
+            ))}
           </nav>
         </div>
 
-        {/* Copyright */}
-        <p style={{ color: CREAM, fontSize: '12px', fontWeight: 400, margin: 0 }}>
+        <p style={{ color: TEXT, fontSize: '12px', fontWeight: 400, margin: 0, opacity: 0.4 }}>
           Copyright Mavro 2025
         </p>
       </div>

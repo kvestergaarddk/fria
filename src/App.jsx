@@ -4,8 +4,9 @@ import HomePage from './components/HomePage'
 import RecipeListPage from './components/RecipeListPage'
 import RecipeDetail from './components/RecipeDetail'
 import AboutPage from './components/AboutPage'
+import FaqPage from './components/FaqPage'
+import ContactPage from './components/ContactPage'
 import HamburgerMenu from './components/HamburgerMenu'
-import ConverterPage from './components/ConverterPage'
 import CookbookPage from './components/CookbookPage'
 
 function ScrollToTop() {
@@ -21,13 +22,18 @@ export default function App() {
       <HamburgerMenu />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/gemte-opskrifter" element={<CookbookPage />} />
+        <Route path="/faq" element={<FaqPage />} />
+        <Route path="/om-mavro" element={<AboutPage />} />
+        <Route path="/kontakt" element={<ContactPage />} />
+        {/* Bevar disse ruter i kode men ikke i nav */}
         <Route path="/glutenfri" element={<RecipeListPage category="glutenfri" />} />
         <Route path="/laktosefri" element={<RecipeListPage category="laktosefri" />} />
         <Route path="/begge" element={<RecipeListPage category="begge" />} />
         <Route path="/opskrift/:id" element={<RecipeDetail />} />
-        <Route path="/om-mavro" element={<AboutPage />} />
-        <Route path="/konverter" element={<ConverterPage />} />
-        <Route path="/kogebog" element={<CookbookPage />} />
+        {/* Redirects for gamle ruter */}
+        <Route path="/konverter" element={<Navigate to="/" replace />} />
+        <Route path="/kogebog" element={<Navigate to="/gemte-opskrifter" replace />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>

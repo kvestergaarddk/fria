@@ -1,27 +1,24 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-const GREEN = '#204636'
-const BG = '#BFCEA3'
+const BG = '#004F26'
+const ACCENT = '#1AE17A'
+const TEXT = '#EFEEE9'
 
 const NAV_LINKS = [
   { to: '/', label: 'Forside' },
-  { to: '/konverter', label: 'Konverter opskrift' },
-  { to: '/kogebog', label: 'Min kogebog' },
-  { to: '/glutenfri', label: 'Glutenfri opskrifter' },
-  { to: '/laktosefri', label: 'Laktosefri opskrifter' },
-  { to: '/begge', label: 'Glutenfri & laktosefri' },
+  { to: '/gemte-opskrifter', label: 'Gemte opskrifter' },
+  { to: '/faq', label: 'FAQ' },
   { to: '/om-mavro', label: 'Om Mavro' },
+  { to: '/kontakt', label: 'Kontakt' },
 ]
 
 export default function HamburgerMenu() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
 
-  // Luk ved navigation
   useEffect(() => { setOpen(false) }, [location.pathname])
 
-  // Lås scroll
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
@@ -29,44 +26,50 @@ export default function HamburgerMenu() {
 
   return (
     <>
-      {/* Hamburger-knap — fast placeret øverst til højre */}
+      {/* Pill Menu-knap — fast øverst til højre */}
       <button
         onClick={() => setOpen(o => !o)}
-        aria-label="Åbn menu"
+        aria-label={open ? 'Luk menu' : 'Åbn menu'}
         style={{
           position: 'fixed',
-          top: '24px',
-          right: '32px',
+          top: '28px',
+          right: '40px',
           zIndex: 60,
-          backgroundColor: GREEN,
-          color: '#fff',
+          height: '48px',
+          padding: '0 24px',
+          backgroundColor: '#1AE17A',
+          boxShadow: '0px 0px 19.7px rgba(0, 79, 38, 0.35)',
+          borderRadius: '81px',
           border: 'none',
           cursor: 'pointer',
-          borderRadius: '50%',
-          width: '48px',
-          height: '48px',
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center',
-          flexShrink: 0,
+          gap: '10px',
+          transition: 'opacity 0.2s ease, transform 0.15s ease',
         }}
+        onMouseEnter={e => { e.currentTarget.style.opacity = '0.9'; e.currentTarget.style.transform = 'translateY(-1px)' }}
+        onMouseLeave={e => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'translateY(0)' }}
+        onMouseDown={e => { e.currentTarget.style.transform = 'translateY(0)' }}
       >
         {open ? (
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M4 4l10 10M4 14L14 4"/>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round">
+            <path d="M3 3l10 10M3 13L13 3"/>
           </svg>
         ) : (
-          <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M1 2h16M1 7h16M1 12h16"/>
+          <svg width="18" height="12" viewBox="0 0 18 12" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round">
+            <path d="M1 2h16M1 6h16M1 10h16"/>
           </svg>
         )}
+        <span style={{ color: '#000', fontSize: '20px', fontWeight: 700, fontFamily: 'inherit', lineHeight: 1 }}>
+          Menu
+        </span>
       </button>
 
       {/* Overlay */}
       {open && (
         <div
           className="fixed inset-0 z-40"
-          style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}
+          style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}
           onClick={() => setOpen(false)}
         />
       )}
@@ -79,52 +82,52 @@ export default function HamburgerMenu() {
           top: 0,
           right: 0,
           height: '100%',
-          width: 'min(360px, 85vw)',
-          backgroundColor: GREEN,
+          width: 'min(400px, 88vw)',
+          backgroundColor: BG,
+          borderLeft: `1px solid rgba(26, 225, 122, 0.15)`,
           zIndex: 50,
           display: 'flex',
           flexDirection: 'column',
-          padding: '40px 40px',
+          padding: '48px 40px',
           transform: open ? 'translateX(0)' : 'translateX(100%)',
           transition: 'transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
           overflowY: 'auto',
         }}
       >
-        {/* Links */}
-        <ul style={{ listStyle: 'none', margin: 0, padding: 0, marginTop: '60px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <ul style={{ listStyle: 'none', margin: 0, padding: 0, marginTop: '64px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
           {NAV_LINKS.map(({ to, label }) => {
             const isActive = location.pathname === to
             return (
               <li key={to}>
                 <Link
                   to={to}
-                  className={`group ${isActive ? 'text-[#EFBA5A]' : 'text-[#BFCEA3] hover:text-[#EFBA5A]'}`}
                   style={{
                     fontSize: '28px',
                     fontWeight: 700,
                     textDecoration: 'none',
                     lineHeight: 1.3,
                     display: 'inline-block',
-                    padding: '8px 0',
-                    transition: 'color 0.2s ease',
+                    padding: '10px 0',
+                    color: isActive ? ACCENT : TEXT,
+                    opacity: isActive ? 1 : 0.85,
+                    transition: 'color 0.2s ease, opacity 0.2s ease',
                   }}
+                  onMouseEnter={e => { e.currentTarget.style.color = ACCENT; e.currentTarget.style.opacity = '1' }}
+                  onMouseLeave={e => { e.currentTarget.style.color = isActive ? ACCENT : TEXT; e.currentTarget.style.opacity = isActive ? '1' : '0.85' }}
                 >
-                  <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-[#EFBA5A] after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300">
-                    {label}
-                  </span>
+                  {label}
                 </Link>
               </li>
             )
           })}
         </ul>
 
-        {/* Kontakt nederst */}
-        <div style={{ marginTop: 'auto', paddingTop: '40px', borderTop: `1px solid rgba(191,206,163,0.2)` }}>
+        <div style={{ marginTop: 'auto', paddingTop: '40px', borderTop: `1px solid rgba(239, 238, 233, 0.12)` }}>
           <a
             href="mailto:hej@mavro.dk"
-            style={{ color: BG, fontSize: '16px', fontWeight: 400, textDecoration: 'none', opacity: 0.7 }}
+            style={{ color: TEXT, fontSize: '16px', fontWeight: 400, textDecoration: 'none', opacity: 0.5 }}
             onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
-            onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
+            onMouseLeave={e => { e.currentTarget.style.opacity = '0.5' }}
           >
             hej@mavro.dk
           </a>
