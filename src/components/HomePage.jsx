@@ -216,14 +216,14 @@ export default function HomePage() {
         {loading ? <LoadingScreen /> : (
           <>
             {/* Hero */}
-            <div style={{ marginBottom: '48px' }}>
+            <div style={{ marginBottom: '48px', textAlign: 'center' }}>
               <h1 style={{
                 color: TEXT,
                 fontSize: 'clamp(40px, 7vw, 100px)',
                 fontWeight: 800,
                 lineHeight: 1,
                 letterSpacing: '-0.02em',
-                margin: '0 0 24px 0',
+                margin: '0 0 40px 0',
               }}>
                 Gør enhver opskrift gluten og laktosefri
               </h1>
@@ -232,7 +232,7 @@ export default function HomePage() {
                 fontSize: 'clamp(16px, 2.2vw, 30px)',
                 fontWeight: 700,
                 lineHeight: 1.35,
-                margin: 0,
+                margin: '0 auto',
                 maxWidth: '900px',
               }}>
                 Upload en opskrift, indsæt et link eller tag et billede. Mavro omskriver ingredienser og fremgangsmåde, så opskriften bliver fri for gluten og laktose.
@@ -413,7 +413,7 @@ export default function HomePage() {
                   display: 'flex',
                   alignItems: 'center',
                   gap: '12px',
-                  padding: '20px 48px',
+                  padding: '24px 48px',
                   borderRadius: '81px',
                   border: 'none',
                   backgroundColor: isValid() ? '#EFEEE9' : 'rgba(239, 238, 233, 0.12)',
