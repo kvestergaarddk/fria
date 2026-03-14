@@ -300,21 +300,22 @@ export default function HomePage() {
               {/* Input-felt */}
               <div style={{ width: '100%', maxWidth: '720px' }}>
                 {activeTab === 'url' && (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', alignItems: 'center' }}>
                     <label style={{ color: TEXT_DIM, fontSize: '16px', fontWeight: 600 }}>Link til opskrift</label>
                     <input
                       type="url"
-                      placeholder="fx. www.mormorsbedsteopskrift.dk"
+                      placeholder="fx.www.mormorsbedsteopskrift.dk"
                       value={urlInput}
                       onChange={e => setUrlInput(e.target.value)}
+                      className="url-input"
                       style={{
                         width: '100%',
-                        padding: '20px 0',
+                        padding: '16px 0',
                         border: 'none',
-                        borderBottom: `2px solid ${ACCENT}`,
+                        borderBottom: `1.5px solid rgba(26, 225, 122, 0.50)`,
                         backgroundColor: 'transparent',
                         color: TEXT,
-                        fontSize: 'clamp(18px, 2.5vw, 26px)',
+                        fontSize: 'clamp(24px, 4vw, 52px)',
                         fontWeight: 400,
                         fontFamily: 'inherit',
                         textAlign: 'center',
@@ -322,6 +323,7 @@ export default function HomePage() {
                         boxSizing: 'border-box',
                       }}
                     />
+                    <style>{`.url-input::placeholder { color: rgba(239, 238, 233, 0.35); }`}</style>
                   </div>
                 )}
 

@@ -43,24 +43,14 @@ export default function HamburgerMenu() {
           cursor: 'pointer',
           display: 'flex',
           alignItems: 'center',
-          gap: '10px',
           transition: 'opacity 0.2s ease, transform 0.15s ease',
         }}
         onMouseEnter={e => { e.currentTarget.style.opacity = '0.9'; e.currentTarget.style.transform = 'translateY(-1px)' }}
         onMouseLeave={e => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'translateY(0)' }}
         onMouseDown={e => { e.currentTarget.style.transform = 'translateY(0)' }}
       >
-        {open ? (
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#004F26" strokeWidth="2" strokeLinecap="round">
-            <path d="M3 3l10 10M3 13L13 3"/>
-          </svg>
-        ) : (
-          <svg width="18" height="12" viewBox="0 0 18 12" fill="none" stroke="#004F26" strokeWidth="2" strokeLinecap="round">
-            <path d="M1 2h16M1 6h16M1 10h16"/>
-          </svg>
-        )}
         <span style={{ color: '#004F26', fontSize: '20px', fontWeight: 700, fontFamily: 'inherit', lineHeight: 1 }}>
-          Menu
+          {open ? 'Luk' : 'Menu'}
         </span>
       </button>
 
