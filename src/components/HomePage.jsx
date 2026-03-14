@@ -220,7 +220,8 @@ export default function HomePage() {
           .mavro-info { padding: 60px 16px; }
           .mavro-toggle-row { flex-direction: column; width: 100%; }
           .mavro-toggle-btn { width: 100%; font-size: 18px; padding: 14px 24px; gap: 12px; justify-content: flex-start; }
-          .mavro-tab-btn { font-size: 14px; padding: 10px 12px; gap: 8px; }
+          .mavro-tab-row { justify-content: stretch; }
+          .mavro-tab-btn { flex: 1; justify-content: center; font-size: 14px; padding: 10px 12px; gap: 8px; }
           .mavro-tab-btn .mavro-tab-icon { width: 26px; height: 26px; }
           .mavro-tab-label { display: none; }
           .mavro-tab-btn--active .mavro-tab-label { display: inline; }
