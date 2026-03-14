@@ -259,12 +259,12 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
 
           {/* Sådan gør du */}
           <Card>
-            <h2 style={{ color: TEXT, fontSize: '18px', fontWeight: 700, margin: '0 0 20px 0' }}>Sådan gør du</h2>
+            <h2 style={{ color: '#000', fontSize: '18px', fontWeight: 700, margin: '0 0 20px 0' }}>Sådan gør du</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
               {(result.steps || []).map((step, i) => (
                 <div key={i} style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
                   <span style={{ color: ACCENT, fontSize: '36px', fontFamily: 'Knewave, cursive', fontWeight: 400, lineHeight: 1, flexShrink: 0, minWidth: '28px' }}>{i + 1}</span>
-                  <p style={{ color: TEXT, fontSize: '16px', fontWeight: 400, lineHeight: '26px', paddingTop: '5px', margin: 0 }}>
+                  <p style={{ color: '#000', fontSize: '20px', fontWeight: 400, lineHeight: '28px', paddingTop: '5px', margin: 0 }}>
                     {step.replace(/^Trin \d+[:.]?\s*/i, '')}
                   </p>
                 </div>
