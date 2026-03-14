@@ -78,11 +78,11 @@ function LaktoseIcon({ active }) {
   )
 }
 
-function ArrowRightIcon({ active }) {
+function LinkIcon({ active }) {
   const c = active ? '#000' : TEXT_MUTED
   return (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-      <path d="M3.3335 7.99992H12.6668M12.6668 7.99992L8.00016 3.33325M12.6668 7.99992L8.00016 12.6666" stroke={c} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+    <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
+      <path d="M6.09551 8.08909C6.38181 8.47184 6.74708 8.78854 7.16654 9.01771C7.58601 9.24689 8.04985 9.38317 8.52661 9.41731C9.00337 9.45146 9.4819 9.38267 9.92974 9.21561C10.3776 9.04855 10.7843 8.78713 11.1222 8.44909L13.1222 6.44909C13.7294 5.82041 14.0654 4.97841 14.0578 4.10442C14.0502 3.23043 13.6996 2.39439 13.0816 1.77636C12.4635 1.15833 11.6275 0.80777 10.7535 0.800175C9.87952 0.79258 9.03752 1.12856 8.40884 1.73575L7.26218 2.87575M8.76218 6.75575C8.47588 6.373 8.11061 6.0563 7.69114 5.82713C7.27168 5.59796 6.80784 5.46168 6.33108 5.42753C5.85431 5.39339 5.37579 5.46218 4.92795 5.62923C4.48011 5.79629 4.07343 6.05771 3.73551 6.39575L1.73551 8.39575C1.12832 9.02443 0.792336 9.86644 0.799931 10.7404C0.807525 11.6144 1.15809 12.4505 1.77612 13.0685C2.39414 13.6865 3.23018 14.0371 4.10417 14.0447C4.97816 14.0523 5.82017 13.7163 6.44884 13.1091L7.58884 11.9691" stroke={c} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 }
@@ -90,10 +90,9 @@ function ArrowRightIcon({ active }) {
 function CameraIconSvg({ active }) {
   const c = active ? '#000' : TEXT_MUTED
   return (
-    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke={c} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="1.5" y="5" width="14" height="10" rx="2"/>
-      <circle cx="8.5" cy="10" r="2.5"/>
-      <path d="M6 5l1-2h3l1 2"/>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <path d="M15.3332 12.6667C15.3332 13.0203 15.1927 13.3594 14.9426 13.6095C14.6926 13.8595 14.3535 14 13.9998 14H1.99984C1.64622 14 1.30708 13.8595 1.05703 13.6095C0.80698 13.3594 0.666504 13.0203 0.666504 12.6667V5.33333C0.666504 4.97971 0.80698 4.64057 1.05703 4.39052C1.30708 4.14048 1.64622 4 1.99984 4H4.6665L5.99984 2H9.99984L11.3332 4H13.9998C14.3535 4 14.6926 4.14048 14.9426 4.39052C15.1927 4.64057 15.3332 4.97971 15.3332 5.33333V12.6667Z" stroke={c} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M7.99984 11.3333C9.4726 11.3333 10.6665 10.1394 10.6665 8.66667C10.6665 7.19391 9.4726 6 7.99984 6C6.52708 6 5.33317 7.19391 5.33317 8.66667C5.33317 10.1394 6.52708 11.3333 7.99984 11.3333Z" stroke={c} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 }
@@ -280,7 +279,7 @@ export default function HomePage() {
               {/* Input tabs */}
               <div style={{ width: '100%', maxWidth: '720px', display: 'flex', gap: '10px' }}>
                 {[
-                  { id: 'url', label: 'Indsæt link', Icon: ArrowRightIcon },
+                  { id: 'url', label: 'Indsæt link', Icon: LinkIcon },
                   { id: 'billede', label: 'Upload billede', Icon: CameraIconSvg },
                   { id: 'text', label: 'Indsæt tekst', Icon: FileTextIcon },
                 ].map(({ id, label, Icon }) => (
