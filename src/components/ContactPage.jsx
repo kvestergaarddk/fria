@@ -27,7 +27,7 @@ export default function ContactPage() {
           lineHeight: 1,
           marginTop: '60px',
           marginBottom: '16px',
-          letterSpacing: '-0.02em',
+          letterSpacing: 0,
         }}>
           Kontakt
         </h1>

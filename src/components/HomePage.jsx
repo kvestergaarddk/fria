@@ -39,7 +39,7 @@ function LoadingScreen() {
           }}
         />
       </div>
-      <h2 style={{ color: TEXT, fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.2, margin: '0 0 16px 0' }}>
+      <h2 style={{ color: TEXT, fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 800, letterSpacing: 0, lineHeight: 1.2, margin: '0 0 16px 0' }}>
         Konverterer opskriften
       </h2>
       <p key={msgIdx} style={{ color: ACCENT, fontSize: '18px', fontWeight: 400, lineHeight: '28px', margin: '0 0 32px 0', animation: 'fadeIn 0.4s ease' }}>
@@ -253,7 +253,7 @@ export default function HomePage() {
                 fontSize: 'clamp(40px, 7vw, 100px)',
                 fontWeight: 800,
                 lineHeight: 1,
-                letterSpacing: '-0.02em',
+                letterSpacing: 0,
                 margin: '0 0 40px 0',
               }}>
                 Gør enhver opskrift gluten og laktosefri

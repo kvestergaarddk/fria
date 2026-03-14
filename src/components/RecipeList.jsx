@@ -119,7 +119,7 @@ export default function RecipeList() {
         <Logo />
         <h1
           className="mt-8 font-extrabold leading-tight"
-          style={{ color: '#003D1A', letterSpacing: '-0.02em', maxWidth: '560px', fontSize: 'clamp(2rem, 4vw, 3rem)' }}
+          style={{ color: '#003D1A', letterSpacing: 0, maxWidth: '560px', fontSize: 'clamp(2rem, 4vw, 3rem)' }}
         >
           Hvad har du lyst til at lave i aften?
         </h1>

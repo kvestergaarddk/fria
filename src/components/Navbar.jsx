@@ -38,7 +38,7 @@ export default function Navbar({ showBack = false }) {
           className="font-serif text-2xl text-sage-700 tracking-tighter
                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-400 rounded
                      transition-opacity duration-200 hover:opacity-80 active:opacity-60"
-          style={{ letterSpacing: '-0.04em' }}
+          style={{ letterSpacing: 0 }}
         >
           Fria
         </button>

@@ -88,7 +88,7 @@ export default function RecipeDetail() {
         </div>
 
         {/* Titel + meta */}
-        <h1 className="font-extrabold mb-2" style={{ color: '#1B3A28', fontSize: 'clamp(1.5rem, 3vw, 2.25rem)', letterSpacing: '-0.02em' }}>
+        <h1 className="font-extrabold mb-2" style={{ color: '#1B3A28', fontSize: 'clamp(1.5rem, 3vw, 2.25rem)', letterSpacing: 0 }}>
           {title}
         </h1>
         <div className="flex gap-4 mb-8 text-sm" style={{ color: '#204636' }}>

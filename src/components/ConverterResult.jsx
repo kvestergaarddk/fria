@@ -160,6 +160,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
           fontStyle: 'normal',
           fontWeight: 800,
           lineHeight: '100%',
+          letterSpacing: 0,
           textAlign: 'center',
           margin: '0 0 32px 0',
         }}>
@@ -168,7 +169,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
       </div>
 
       <main style={{ maxWidth: '720px', margin: '0 auto', width: '100%', padding: '0 24px 80px' }}>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
 
           {/* Erstatninger */}
           {result.substitutions?.length > 0 && (
@@ -276,7 +277,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
           {/* Note */}
           {result.conversionNotes && (
             <Card>
-              <h3 style={{ color: '#000', fontSize: '15px', fontWeight: 700, margin: '0 0 16px 0' }}>Note</h3>
+              <h3 style={{ color: '#000', fontSize: '15px', fontWeight: 700, margin: '0 0 10px 0' }}>Note</h3>
               <p style={{ color: '#000', fontSize: '16px', fontWeight: 400, lineHeight: 'normal', margin: 0 }}>{result.conversionNotes}</p>
             </Card>
           )}

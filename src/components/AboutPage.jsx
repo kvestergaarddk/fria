@@ -25,7 +25,7 @@ export default function AboutPage() {
           lineHeight: 1,
           marginTop: '60px',
           marginBottom: '40px',
-          letterSpacing: '-0.02em',
+          letterSpacing: 0,
         }}>
           Om Mavro
         </h1>

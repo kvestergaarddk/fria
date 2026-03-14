@@ -69,7 +69,7 @@ function LoadingScreen() {
           color: DARK,
           fontSize: 'clamp(24px, 3vw, 36px)',
           fontWeight: 800,
-          letterSpacing: '-0.02em',
+          letterSpacing: 0,
           lineHeight: 1.2,
           margin: '0 0 16px 0',
         }}

@@ -90,7 +90,7 @@ export default function FaqPage() {
           lineHeight: 1,
           marginTop: '60px',
           marginBottom: '16px',
-          letterSpacing: '-0.02em',
+          letterSpacing: 0,
         }}>
           Ofte stillede spørgsmål
         </h1>

@@ -58,7 +58,7 @@ export default function CookbookPage() {
       <main style={{ flex: 1, maxWidth: '900px', margin: '0 auto', width: '100%', padding: '48px 24px 80px' }}>
 
         <div style={{ marginBottom: '40px' }}>
-          <h1 style={{ color: TEXT, fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 900, lineHeight: 1.1, letterSpacing: '-0.03em', margin: '0 0 16px 0' }}>
+          <h1 style={{ color: TEXT, fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 900, lineHeight: 1.1, letterSpacing: 0, margin: '0 0 16px 0' }}>
             Gemte opskrifter
           </h1>
           <div style={{

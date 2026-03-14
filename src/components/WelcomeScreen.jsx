@@ -78,7 +78,7 @@ export default function WelcomeScreen() {
       <div className="relative z-10 text-center mb-16">
         <h1
           className="font-serif text-8xl text-sage-700 select-none"
-          style={{ letterSpacing: '-0.04em' }}
+          style={{ letterSpacing: 0 }}
         >
           Fria
         </h1>
