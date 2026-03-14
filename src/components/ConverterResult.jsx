@@ -155,7 +155,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
         {/* Title */}
         <h1 style={{
           color: '#000',
-          fontSize: '100px',
+          fontSize: 'clamp(40px, 7vw, 100px)',
           fontFamily: '"Rethink Sans"',
           fontStyle: 'normal',
           fontWeight: 800,
