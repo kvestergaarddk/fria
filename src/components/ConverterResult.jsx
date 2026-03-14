@@ -147,17 +147,19 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
               </svg>
             </span>
           ))}
-          {result.readyInMinutes && <span style={{ color: TEXT_DIM, fontSize: '14px', fontWeight: 500 }}>{result.readyInMinutes} minutter</span>}
-          {result.servings && <span style={{ color: TEXT_DIM, fontSize: '14px', fontWeight: 500 }}>{result.servings} personer</span>}
+          {result.readyInMinutes && <span style={{ color: '#000', fontSize: '16px', fontWeight: 500 }}>{result.readyInMinutes} minutter</span>}
+          {result.servings && <span style={{ color: '#000', fontSize: '16px', fontWeight: 500 }}>{result.servings} personer</span>}
         </div>
 
         {/* Title */}
         <h1 style={{
-          color: TEXT,
-          fontSize: 'clamp(2.4rem, 6vw, 4rem)',
-          fontWeight: 900,
-          lineHeight: 1.05,
-          letterSpacing: '-0.03em',
+          color: '#000',
+          fontSize: '100px',
+          fontFamily: '"Rethink Sans"',
+          fontStyle: 'normal',
+          fontWeight: 800,
+          lineHeight: '100%',
+          textAlign: 'center',
           margin: '0 0 32px 0',
         }}>
           {result.title}
