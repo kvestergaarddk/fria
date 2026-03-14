@@ -20,10 +20,9 @@ const INTOLERANCE_LABEL = {
 function Card({ children, style = {} }) {
   return (
     <div style={{
-      borderRadius: '14px',
-      border: `1px solid ${CARD_BORDER}`,
+      borderRadius: '8px',
+      border: '2px solid #1AE17A',
       padding: '28px 32px',
-      backgroundColor: CARD_BG,
       ...style,
     }}>
       {children}
