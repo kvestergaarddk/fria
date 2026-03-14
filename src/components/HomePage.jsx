@@ -54,7 +54,7 @@ function LoadingScreen() {
 }
 
 function GlutenIcon({ active }) {
-  const c = active ? '#000' : TEXT_MUTED
+  const c = '#000'
   return (
     <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
       <path d="M32.4713 10.3724L27.9232 13.3333C27.7511 12.2527 27.3973 11.2093 26.8756 10.2636L24 5.05615L21.1245 10.2636C20.6027 11.2079 20.249 12.2513 20.0769 13.3333L15.5288 10.3724V16.33C15.5288 17.0155 15.6348 17.6845 15.8344 18.3191L15.5288 18.1209V24.0786C15.5288 24.7641 15.6348 25.4331 15.8344 26.0677L15.5288 25.8695V31.8271C15.5288 34.0681 16.6507 36.1371 18.5283 37.3594L23.2498 40.4333V47.1783H24.7503V40.4333L29.4718 37.3594C31.3508 36.1371 32.4713 34.0681 32.4713 31.8271V25.8695L32.1657 26.0677C32.3653 25.4331 32.4713 24.7641 32.4713 24.0786V18.1209L32.1657 18.3191C32.3653 17.6845 32.4713 17.0155 32.4713 16.33V10.3724ZM24.7503 23.1453V19.9531C24.7503 18.2214 25.6175 16.6232 27.0684 15.6775L30.9722 13.1364V16.3286C30.9722 18.0603 30.105 19.6585 28.6541 20.6042L24.7503 23.1453ZM22.4363 10.989L23.9987 8.15888L25.561 10.989C26.1075 11.9774 26.4338 13.0965 26.5177 14.2459L26.2479 14.4208C25.2788 15.0512 24.5135 15.9074 23.9973 16.8958C23.4811 15.9074 22.7157 15.0512 21.7466 14.4208L21.4768 14.2459C21.5608 13.0952 21.8871 11.9774 22.4335 10.989H22.4363ZM17.0279 13.1378L20.9317 15.6789C22.384 16.6232 23.2498 18.2214 23.2498 19.9545V23.1467L19.346 20.6056C17.8937 19.6613 17.0279 18.0631 17.0279 16.33V13.1378ZM17.0279 24.0786V20.8864L20.9317 23.4275C22.384 24.3718 23.2498 25.9699 23.2498 27.703V30.8952L21.7508 29.9192C21.7508 29.9192 21.7508 29.9192 21.7494 29.9192L19.346 28.3541C17.8951 27.4098 17.0279 25.8116 17.0279 24.08V24.0786ZM17.0279 31.8271V28.6349L18.5269 29.6109L20.9317 31.176C22.3826 32.1203 23.2485 33.7185 23.2485 35.4502V38.6424L19.3446 36.1013C17.8923 35.157 17.0265 33.5588 17.0265 31.8258L17.0279 31.8271ZM30.9722 31.8271C30.9722 33.5588 30.105 35.157 28.6541 36.1027L24.7503 38.6438V35.4516C24.7503 33.7199 25.6161 32.1217 27.067 31.1774L29.4718 29.6123L30.9722 28.6363V31.8285V31.8271ZM26.2507 29.9179L24.7503 30.8938V27.7016C24.7503 25.9699 25.6175 24.3718 27.0684 23.4261L30.9722 20.885V24.0772C30.9722 25.8089 30.105 27.4071 28.6541 28.3527L27.2129 29.2902L26.2493 29.9165L26.2507 29.9179Z" fill={c}/>
@@ -66,7 +66,7 @@ function GlutenIcon({ active }) {
 }
 
 function LaktoseIcon({ active }) {
-  const c = active ? '#000' : TEXT_MUTED
+  const c = '#000'
   return (
     <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
       <path d="M12.4534 34.4851L6.71045 40.228L7.77176 41.288L13.0508 36.0089C12.8195 35.5175 12.6186 35.0096 12.4534 34.4851Z" fill={c}/>
@@ -170,10 +170,10 @@ export default function HomePage() {
     gap: '12px',
     padding: '12px 24px',
     borderRadius: '8px',
-    border: `1.5px solid ${active ? 'transparent' : INACTIVE_BORDER}`,
+    border: 'none',
     backgroundColor: active ? ACCENT : INACTIVE_BG,
-    boxShadow: '0 0 19.7px 0 rgba(87, 57, 6, 0.50)',
-    color: active ? '#000' : TEXT,
+    boxShadow: '0 0 19.7px 0 rgba(0, 0, 0, 0.55)',
+    color: '#000',
     fontSize: '20px',
     fontWeight: 600,
     fontFamily: 'inherit',
@@ -187,31 +187,40 @@ export default function HomePage() {
     display: 'flex',
     alignItems: 'center',
     gap: '12px',
-    padding: '12px 24px',
+    padding: '12px 16px',
     borderRadius: '8px',
     border: 'none',
     backgroundColor: active ? ACCENT : INACTIVE_BG,
-    boxShadow: '0 0 19.7px 0 rgba(87, 57, 6, 0.50)',
+    boxShadow: '0 0 19.7px 0 rgba(0, 0, 0, 0.55)',
     color: '#000',
     fontSize: '20px',
     fontWeight: 600,
     fontFamily: 'inherit',
     cursor: 'pointer',
     transition: 'background-color 0.2s ease, opacity 0.15s ease',
-    flex: 1,
-    justifyContent: 'center',
     whiteSpace: 'nowrap',
   })
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
 
+      <style>{`
+        .mavro-header { padding: 32px 80px; }
+        .mavro-main { padding: 48px 40px 120px; }
+        .mavro-info { padding: 120px 250px; }
+        @media (max-width: 768px) {
+          .mavro-header { padding: 20px 16px; }
+          .mavro-main { padding: 32px 16px 80px; }
+          .mavro-info { padding: 60px 16px; }
+        }
+      `}</style>
+
       {/* Header */}
-      <header style={{ display: 'flex', padding: '32px 80px', justifyContent: 'space-between', alignItems: 'center' }}>
+      <header className="mavro-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Logo height={79} />
       </header>
 
-      <main style={{ flex: 1, maxWidth: '1200px', margin: '0 auto', width: '100%', padding: '48px 40px 120px' }}>
+      <main className="mavro-main" style={{ flex: 1, maxWidth: '1200px', margin: '0 auto', width: '100%' }}>
         {loading ? <LoadingScreen /> : (
           <>
             {/* Hero */}
@@ -277,7 +286,7 @@ export default function HomePage() {
               </div>
 
               {/* Input tabs */}
-              <div style={{ width: '100%', maxWidth: '720px', display: 'flex', gap: '10px' }}>
+              <div style={{ width: '100%', maxWidth: '720px', display: 'flex', gap: '10px', marginTop: '24px', justifyContent: 'center' }}>
                 {[
                   { id: 'url', label: 'Indsæt link', Icon: LinkIcon },
                   { id: 'billede', label: 'Upload billede', Icon: CameraIconSvg },
@@ -297,7 +306,7 @@ export default function HomePage() {
               </div>
 
               {/* Input-felt */}
-              <div style={{ width: '100%', maxWidth: '720px' }}>
+              <div style={{ width: '100%', maxWidth: '960px', marginTop: '36px' }}>
                 {activeTab === 'url' && (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', alignItems: 'center' }}>
                     <label style={{ color: TEXT_DIM, fontSize: '16px', fontWeight: 600 }}>Link til opskrift</label>
@@ -311,18 +320,20 @@ export default function HomePage() {
                         width: '100%',
                         padding: '16px 0',
                         border: 'none',
-                        borderBottom: `1.5px solid rgba(26, 225, 122, 0.50)`,
-                        backgroundColor: 'transparent',
-                        color: TEXT,
-                        fontSize: 'clamp(24px, 4vw, 52px)',
-                        fontWeight: 400,
-                        fontFamily: 'inherit',
+                        borderBottom: '2px solid #1AE17A',
+                        backgroundColor: 'rgba(30, 30, 30, 0.10)',
+                        color: '#fff',
+                        fontSize: '40px',
+                        fontWeight: 600,
+                        fontFamily: '"Rethink Sans"',
+                        fontStyle: 'normal',
+                        lineHeight: 'normal',
                         textAlign: 'center',
                         outline: 'none',
                         boxSizing: 'border-box',
                       }}
                     />
-                    <style>{`.url-input::placeholder { color: rgba(239, 238, 233, 0.35); }`}</style>
+                    <style>{`.url-input::placeholder { color: rgba(255, 255, 255, 0.50); }`}</style>
                   </div>
                 )}
 
@@ -418,8 +429,9 @@ export default function HomePage() {
                   padding: '24px 48px',
                   borderRadius: '81px',
                   border: 'none',
+                  marginTop: '24px',
                   backgroundColor: isValid() ? '#EFEEE9' : 'rgba(239, 238, 233, 0.12)',
-                  boxShadow: isValid() ? '0px 0px 19.7px rgba(87, 57, 6, 0.50)' : 'none',
+                  boxShadow: isValid() ? '0 0 19.7px 0 rgba(87, 57, 6, 0.50)' : 'none',
                   color: isValid() ? '#000' : 'rgba(239,238,233,0.25)',
                   fontSize: '24px',
                   fontWeight: 700,
@@ -443,6 +455,27 @@ export default function HomePage() {
           </>
         )}
       </main>
+
+      {/* Info-modul — hvid sektion */}
+      <div className="mavro-info" style={{
+        background: '#FFF',
+        boxSizing: 'border-box',
+      }}>
+        <div style={{ maxWidth: '920px', margin: '0 auto', width: '100%', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+          <img src="/images/Mavro_figur_01.svg" alt="Mavro figur" style={{ width: '160px', height: 'auto' }} />
+          <p style={{
+            color: '#000',
+            fontSize: '20px',
+            fontWeight: 400,
+            lineHeight: '1.7',
+            margin: 0,
+          }}>
+            Har du fundet en opskrift du gerne vil lave men som indeholder gluten eller laktose?
+            Mavro analyserer opskriften og omskriver den med ingredienser der fungerer uden gluten og laktose.
+            Samtidig justerer vi fremgangsmåden, så resultatet stadig smager godt og hænger sammen.
+          </p>
+        </div>
+      </div>
 
       <Footer />
     </div>

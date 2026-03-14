@@ -50,8 +50,9 @@ export default function CookbookPage() {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
 
-      <header className="pt-8 pb-4 flex flex-col items-start px-6 md:px-10">
-        <Link to="/" aria-label="Gå til forsiden"><Logo height={44} /></Link>
+      <style>{`.mavro-header-sub { padding: 32px 80px; } @media (max-width: 768px) { .mavro-header-sub { padding: 20px 16px; } }`}</style>
+      <header className="mavro-header-sub" style={{ display: 'flex', alignItems: 'center' }}>
+        <Link to="/" aria-label="Gå til forsiden"><Logo height={79} /></Link>
       </header>
 
       <main style={{ flex: 1, maxWidth: '900px', margin: '0 auto', width: '100%', padding: '48px 24px 80px' }}>

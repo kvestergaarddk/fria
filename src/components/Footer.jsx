@@ -5,11 +5,18 @@ const BG_DARK = '#004F26'
 const TEXT = '#EFEEE9'
 
 export default function Footer({ light = false }) {
+  const footerStyle = `
+    .mavro-footer { padding: 120px 250px 40px; }
+    @media (max-width: 768px) {
+      .mavro-footer { padding: 60px 16px 40px; }
+    }
+  `
   if (light) {
     return (
-      <footer style={{ backgroundColor: BG_DARK, padding: '64px 24px 32px', textAlign: 'center' }}>
+      <footer className="mavro-footer" style={{ backgroundColor: BG_DARK, textAlign: 'center' }}>
+        <style>{footerStyle}</style>
         <Link to="/" aria-label="Gå til forsiden" style={{ display: 'inline-block', marginBottom: '16px' }}>
-          <Logo height={44} />
+          <img src="/images/Logo_Mavro_04_VERTIKAL.svg" alt="Mavro" height={80} />
         </Link>
         <p style={{ color: TEXT, fontSize: '22px', fontWeight: 400, margin: '0 0 40px 0', opacity: 0.9 }}>
           Mad til glade maver
@@ -19,7 +26,7 @@ export default function Footer({ light = false }) {
             <Link
               key={to}
               to={to}
-              style={{ color: TEXT, fontSize: '16px', fontWeight: 400, textDecoration: 'none', opacity: 0.7, transition: 'opacity 0.2s ease' }}
+              style={{ color: '#EFEEE9', fontFamily: '"Rethink Sans"', fontSize: '20px', fontStyle: 'normal', fontWeight: 500, lineHeight: 'normal', textDecoration: 'none', opacity: 0.7, transition: 'opacity 0.2s ease' }}
               onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
               onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
             >
@@ -35,31 +42,30 @@ export default function Footer({ light = false }) {
   }
 
   return (
-    <footer style={{ backgroundColor: BG_DARK, borderTop: '1px solid rgba(239, 238, 233, 0.10)' }} className="mt-20 px-6 md:px-20 pt-20 pb-10">
-      <div className="max-w-[1200px] mx-auto flex flex-col gap-20">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
-          <Link to="/" aria-label="Gå til forsiden">
-            <Logo height={40} />
+    <footer className="mavro-footer" style={{ backgroundColor: BG_DARK, textAlign: 'center' }}>
+      <style>{footerStyle}</style>
+      <Link to="/" aria-label="Gå til forsiden" style={{ display: 'inline-block', marginBottom: '16px' }}>
+        <img src="/images/Logo_Mavro_04_VERTIKAL.svg" alt="Mavro" height={80} />
+      </Link>
+      <p style={{ color: '#EFEEE9', fontFamily: '"Rethink Sans"', fontSize: '40px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal', textAlign: 'center', margin: '0 0 40px 0' }}>
+        Mad til glade maver
+      </p>
+      <nav style={{ display: 'flex', justifyContent: 'center', gap: '32px', marginBottom: '40px' }}>
+        {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }].map(({ to, label }) => (
+          <Link
+            key={to}
+            to={to}
+            style={{ color: '#EFEEE9', fontFamily: '"Rethink Sans"', fontSize: '20px', fontStyle: 'normal', fontWeight: 500, lineHeight: 'normal', textDecoration: 'none', opacity: 0.7, transition: 'opacity 0.2s ease' }}
+            onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
+            onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
+          >
+            {label}
           </Link>
-          <nav className="flex items-center gap-8">
-            {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }].map(({ to, label }) => (
-              <Link
-                key={to}
-                to={to}
-                style={{ color: TEXT, fontSize: '18px', fontWeight: 400, opacity: 0.7, textDecoration: 'none' }}
-                onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
-                onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
-              >
-                {label}
-              </Link>
-            ))}
-          </nav>
-        </div>
-
-        <p style={{ color: TEXT, fontSize: '12px', fontWeight: 400, margin: 0, opacity: 0.4 }}>
-          Copyright Mavro 2025
-        </p>
-      </div>
+        ))}
+      </nav>
+      <p style={{ color: TEXT, fontSize: '12px', fontWeight: 400, margin: 0, opacity: 0.35 }}>
+        Copyright Mavro 2025
+      </p>
     </footer>
   )
 }

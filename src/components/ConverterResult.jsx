@@ -96,7 +96,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: PAGE_BG }}>
       <header style={{ display: 'flex', padding: '32px 80px', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Link to="/" aria-label="Gå til forsiden"><Logo height={44} /></Link>
+        <Link to="/" aria-label="Gå til forsiden"><Logo height={79} /></Link>
         {onBack && (
           <button
             onClick={onBack}

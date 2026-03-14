@@ -11,10 +11,11 @@ const INACTIVE_BORDER = 'rgba(26, 225, 122, 0.20)'
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: BG }}>
+    <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
+      <style>{`.mavro-header-sub { padding: 32px 80px; } @media (max-width: 768px) { .mavro-header-sub { padding: 20px 16px; } }`}</style>
 
-      <header className="pt-8 pb-4 flex flex-col items-start px-6 md:px-10">
-        <Link to="/" aria-label="Gå til forsiden"><Logo height={44} /></Link>
+      <header className="mavro-header-sub" style={{ display: 'flex', alignItems: 'center' }}>
+        <Link to="/" aria-label="Gå til forsiden"><Logo height={79} /></Link>
       </header>
 
       <main className="flex-1 max-w-[760px] mx-auto w-full px-6 md:px-10 pb-20">
