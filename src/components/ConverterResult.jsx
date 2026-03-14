@@ -277,7 +277,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
           {result.conversionNotes && (
             <Card>
               <h3 style={{ color: '#000', fontSize: '15px', fontWeight: 700, margin: '0 0 10px 0' }}>Note</h3>
-              <p style={{ color: '#000', fontSize: '20px', fontWeight: 400, lineHeight: '28px', margin: 0 }}>{result.conversionNotes}</p>
+              <p style={{ color: '#000', fontSize: '16px', fontWeight: 400, lineHeight: 'normal', margin: 0 }}>{result.conversionNotes}</p>
             </Card>
           )}
         </div>
