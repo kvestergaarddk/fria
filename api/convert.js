@@ -2,6 +2,28 @@ import Anthropic from '@anthropic-ai/sdk'
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
+const RATE_LIMIT = 10 // max requests
+const RATE_WINDOW = 3600 // per time (sekunder)
+
+async function checkRateLimit(ip) {
+  const url = process.env.UPSTASH_REDIS_REST_URL
+  const token = process.env.UPSTASH_REDIS_REST_TOKEN
+  if (!url || !token) return true // Hvis Redis ikke er sat op, tillad request
+
+  const key = `rl:convert:${ip}`
+  const res = await fetch(`${url}/pipeline`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify([
+      ['INCR', key],
+      ['EXPIRE', key, RATE_WINDOW],
+    ]),
+  })
+  const data = await res.json()
+  const count = data[0]?.result ?? 0
+  return count <= RATE_LIMIT
+}
+
 const INTOLERANCE_LABELS = {
   gluten: 'glutenfri',
   laktose: 'laktosefri',
@@ -69,6 +91,12 @@ export default async function handler(req, res) {
 
   if (!process.env.ANTHROPIC_API_KEY) {
     return res.status(500).json({ error: 'ANTHROPIC_API_KEY er ikke konfigureret' })
+  }
+
+  const ip = req.headers['x-forwarded-for']?.split(',')[0].trim() || req.socket?.remoteAddress || 'unknown'
+  const allowed = await checkRateLimit(ip)
+  if (!allowed) {
+    return res.status(429).json({ error: 'Du har nået grænsen på 10 konverteringer i timen. Prøv igen senere.' })
   }
 
   const { inputType, content, intolerance } = req.body
