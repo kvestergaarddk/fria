@@ -191,7 +191,7 @@ export default function HomePage() {
     borderRadius: '8px',
     border: `1.5px solid ${active ? 'transparent' : INACTIVE_BORDER}`,
     backgroundColor: active ? ACCENT : INACTIVE_BG,
-    boxShadow: active ? '0 0 19.7px 0 rgba(87, 57, 6, 0.50)' : 'none',
+    boxShadow: '0 0 19.7px 0 rgba(87, 57, 6, 0.50)',
     color: active ? '#000' : TEXT,
     fontSize: '18px',
     fontWeight: 600,
