@@ -172,15 +172,15 @@ export default function HomePage() {
     borderRadius: '8px',
     border: `1.5px solid ${active ? 'transparent' : INACTIVE_BORDER}`,
     backgroundColor: active ? ACCENT : INACTIVE_BG,
-    boxShadow: active ? '0 0 19.7px 0 rgba(87, 57, 6, 0.50)' : 'none',
+    boxShadow: '0 0 19.7px 0 rgba(87, 57, 6, 0.50)',
     color: active ? '#000' : TEXT,
     fontSize: '20px',
     fontWeight: 600,
     fontFamily: 'inherit',
     cursor: 'pointer',
     transition: 'background-color 0.2s ease, opacity 0.15s ease',
-    minWidth: '180px',
     justifyContent: 'center',
+    whiteSpace: 'nowrap',
   })
 
   const tabStyle = (active) => ({
@@ -412,6 +412,7 @@ export default function HomePage() {
                 disabled={!isValid()}
                 style={{
                   display: 'flex',
+                  justifyContent: 'center',
                   alignItems: 'center',
                   gap: '12px',
                   padding: '24px 48px',
