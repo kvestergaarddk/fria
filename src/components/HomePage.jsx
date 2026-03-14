@@ -215,7 +215,7 @@ export default function HomePage() {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: BG, display: 'flex', flexDirection: 'column' }}>
       <SEO
-        title="Gør enhver opskrift glutenfri eller laktosefri"
+        title="Mad til glade maver"
         description="Mavro konverterer dine yndlingsopskrifter til glutenfri og/eller laktosefri versioner med AI. Indsæt en URL eller tekst og få en tilpasset opskrift på sekunder."
         path="/"
       />

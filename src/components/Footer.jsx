@@ -21,7 +21,7 @@ export default function Footer({ light = false }) {
         <p style={{ color: TEXT, fontSize: '22px', fontWeight: 400, margin: '0 0 40px 0', opacity: 0.9 }}>
           Mad til glade maver
         </p>
-        <nav style={{ display: 'flex', justifyContent: 'center', gap: '32px', marginBottom: '40px' }}>
+        <nav style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px 32px', marginBottom: '40px' }}>
           {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }, { to: '/privatlivspolitik', label: 'Privatlivspolitik' }].map(({ to, label }) => (
             <Link
               key={to}
@@ -50,7 +50,7 @@ export default function Footer({ light = false }) {
       <p style={{ color: '#EFEEE9', fontFamily: '"Rethink Sans"', fontSize: '40px', fontStyle: 'normal', fontWeight: 400, lineHeight: 'normal', textAlign: 'center', margin: '0 0 40px 0' }}>
         Mad til glade maver
       </p>
-      <nav style={{ display: 'flex', justifyContent: 'center', gap: '32px', marginBottom: '40px' }}>
+      <nav style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px 32px', marginBottom: '40px' }}>
         {[{ to: '/faq', label: 'FAQ' }, { to: '/om-mavro', label: 'Om Mavro' }, { to: '/kontakt', label: 'Kontakt' }, { to: '/privatlivspolitik', label: 'Privatlivspolitik' }].map(({ to, label }) => (
           <Link
             key={to}

@@ -4,7 +4,7 @@ const SITE_URL = 'https://mavro.dk'
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`
 
 export default function SEO({ title, description, path = '', image }) {
-  const fullTitle = title ? `${title} | Mavro` : 'Mavro — Gør enhver opskrift glutenfri eller laktosefri'
+  const fullTitle = title ? `Mavro — ${title}` : 'Mavro — Mad til glade maver'
   const fullDescription = description || 'Mavro konverterer dine yndlingsopskrifter til glutenfri og/eller laktosefri versioner med AI. Prøv det gratis.'
   const canonical = `${SITE_URL}${path}`
   const ogImage = image || DEFAULT_IMAGE
