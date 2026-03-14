@@ -35,7 +35,7 @@ export default function Footer({ light = false }) {
           ))}
         </nav>
         <p style={{ color: TEXT, fontSize: '12px', fontWeight: 400, margin: 0, opacity: 0.35 }}>
-          Copyright Mavro 2025
+          Copyright Mavro 2026
         </p>
       </footer>
     )
@@ -64,7 +64,7 @@ export default function Footer({ light = false }) {
         ))}
       </nav>
       <p style={{ color: TEXT, fontSize: '12px', fontWeight: 400, margin: 0, opacity: 0.35 }}>
-        Copyright Mavro 2025
+        Copyright Mavro 2026
       </p>
     </footer>
   )
