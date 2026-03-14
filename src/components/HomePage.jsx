@@ -210,7 +210,7 @@ export default function HomePage() {
         .mavro-info { padding: 120px 250px; }
         .mavro-toggle-btn { font-size: 20px; padding: 12px 24px; gap: 12px; }
         .mavro-toggle-btn svg:first-child { width: 48px; height: 48px; }
-        .mavro-tab-row { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex-wrap: nowrap; }
+        .mavro-tab-row { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex-wrap: nowrap; padding: 8px 4px; margin: -8px -4px; }
         .mavro-tab-row::-webkit-scrollbar { display: none; }
         .mavro-tab-btn { font-size: 20px; padding: 12px 16px; white-space: nowrap; }
         .url-input::placeholder { color: rgba(255, 255, 255, 0.50); }
