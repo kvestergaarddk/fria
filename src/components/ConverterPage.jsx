@@ -50,36 +50,18 @@ function LoadingScreen() {
         textAlign: 'center',
       }}
     >
-      {/* Spinner */}
-      <div style={{ position: 'relative', width: '72px', height: '72px', marginBottom: '36px' }}>
-        <svg
-          width="72"
-          height="72"
-          viewBox="0 0 72 72"
-          fill="none"
-          style={{ animation: 'spin 1.2s linear infinite', position: 'absolute', inset: 0 }}
-        >
-          <circle cx="36" cy="36" r="30" stroke={`rgba(49,94,74,0.12)`} strokeWidth="4"/>
-          <path
-            d="M36 6 A30 30 0 0 1 66 36"
-            stroke={GREEN}
-            strokeWidth="4"
-            strokeLinecap="round"
-          />
-        </svg>
-        <div
+      {/* Dancing star figure */}
+      <div style={{ marginBottom: '36px' }}>
+        <img
+          src="/images/Mavro_figur_01.svg"
+          alt="Mavro danser"
           style={{
-            position: 'absolute',
-            inset: 0,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
+            width: '140px',
+            height: 'auto',
+            animation: 'dance 1.6s ease-in-out infinite',
+            transformOrigin: 'bottom center',
           }}
-        >
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <path d="M6 14h16M14 6l8 8-8 8" stroke={GREEN} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </div>
+        />
       </div>
 
       <h2
@@ -115,7 +97,15 @@ function LoadingScreen() {
       </p>
 
       <style>{`
-        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes dance {
+          0%   { transform: translateY(0px) rotate(0deg); }
+          15%  { transform: translateY(-14px) rotate(-8deg); }
+          30%  { transform: translateY(-8px) rotate(7deg); }
+          50%  { transform: translateY(-16px) rotate(-6deg); }
+          70%  { transform: translateY(-6px) rotate(9deg); }
+          85%  { transform: translateY(-12px) rotate(-5deg); }
+          100% { transform: translateY(0px) rotate(0deg); }
+        }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 0.8; transform: translateY(0); } }
       `}</style>
     </div>
