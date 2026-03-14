@@ -76,8 +76,23 @@ function saveToLocalStorage(result, intolerance) {
   ]))
 }
 
+function scaleIngredient(ing, factor) {
+  if (factor === 1) return ing
+  return ing.replace(/^(\d+(?:[,.]\d+)?)/, (match, num) => {
+    const parsed = parseFloat(num.replace(',', '.'))
+    if (isNaN(parsed)) return match
+    const scaled = parsed * factor
+    if (scaled === Math.round(scaled)) return String(Math.round(scaled))
+    const r = Math.round(scaled * 4) / 4
+    return r % 1 === 0 ? String(r) : r.toFixed(1).replace(/\.0$/, '')
+  })
+}
+
 export default function ConverterResult({ result, intolerance, onReset, onBack, backLabel }) {
   const [saved, setSaved] = useState(false)
+  const baseServings = result.servings || 4
+  const [servings, setServings] = useState(baseServings)
+  const factor = servings / baseServings
 
   function handleSave() {
     saveToLocalStorage(result, intolerance)
@@ -178,28 +193,43 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
 
           {/* Ingredienser */}
           <Card>
-            {result.servings && (
-              <div style={{
-                display: 'inline-flex', alignItems: 'center', gap: '6px',
-                padding: '6px 14px', borderRadius: '100px',
-                backgroundColor: TEXT, color: PAGE_BG,
-                fontSize: '13px', fontWeight: 600,
-                marginBottom: '16px',
-              }}>
-                {result.servings} personer
-                <svg width="10" height="6" viewBox="0 0 10 6" fill="none">
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
+              <h2 style={{ color: TEXT, fontSize: '18px', fontWeight: 700, margin: 0 }}>Ingredienser</h2>
+              <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
+                <select
+                  value={servings}
+                  onChange={e => setServings(Number(e.target.value))}
+                  style={{
+                    appearance: 'none',
+                    WebkitAppearance: 'none',
+                    padding: '6px 32px 6px 14px',
+                    borderRadius: '100px',
+                    border: 'none',
+                    backgroundColor: TEXT,
+                    color: PAGE_BG,
+                    fontSize: '13px',
+                    fontWeight: 600,
+                    fontFamily: 'inherit',
+                    cursor: 'pointer',
+                    outline: 'none',
+                  }}
+                >
+                  {Array.from({ length: 10 }, (_, i) => i + 1).map(n => (
+                    <option key={n} value={n}>{n} {n === 1 ? 'person' : 'personer'}</option>
+                  ))}
+                </select>
+                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style={{ position: 'absolute', right: '12px', pointerEvents: 'none' }}>
                   <path d="M1 1l4 4 4-4" stroke={PAGE_BG} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-            )}
-            <h2 style={{ color: TEXT, fontSize: '18px', fontWeight: 700, margin: `0 0 14px 0` }}>Ingredienser</h2>
+            </div>
             <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 20px 0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
               {(result.ingredients || []).map((ing, i) => (
                 <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
                   {isSubstituted(ing) && (
                     <span style={{ width: '5px', height: '5px', borderRadius: '50%', backgroundColor: ACCENT, flexShrink: 0, marginTop: '9px' }} />
                   )}
-                  <span style={{ color: TEXT, fontSize: '16px', lineHeight: '26px', fontWeight: isSubstituted(ing) ? 600 : 400 }}>{ing}</span>
+                  <span style={{ color: TEXT, fontSize: '16px', lineHeight: '26px', fontWeight: isSubstituted(ing) ? 600 : 400 }}>{scaleIngredient(ing, factor)}</span>
                 </li>
               ))}
             </ul>
