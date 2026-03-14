@@ -95,26 +95,9 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
 
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: PAGE_BG }}>
-      <header style={{ display: 'flex', padding: '32px 80px', justifyContent: 'space-between', alignItems: 'center' }}>
+      <style>{`.mavro-result-header { padding: 32px 80px; } @media (max-width: 768px) { .mavro-result-header { padding: 20px 16px; } }`}</style>
+      <header className="mavro-result-header" style={{ display: 'flex', alignItems: 'center' }}>
         <Link to="/" aria-label="Gå til forsiden"><Logo height={79} /></Link>
-        {onBack && (
-          <button
-            onClick={onBack}
-            style={{
-              display: 'flex', alignItems: 'center', gap: '8px',
-              backgroundColor: 'transparent', border: 'none',
-              color: TEXT_DIM, fontSize: '15px', fontWeight: 600,
-              cursor: 'pointer', padding: '0', transition: 'color 0.15s ease',
-            }}
-            onMouseEnter={e => { e.currentTarget.style.color = TEXT }}
-            onMouseLeave={e => { e.currentTarget.style.color = TEXT_DIM }}
-          >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M10 3L5 8l5 5"/>
-            </svg>
-            {backLabel || 'Tilbage'}
-          </button>
-        )}
       </header>
 
       <main style={{ maxWidth: '680px', margin: '0 auto', width: '100%', padding: '32px 24px 80px' }}>
