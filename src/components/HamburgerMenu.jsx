@@ -27,13 +27,12 @@ export default function HamburgerMenu() {
   return (
     <>
       {/* Pill Menu-knap — fast øverst til højre */}
+      <style>{`.mavro-menu-btn { position: fixed; top: 28px; right: 40px; } @media (max-width: 768px) { .mavro-menu-btn { top: 20px; right: 16px; } }`}</style>
       <button
         onClick={() => setOpen(o => !o)}
         aria-label={open ? 'Luk menu' : 'Åbn menu'}
+        className="mavro-menu-btn"
         style={{
-          position: 'fixed',
-          top: '28px',
-          right: '40px',
           zIndex: 60,
           padding: '16px',
           backgroundColor: '#EFEEE9',
