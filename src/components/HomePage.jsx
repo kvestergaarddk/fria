@@ -27,16 +27,17 @@ function LoadingScreen() {
   })
   return (
     <div style={{ minHeight: '60vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '80px 24px', textAlign: 'center' }}>
-      <div style={{ position: 'relative', width: '72px', height: '72px', marginBottom: '36px' }}>
-        <svg width="72" height="72" viewBox="0 0 72 72" fill="none" style={{ animation: 'spin 1.2s linear infinite', position: 'absolute', inset: 0 }}>
-          <circle cx="36" cy="36" r="30" stroke="rgba(26,225,122,0.15)" strokeWidth="4"/>
-          <path d="M36 6 A30 30 0 0 1 66 36" stroke={ACCENT} strokeWidth="4" strokeLinecap="round"/>
-        </svg>
-        <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <path d="M6 14h16M14 6l8 8-8 8" stroke={ACCENT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </div>
+      <div style={{ marginBottom: '36px' }}>
+        <img
+          src="/images/Mavro_figur_01.svg"
+          alt="Mavro danser"
+          style={{
+            width: '140px',
+            height: 'auto',
+            animation: 'dance 1.6s ease-in-out infinite',
+            transformOrigin: 'bottom center',
+          }}
+        />
       </div>
       <h2 style={{ color: TEXT, fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.2, margin: '0 0 16px 0' }}>
         Konverterer opskriften
@@ -46,7 +47,15 @@ function LoadingScreen() {
       </p>
       <p style={{ color: TEXT_MUTED, fontSize: '14px', margin: 0 }}>Det tager typisk 15–30 sekunder</p>
       <style>{`
-        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes dance {
+          0%   { transform: translateY(0px) rotate(0deg); }
+          15%  { transform: translateY(-14px) rotate(-8deg); }
+          30%  { transform: translateY(-8px) rotate(7deg); }
+          50%  { transform: translateY(-16px) rotate(-6deg); }
+          70%  { transform: translateY(-6px) rotate(9deg); }
+          85%  { transform: translateY(-12px) rotate(-5deg); }
+          100% { transform: translateY(0px) rotate(0deg); }
+        }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
       `}</style>
     </div>
