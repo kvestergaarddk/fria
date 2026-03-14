@@ -53,7 +53,7 @@ function LoadingScreen() {
       {/* Dancing star figure */}
       <div style={{ marginBottom: '36px' }}>
         <img
-          src="/images/Mavro_figur_01.svg"
+          src="/images/Mavro_figur_dancing.svg"
           alt="Mavro danser"
           style={{
             width: '140px',

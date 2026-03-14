@@ -29,7 +29,7 @@ function LoadingScreen() {
     <div style={{ minHeight: '60vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '80px 24px', textAlign: 'center' }}>
       <div style={{ marginBottom: '36px' }}>
         <img
-          src="/images/Mavro_figur_01.svg"
+          src="/images/Mavro_figur_dancing.svg"
           alt="Mavro danser"
           style={{
             width: '140px',
