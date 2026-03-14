@@ -35,10 +35,9 @@ export default function HamburgerMenu() {
           top: '28px',
           right: '40px',
           zIndex: 60,
-          height: '48px',
-          padding: '0 24px',
-          backgroundColor: '#1AE17A',
-          boxShadow: '0px 0px 19.7px rgba(0, 79, 38, 0.35)',
+          padding: '16px',
+          backgroundColor: '#EFEEE9',
+          boxShadow: '0px 0px 19.7px rgba(87, 57, 6, 0.50)',
           borderRadius: '81px',
           border: 'none',
           cursor: 'pointer',
@@ -52,15 +51,15 @@ export default function HamburgerMenu() {
         onMouseDown={e => { e.currentTarget.style.transform = 'translateY(0)' }}
       >
         {open ? (
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#004F26" strokeWidth="2" strokeLinecap="round">
             <path d="M3 3l10 10M3 13L13 3"/>
           </svg>
         ) : (
-          <svg width="18" height="12" viewBox="0 0 18 12" fill="none" stroke="#000" strokeWidth="2" strokeLinecap="round">
+          <svg width="18" height="12" viewBox="0 0 18 12" fill="none" stroke="#004F26" strokeWidth="2" strokeLinecap="round">
             <path d="M1 2h16M1 6h16M1 10h16"/>
           </svg>
         )}
-        <span style={{ color: '#000', fontSize: '20px', fontWeight: 700, fontFamily: 'inherit', lineHeight: 1 }}>
+        <span style={{ color: '#004F26', fontSize: '20px', fontWeight: 700, fontFamily: 'inherit', lineHeight: 1 }}>
           Menu
         </span>
       </button>
