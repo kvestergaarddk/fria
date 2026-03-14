@@ -208,10 +208,20 @@ export default function HomePage() {
         .mavro-header { padding: 32px 80px; }
         .mavro-main { padding: 48px 40px 120px; }
         .mavro-info { padding: 120px 250px; }
+        .mavro-toggle-btn { font-size: 20px; padding: 12px 24px; gap: 12px; }
+        .mavro-toggle-btn svg:first-child { width: 48px; height: 48px; }
+        .mavro-tab-row { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; flex-wrap: nowrap; }
+        .mavro-tab-row::-webkit-scrollbar { display: none; }
+        .mavro-tab-btn { font-size: 20px; padding: 12px 16px; white-space: nowrap; }
+        .url-input::placeholder { color: rgba(255, 255, 255, 0.50); }
         @media (max-width: 768px) {
           .mavro-header { padding: 20px 16px; }
           .mavro-main { padding: 32px 16px 80px; }
           .mavro-info { padding: 60px 16px; }
+          .mavro-toggle-btn { font-size: 16px; padding: 10px 16px; gap: 8px; }
+          .mavro-tab-btn { font-size: 14px; padding: 10px 12px; gap: 8px; }
+          .mavro-tab-btn .mavro-tab-icon { width: 26px; height: 26px; }
+          .url-input { font-size: 22px !important; }
         }
       `}</style>
 
@@ -253,9 +263,10 @@ export default function HomePage() {
               {/* Intolerance toggles */}
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '14px', width: '100%', maxWidth: '720px' }}>
                 <p style={{ color: TEXT_DIM, fontSize: '16px', fontWeight: 600, margin: 0 }}>Min opskrift skal være</p>
-                <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
                   <button
                     onClick={() => setGlutenfri(g => !g)}
+                    className="mavro-toggle-btn"
                     style={toggleStyle(glutenfri)}
                     onMouseEnter={e => { if (!glutenfri) e.currentTarget.style.opacity = '0.75' }}
                     onMouseLeave={e => { e.currentTarget.style.opacity = '1' }}
@@ -270,6 +281,7 @@ export default function HomePage() {
                   </button>
                   <button
                     onClick={() => setLaktosefri(l => !l)}
+                    className="mavro-toggle-btn"
                     style={toggleStyle(laktosefri)}
                     onMouseEnter={e => { if (!laktosefri) e.currentTarget.style.opacity = '0.75' }}
                     onMouseLeave={e => { e.currentTarget.style.opacity = '1' }}
@@ -286,14 +298,14 @@ export default function HomePage() {
               </div>
 
               {/* Input tabs */}
-              <div style={{ width: '100%', maxWidth: '720px', display: 'flex', gap: '10px', marginTop: '24px', justifyContent: 'center' }}>
+              <div className="mavro-tab-row" style={{ width: '100%', maxWidth: '720px', display: 'flex', gap: '10px', marginTop: '24px', justifyContent: 'center' }}>
                 {[
                   { id: 'url', label: 'Indsæt link', Icon: LinkIcon },
                   { id: 'billede', label: 'Upload billede', Icon: CameraIconSvg },
                   { id: 'text', label: 'Indsæt tekst', Icon: FileTextIcon },
                 ].map(({ id, label, Icon }) => (
-                  <button key={id} style={tabStyle(activeTab === id)} onClick={() => { setActiveTab(id); setError(null) }}>
-                    <div style={{
+                  <button key={id} className="mavro-tab-btn" style={tabStyle(activeTab === id)} onClick={() => { setActiveTab(id); setError(null) }}>
+                    <div className="mavro-tab-icon" style={{
                       width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0,
                       backgroundColor: activeTab === id ? '#fff' : 'rgba(26,225,122,0.15)',
                       display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -333,7 +345,6 @@ export default function HomePage() {
                         boxSizing: 'border-box',
                       }}
                     />
-                    <style>{`.url-input::placeholder { color: rgba(255, 255, 255, 0.50); }`}</style>
                   </div>
                 )}
 
