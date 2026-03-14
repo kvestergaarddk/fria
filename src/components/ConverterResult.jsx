@@ -197,7 +197,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
           {/* Ingredienser */}
           <Card>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-              <h2 style={{ color: TEXT, fontSize: '18px', fontWeight: 700, margin: 0 }}>Ingredienser</h2>
+              <h2 style={{ color: '#000', fontSize: '18px', fontWeight: 700, margin: 0 }}>Ingredienser</h2>
               <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
                 <select
                   value={servings}
@@ -208,8 +208,8 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
                     padding: '6px 32px 6px 14px',
                     borderRadius: '100px',
                     border: 'none',
-                    backgroundColor: TEXT,
-                    color: PAGE_BG,
+                    backgroundColor: '#000',
+                    color: '#fff',
                     fontSize: '13px',
                     fontWeight: 600,
                     fontFamily: 'inherit',
@@ -222,7 +222,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
                   ))}
                 </select>
                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style={{ position: 'absolute', right: '12px', pointerEvents: 'none' }}>
-                  <path d="M1 1l4 4 4-4" stroke={PAGE_BG} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M1 1l4 4 4-4" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
             </div>
@@ -232,7 +232,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
                   {isSubstituted(ing) && (
                     <span style={{ width: '5px', height: '5px', borderRadius: '50%', backgroundColor: ACCENT, flexShrink: 0, marginTop: '9px' }} />
                   )}
-                  <span style={{ color: TEXT, fontSize: '16px', lineHeight: '26px', fontWeight: isSubstituted(ing) ? 600 : 400 }}>{scaleIngredient(ing, factor)}</span>
+                  <span style={{ color: '#000', fontSize: '16px', lineHeight: '26px', fontWeight: isSubstituted(ing) ? 600 : 400 }}>{scaleIngredient(ing, factor)}</span>
                 </li>
               ))}
             </ul>
@@ -242,8 +242,8 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
               style={{
                 padding: '12px 24px',
                 borderRadius: '100px',
-                backgroundColor: saved ? 'rgba(26,225,122,0.15)' : TEXT,
-                color: saved ? ACCENT : PAGE_BG,
+                backgroundColor: saved ? 'rgba(26,225,122,0.15)' : '#000',
+                color: saved ? ACCENT : '#fff',
                 border: 'none',
                 fontSize: '14px',
                 fontWeight: 700,
