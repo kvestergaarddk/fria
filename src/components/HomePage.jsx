@@ -189,7 +189,7 @@ export default function HomePage() {
     gap: '12px',
     padding: '12px 24px',
     borderRadius: '8px',
-    border: `1.5px solid ${active ? 'transparent' : INACTIVE_BORDER}`,
+    border: 'none',
     backgroundColor: active ? ACCENT : INACTIVE_BG,
     boxShadow: '0 0 19.7px 0 rgba(87, 57, 6, 0.50)',
     color: '#000',
