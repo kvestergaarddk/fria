@@ -209,7 +209,7 @@ export default function HomePage() {
 
       {/* Header */}
       <header style={{ display: 'flex', padding: '32px 80px', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Logo height={52} />
+        <Logo height={79} />
       </header>
 
       <main style={{ flex: 1, maxWidth: '1200px', margin: '0 auto', width: '100%', padding: '48px 40px 120px' }}>
