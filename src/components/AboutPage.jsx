@@ -33,23 +33,31 @@ export default function AboutPage() {
         </h1>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-          <p style={{ color: TEXT_DIM, fontSize: '20px', lineHeight: '32px' }}>
-            Mavro opstod ud af en meget konkret familiesituation. Pludselig stod vi med én i familien,
-            der ikke kan tåle gluten — det skaber inflammation i hans led og giver smerter. Og en anden,
-            der har fået konstateret laktoseintolerans. Hverdagsmaden, som vi altid bare havde lavet,
-            skulle tænkes helt om.
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            Mavro er skabt for at gøre hverdagen lettere for mennesker, der ikke tåler gluten eller laktose.
           </p>
-          <p style={{ color: TEXT_DIM, fontSize: '20px', lineHeight: '32px' }}>
-            Det lyder måske ikke af så meget — men det er det. Hvad må man spise? Hvad indeholder hvad?
-            Hvad sker der egentlig i kroppen, når den reagerer? Og ikke mindst: hvordan laver man stadig
-            mad, der smager af noget, når man ikke kan bruge halvdelen af det, man plejer?
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            Idéen opstod i vores egen familie. Pludselig stod vi med én, der ikke tåler gluten og får inflammation og smerter i kroppen, og en anden der har laktoseintolerans. Den mad vi altid bare havde lavet, fungerede ikke længere.
           </p>
-          <p style={{ color: TEXT_DIM, fontSize: '20px', lineHeight: '32px' }}>
-            I en travl hverdag savnede jeg ét sted, jeg kunne gå hen — et sted der samler opskrifter,
-            viden og svar, uden at man skal rode rundt på tværs af hundrede hjemmesider. Det er Mavro.
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            Det lyder måske simpelt at undgå gluten eller laktose. Men i praksis betyder det, at man skal tænke næsten al mad om. Hvad indeholder hvad? Hvad kan man erstatte? Og hvordan laver man stadig mad, der smager godt?
           </p>
-          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px', fontWeight: 700 }}>
-            God mad. For alle. Uden kompromiser.
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            I en travl hverdag savnede jeg ét sted, hvor det hele var samlet. Et sted med opskrifter, viden og hjælp til at tilpasse almindelige retter, uden at skulle lede på tværs af utallige hjemmesider.
+          </p>
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            Det blev starten på Mavro.
+          </p>
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            På Mavro finder du opskrifter uden gluten og laktose, og værktøjer der gør det nemmere at tilpasse mad til din hverdag. Du kan blandt andet bruge vores opskriftsværktøj til at omdanne almindelige opskrifter til versioner uden gluten eller laktose.
+          </p>
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            Målet er enkelt:<br />
+            At gøre det lettere at lave mad, der fungerer for kroppen og stadig smager godt.
+          </p>
+          <p style={{ color: TEXT, fontSize: '20px', lineHeight: '32px' }}>
+            Derfor findes Mavro.<br />
+            <span style={{ fontWeight: 700 }}>Mad til glade maver.</span>
           </p>
         </div>
 
