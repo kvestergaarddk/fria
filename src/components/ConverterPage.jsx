@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { track } from '@vercel/analytics'
+import { usePostHog } from 'posthog-js/react'
 import Logo from './Logo'
 import Footer from './Footer'
 import ConverterResult from './ConverterResult'
@@ -114,6 +114,7 @@ function LoadingScreen() {
 }
 
 export default function ConverterPage() {
+  const posthog = usePostHog()
   const [activeTab, setActiveTab] = useState('url')
   const [urlInput, setUrlInput] = useState('')
   const [textInput, setTextInput] = useState('')
@@ -147,7 +148,7 @@ export default function ConverterPage() {
   }
 
   async function handleConvert() {
-    track('konvertering_startet', { metode: activeTab, intolerance })
+    posthog?.capture('konvertering_startet', { metode: activeTab, intolerance })
     setError(null)
     setLoading(true)
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -163,10 +164,10 @@ export default function ConverterPage() {
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Noget gik galt')
-      track('konvertering_gennemfoert', { metode: activeTab, intolerance })
+      posthog?.capture('konvertering_gennemfoert', { metode: activeTab, intolerance })
       setResult(data.result)
     } catch (err) {
-      track('konvertering_fejlet', { metode: activeTab, intolerance })
+      posthog?.capture('konvertering_fejlet', { metode: activeTab, intolerance })
       setError(err.message)
     } finally {
       setLoading(false)
