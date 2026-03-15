@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { usePostHog } from 'posthog-js/react'
 import SEO from './SEO'
 import Logo from './Logo'
@@ -238,6 +239,9 @@ export default function HomePage() {
           .mavro-header { padding: 20px 16px; }
           .mavro-main { padding: 32px 16px 80px; }
           .mavro-info { padding: 60px 16px; }
+          .mavro-om-teaser { padding: 60px 16px !important; }
+          .mavro-om-teaser-inner { flex-direction: column !important; gap: 40px !important; }
+          .mavro-om-teaser-inner > div { flex: 0 0 100% !important; max-width: 100% !important; }
           .mavro-toggle-row { flex-direction: column; width: 100%; }
           .mavro-toggle-btn { width: 100%; font-size: 18px; padding: 14px 24px; gap: 12px; justify-content: flex-start; }
           .mavro-tab-row { justify-content: stretch; }
@@ -509,6 +513,72 @@ export default function HomePage() {
             Mavro analyserer opskriften og omskriver den med ingredienser der fungerer uden gluten og laktose.
             Samtidig justerer vi fremgangsmåden, så resultatet stadig smager godt og hænger sammen.
           </p>
+        </div>
+      </div>
+
+      {/* Om Mavro teaser */}
+      <div className="mavro-om-teaser" style={{ background: '#FFF', boxSizing: 'border-box', padding: '120px 80px' }}>
+        <div className="mavro-om-teaser-inner" style={{
+          maxWidth: '1200px',
+          margin: '0 auto',
+          width: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '80px',
+        }}>
+          {/* Billede — 50% */}
+          <div style={{ flex: '0 0 50%', maxWidth: '50%' }}>
+            <img
+              src="/images/Om_Mavro_image.jpg"
+              alt="Familie rundt om et bord med mad"
+              style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '8px' }}
+            />
+          </div>
+          {/* Tekst — 50%, centreret lodret */}
+          <div style={{ flex: '0 0 calc(50% - 80px)', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <h2 style={{
+              color: '#000',
+              fontSize: 'clamp(28px, 3.5vw, 48px)',
+              fontWeight: 800,
+              lineHeight: 1.1,
+              letterSpacing: '-0.03em',
+              margin: '0 0 20px 0',
+            }}>
+              Om Mavro
+            </h2>
+            <p style={{
+              color: '#000',
+              fontSize: '20px',
+              fontWeight: 400,
+              lineHeight: 1.7,
+              margin: '0 0 32px 0',
+            }}>
+              Mavro er skabt for at gøre hverdagen lettere for mennesker, der ikke tåler gluten eller laktose. Idéen opstod i vores egen familie, og det blev starten på at gøre det lidt nemmere at lave den daglige aftensmad.
+            </p>
+            <Link
+              to="/om-mavro"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '10px',
+                color: '#000',
+                fontSize: '18px',
+                fontWeight: 700,
+                textDecoration: 'none',
+                borderBottom: '2px solid #1AE17A',
+                paddingBottom: '2px',
+                alignSelf: 'flex-start',
+                transition: 'opacity 0.15s ease',
+              }}
+              onMouseEnter={e => { e.currentTarget.style.opacity = '0.7' }}
+              onMouseLeave={e => { e.currentTarget.style.opacity = '1' }}
+            >
+              Læs mere om os
+              <svg width="16" height="16" viewBox="0 0 18 18" fill="none" stroke="#000" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 9h10M10 4l5 5-5 5"/>
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
 
