@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import { usePostHog } from 'posthog-js/react'
 import SEO from './SEO'
 import Logo from './Logo'
 import Footer from './Footer'
@@ -117,6 +118,7 @@ function FileTextIcon({ active }) {
 }
 
 export default function HomePage() {
+  const posthog = usePostHog()
   const [glutenfri, setGlutenfri] = useState(true)
   const [laktosefri, setLaktosefri] = useState(false)
   const [activeTab, setActiveTab] = useState('url')
@@ -151,6 +153,8 @@ export default function HomePage() {
   }
 
   async function handleConvert() {
+    const intolerance = getIntolerance()
+    posthog?.capture('konvertering_startet', { metode: activeTab, intolerance })
     setError(null)
     setLoading(true)
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -159,12 +163,14 @@ export default function HomePage() {
       const res = await fetch('/api/convert', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ inputType: activeTab === 'billede' ? 'image' : activeTab, content, intolerance: getIntolerance() }),
+        body: JSON.stringify({ inputType: activeTab === 'billede' ? 'image' : activeTab, content, intolerance }),
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Noget gik galt')
+      posthog?.capture('konvertering_gennemfoert', { metode: activeTab, intolerance })
       setResult(data.result)
     } catch (err) {
+      posthog?.capture('konvertering_fejlet', { metode: activeTab, intolerance })
       setError(err.message)
     } finally {
       setLoading(false)
