@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
+import { useAuth } from '../context/AuthContext'
+import { supabase } from '../lib/supabase'
 
 const PAGE_BG = '#EFEEE9'
 const DARK = '#004F26'
@@ -75,6 +77,16 @@ function saveToLocalStorage(result, intolerance) {
   ]))
 }
 
+async function saveToSupabase(result, intolerance, userId) {
+  const { error } = await supabase.from('cookbooks').insert({
+    user_id: userId,
+    title: result.title,
+    intolerance,
+    recipe: result,
+  })
+  if (error) throw error
+}
+
 function scaleIngredient(ing, factor) {
   if (factor === 1) return ing
   return ing.replace(/^(\d+(?:[,.]\d+)?)/, (match, num) => {
@@ -89,13 +101,24 @@ function scaleIngredient(ing, factor) {
 
 export default function ConverterResult({ result, intolerance, onReset, onBack, backLabel }) {
   const [saved, setSaved] = useState(false)
+  const [saveError, setSaveError] = useState(null)
   const baseServings = result.servings || 4
   const [servings, setServings] = useState(baseServings)
   const factor = servings / baseServings
+  const { user } = useAuth()
 
-  function handleSave() {
-    saveToLocalStorage(result, intolerance)
-    setSaved(true)
+  async function handleSave() {
+    setSaveError(null)
+    try {
+      if (user) {
+        await saveToSupabase(result, intolerance, user.id)
+      } else {
+        saveToLocalStorage(result, intolerance)
+      }
+      setSaved(true)
+    } catch {
+      setSaveError('Kunne ikke gemme. Prøv igen.')
+    }
   }
 
   const substitutedNames = new Set((result.substitutions || []).map(s => s.original?.toLowerCase()))
@@ -256,6 +279,7 @@ export default function ConverterResult({ result, intolerance, onReset, onBack, 
             >
               {saved ? '✓ Gemt i kogebogen' : 'Gem opskriften'}
             </button>
+            {saveError && <p style={{ color: '#ff6b6b', fontSize: '13px', margin: '8px 0 0' }}>{saveError}</p>}
           </Card>
 
           {/* Sådan gør du */}

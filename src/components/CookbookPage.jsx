@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import Footer from './Footer'
 import ConverterResult from './ConverterResult'
+import { useAuth } from '../context/AuthContext'
+import { supabase } from '../lib/supabase'
 
 const BG = '#004F26'
 const ACCENT = '#1AE17A'
@@ -18,12 +20,12 @@ const INTOLERANCE_LABEL = {
   begge: 'Glutenfri & laktosefri',
 }
 
-function loadCookbook() {
+function loadLocalCookbook() {
   try { return JSON.parse(localStorage.getItem('mavro_cookbook') || '[]') } catch { return [] }
 }
 
-function deleteEntry(id) {
-  const entries = loadCookbook().filter(e => e.id !== id)
+function deleteLocalEntry(id) {
+  const entries = loadLocalCookbook().filter(e => e.id !== id)
   localStorage.setItem('mavro_cookbook', JSON.stringify(entries))
   return entries
 }
@@ -32,15 +34,46 @@ function formatDate(iso) {
   try { return new Date(iso).toLocaleDateString('da-DK', { day: 'numeric', month: 'long', year: 'numeric' }) } catch { return '' }
 }
 
-export default function CookbookPage() {
-  const [entries, setEntries] = useState(loadCookbook)
+export default function CookbookPage({ onLoginClick }) {
+  const { user, loading: authLoading } = useAuth()
+  const [entries, setEntries] = useState([])
+  const [loadingEntries, setLoadingEntries] = useState(false)
   const [activeEntry, setActiveEntry] = useState(null)
 
-  useEffect(() => { setEntries(loadCookbook()) }, [])
+  useEffect(() => {
+    if (authLoading) return
 
-  function handleDelete(id) {
+    if (user) {
+      setLoadingEntries(true)
+      supabase
+        .from('cookbooks')
+        .select('*')
+        .order('saved_at', { ascending: false })
+        .then(({ data, error }) => {
+          if (!error && data) {
+            setEntries(data.map(row => ({
+              id: row.id,
+              title: row.title,
+              intolerance: row.intolerance,
+              savedAt: row.saved_at,
+              recipe: row.recipe,
+            })))
+          }
+          setLoadingEntries(false)
+        })
+    } else {
+      setEntries(loadLocalCookbook())
+    }
+  }, [user, authLoading])
+
+  async function handleDelete(id) {
     if (activeEntry?.id === id) setActiveEntry(null)
-    setEntries(deleteEntry(id))
+    if (user) {
+      await supabase.from('cookbooks').delete().eq('id', id)
+      setEntries(prev => prev.filter(e => e.id !== id))
+    } else {
+      setEntries(deleteLocalEntry(id))
+    }
   }
 
   if (activeEntry) {
@@ -61,22 +94,36 @@ export default function CookbookPage() {
           <h1 style={{ color: TEXT, fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 900, lineHeight: 1.1, letterSpacing: 0, margin: '0 0 16px 0' }}>
             Gemte opskrifter
           </h1>
-          <div style={{
-            display: 'flex', alignItems: 'flex-start', gap: '10px',
-            padding: '14px 18px', borderRadius: '10px',
-            backgroundColor: INACTIVE_BG, border: `1px solid ${INACTIVE_BORDER}`,
-          }}>
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke={ACCENT} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '2px' }}>
-              <circle cx="8" cy="8" r="6.5"/>
-              <path d="M8 7v4M8 5.5v.5"/>
-            </svg>
-            <p style={{ color: TEXT_DIM, fontSize: '13px', lineHeight: 1.6, margin: 0 }}>
-              Dine opskrifter gemmes lokalt i din browser og forsvinder ved rydning af browserdata.
-            </p>
-          </div>
+
+          {!user && !authLoading && (
+            <div style={{
+              display: 'flex', alignItems: 'flex-start', gap: '10px',
+              padding: '14px 18px', borderRadius: '10px',
+              backgroundColor: INACTIVE_BG, border: `1px solid ${INACTIVE_BORDER}`,
+              marginBottom: '16px',
+            }}>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke={ACCENT} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '2px' }}>
+                <circle cx="8" cy="8" r="6.5"/>
+                <path d="M8 7v4M8 5.5v.5"/>
+              </svg>
+              <p style={{ color: TEXT_DIM, fontSize: '13px', lineHeight: 1.6, margin: 0 }}>
+                Du er ikke logget ind. Opskrifter gemmes kun lokalt i din browser.{' '}
+                <button
+                  onClick={onLoginClick}
+                  style={{ background: 'none', border: 'none', color: ACCENT, fontSize: '13px', fontWeight: 600, cursor: 'pointer', padding: 0 }}
+                >
+                  Log ind for at gemme i skyen.
+                </button>
+              </p>
+            </div>
+          )}
         </div>
 
-        {entries.length === 0 ? (
+        {authLoading || loadingEntries ? (
+          <div style={{ textAlign: 'center', padding: '60px 0' }}>
+            <p style={{ color: TEXT_DIM, fontSize: '15px' }}>Henter opskrifter…</p>
+          </div>
+        ) : entries.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '80px 24px' }}>
             <div style={{
               width: '80px', height: '80px', borderRadius: '50%',

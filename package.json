@@ -10,6 +10,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
     "@posthog/react": "^1.8.2",
+    "@supabase/supabase-js": "^2.99.2",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "posthog-js": "^1.360.2",

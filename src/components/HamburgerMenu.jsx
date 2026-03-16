@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
 
 const BG = '#004F26'
 const ACCENT = '#1AE17A'
@@ -13,9 +14,10 @@ const NAV_LINKS = [
   { to: '/kontakt', label: 'Kontakt' },
 ]
 
-export default function HamburgerMenu() {
+export default function HamburgerMenu({ onLoginClick }) {
   const [open, setOpen] = useState(false)
   const location = useLocation()
+  const { user, signOut } = useAuth()
 
   useEffect(() => { setOpen(false) }, [location.pathname])
 
@@ -110,7 +112,43 @@ export default function HamburgerMenu() {
           })}
         </ul>
 
-        <div style={{ marginTop: 'auto', paddingTop: '40px', borderTop: `1px solid rgba(239, 238, 233, 0.12)` }}>
+        <div style={{ marginTop: 'auto', paddingTop: '40px', borderTop: `1px solid rgba(239, 238, 233, 0.12)`, display: 'flex', flexDirection: 'column', gap: '16px' }}>
+          {user ? (
+            <>
+              <p style={{ color: TEXT, fontSize: '13px', opacity: 0.5, margin: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                {user.email}
+              </p>
+              <button
+                onClick={() => signOut()}
+                style={{
+                  background: 'none', border: `1px solid rgba(239,238,233,0.20)`,
+                  color: TEXT, fontSize: '14px', fontWeight: 600,
+                  padding: '10px 20px', borderRadius: '100px', cursor: 'pointer',
+                  width: 'fit-content', opacity: 0.7,
+                  transition: 'opacity 0.2s ease',
+                }}
+                onMouseEnter={e => { e.currentTarget.style.opacity = '1' }}
+                onMouseLeave={e => { e.currentTarget.style.opacity = '0.7' }}
+              >
+                Log ud
+              </button>
+            </>
+          ) : (
+            <button
+              onClick={() => { setOpen(false); onLoginClick() }}
+              style={{
+                backgroundColor: ACCENT, color: '#000',
+                border: 'none', fontSize: '15px', fontWeight: 700,
+                padding: '12px 24px', borderRadius: '100px', cursor: 'pointer',
+                width: 'fit-content',
+                transition: 'opacity 0.2s ease',
+              }}
+              onMouseEnter={e => { e.currentTarget.style.opacity = '0.85' }}
+              onMouseLeave={e => { e.currentTarget.style.opacity = '1' }}
+            >
+              Log ind
+            </button>
+          )}
           <a
             href="mailto:hej@mavro.dk"
             style={{ color: TEXT, fontSize: '16px', fontWeight: 400, textDecoration: 'none', opacity: 0.5 }}
