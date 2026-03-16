@@ -130,7 +130,7 @@ export default function AuthModal({ onClose }) {
             {/* Google login */}
             <button
               type="button"
-              onClick={() => supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.origin } })}
+              onClick={() => supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: 'https://mavro.dk' } })}
               style={{
                 width: '100%', padding: '13px', borderRadius: '100px',
                 backgroundColor: '#fff', color: '#000',
